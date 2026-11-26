@@ -39,6 +39,11 @@ Phase 2 has not begun. Production deployment remains disabled.
 - Full pinned pipeline also passed in the Windows working directory using WSL:
   frozen dependencies, source checks, six tests, clean live build, packaging,
   digest/per-file verification, disposable atomic activation and rollback.
+- Final verification from committed source `e06c70a` passed on native Linux:
+  default/live/staging configurations, frozen lockfile, source checks, all six
+  tests, archive packaging and disposable activation/rollback. Each configuration
+  produced 1,064 public files with zero new findings. Local JSON evidence is in
+  `artifacts/final-linux-{default,live,staging}.json`.
 - Local HTTP smoke check returned 200 for the homepage, Board page, 2025 Symposium
   page, Board-history redirect page and a historical Bulletin PDF.
 - Confirmed all 633 ignored local unpublished files remain present. Diff/whitespace
