@@ -1,0 +1,53 @@
+{
+  "conference": "respect",
+  "status": "preserved locally; transfer not authorized",
+  "files": [
+    "_data/respect.yml",
+    "_includes/respect-head.md",
+    "events/respect/2015.md",
+    "events/respect/2016.md",
+    "events/respect/2018.md",
+    "events/respect/2019.md",
+    "events/respect/2020.md",
+    "events/respect/2021.md",
+    "events/respect/2022.md",
+    "events/respect/2023.md",
+    "events/respect/2024.md",
+    "events/respect/2025.md",
+    "events/respect/conferences.md",
+    "events/respect/images/covers/respect2024.png",
+    "events/respect/images/covers/respect2025.png",
+    "events/respect/index.md"
+  ],
+  "public_urls": [
+    "https://sigcse.org/events/respect/2015.html",
+    "https://sigcse.org/events/respect/2016.html",
+    "https://sigcse.org/events/respect/2018.html",
+    "https://sigcse.org/events/respect/2019.html",
+    "https://sigcse.org/events/respect/2020.html",
+    "https://sigcse.org/events/respect/2021.html",
+    "https://sigcse.org/events/respect/2022.html",
+    "https://sigcse.org/events/respect/2023.html",
+    "https://sigcse.org/events/respect/2024.html",
+    "https://sigcse.org/events/respect/2025.html",
+    "https://sigcse.org/events/respect/conferences.html",
+    "https://sigcse.org/events/respect/images/covers/respect2024.png",
+    "https://sigcse.org/events/respect/images/covers/respect2025.png",
+    "https://sigcse.org/events/respect/index.html"
+  ],
+  "shared_dependencies": [
+    "_layouts/default.html",
+    "_layouts/page.html",
+    "_data/conferences.yml",
+    "_includes/awards.md",
+    "_data/outstanding.yml",
+    "_data/distinguished.yml",
+    "_data/broadening.yml",
+    "_data/policies.yml",
+    "assets/css/",
+    "assets/js/",
+    "assets/images/logo/",
+    "_includes/item.md"
+  ],
+  "notes": "Assets remain at stable public paths. Include only the required shared records after human ownership review; do not transfer all organizational award data."
+}

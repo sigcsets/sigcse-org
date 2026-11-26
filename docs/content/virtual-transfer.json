@@ -1,0 +1,35 @@
+{
+  "conference": "virtual",
+  "status": "preserved locally; transfer not authorized",
+  "files": [
+    "_data/virtual.yml",
+    "_includes/virtual-head.md",
+    "events/virtual/2024.md",
+    "events/virtual/conferences.md",
+    "events/virtual/images/covers/virtual2024.png",
+    "events/virtual/images/covers/virtual2024wg.png",
+    "events/virtual/index.md"
+  ],
+  "public_urls": [
+    "https://sigcse.org/events/virtual/2024.html",
+    "https://sigcse.org/events/virtual/conferences.html",
+    "https://sigcse.org/events/virtual/images/covers/virtual2024.png",
+    "https://sigcse.org/events/virtual/images/covers/virtual2024wg.png",
+    "https://sigcse.org/events/virtual/index.html"
+  ],
+  "shared_dependencies": [
+    "_layouts/default.html",
+    "_layouts/page.html",
+    "_data/conferences.yml",
+    "_includes/awards.md",
+    "_data/outstanding.yml",
+    "_data/distinguished.yml",
+    "_data/broadening.yml",
+    "_data/policies.yml",
+    "assets/css/",
+    "assets/js/",
+    "assets/images/logo/",
+    "_includes/item.md"
+  ],
+  "notes": "Assets remain at stable public paths. Include only the required shared records after human ownership review; do not transfer all organizational award data."
+}

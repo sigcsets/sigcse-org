@@ -1,0 +1,37 @@
+# Concise organizational directory. Annual history remains in series data.
+- id: symposia
+  name: Technical Symposium
+  abbreviation: SIGCSE TS
+  description: A forum for sharing ideas about computing programs, curricula, courses and teaching.
+  archive_url: /events/symposia/index.html
+  schedule_source: symposia
+- id: iticse
+  name: Innovation and Technology in Computer Science Education
+  abbreviation: ITiCSE
+  description: An international computing education conference held annually in Europe.
+  archive_url: /events/iticse/index.html
+  schedule_source: iticse
+- id: icer
+  name: International Computing Education Research
+  abbreviation: ICER
+  description: Research on how people understand computing and how to improve computing education.
+  archive_url: /events/icer/index.html
+  schedule_source: icer
+- id: comped
+  name: Global Computing Education Conference
+  abbreviation: CompEd
+  description: Computing education in locations outside North America and Europe.
+  archive_url: /events/comped/index.html
+  schedule_source: comped
+- id: respect
+  name: RESPECT
+  abbreviation: RESPECT
+  description: Research on equity and sustained participation in engineering, computing and technology.
+  archive_url: /events/respect/index.html
+  schedule_source: respect
+- id: virtual
+  name: SIGCSE Virtual
+  abbreviation: SIGCSE Virtual
+  description: A fully virtual forum for computing education and broadening participation.
+  archive_url: /events/virtual/index.html
+  schedule_source: virtual

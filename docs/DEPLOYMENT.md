@@ -1,3 +1,5 @@
+> Owner decision (2026-11-26): deployment and hosting investigation are deferred. The proposal below is retained for future reference; no action or answers are currently requested.
+
 # ACM deployment proposal — disabled
 
 No production connection, transfer, credential setup, DNS or server modification

@@ -58,6 +58,9 @@ end
 
 required_rows(errors, data['_data/navigation.yml'], %w[name link], '_data/navigation.yml')
 required_rows(errors, data['_data/events.yml'], %w[name], '_data/events.yml')
+required_rows(errors, data['_data/conferences.yml'], %w[id name abbreviation description archive_url schedule_source], '_data/conferences.yml')
+ids = Array(data['_data/conferences.yml']).map { |row| row['id'] }
+errors << '_data/conferences.yml: duplicate id' unless ids.uniq.length == ids.length
 required_rows(errors, data.dig('_data/board.yml', 'current-board', 'members'),
               %w[name position image], '_data/board.yml current-board members')
 %w[symposia iticse icer comped respect virtual].each do |series|

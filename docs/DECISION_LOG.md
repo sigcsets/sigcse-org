@@ -33,3 +33,7 @@ Official references consulted: [Jekyll installation](https://jekyllrb.com/docs/i
 [ruby/setup-ruby](https://github.com/ruby/setup-ruby),
 [Ruby build archives](https://github.com/ruby/ruby-builder/releases/tag/ruby-3.3.14),
 [Bundler in CI](https://guides.rubygems.org/ci/).
+
+## 2026-11-26 — approved local milestone, Phase 2
+
+Owner approved Phase 1 and authorized Phases 2–4 without interim stops. No additional archival storage or deployment investigation. Remote configured and inspected, but left unchanged because it contains existing independent history. Use explicit ownership classification and per-series transfer manifests; shared/ambiguous Board records stay integrated until human ownership review. Directory records point to current series schedule data during Phase 2 to avoid duplicate maintenance.
