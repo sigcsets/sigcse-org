@@ -56,13 +56,6 @@ committees:
 acmdl: https://dl.acm.org/conference/iticse/proceedings
 
 
-next-conference:
-- title: "ITiCSE 2027"
-  start-date: 2027-07-12
-  dates: "12-14 July 2027"
-  location: "Glasgow, Scotland"
-  website: "https://iticse.acm.org/2027"
-
 conferences:
 - title: "31st ITiCSE 2026"
   year: 2026

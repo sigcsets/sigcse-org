@@ -4,26 +4,26 @@
   "files": [
     "_data/comped.yml",
     "_includes/comped-head.md",
-    "events/comped/2019.md",
-    "events/comped/2023.md",
-    "events/comped/conferences.md",
-    "events/comped/covers.md",
+    "content/conference-legacy/comped/2019.md",
+    "content/conference-legacy/comped/2023.md",
+    "content/conference-legacy/comped/conferences.md",
+    "content/conference-legacy/comped/covers.md",
+    "content/conference-legacy/comped/index.md",
     "events/comped/images/covers/comped2019.png",
     "events/comped/images/covers/comped2019wg.png",
     "events/comped/images/covers/comped2023.png",
-    "events/comped/images/covers/comped2023wg.jpg",
-    "events/comped/index.md"
+    "events/comped/images/covers/comped2023wg.jpg"
   ],
   "public_urls": [
-    "https://sigcse.org/events/comped/2019.html",
-    "https://sigcse.org/events/comped/2023.html",
-    "https://sigcse.org/events/comped/conferences.html",
-    "https://sigcse.org/events/comped/covers.html",
+    "/events/comped/2019.html",
+    "/events/comped/2023.html",
+    "/events/comped/conferences.html",
+    "/events/comped/covers.html",
+    "/events/comped/index.html",
     "https://sigcse.org/events/comped/images/covers/comped2019.png",
     "https://sigcse.org/events/comped/images/covers/comped2019wg.png",
     "https://sigcse.org/events/comped/images/covers/comped2023.png",
-    "https://sigcse.org/events/comped/images/covers/comped2023wg.jpg",
-    "https://sigcse.org/events/comped/index.html"
+    "https://sigcse.org/events/comped/images/covers/comped2023wg.jpg"
   ],
   "shared_dependencies": [
     "_layouts/default.html",

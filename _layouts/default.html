@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} · ACM SIGCSE</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  {% include favicon.html %}
+  {% include css.html %}
+</head>
+<body id="Top">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="container">{% include page-header.html %}</div>
+  <main id="main-content" class="container" tabindex="-1">
+    {% if page.layout != 'home' %}{% include breadcrumbs.html %}{% endif %}
+    {% if page.content_type == 'conference-legacy' %}
+    <div class="archive-notice"><strong>Conference archive</strong> · Historical and conference-specific information.
+      <a href="{{ '/events/' | relative_url }}">Conference directory</a></div>
+    {% endif %}
+    {{ content }}
+  </main>
+  <footer class="site-footer container">
+    <p>ACM Special Interest Group on Computer Science Education</p>
+    <a href="{{ '/membership/join.html' | relative_url }}">Join SIGCSE</a> ·
+    <a href="{{ '/about/board.html' | relative_url }}">Contact the Board</a> ·
+    <a href="#Top">Back to top</a>
+    <p><small>Site built {{ 'now' | date: '%Y-%m-%d' }}</small></p>
+  </footer>
+  {% include javascript.html %}
+</body>
+</html>

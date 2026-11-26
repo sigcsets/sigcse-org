@@ -25,14 +25,14 @@ first be established by the project owner.
 |---|---|
 | News | Add `_posts/YYYY-MM-DD-descriptive-title.md`; required title and valid publication date. Example below. Homepage/news archive update automatically. |
 | Current Board | `_data/board.yml`, `current-board.members`; retain `name`, `position`, `image`, affiliation/contact fields. For example change an approved `email: person@acm.org`; keep portrait paths valid. Do not rewrite prior terms. |
-| Conference entry | Relevant `_data/{symposia,iticse,icer,comped,respect,virtual}.yml`; follow the existing `next-conference` fields, including `start-date: 2027-03-01` in ISO format when approved. History and annual pages are separate; changing upcoming information does not create a historical page. |
+| Conference entry | `_data/conferences.yml`; follow the existing `schedule` fields, including `start-date: 2027-03-01` in ISO format when approved. History and annual pages are separate; changing upcoming information does not create a historical page. |
 | Award recipient | Appropriate `_data/{outstanding,distinguished,broadening,testoftime}.yml`; copy a record in that file and supply approved year, name/title, citation and event code where used. For example `year: 2027` only when the award is approved. Never invent citations. |
-| Board minutes | `about/reports/board.md` plus approved document in its existing dated subdirectory; add a descriptive Markdown link such as `[Approved meeting minutes](board/YYYY-MM-DD.pdf)`. Do not replace historical files. |
-| Annual report | Appropriate `about/reports/{chair,business,treasurer}` index and approved dated document. Follow the neighboring link's exact filename/case and year. |
-| Policy | `policies/` source and `_data/policies.yml` catalog if needed. Preserve approved wording and dates; use the existing title/link fields for an approved new version. |
-| Committee/task force | `programs/committees-task-forces/index.md` front matter and related charter/detail files. Follow a neighboring record's fields and approved status. Operational volunteers instead use `_data/organization.yml`. |
-| Funding | `programs/special/`, `programs/travel-grants/` and related `_data` grant records. Follow existing entries; distinguish application guidance/deadlines from awarded historical grants. |
-| Resource | Relevant `resources/` page; add an approved descriptive link using `[Resource title](https://example.org/)`. |
+| Board minutes | `content/organization/about/reports/board.md` plus approved document in its existing dated subdirectory; add a descriptive Markdown link such as `[Approved meeting minutes](board/YYYY-MM-DD.pdf)`. Do not replace historical files. |
+| Annual report | Appropriate `content/organization/about/reports/{chair,business,treasurer}` index and approved dated document. Follow the neighboring link's exact filename/case and year. |
+| Policy | `content/organization/policies/` source and `_data/policies.yml` catalog if needed. Preserve approved wording and dates; use the existing title/link fields for an approved new version. |
+| Committee/task force | `content/organization/programs/committees-task-forces/index.md` front matter and related charter/detail files. Follow a neighboring record's fields and approved status. Operational volunteers instead use `_data/organization.yml`. |
+| Funding | `content/organization/programs/special/`, `content/organization/programs/travel-grants/` and related `_data` grant records. Follow existing entries; distinguish application guidance/deadlines from awarded historical grants. |
+| Resource | Relevant `content/organization/resources/` page; add an approved descriptive link using `[Resource title](https://example.org/)`. |
 | Global navigation | `_data/navigation.yml`; each entry needs `name` and `link`, for example the existing `name: About` / `link: /about/`. Do not change public content URLs just to change menu wording. |
 
 These are existing structures, not a completed new content model. Full task schemas,
@@ -68,3 +68,14 @@ documentation, scripts, dependencies and generated artifacts are not public cont
 Technical setup: [docs/BUILD.md](docs/BUILD.md). Deployment proposal and administrator
 questions: [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). Project state:
 [docs/PROJECT_STATUS.md](docs/PROJECT_STATUS.md).
+
+## Source locations after Phase 3
+
+- `content/organization/`: organizational pages, grouped by subject, with explicit public permalinks. Source folders do not control navigation or public URLs.
+- `content/conference-legacy/<series>/`: conference series prose and annual pages. Each has a stable permalink and conference classification. Historical images/documents stay at their original public paths under `events/<series>/`.
+- `_data/conferences.yml`: concise directory and upcoming schedule for all six series. Edit a schedule once here. `_plugins/content_metadata.rb` supplies in-memory compatibility aliases to older templates; never duplicate schedules in annual history files.
+- `_data/<series>.yml`: historical annual records and conference committees; historical snapshots are not current directory entries.
+- `_data/board.yml`, award data, `_posts/` and navigation remain the routine sources described above.
+- `_layouts/default.html`: single HTML shell; small page/post/home/blank wrappers. `_includes/` contains reusable components. One local Bootstrap bundle remains active. Old assets remain publicly available for archival compatibility.
+
+Keep `permalink` unchanged when moving or renaming a page source. Use the existing record conventions for historical years (including decimal Symposium identifiers). Do not convert historical snapshots to current facts.

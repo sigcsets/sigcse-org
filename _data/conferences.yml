@@ -4,34 +4,67 @@
   abbreviation: SIGCSE TS
   description: A forum for sharing ideas about computing programs, curricula, courses and teaching.
   archive_url: /events/symposia/index.html
-  schedule_source: symposia
+  schedule:
+    - title: Technical Symposium 2027
+      year: 2027
+      start-date: 2027-02-17
+      dates: "Feb 17-20, 2027"
+      location: "Sacramento, CA"
+      website: https://sigcse-ts.acm.org/2027/
 - id: iticse
   name: Innovation and Technology in Computer Science Education
   abbreviation: ITiCSE
   description: An international computing education conference held annually in Europe.
   archive_url: /events/iticse/index.html
-  schedule_source: iticse
+  schedule:
+    - title: "ITiCSE 2027"
+      start-date: 2027-07-12
+      dates: "12-14 July 2027"
+      location: "Glasgow, Scotland"
+      website: "https://iticse.acm.org/2027"
 - id: icer
   name: International Computing Education Research
   abbreviation: ICER
   description: Research on how people understand computing and how to improve computing education.
   archive_url: /events/icer/index.html
-  schedule_source: icer
+  schedule:
+    - title: "ICER '26"
+      year: 2026
+      start-date: 2026-08-11
+      dates: "11-14 August, 2026"
+      location: Uppsala, Sweden
+      website: https://icer2026.acm.org
 - id: comped
   name: Global Computing Education Conference
   abbreviation: CompEd
   description: Computing education in locations outside North America and Europe.
   archive_url: /events/comped/index.html
-  schedule_source: comped
+  schedule:
+    - title: CompEd 2027
+      dates: "October 2027"
+      start-date: 2027-10-23
+      location: São Paolo, Brazil
 - id: respect
   name: RESPECT
   abbreviation: RESPECT
   description: Research on equity and sustained participation in engineering, computing and technology.
   archive_url: /events/respect/index.html
-  schedule_source: respect
+  schedule:
+    - title: RESPECT 2027
+      year: 2026
+      start-date: 2027-06-01
+      dates: "TBD"
+      location: "TBD, USA"
+      website: https://respect.acm.org/
 - id: virtual
   name: SIGCSE Virtual
   abbreviation: SIGCSE Virtual
   description: A fully virtual forum for computing education and broadening participation.
   archive_url: /events/virtual/index.html
-  schedule_source: virtual
+  schedule:
+    - title: SIGCSE Virtual 2026
+      dates: "12-15 November, 2026"
+      start-date: 2026-11-12
+      year: 2026
+      location: "Online"
+      website: https://sigcsevirtual2026.acm.org/

@@ -58,7 +58,7 @@ end
 
 required_rows(errors, data['_data/navigation.yml'], %w[name link], '_data/navigation.yml')
 required_rows(errors, data['_data/events.yml'], %w[name], '_data/events.yml')
-required_rows(errors, data['_data/conferences.yml'], %w[id name abbreviation description archive_url schedule_source], '_data/conferences.yml')
+required_rows(errors, data['_data/conferences.yml'], %w[id name abbreviation description archive_url schedule], '_data/conferences.yml')
 ids = Array(data['_data/conferences.yml']).map { |row| row['id'] }
 errors << '_data/conferences.yml: duplicate id' unless ids.uniq.length == ids.length
 required_rows(errors, data.dig('_data/board.yml', 'current-board', 'members'),
@@ -92,10 +92,11 @@ base = YAML.safe_load_file('_config.yml')
   end
 end
 known = JSON.parse(File.read('docs/baselines/known-source-issues.json'))
-regressions = errors.uniq - known
+normalized = errors.uniq.map { |error| error.sub(/\Acontent\/organization\//, '') }
+regressions = normalized - known
 unless regressions.empty?
   warn regressions.join("\n")
   exit 1
 end
-puts "Existing source issues: #{(errors.uniq & known).length}; resolved: #{(known - errors.uniq).length}"
+puts "Existing source issues: #{(normalized & known).length}; resolved: #{(known - normalized).length}"
 puts 'Source validation passed: YAML/front matter/CSV syntax, duplicate keys, initial data fields and config parity'

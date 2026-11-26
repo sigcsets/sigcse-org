@@ -30,11 +30,12 @@ def main():
                 category, series = 'conference-legacy', s
         if path in ('_data/conferences.yml', '_data/events.yml'):
             category = 'conference-directory'
-        if path.startswith(('policies/TS-', 'policies/icer', 'policies/iticse')) or path in (
+        logical = path.removeprefix('content/organization/')
+        if logical.startswith(('policies/TS-', 'policies/icer', 'policies/iticse')) or logical in (
                 'events/bestpapers.md', '_data/bestpapers.yml', 'events/workinggroups/index.md',
                 '_data/workinggroups.yml', 'events/dc.md', 'policies/corporate.md'):
             category, reason = 'ownership-review', 'Conference-specific subject; confirm Board versus Steering Committee authority before transfer.'
-        if path.startswith('policies/') and not reason:
+        if logical.startswith('policies/') and not reason:
             reason = 'Keep integrated under organizational governance pending policy-by-policy authority review.'
         url = original.get(path, {}).get('public_url', '')
         if path.startswith('content/') and path.endswith(('.md', '.html')):
@@ -64,4 +65,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

@@ -68,14 +68,6 @@ future-conferences:
   dates: "Feb 23-26, 2028"
   location: "Cleveland, OH"
 
-next-conference:
-- title: Technical Symposium 2027
-  year: 2027
-  start-date: 2027-02-17
-  dates: "Feb 17-20, 2027"
-  location: "Sacramento, CA"
-  website: https://sigcse-ts.acm.org/2027/
-
 conferences:
 - year: 1970
   title: 1st SIGCSE TS 1970

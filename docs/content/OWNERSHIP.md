@@ -27,3 +27,9 @@ No conference content is deleted, externally redirected or newly published. Asse
 retain public paths even when page sources move. Transfer manifests are preparation,
 not self-contained export packages: required shared templates/assets and record
 subsets must be included and verified at the time of an authorized transfer.
+
+## Phase 3 implementation
+
+279 page sources moved behind explicit stable permalinks. Conference sources live in `content/conference-legacy/<series>/`; organizational sources live in `content/organization/`. Assets and standalone publications retain original paths. Directory schedules now live only in `_data/conferences.yml`; an in-memory compatibility alias preserves existing template consumers without duplicate source records. The four original source defects retain their old diagnostic identities for baseline comparison, even though the Bulletin source moved. Baseline files were not expanded or regenerated.
+
+Existing RESPECT schedule says title 2027, year 2026 and start 2027-06-01; preserve these values and request approved correction. Expired ICER/Virtual schedule entries remain records, not silently replaced events.

@@ -4,18 +4,18 @@
   "files": [
     "_data/virtual.yml",
     "_includes/virtual-head.md",
-    "events/virtual/2024.md",
-    "events/virtual/conferences.md",
+    "content/conference-legacy/virtual/2024.md",
+    "content/conference-legacy/virtual/conferences.md",
+    "content/conference-legacy/virtual/index.md",
     "events/virtual/images/covers/virtual2024.png",
-    "events/virtual/images/covers/virtual2024wg.png",
-    "events/virtual/index.md"
+    "events/virtual/images/covers/virtual2024wg.png"
   ],
   "public_urls": [
-    "https://sigcse.org/events/virtual/2024.html",
-    "https://sigcse.org/events/virtual/conferences.html",
+    "/events/virtual/2024.html",
+    "/events/virtual/conferences.html",
+    "/events/virtual/index.html",
     "https://sigcse.org/events/virtual/images/covers/virtual2024.png",
-    "https://sigcse.org/events/virtual/images/covers/virtual2024wg.png",
-    "https://sigcse.org/events/virtual/index.html"
+    "https://sigcse.org/events/virtual/images/covers/virtual2024wg.png"
   ],
   "shared_dependencies": [
     "_layouts/default.html",

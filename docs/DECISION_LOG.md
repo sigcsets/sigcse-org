@@ -37,3 +37,7 @@ Official references consulted: [Jekyll installation](https://jekyllrb.com/docs/i
 ## 2026-11-26 — approved local milestone, Phase 2
 
 Owner approved Phase 1 and authorized Phases 2–4 without interim stops. No additional archival storage or deployment investigation. Remote configured and inspected, but left unchanged because it contains existing independent history. Use explicit ownership classification and per-series transfer manifests; shared/ambiguous Board records stay integrated until human ownership review. Directory records point to current series schedule data during Phase 2 to avoid duplicate maintenance.
+
+## Phase 3 — source isolation and template consolidation
+
+Move only published front-matter page sources; preserve every permalink and all public assets/downloads. Keep news in `_posts` and self-contained publications in place. Centralize schedules in the directory and create compatibility aliases in memory. Consolidate HTML shells and active Bootstrap dependencies; retain old asset files because archived publications may use them. Generate missing page metadata from existing annual records, without inventing facts. Broad source reformatting and historical citation changes are excluded.
