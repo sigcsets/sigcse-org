@@ -1,0 +1,3 @@
+# Local static review only; always merge after the safe live configuration.
+url: http://127.0.0.1:8765
+baseurl: ""

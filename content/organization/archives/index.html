@@ -1,0 +1,9 @@
+---
+title: Conference archives
+layout: page
+permalink: /archives/index.html
+---
+<p class="lead">Conference histories, annual records and proceedings remain available at their existing public addresses.</p>
+<p>These archives include historical and conference-specific information. For current events, start with the <a href="{{ '/conferences/' | relative_url }}">conference directory</a>.</p>
+<ul class="hub-list">{% for conf in site.data.conferences %}<li><h2><a href="{{ conf.archive_url | relative_url }}">{{ conf.abbreviation }} history & information →</a></h2><a href="{{ '/events/' | append: conf.id | append: '/conferences.html' | relative_url }}">Browse annual records and proceedings</a></li>{% endfor %}</ul>
+<p>Related records: <a href="{{ '/events/bestpapers.html' | relative_url }}">best papers</a> · <a href="{{ '/events/workinggroups/' | relative_url }}">Working Groups</a> · <a href="{{ '/events/50years.html' | relative_url }}">50-year timeline</a>.</p>

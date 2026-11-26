@@ -41,3 +41,9 @@ Owner approved Phase 1 and authorized Phases 2–4 without interim stops. No add
 ## Phase 3 — source isolation and template consolidation
 
 Move only published front-matter page sources; preserve every permalink and all public assets/downloads. Keep news in `_posts` and self-contained publications in place. Centralize schedules in the directory and create compatibility aliases in memory. Consolidate HTML shells and active Bootstrap dependencies; retain old asset files because archived publications may use them. Generate missing page metadata from existing annual records, without inventing facts. Broad source reformatting and historical citation changes are excluded.
+
+## Phase 4 — task-oriented local website
+
+Use seven task destinations (Conferences, Membership, Awards, Funding, Resources, Governance, Policies), plus About/News/Join utility links. Add concise hubs and direct homepage access to Special Projects, travel support and Board contacts. Keep the original events and programs landing pages addressable. Preserve conference records behind archive labels and a dedicated archive index. Never label expired listed events as upcoming; retain the dates and flag them without inventing replacements.
+
+Use unchanged official logo artwork, a restrained teal/navy visual system, one shared shell, responsive grids and native details navigation with progressive enhancement. Generate headings and metadata from existing content; preserve IDs/citations. The local preview config changes only origin/baseurl so local browsing does not leave for production when following legacy absolute_url links. No hosting or production investigation performed. Original GitHub history remains untouched.

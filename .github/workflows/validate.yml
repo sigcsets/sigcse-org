@@ -38,7 +38,9 @@ jobs:
         run: bundle exec ruby scripts/build.rb ${{ matrix.mode }}
       - name: Validate live URLs, links, redirects and accessibility smoke checks
         if: matrix.mode == 'live'
-        run: python scripts/site.py validate
+        run: |
+          python scripts/site.py validate
+          python scripts/check_tasks.py
       - name: Validate staging prefix and preserved URLs
         if: matrix.mode == 'staging'
         run: python scripts/site.py validate --baseurl /.staging
@@ -55,6 +57,7 @@ jobs:
           name: website-${{ matrix.mode }}-${{ github.run_id }}
           path: |
             artifacts/validation.json
+            artifacts/task-paths.json
             artifacts/site.tar.gz
             artifacts/site.tar.gz.sha256
             artifacts/site.tar.manifest.json

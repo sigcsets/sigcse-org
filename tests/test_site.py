@@ -37,6 +37,7 @@ class PreservationTests(unittest.TestCase):
     def test_baseurl_and_external_links(self):
         self.assertEqual(checks.local_target('/.staging/about/index.html', '../news/', '/.staging'), ('news/index.html', ''))
         self.assertEqual(checks.local_target('index.html', '/a%20b.pdf'), ('a b.pdf', ''))
+        self.assertEqual(checks.local_target('index.html', 'http://127.0.0.1:8765/about/'), ('about/index.html', ''))
         self.assertIsNone(checks.local_target('index.html', 'mailto:someone@example.org'))
         self.assertIsNone(checks.local_target('index.html', 'https://example.org/'))
 

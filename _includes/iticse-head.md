@@ -30,14 +30,12 @@
   {% endif %}
 {% endfor %}
 
-#### {{conf.title}}
-{:.border-bottom}
 
 > <a name="top" id="top"></a> {% if conf.year <= first_yr %}{% else %} <a href="{{prev}}.html">← Previous</a> &#124; {% endif %}<a href="conferences.html">ITiCSE Index</a> {% if conf.year == last_yr %}{% else %} &#124; <a href="{{next}}.html">Next →</a>{% endif %}
 
 <table class="table table-sm">
   <tbody>
-    <tr><th>Proceedings</th>
+    <tr><th scope="row">Proceedings</th>
     <td colspan="2">
       {% if conf.proceedings.size > 1 %}
       <ul>{% for p in conf.proceedings -%}
@@ -58,19 +56,19 @@
 {% assign image_path = "/assets/images/default-proceeding.png" %}
 {% endif %}
 
-<tr><th>Dates</th><td>{{conf.dates}}</td><td rowspan="4" style="text-align:right"><img width="131" style="border: 5px solid #ddd;" src="{{image_path}}">&nbsp;
+<tr><th scope="row">Dates</th><td>{{conf.dates}}</td><td rowspan="4" style="text-align:right"><img width="131" style="border: 5px solid #ddd;" src="{{image_path}}" alt="Proceedings cover for {{ conf.title | escape }}">&nbsp;
 </td></tr>
-<tr><th>Location</th><td>{{conf.location}}</td></tr>
+<tr><th scope="row">Location</th><td>{{conf.location}}</td></tr>
 {% if conf.venue %}
-<tr><th>Venue</th><td>{{conf.venue}}</td></tr>{%endif%}
+<tr><th scope="row">Venue</th><td>{{conf.venue}}</td></tr>{%endif%}
 {% if conf.theme %}
-<tr><th>Theme</th><td colspan="2">{{conf.theme}}</td></tr>{%endif%}
+<tr><th scope="row">Theme</th><td colspan="2">{{conf.theme}}</td></tr>{%endif%}
 {% if conf.attendance %}
-<tr><th>Attendance</th><td>{{conf.attendance}}</td></tr>{%endif%}
+<tr><th scope="row">Attendance</th><td>{{conf.attendance}}</td></tr>{%endif%}
 {% if conf.acceptance %}
-<tr><th>Acceptance</th><td colspan="2">{{conf.acceptance}}</td></tr>{%endif%}
+<tr><th scope="row">Acceptance</th><td colspan="2">{{conf.acceptance}}</td></tr>{%endif%}
 {% if conf.website %}
-<tr><th>Website</th><td colspan="2"><a href="{{conf.website}}" target="_blank">{{conf.website}}</a></td></tr>{%endif%}
+<tr><th scope="row">Website</th><td colspan="2"><a href="{{conf.website}}" target="_blank">{{conf.website}}</a></td></tr>{%endif%}
   </tbody>
 </table>
 
@@ -80,4 +78,4 @@
 
 
 
-{% if conf.logo %}&nbsp;<img src="images/logos/{{conf.logo}}">{%endif%}
+{% if conf.logo %}&nbsp;<img src="images/logos/{{conf.logo}}" alt="Conference logo for {{ conf.title | escape }}">{%endif%}

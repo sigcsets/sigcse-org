@@ -2,8 +2,7 @@
 
 This is an experimental modernization copy. Production publishing is disabled.
 Content stays in Git; volunteers can propose changes using GitHub's file editor
-without installing Ruby or connecting to ACM. The GitHub repository/remote must
-first be established by the project owner.
+without installing Ruby or connecting to ACM. The configured GitHub remote already contains an independent history; integration must be resolved before these local changes can be pushed or reviewed there.
 
 ## Make and review an update
 
@@ -35,7 +34,7 @@ first be established by the project owner.
 | Resource | Relevant `content/organization/resources/` page; add an approved descriptive link using `[Resource title](https://example.org/)`. |
 | Global navigation | `_data/navigation.yml`; each entry needs `name` and `link`, for example the existing `name: About` / `link: /about/`. Do not change public content URLs just to change menu wording. |
 
-These are existing structures, not a completed new content model. Full task schemas,
+These structures preserve existing historical records. Full task schemas,
 single-source consolidation and volunteer usability testing belong to later phases.
 The existing [maintenance audit](audit/MAINTENANCE_AUDIT.md) explains cross-file
 dependencies and editorial discrepancies; it is internal and excluded from output.
@@ -79,3 +78,15 @@ questions: [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). Project state:
 - `_layouts/default.html`: single HTML shell; small page/post/home/blank wrappers. `_includes/` contains reusable components. One local Bootstrap bundle remains active. Old assets remain publicly available for archival compatibility.
 
 Keep `permalink` unchanged when moving or renaming a page source. Use the existing record conventions for historical years (including decimal Symposium identifiers). Do not convert historical snapshots to current facts.
+
+## Navigation and new organizational hubs
+
+`_data/navigation.yml` is the shared source for the seven main destinations and contextual section links. Each main entry needs `name` and `link`; `links` contains `name`/`link` pairs for the section sidebar. Optional `match` matches an existing public section. Use existing public paths, not source paths. For example, a Board link remains `/about/board.html`, while its source is `content/organization/about/board.md`.
+
+New hubs are `content/organization/{conferences,funding,governance,get-involved,archives}/`. The homepage is `content/organization/index.md`. Conference directory descriptions, dates, locations and event URLs are edited once in `_data/conferences.yml`; historical annual records are separate snapshots. Do not correct ambiguous years or expired cycles without approved information.
+
+## Review locally
+
+The current generated preview is in `_site/`. Start it with `python scripts/preview.py`, then open `http://127.0.0.1:8765/`. Stop with Ctrl+C. This requires Python only. To rebuild after source edits with the pinned Ruby environment, run `bundle exec ruby scripts/build.rb preview`. For automatic rebuilding, `bundle exec ruby scripts/build.rb serve` uses Jekyll at `http://127.0.0.1:4000/`. Do not edit `_site` directly.
+
+See `docs/REVIEW.md` for the Phase 4 review route, screenshots and remaining editorial questions. Search and visual CMS work remain outside this milestone.

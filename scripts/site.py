@@ -79,7 +79,7 @@ class Page(HTMLParser):
 
 def local_target(source, ref, baseurl=''):
     target = urlsplit(urljoin('https://sigcse.org/' + source.lstrip('/'), ref))
-    if target.scheme not in ('http', 'https') or target.netloc not in ('sigcse.org', 'www.sigcse.org'):
+    if target.scheme not in ('http', 'https') or target.hostname not in ('sigcse.org', 'www.sigcse.org', '127.0.0.1', 'localhost'):
         return None
     path = unquote(target.path)
     if baseurl and (path == baseurl or path.startswith(baseurl + '/')):

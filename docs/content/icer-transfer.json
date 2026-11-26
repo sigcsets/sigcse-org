@@ -93,6 +93,34 @@
     "https://sigcse.org/events/icer/images/covers/icer2024.png",
     "https://sigcse.org/events/icer/images/covers/icer2025.png"
   ],
+  "data_records": [
+    "_data/icer.yml: conferences and committees",
+    "_data/conferences.yml: id=icer"
+  ],
+  "templates": [
+    "_includes/icer-head.md"
+  ],
+  "assets": [
+    "events/icer/images/covers/icer2007.png",
+    "events/icer/images/covers/icer2008.png",
+    "events/icer/images/covers/icer2009.png",
+    "events/icer/images/covers/icer2010.png",
+    "events/icer/images/covers/icer2011.png",
+    "events/icer/images/covers/icer2012.png",
+    "events/icer/images/covers/icer2013.png",
+    "events/icer/images/covers/icer2014.png",
+    "events/icer/images/covers/icer2015.png",
+    "events/icer/images/covers/icer2016.png",
+    "events/icer/images/covers/icer2017.png",
+    "events/icer/images/covers/icer2018.png",
+    "events/icer/images/covers/icer2019.png",
+    "events/icer/images/covers/icer2020.png",
+    "events/icer/images/covers/icer2021.png",
+    "events/icer/images/covers/icer2022.png",
+    "events/icer/images/covers/icer2023.png",
+    "events/icer/images/covers/icer2024.png",
+    "events/icer/images/covers/icer2025.png"
+  ],
   "shared_dependencies": [
     "_layouts/default.html",
     "_layouts/page.html",

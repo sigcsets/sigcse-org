@@ -99,3 +99,11 @@ internally if required; CI does not regenerate or overwrite preservation baselin
 To deliberately update a dependency, unset frozen mode, edit the Gemfile/version
 declaration as needed, run Bundler and review the lockfile and output diffs in a PR.
 Keep Linux and Windows lock platforms; do not delete history to silence validation.
+
+## Phase 4 local review
+
+`bundle exec ruby scripts/build.rb preview` merges `_config_live.yml,_config_preview.yml`, using `http://127.0.0.1:8765` for absolute links. Then `python scripts/preview.py` serves the result on loopback. The generated preview is already present in this workspace. Ordinary `serve` uses Jekyll's local URL at port 4000. Source changes require a rebuild when using the Python server.
+
+Live CI now also runs `python scripts/check_tasks.py`: all 13 agreed tasks must be reachable within two link selections. Original preservation baselines remain unchanged. The rendered heading-level normalization preserves heading text and IDs and applies only to shared-shell pages; standalone publications are untouched. Shared conference covers/logos now have context-derived alternatives.
+
+Core styles are `assets/css/site.css`, using the existing local Bootstrap 5.3.2 and a small native-details menu script. No web fonts, JavaScript framework or additional build dependency was added. Legacy asset files remain available. Search is deferred to Phase 5.

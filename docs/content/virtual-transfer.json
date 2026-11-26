@@ -17,6 +17,17 @@
     "https://sigcse.org/events/virtual/images/covers/virtual2024.png",
     "https://sigcse.org/events/virtual/images/covers/virtual2024wg.png"
   ],
+  "data_records": [
+    "_data/virtual.yml: conferences and committees",
+    "_data/conferences.yml: id=virtual"
+  ],
+  "templates": [
+    "_includes/virtual-head.md"
+  ],
+  "assets": [
+    "events/virtual/images/covers/virtual2024.png",
+    "events/virtual/images/covers/virtual2024wg.png"
+  ],
   "shared_dependencies": [
     "_layouts/default.html",
     "_layouts/page.html",

@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<article class="page-content">
-<h1>{{ page.title }}</h1>
-
+<div class="page-heading"><p class="eyebrow">{% if page.content_type == 'conference-legacy' %}Conference archive{% else %}ACM SIGCSE{% endif %}</p><h1>{{ page.title }}</h1></div>
+<div class="page-grid"><div class="page-content">
+{% if page.due %}{% assign deadline = page.due | date: '%s' | plus: 0 %}{% assign today = 'now' | date: '%s' | plus: 0 %}{% if deadline < today %}<aside class="content-notice">This page includes a past application cycle. Check the published dates before applying.</aside>{% endif %}{% endif %}
 {{ content }}
-</article>
+</div><aside class="section-sidebar">{% include section-nav.html %}</aside></div>

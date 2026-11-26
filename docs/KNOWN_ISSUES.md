@@ -1,46 +1,15 @@
-# Known issues and coverage
+# Known issues after Phase 4
 
-## Existing defects, preserved
+The original regression baselines remain unchanged. Live/staging validation reports zero new findings, with 218 original findings remaining: 104 missing internal targets, 78 missing image alternatives, 24 duplicate IDs, seven missing fragments, three missing language attributes, one missing title and one missing h1. These are explicit path-level findings, not blanket exclusions. Four original duplicate YAML keys remain (the Bulletin source now lives under content/organization).
 
-- Output baseline: 861 unique findings across 385 HTML files: 106 missing internal
-  targets, 109 missing fragments, 222 missing image alt attributes, 360 missing h1,
-  24 duplicate IDs, 21 missing language attributes, 19 missing titles. Exact paths
-  and targets are in `baselines/known-output-issues.json`; no blanket site exclusion.
-- Four duplicate YAML keys remain: `files` in `_data/specialprojects.yml`,
-  `attendance` and `website` in `_data/symposia.yml`, `comment` in `about/bulletin.md`.
-  Resolving competing values may affect historical output; review individually.
-- Existing mixed-case October 2026 Bulletin links, missing conference annual pages,
-  repeated committee directory links and other broken references are now captured
-  by rendered checks. Do not infer server fixes or silently change records.
-- Award announcement/data disagreement, stale upcoming conferences and role/history
-  inconsistencies remain editorial questions. No facts or approved citations changed.
-- The unused DOI plugin still relies on an undeclared absolute external CLI and
-  unsafe shell interpolation. Current content does not call it; future use requires
-  replacement/review. PR build code must remain isolated without secrets.
+Editorial review remains necessary for 2026 award data, expired travel cycle information, conference listings and governance history. The RESPECT directory record retains conflicting 2027 title/start versus year 2026. No names, citations or missing events were invented. Ambiguous policy/conference ownership is recorded in content/OWNERSHIP.md.
 
-## Phase 1 limits
+The unused DOI plugin remains an undeclared external CLI/shell dependency if invoked; current source does not use it. Untrusted PRs must build without privileged credentials.
 
-- No configured remote: GitHub-hosted Actions execution and branch protection could
-  not be exercised. Equivalent build/validation commands run locally on Linux.
-- New pinned build tested on Ubuntu 22.04 WSL's case-sensitive filesystem. Native
-  Windows baseline tested with its old installed environment; a native Windows
-  Ruby 3.3.14 build remains untested. Windows lock entries are included.
-- Static accessibility smoke checks do not cover contrast, keyboard/focus, screen
-  readers, mobile/zoom, dynamic menus or document accessibility. No WCAG claim.
-- External link availability, production parity, server redirects/case handling,
-  remote deployment, HTTP verification and ACM rollback remain untested.
-- Not all content types have full semantic schemas. Source syntax and initial
-  fields/IDs/dates are checked; broader schemas are later-phase work.
-- Output hashes can differ from the initial Windows baseline due to line endings,
-  footer build time and dependency upgrades. Reports expose those changes for review.
-- Local baseline snapshots and unpublished directories are absent from fresh clones.
-  Retain generated preservation evidence separately in approved internal storage.
+Native Linux builds and browser checks passed. The new Ruby pin is not installed/tested natively on Windows; use the tested WSL environment or install the documented Ruby version. Full accessibility review, screen-reader/zoom/document testing and external link checks remain incomplete. No WCAG certification is claimed.
 
-See [BUILD.md](BUILD.md) for exact validator scope and [DEPLOYMENT.md](DEPLOYMENT.md)
-for deployment prerequisites. Existing defects are not approval to delete history.
+The remote is configured but contains existing independent history, so no push was attempted. Hosted CI execution of modernization changes awaits repository integration. No production server was contacted; deployment and hosting investigation are deferred.
 
-Cross-runtime inspection found equal-key sort ordering differences on six pages
-(`about/update`, best papers, Working Groups, ACM grades, Outstanding Educator
-recipients and the page index). No records/citations were removed; the existing
-maintenance page also changes first-list-item paragraph wrapping after reordering.
-The other byte differences normalize away with line endings.
+Static search is Phase 5. Comprehensive maintainer schemas/usability and visual CMS evaluation remain later work. The native mobile menu is expanded without JS, and collapsible with JS. Historical tables can scroll within their content area. Original standalone publications retain their old presentation and accessibility limitations.
+
+See REVIEW.md for local review, screenshots and exact validation evidence.

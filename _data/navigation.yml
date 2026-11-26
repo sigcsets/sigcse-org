@@ -1,18 +1,50 @@
-- name: Home
-  link: /
-- name: About
-  link: /about/
-- name: News
-  link: /news/
+- name: Conferences
+  link: /conferences/
+  match: /events/
+  links:
+    - {name: Conference directory, link: /conferences/}
+    - {name: Conference archives, link: /archives/}
+    - {name: In-cooperation events, link: /events/incoop.html}
 - name: Membership
   link: /membership/
-- name: Events
-  link: /events/
-- name: Programs
-  link: /programs/
-- name: Policies
-  link: /policies/
+  links:
+    - {name: Join SIGCSE, link: /membership/join.html}
+    - {name: Membership benefits, link: /membership/benefits.html}
+    - {name: Get involved, link: /get-involved/}
+- name: Awards
+  link: /programs/awards/
+  links:
+    - {name: Awards and nominations, link: /programs/awards/}
+    - {name: Outstanding Contribution recipients, link: /programs/awards/outstanding.html}
+    - {name: Distinguished Service recipients, link: /programs/awards/distinguished.html}
+    - {name: Broadening Participation, link: /programs/awards/broadening.html}
+    - {name: Test of Time, link: /programs/awards/test-of-time.html}
+- name: Funding
+  link: /funding/
+  match: /programs/special/
+  links:
+    - {name: Funding overview, link: /funding/}
+    - {name: Special Projects grants, link: /programs/special/}
+    - {name: Travel grants, link: /programs/travel-grants/}
+    - {name: Speaker’s Fund, link: /programs/speakers/}
 - name: Resources
   link: /resources/
-- name: Pages
-  link: /siteindex/
+  links:
+    - {name: Community resources, link: /resources/}
+    - {name: SIGCSE Bulletin, link: /about/bulletin.html}
+    - {name: Publications, link: /resources/publications.html}
+- name: Governance
+  link: /governance/
+  match: /about/
+  links:
+    - {name: Governance overview, link: /governance/}
+    - {name: Board and contacts, link: /about/board.html}
+    - {name: Minutes and reports, link: /about/reports/}
+    - {name: Board history, link: /about/board-history/}
+    - {name: Committees and task forces, link: /programs/committees-task-forces/}
+- name: Policies
+  link: /policies/
+  links:
+    - {name: All policies, link: /policies/}
+    - {name: Bylaws, link: /policies/bylaws.html}
+    - {name: Conference policies, link: /policies/#conference-policies}

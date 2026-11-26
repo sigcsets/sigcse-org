@@ -1,43 +1,11 @@
-  <header class=" lh-1 py-3">
-    <div class="row flex-nowrap justify-content-between align-items-center">
-      <div class="col-4 pt-1">
-        <a href='{{"/"|absolute_url}}'>
-          <img src='{{"/assets/images/logo/SIGCSE-logo_home.jpg"|absolute_url}}' class="img-fluid"alt="SIGCSE Organization Logo"></a>
-      </div>
-
-      <div class="col-4 text-center">
-        <!-- <a class="blog-header-logo text-body-emphasis text-decoration-none" href="../index.html">ACM SIGCSE</a> -->
-      </div>
-      <div class="col-4 d-flex justify-content-end align-items-center">
-        <a class="btn btn-sm btn-outline-secondary" href='{{"/membership/join.html" | absolute_url }}'>Sign up</a>
-      </div>
-    </div>
-  </header>
-
-  <!-- Top level menu : Home/About/Membership/Events... -->
-  <div class="nav-scroller py-1 mb-3">
-    <nav class="nav nav-underline justify-content-between bg-primary-subtle">
-
-      {% for item in site.data.navigation %}
-        {% if item.link == "/" %} {% comment %} Home page, special case {% endcomment %}
-          {% if page.url == "/" %}
-            <a class="nav-item nav-link link-body-emphasis active" href="{{ item.link | absolute_url }}" >{{ item.name }}</a>
-          {% else %}
-            <a class="nav-item nav-link link-body-emphasis text-primary" href="{{ item.link | absolute_url }}" >{{ item.name }}</a>
-          {% endif %}
-
-        {% elsif page.url contains item.link %}
-          <a class="nav-item nav-link link-body-emphasis active" href="{{ item.link | absolute_url }}" >{{ item.name }}</a>
-        {% else %}
-          <a class="nav-item nav-link link-body-emphasis text-primary" href="{{ item.link | absolute_url }}" >{{ item.name }}</a>
-        {% endif %}
-      {% endfor %}
-
-    </nav>
-  </div>
-
-  {% if site.staging == true %}
-  <div class="alert alert-danger text-center" role="alert">
-  SIGCSE.org Staging Site
-  </div>
-  {% endif %}
+<header class="site-header">
+<div class="brand-row">
+<a class="brand" href="{{ '/' | relative_url }}" aria-label="ACM SIGCSE home"><img src="{{ '/assets/images/logo/SIGCSE-logo_horiz_color_no-back.png' | relative_url }}" alt="ACM SIGCSE" width="230" height="64"></a>
+<div class="utility"><a href="{{ '/about/profile.html' | relative_url }}">About SIGCSE</a><a href="{{ '/news/' | relative_url }}">News</a><a class="button small" href="{{ '/membership/join.html' | relative_url }}">Join SIGCSE <span aria-hidden="true">↗</span></a></div>
+</div>
+<details class="main-menu" open>
+<summary>Explore SIGCSE <span aria-hidden="true">☰</span></summary>
+<nav aria-label="Main navigation"><ul>{% for item in site.data.navigation %}<li><a href="{{ item.link | relative_url }}"{% if page.url contains item.link %} aria-current="page"{% endif %}>{{ item.name }}</a></li>{% endfor %}</ul></nav>
+</details>
+{% if site.staging %}<p class="preview-label">Staging preview</p>{% endif %}
+</header>

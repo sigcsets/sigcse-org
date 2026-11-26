@@ -61,6 +61,16 @@ required_rows(errors, data['_data/events.yml'], %w[name], '_data/events.yml')
 required_rows(errors, data['_data/conferences.yml'], %w[id name abbreviation description archive_url schedule], '_data/conferences.yml')
 ids = Array(data['_data/conferences.yml']).map { |row| row['id'] }
 errors << '_data/conferences.yml: duplicate id' unless ids.uniq.length == ids.length
+Array(data['_data/conferences.yml']).each do |row|
+  required_rows(errors, row['schedule'], %w[title start-date dates location], "_data/conferences.yml #{row['id']} schedule")
+  Array(row['schedule']).each do |event|
+    begin
+      Date.iso8601(event['start-date'].to_s)
+    rescue ArgumentError
+      errors << "_data/conferences.yml #{row['id']}: start-date must be YYYY-MM-DD"
+    end
+  end
+end
 required_rows(errors, data.dig('_data/board.yml', 'current-board', 'members'),
               %w[name position image], '_data/board.yml current-board members')
 %w[symposia iticse icer comped respect virtual].each do |series|

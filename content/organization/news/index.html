@@ -3,17 +3,6 @@ title: News
 layout: page
 permalink: /news/index.html
 ---
-
-The following news items were featured on the SIGCSE site's front page:
-
-{% for post in site.posts %}
-	{% assign year = post.date | date: '%Y' %}
-	{% if last != year %}
-		<!-- letters -->
-		</ul><a name="{{year}}"><h4>{{year}}</h4></a><ul>
-	{% endif %}
-	{% assign last = year %}
-
-	<li><a href="{{post.url | absolute_url }}">{{post.title}}</a> ({{post.date | date: '%B %d, %Y' }})</li>
-{% endfor %}
-</ul>
+<p class="lead">Announcements and updates from the SIGCSE community.</p>
+{% assign years = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% for group in years %}<section><h2 id="{{ group.name }}">{{ group.name }}</h2><div class="news-list">{% for post in group.items %}<article><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b' }}</time><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><span aria-hidden="true">↗</span></article>{% endfor %}</div></section>{% endfor %}

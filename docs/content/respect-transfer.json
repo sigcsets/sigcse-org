@@ -35,6 +35,17 @@
     "https://sigcse.org/events/respect/images/covers/respect2024.png",
     "https://sigcse.org/events/respect/images/covers/respect2025.png"
   ],
+  "data_records": [
+    "_data/respect.yml: conferences and committees",
+    "_data/conferences.yml: id=respect"
+  ],
+  "templates": [
+    "_includes/respect-head.md"
+  ],
+  "assets": [
+    "events/respect/images/covers/respect2024.png",
+    "events/respect/images/covers/respect2025.png"
+  ],
   "shared_dependencies": [
     "_layouts/default.html",
     "_layouts/page.html",

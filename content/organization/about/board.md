@@ -4,23 +4,6 @@ layout: page
 image-path: "/assets/images/board/current/"
 permalink: /about/board.html
 ---
-
-##### {{site.data.board.current-board.year}} Board
-{%for member in site.data.board.current-board.members %}
-<div>
-	<div style="float: left; text-align: center; width: 150px;">
-		{% assign p = page.image-path | append: member.image -%}
-		<img class="image-left" src="{{ p | absolute_url}}" alt="{{member.name}}" />
-	</div>
-	<div style="float: left; width: 300px;">
-		<strong>{{member.name}}</strong><br />
-		<em>{{member.position}}</em><br />
-		{%if member.affiliation %}{{member.affiliation}}<br />{%endif%}
-		{{member.country}}<br /><a href="mailto:{{member.email}}">{{member.email}}</a>
-	</div>
-	<p><br style="clear: left;" /></p>
-</div>
-{% endfor %}
-
-##### Board History
-<p>A list of <a href="board-history/index.html"><strong>former board members</strong></a> is available online.</p>
+<h2>{{ site.data.board.current-board.year }} Board</h2>
+<div class="board-grid">{% for member in site.data.board.current-board.members %}<section class="board-person"><img src="{{ page.image-path | append: member.image | relative_url }}" alt="{{ member.name }}" width="85" height="85"><div><h3>{{ member.name }}</h3><p class="role">{{ member.position }}</p><p>{{ member.affiliation }}<br>{{ member.country }}</p><p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p></div></section>{% endfor %}</div>
+<h2>Board history</h2><p>A list of <a href="{{ '/about/board-history/' | relative_url }}">former Board members</a> is available online.</p>

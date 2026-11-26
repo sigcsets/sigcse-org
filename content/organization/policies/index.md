@@ -14,6 +14,8 @@ permalink: /policies/index.html
 - [{{policy.title}}]({{policy.url|absolute_url}}){% if policy.description %} - {{policy.description}}{%endif-%}
 {% endfor %}
 
+<span id="conference-policies"></span>
+
 ##### {{site.data.policies.conferences.title}}
 {%for policy in site.data.policies.conferences.policies %}
 - [{{policy.title}}]({{policy.url|absolute_url}}){% if policy.description %} - {{policy.description}}{%endif-%}

@@ -25,6 +25,19 @@
     "https://sigcse.org/events/comped/images/covers/comped2023.png",
     "https://sigcse.org/events/comped/images/covers/comped2023wg.jpg"
   ],
+  "data_records": [
+    "_data/comped.yml: conferences and committees",
+    "_data/conferences.yml: id=comped"
+  ],
+  "templates": [
+    "_includes/comped-head.md"
+  ],
+  "assets": [
+    "events/comped/images/covers/comped2019.png",
+    "events/comped/images/covers/comped2019wg.png",
+    "events/comped/images/covers/comped2023.png",
+    "events/comped/images/covers/comped2023wg.jpg"
+  ],
   "shared_dependencies": [
     "_layouts/default.html",
     "_layouts/page.html",
