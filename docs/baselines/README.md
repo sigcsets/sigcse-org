@@ -30,6 +30,9 @@ is needed. The raw `_baseline_original/` contains internal reports: never publis
 A fresh clone has the committed manifests, but neither these generated snapshots
 nor the locally ignored unpublished directories.
 
+Original archive SHA-256:
+`71cb55c8ad34141f69744c4fbac8ec5bca8b2470e69254a15583c6221729e675`.
+
 Baselines must not be regenerated automatically to make CI pass. Review individual
 new findings, fix regressions, and approve any deliberate baseline change in a PR.
 The capture command refuses to overwrite an existing baseline. Hash changes are

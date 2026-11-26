@@ -1,0 +1,17 @@
+name: Production deployment (disabled proposal)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: acm-production-deployment
+  cancel-in-progress: false
+jobs:
+  deployment-disabled:
+    # Literal hard stop. No host, key, environment or remote command is configured.
+    # Enabling requires an authorized implementation PR after docs/DEPLOYMENT.md
+    # prerequisites and a disposable-destination deployment/rollback test.
+    if: ${{ false }}
+    runs-on: ubuntu-22.04
+    steps:
+      - run: echo 'Production deployment is disabled. See docs/DEPLOYMENT.md.'

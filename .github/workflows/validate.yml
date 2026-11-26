@@ -1,0 +1,62 @@
+name: Build and validate
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-22.04
+    strategy:
+      fail-fast: false
+      matrix:
+        mode: [live, staging]
+    env:
+      BUNDLE_FROZEN: "true"
+      JEKYLL_ENV: production
+      TZ: UTC
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: ruby/setup-ruby@145243922b4465b78e04dd66294782c7de45901f # v1
+        with:
+          bundler: "2.4.20"
+          bundler-cache: true
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12.12"
+      - name: Validate source and regression checks
+        run: |
+          bundle exec ruby scripts/validate_source.rb
+          python -m unittest discover -s tests -v
+      - name: Build clean output
+        run: bundle exec ruby scripts/build.rb ${{ matrix.mode }}
+      - name: Validate live URLs, links, redirects and accessibility smoke checks
+        if: matrix.mode == 'live'
+        run: python scripts/site.py validate
+      - name: Validate staging prefix and preserved URLs
+        if: matrix.mode == 'staging'
+        run: python scripts/site.py validate --baseurl /.staging
+      - name: Package validated live preview
+        if: matrix.mode == 'live'
+        run: python scripts/site.py package
+      - name: Exercise disposable release activation and rollback
+        if: matrix.mode == 'live'
+        run: python scripts/release_demo.py artifacts/site.tar.gz
+      - name: Upload preview and validation report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: website-${{ matrix.mode }}-${{ github.run_id }}
+          path: |
+            artifacts/validation.json
+            artifacts/site.tar.gz
+            artifacts/site.tar.gz.sha256
+            artifacts/site.tar.manifest.json
+          if-no-files-found: warn
+          retention-days: 7
