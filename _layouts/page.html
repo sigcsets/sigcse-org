@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <script src='{{"/assets/js/color-modes.js"|absolute_url}}'></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ACM SIGCSE based on Blog Template · Bootstrap v5.3 by Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="MAPQ">
+    <title>ACM SIGCSE</title>
+
+    {% include favicon.html %}
+    {% include css.html %}
+
+  </head>
+  <body>
+    <a name="Top"></a>
+    {% include svg-light.html %}
+
+    <div class="container">
+      {% include page-header.html %}
+      {% include breadcrumbs.html %}
+    </div><!-- container -->
+
+
+    <main class="container">
+      <div class="row g-5">
+        <div class="col-md-8">
+            <h4 class="fst-italic border-bottom">{{page.title}}</h4>
+            {{content}}
+        </div>
+
+        <div class="col-md-4">
+          <div class="position-sticky" style="top: 2rem;">
+            {% include sidebar.html %}
+          </div>
+        </div> <!-- col-md-4 -->
+
+      </div> <!-- row g-5 -->
+    </main>
+
+
+    <footer class="py-3 text-center text-body-secondary bg-body-tertiary">
+      <p class="mb-0"><a href="#Top">Back to top</a>&nbsp;•&nbsp;<i>Site last updated on {{ "now" | date: "%Y-%m-%d" }}</i>&nbsp;•&nbsp;Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a></p>
+    </footer>
+
+    {% include javascript.html %}
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+      window.jQuery.htmlPrefilter = function( html ) {
+        return html;
+      };
+    </script>
+  </body>
+</html>

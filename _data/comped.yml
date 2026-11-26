@@ -1,0 +1,70 @@
+committees:
+- name: Steering Committee
+  members:
+  - name: Sue Sentence
+    affiliation: University of Cambridge, UK (Chair)
+  - name: Mark Zarb
+    affiliation: Robert Gordon University, UK (Secretary)
+  - name: Alison Clear
+    affiliation: Eastern Institute of Technology, Auckland, NZ
+  - name: Dan Garcia
+    affiliation: UC Berkeley, USA
+  - name: Venkatesh Choppella
+    affiliation: IIIT Hyderabad, India
+  - name: Ethel Tshukudu
+    affiliation: University of Botswana, Botswana
+
+- name: Past Steering Committee Members
+  members:
+  - name: Alison Clear
+    affiliation: Eastern Institute of Technology, Auckland, NZ
+  - name: Susan Rodger
+    affiliation: Duke University, USA
+  - name: Boots Cassell
+    affiliation: Villanova University, USA
+  - name: Ming Zhang
+    affiliation: Peking University, China
+
+acmdl: https://dl.acm.org/conference/comped/proceedings
+
+next-conference:
+- title: CompEd 2027
+  dates: "October 2027"
+  start-date: 2027-10-23
+  location: São Paolo, Brazil
+
+conferences:
+- title: CompEd 2025
+  year: 2025
+  start-date: 2025-10-23
+  dates: "23-25 October 2025"
+  location: "Gaborone, Botswana"
+  website: https://comped.acm.org/2025
+  comment: 1st ACM conference in Africa
+
+- title: CompEd 2023
+  year: 2023
+  start-date: 2023-12-07
+  dates: "5-9 December 2023"
+  location: "Hyderabad, India"
+  website: https://comped.acm.org/2023/
+  comment: ACM CompEd took place at IIIT in Hyderabad, India on December 7-9, 2023. Working Groups will take place December 5-6. ACM CompEd will be co-located with the India COMPUTE conference.
+  proceedings:
+  - title: "CompEd 2023: Proceedings of the ACM Conference on Global Computing Education Vol 1"
+    doi: "https://dl.acm.org/doi/proceedings/10.1145/3576882"
+  - title: "CompEd 2023: Proceedings of the ACM Conference on Global Computing Education Vol 2"
+    doi: "https://dl.acm.org/doi/proceedings/10.1145/3617650"
+  - title: "CompEd 2023: Working Group Reports on 2023 ACM Conference on Global Computing Education"
+    doi: https://dl.acm.org/doi/proceedings/10.1145/3598579
+
+- title: CompEd 19
+  year: 2019
+  location: "Chengdu, Sichuan China"
+  dates:  "May 9 - 19, 2019"
+  website: https://comped.acm.org/2019/
+  proceedings:
+  - title: "CompEd '19: Proceedings of the ACM Conference on Global Computing Education"
+    doi: "https://dl.acm.org/doi/proceedings/10.1145/3300115"
+  - title: "CompEd-WGR '19: Proceedings of the Working Group Reports on Global Computing Education"
+    doi: "https://dl.acm.org/doi/proceedings/10.1145/3372262"
+

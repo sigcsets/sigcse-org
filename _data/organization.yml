@@ -1,0 +1,149 @@
+removed:
+- name: Doctoral consortium coordinators
+  info: 2019
+  members:
+  - name: Amy Ko
+    affiliation: University of Washington, USA
+    year: senior
+  - name: Katrina Falkner
+    affiliation: University of Adelaide, Australia
+    year: junior
+
+committees:
+
+- name: New Educators' Roundtable organizers
+  info: 2020
+  members:
+  - name: Zachary Dodds
+    affiliation: Harvey Mudd College, USA
+    year: senior
+  - name: Diane Horton
+    affiliation: University of Toronto, Canada
+    year: junior
+
+- name: Chairs' Roundtable organizers
+  info: 2025
+  members:
+
+  - name: Krishnendu Roy
+    affiliation: "Valdosta University, USA"
+    year: senior
+  - name: John Barr
+    affiliation: "Ithaca College, USA"
+    year: junior
+
+  - name: Ran Libeskind-Hadas
+    affiliation: Harvey Mudd College, USA
+    year: senior
+  - name: Cynthia Lester
+    affiliation: Georgia State University, USA
+    year: junior
+
+
+- name: Bulletin editors
+  members:
+  - name: Charles Wallace
+    affiliation: Michigan Technological University, Houghton, MI, USA
+    year: May 2021 -- June 2027
+  - name: Julie M. Smith
+    affiliation: Institute for Advancing Computing Education, USA
+    year: May 1 2019 -- April 30 2022
+
+
+
+
+- name: "Information Directors"
+  info: "We have three information directors, approved by the SIGCSE Board. The participation as information director is a 3 year term, renewable once. This renewal is upon mutual interest from the information director and approval of the board."
+  members:
+  - name: Lorenzo Lin Angeli
+    affiliation: "University of Trento, Italy"
+    year: "until Summer 2029"
+  - name: Bob Edmison
+    affiliation: "Virginia Tech, USA"
+    year: "until Summer 2028"
+  - name: Yesenia Velasco
+    affiliation: "Duke University, USA"
+    year: "until Summer 2028"
+  - name: David Zabnar
+    affiliation: "Cornell College, USA"
+    year: "until Summer 2026"
+  previous:
+    - name: Haris Skiadas
+      affiliation: "Hanover College, USA"
+      year: "until Summer 2025"
+    - name: David Zabnar
+      affiliation: "Cornell College, USA"
+      year: "until Summer 2026"
+
+
+- name: "Social Media Coordinator"
+  members:
+  - name: Zahra Atiq
+    affiliation: Ohio State University, USA
+    year: 2020 -- 2023
+
+- name: SIGCSE.org Website Administrator
+  email: "webmaster (at) sigcse.org"
+  members:
+    - name: "Mark Sherriff"
+      affiliation: University of Virginia, Virginia, USA 
+      year: July 1 2026 -- present
+  former-members:
+    - name: "Manuel A. Pérez-Quiñones"
+      affiliation: University of North Carolina, Charlotte, USA 
+      year: July 1 2019 -- July 1 2026
+
+- name: "Special Projects/Speaker's Fund/Travel Grant reviewers"
+  members:
+  - name: Yolanda Rankin
+    affiliation: (Chair)
+    year: 2022 -- 2025
+  - name: Aleata Hubbard Cheuoua
+    affiliation: WestEd, USA 
+    year: 2022 -- 2025
+  - name: Kalpathi Subramanian
+    affiliation: University of North Carolina, Charlotte, USA 
+    year: 2022 -- 2025
+  - name: Michael C. Robbeloth
+    affiliation: Mount Vernon Nazarene University, USA 
+    year: 2022 -- 2025
+  - name: Judy Sheard
+    affiliation: "Monash University, Australia"
+    year: 2022 -- 2025
+
+- name: "Awards Committee: Outstanding Contribution to Computer Science Education and Distinguished Service to the Computer Science Education Community"
+  members:
+  - name: Renée McCauley
+    year: 2025
+  - name: Henry Walker
+    year: 2025
+  - name: Guido Rößling
+    year: 2025
+  - name: Jacqueline Whalley
+    year: 2025
+  - name: Robert McCartney
+    year: 2025
+
+- name: "Awards Committee: Broadening Participation in Computing Education"
+  members:
+  - name: Andreas Stefik
+    year: 2025
+  - name: Christian Servin
+    year: 2025
+  - name: Rebecca Dovi
+    year: 2025
+  - name: Sara Hooshangi
+    year: 2025
+
+- name: "Awards Committee: Test of Time"
+  members:
+  - name: Jim Paterson
+    year: 2025
+  - name: Andrew Luxton-Reilly
+    year: 2025
+  - name: Samuel Rebelsky
+    year: 2025
+  - name: Tony Clear
+    year: 2025
+
+
