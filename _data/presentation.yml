@@ -1,0 +1,52 @@
+# Reusable patterns, selected by the longest matching public URL prefix.
+patterns:
+  - {prefix: /, pattern: article}
+  - {prefix: /index.html, pattern: home}
+  - {prefix: /news/, pattern: news}
+  - {prefix: /policies/, pattern: reference}
+  - {prefix: /about/reports/, pattern: reference}
+  - {prefix: /about/board-history/, pattern: history}
+  - {prefix: /archives/, pattern: history}
+  - {prefix: /events/, pattern: history}
+  - {prefix: /conferences/, pattern: directory}
+  - {prefix: /membership/, pattern: community}
+  - {prefix: /about/index.html, pattern: landing}
+  - {prefix: /resources/index.html, pattern: landing}
+  - {prefix: /funding/, pattern: landing}
+  - {prefix: /governance/, pattern: landing}
+  - {prefix: /get-involved/, pattern: community}
+  - {prefix: /programs/committees-task-forces/, pattern: directory}
+  - {prefix: /about/board.html, pattern: directory}
+  - {prefix: /about/volunteers.html, pattern: directory}
+  - {prefix: /programs/awards/, pattern: award}
+  - {prefix: /programs/awards/outstanding.html, pattern: award-history}
+  - {prefix: /programs/awards/distinguished.html, pattern: award-history}
+  - {prefix: /programs/awards/broadening.html, pattern: award-history}
+  - {prefix: /programs/awards/test-of-time.html, pattern: award-history}
+  - {prefix: /programs/special/, pattern: history}
+  - {prefix: /programs/special/index.html, pattern: funding}
+  - {prefix: /programs/travel-grants/, pattern: funding}
+  - {prefix: /programs/travel-grants/awards.html, pattern: history}
+  - {prefix: /programs/speakers/, pattern: funding}
+  - {prefix: /programs/speakers/list.html, pattern: history}
+features:
+  /membership/index.html:
+    photo: celebration
+    description: Membership information, benefits, and ways to participate in SIGCSE.
+  /conferences/index.html:
+    photo: first_timers
+    description: Find SIGCSE conferences, event websites, and annual records.
+  /governance/index.html:
+    photo: board_retreat
+    description: Board contacts, organizational records, committees, and policies.
+  /about/index.html:
+    photo: board_montage
+    description: Learn about SIGCSE and find organizational information.
+parents:
+  - {prefix: /programs/special/, name: Special Projects, link: /programs/special/}
+  - {prefix: /programs/travel-grants/, name: Travel grants, link: /programs/travel-grants/}
+  - {prefix: /programs/speakers/, name: Speaker’s Fund, link: /programs/speakers/}
+  - {prefix: /programs/committees-task-forces/, name: Committees and task forces, link: /programs/committees-task-forces/}
+  - {prefix: /about/reports/, name: Minutes and reports, link: /about/reports/}
+  - {prefix: /about/board-history/, name: Board history, link: /about/board-history/}
+  - {prefix: /about/bulletin/, name: SIGCSE Bulletin, link: /about/bulletin.html}

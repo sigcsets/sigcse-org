@@ -1,4 +1,6 @@
 - name: Conferences
+  id: conferences
+  matches: ["/conferences/", "/events/", "/archives/"]
   link: /conferences/
   match: /events/
   links:
@@ -6,12 +8,16 @@
     - {name: Conference archives, link: /archives/}
     - {name: In-cooperation events, link: /events/incoop.html}
 - name: Membership
+  id: membership
+  matches: ["/membership/", "/get-involved/"]
   link: /membership/
   links:
     - {name: Join SIGCSE, link: /membership/join.html}
     - {name: Membership benefits, link: /membership/benefits.html}
     - {name: Get involved, link: /get-involved/}
 - name: Awards
+  id: awards
+  matches: ["/programs/awards/"]
   link: /programs/awards/
   links:
     - {name: Awards and nominations, link: /programs/awards/}
@@ -20,6 +26,8 @@
     - {name: Broadening Participation, link: /programs/awards/broadening.html}
     - {name: Test of Time, link: /programs/awards/test-of-time.html}
 - name: Funding
+  id: funding
+  matches: ["/funding/", "/programs/special/", "/programs/travel-grants/", "/programs/speakers/"]
   link: /funding/
   match: /programs/special/
   links:
@@ -28,12 +36,16 @@
     - {name: Travel grants, link: /programs/travel-grants/}
     - {name: Speaker’s Fund, link: /programs/speakers/}
 - name: Resources
+  id: resources
+  matches: ["/resources/", "/about/bulletin"]
   link: /resources/
   links:
     - {name: Community resources, link: /resources/}
     - {name: SIGCSE Bulletin, link: /about/bulletin.html}
     - {name: Publications, link: /resources/publications.html}
 - name: Governance
+  id: governance
+  matches: ["/governance/", "/about/board", "/about/reports/", "/about/volunteers.html", "/programs/committees"]
   link: /governance/
   match: /about/
   links:
@@ -43,6 +55,8 @@
     - {name: Board history, link: /about/board-history/}
     - {name: Committees and task forces, link: /programs/committees-task-forces/}
 - name: Policies
+  id: policies
+  matches: ["/policies/"]
   link: /policies/
   links:
     - {name: All policies, link: /policies/}

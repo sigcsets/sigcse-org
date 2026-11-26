@@ -1,0 +1,8 @@
+{% if page.application %}
+<section class="funding-facts" aria-label="Application at a glance">
+<div><h2>Application deadlines</h2>{% if page.application.deadlines %}<p>{{ page.application.deadlines | join: ' and ' }}</p>{% else %}<p><a href="#application-schedule">See the published conference schedule</a></p>{% endif %}</div>
+<div><h2>Maximum award</h2><p>{{ page.application.maximum_award }}</p></div>
+<div><h2>Eligibility</h2><ul>{% for condition in page.application.eligibility %}<li>{{ condition }}</li>{% endfor %}</ul></div>
+</section>
+{% if page.application.has_past_deadlines %}<p class="content-notice">The published schedule includes past application dates. Confirm current availability before applying; historical schedule entries are retained below.</p>{% endif %}
+{% endif %}

@@ -1,0 +1,5 @@
+<header class="page-heading{% if page.feature_photo %} with-photo{% endif %}"><div><h1>{{ page.title }}</h1>{% if page.description %}<p class="page-description">{{ page.description }}</p>{% endif %}{% if page.date %}<p class="post-date">{{ page.date | date: '%B %d, %Y' }}{% if page.author %} · {{ page.author }}{% endif %}</p>{% endif %}</div>{% if page.feature_photo %}{% include photo.html id=page.feature_photo %}{% endif %}</header>
+{% include funding-summary.html %}{% include application-support.html %}
+<div class="page-grid{% unless page.application or page.section.links %} no-sidebar{% endunless %}"><article class="page-content">
+{{ include.body }}
+</article>{% if page.application or page.section.links %}<aside class="section-sidebar">{% include section-nav.html %}</aside>{% endif %}</div>

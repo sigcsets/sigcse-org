@@ -8,6 +8,7 @@
     - title: Technical Symposium 2027
       year: 2027
       start-date: 2027-02-17
+      end-date: 2027-02-20
       dates: "Feb 17-20, 2027"
       location: "Sacramento, CA"
       website: https://sigcse-ts.acm.org/2027/
@@ -19,6 +20,7 @@
   schedule:
     - title: "ITiCSE 2027"
       start-date: 2027-07-12
+      end-date: 2027-07-14
       dates: "12-14 July 2027"
       location: "Glasgow, Scotland"
       website: "https://iticse.acm.org/2027"
@@ -31,6 +33,7 @@
     - title: "ICER '26"
       year: 2026
       start-date: 2026-08-11
+      end-date: 2026-08-14
       dates: "11-14 August, 2026"
       location: Uppsala, Sweden
       website: https://icer2026.acm.org
@@ -65,6 +68,7 @@
     - title: SIGCSE Virtual 2026
       dates: "12-15 November, 2026"
       start-date: 2026-11-12
+      end-date: 2026-11-15
       year: 2026
       location: "Online"
       website: https://sigcsevirtual2026.acm.org/

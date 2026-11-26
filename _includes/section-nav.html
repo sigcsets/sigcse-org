@@ -1,4 +1,1 @@
-{% assign section = nil %}
-{% for item in site.data.navigation %}{% if page.url contains item.link %}{% assign section = item %}{% elsif item.match and page.url contains item.match %}{% assign section = item %}{% endif %}{% endfor %}
-{% if page.url contains '/programs/travel-grants/' or page.url contains '/programs/speakers/' %}{% assign section = site.data.navigation[3] %}{% endif %}
-{% if section %}<nav class="section-nav" aria-label="{{ section.name }} section"><span>{{ section.name }}</span>{% for item in section.links %}<a href="{{ item.link | relative_url }}"{% if page.url == item.link %} aria-current="page"{% endif %}>{{ item.name }}</a>{% endfor %}</nav>{% endif %}
+{% if page.section.links %}<nav class="section-nav" aria-label="{{ page.section.name }} section"><h2>{{ page.section.name }}</h2>{% for item in page.section.links %}{% assign current = page.url | replace: 'index.html', '' %}{% assign target = item.link | replace: 'index.html', '' %}<a href="{{ item.link | relative_url }}"{% if current == target %} aria-current="page"{% elsif current contains target %} aria-current="location"{% endif %}>{{ item.name }}</a>{% endfor %}</nav>{% endif %}

@@ -3,6 +3,8 @@ title: SIGCSE Awards
 layout: page
 permalink: /programs/awards/index.html
 ---
+{% include award-directory.html %}
+
 
 Each year, the ACM Special Interest Group on Computer Science Education (SIGCSE) selects recipients for its four awards: [Outstanding Contribution](outstanding.html), [Distinguished Service](distinguished.html), [Broadening Participation](broadening.html), and [Test of Time award](test-of-time.html).
 

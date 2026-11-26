@@ -1,0 +1,5 @@
+{% assign photograph = site.data.photography[include.id] %}
+{% if photograph %}<figure class="community-photo">
+<img src="{{ photograph.image | relative_url }}" alt="{{ photograph.alt | escape }}"{% unless include.eager %} loading="lazy"{% endunless %}>
+<figcaption>{{ photograph.caption }} {% if photograph.source contains '/about/' %}<a href="{{ photograph.source | relative_url }}">Source</a>{% endif %}</figcaption>
+</figure>{% endif %}

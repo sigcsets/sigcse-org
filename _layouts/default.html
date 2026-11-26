@@ -8,9 +8,9 @@
   {% include favicon.html %}
   {% include css.html %}
 </head>
-<body id="Top">
+<body id="Top" class="pattern-{{ page.pattern | default: 'home' }}">
   <a class="skip-link" href="#main-content">Skip to main content</a>
-  <div class="container">{% include page-header.html %}</div>
+  {% include page-header.html %}
   <main id="main-content" class="container" tabindex="-1">
     {% if page.layout != 'home' %}{% include breadcrumbs.html %}{% endif %}
     {% if page.content_type == 'conference-legacy' %}
@@ -19,14 +19,7 @@
     {% endif %}
     {{ content }}
   </main>
-  <footer class="site-footer"><div class="container footer-grid"><div>
-    <h2>Computing education.<br>Connected.</h2><p>ACM Special Interest Group on Computer Science Education</p></div><div>
-    <a href="{{ '/membership/join.html' | relative_url }}">Join SIGCSE</a> ·
-    <a href="{{ '/about/board.html' | relative_url }}">Contact the Board</a> ·
-    <a href="#Top">Back to top</a>
-    <p><a href="{{ '/archives/' | relative_url }}">Conference archives</a> · <a href="{{ '/siteindex/' | relative_url }}">All pages</a> · <a href="{{ '/news/' | relative_url }}">News archive</a></p>
-    <p><small>Site built {{ 'now' | date: '%Y-%m-%d' }}</small></p>
-  </div></div></footer>
+  <footer class="site-footer"><div class="container footer-grid"><div><strong>ACM SIGCSE</strong><p>Special Interest Group on Computer Science Education</p></div><nav aria-label="Footer navigation"><a href="{{ '/about/board.html' | relative_url }}">Board & contacts</a><a href="{{ '/about/reports/' | relative_url }}">Minutes & reports</a><a href="{{ '/archives/' | relative_url }}">Conference archives</a><a href="{{ '/siteindex/' | relative_url }}">All pages</a><a href="#Top">Back to top</a></nav><small>Site built {{ 'now' | date: '%Y-%m-%d' }}</small></div></footer>
   {% include javascript.html %}
 </body>
 </html>

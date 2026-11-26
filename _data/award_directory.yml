@@ -1,0 +1,16 @@
+# Titles come from the existing authoritative award pages, not copies here.
+- url: /programs/awards/outstanding.html
+  nomination: /programs/awards/outstanding-and-distinguished-nomination.html
+  recipients: true
+- url: /programs/awards/distinguished.html
+  nomination: /programs/awards/outstanding-and-distinguished-nomination.html
+  recipients: true
+- url: /programs/awards/broadening.html
+  nomination: /programs/awards/broadening-nomination.html
+  recipients: true
+- url: /programs/awards/test-of-time.html
+  nomination: /programs/awards/test-of-time-nomination.html
+  recipients: true
+- url: /programs/awards/early-career.html
+  nomination: /programs/awards/early-career-nomination.html
+  recipients: false

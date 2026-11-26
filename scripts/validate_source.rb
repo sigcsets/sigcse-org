@@ -65,9 +65,13 @@ Array(data['_data/conferences.yml']).each do |row|
   required_rows(errors, row['schedule'], %w[title start-date dates location], "_data/conferences.yml #{row['id']} schedule")
   Array(row['schedule']).each do |event|
     begin
-      Date.iso8601(event['start-date'].to_s)
+      start = Date.iso8601(event['start-date'].to_s)
+      if event['end-date']
+        finish = Date.iso8601(event['end-date'].to_s)
+        errors << "_data/conferences.yml #{row['id']}: end-date precedes start-date" if finish < start
+      end
     rescue ArgumentError
-      errors << "_data/conferences.yml #{row['id']}: start-date must be YYYY-MM-DD"
+      errors << "_data/conferences.yml #{row['id']}: start-date/end-date must be YYYY-MM-DD"
     end
   end
 end

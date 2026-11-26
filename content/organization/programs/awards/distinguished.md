@@ -4,6 +4,8 @@ layout: page
 comment: as of 2024, award was renamed to Distinguished Service from Lifetime service.
 permalink: /programs/awards/distinguished.html
 ---
+<span id="recipients"></span>
+
 
 The **ACM SIGCSE Award for Distinguished Service to the Computer Science Education Community** honors an individual who has a history of volunteer service to the computer science education community. This service, which is not limited to service to SIGCSE, may take many forms, such as professional society leadership, conference organization, outreach efforts, editorial board participation, or any of a number of other types of service to the computer science education community. Awards may recognize service at any level, for example: K-12, college, graduate, or continuing post-college. This award was initiated in 1997. This award was previously called Lifetime Service. As of the 2025 awards cycle, it has been renamed as Distinguished Service.
 

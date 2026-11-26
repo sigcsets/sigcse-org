@@ -1,0 +1,4 @@
+{% if page.application %}<section class="application-support" id="application-form"><h2>Application</h2><a class="button" href="{{ page.form }}">Application form</a>
+{% if page.application.history %}<h3>Previous recipients</h3><a href="{{ page.application.history | relative_url }}">View previous awards</a>{% endif %}
+{% if page.application.contact %}<h3>Questions?</h3><a href="mailto:{{ page.application.contact }}">{{ page.application.contact }}</a>{% endif %}
+</section>{% endif %}

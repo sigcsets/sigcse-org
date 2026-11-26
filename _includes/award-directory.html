@@ -1,0 +1,3 @@
+<section class="award-directory" aria-label="Awards, nominations and recipient histories">
+{% for award in site.data.award_directory %}{% assign description = site.pages | where: 'url', award.url | first %}<div class="award-row"><h2><a href="{{ award.url | relative_url }}">{{ description.title }}</a></h2><div><a href="{{ award.nomination | relative_url }}">Nomination information</a>{% if award.recipients %} · <a href="{{ award.url | append: '#recipients' | relative_url }}">Recipient history</a>{% endif %}</div></div>{% endfor %}
+</section>

@@ -1,0 +1,25 @@
+attendees:
+  image: /assets/images/community/attendees.jpg
+  alt: Two SIGCSE attendees together at a community event
+  caption: "SIGCSE attendees, from the existing website photo archive."
+  source: /assets/images/home/teaching%20copy.jpg
+celebration:
+  image: /assets/images/community/celebration.jpg
+  alt: Group gathered for the SIGCSE 50th celebration in 2019
+  caption: "SIGCSE 50th celebration, 2019. Archive photograph."
+  source: /assets/images/home/exhibits%20copy.jpg
+first_timers:
+  image: /assets/images/community/first-timers.jpg
+  alt: Speakers at the First Timers’ Lunch
+  caption: "Jeffrey Stone, Samuel Rebelsky, and Libby Shoop, First Timers’ Lunch. Photo credit: Cole Rodger."
+  source: /about/bulletin/bulletin.58.2/index.html
+board_retreat:
+  image: /assets/images/community/board-retreat.jpg
+  alt: SIGCSE Board at its September 2026 retreat
+  caption: "SIGCSE Board Retreat, September 2026 at University of Nebraska-Omaha. Photo credit: Mark Sherriff."
+  source: /about/bulletin/Bulletin.58.4/index.html
+board_montage:
+  image: /assets/images/home/board%2025-28.png
+  alt: Portraits of the 2025–2028 SIGCSE Board
+  caption: "2025–2028 SIGCSE Board."
+  source: /assets/images/home/board%2025-28.png

@@ -7,6 +7,6 @@ permalink: /conferences/index.html
 <p>Historical annual pages and proceedings remain available in the <a href="{{ '/archives/' | relative_url }}">conference archives</a>.</p>
 {% assign now = 'now' | date: '%s' | plus: 0 %}
 {% for conf in site.data.conferences %}{% assign event = conf.schedule | first %}{% assign start = event.start-date | date: '%s' | plus: 0 %}
-<section class="directory-entry" id="{{ conf.id }}"><p class="eyebrow">{{ conf.abbreviation }}</p><h2>{{ conf.name }}</h2><p>{{ conf.description }}</p>
-<div class="event-meta"><p><strong>{% if start > now %}Next listed event{% else %}Most recently listed event{% endif %}: {{ event.title }}</strong></p><p>{{ event.dates }} · {{ event.location }}</p>{% if start < now %}<p>These listed dates have passed. See the conference website or archive for further information.</p>{% endif %}</div>
+<section class="directory-entry" id="{{ conf.id }}"><p class="series-abbreviation">{{ conf.abbreviation }}</p><h2>{{ conf.name }}</h2><p>{{ conf.description }}</p>
+<div class="event-meta"><p><strong>{% if event.display_status == 'upcoming' %}Next or current listed event{% elsif event.display_status == 'unconfirmed' %}Dates to be confirmed{% else %}Most recently listed event{% endif %}: {{ event.title }}</strong></p><p>{{ event.dates }} · {{ event.location }}</p>{% if event.display_status == 'past' %}<p>These listed dates have passed. See the conference website or archive for further information.</p>{% endif %}</div>
 <div class="entry-links">{% if event.website %}<a href="{{ event.website }}">Conference website ↗</a>{% endif %}<a href="{{ conf.archive_url | relative_url }}">{{ conf.abbreviation }} history & information →</a></div></section>{% endfor %}

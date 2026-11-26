@@ -33,6 +33,7 @@ jobs:
       - name: Validate source and regression checks
         run: |
           bundle exec ruby scripts/validate_source.rb
+          bundle exec ruby tests/check_site_logic.rb
           python -m unittest discover -s tests -v
       - name: Build clean output
         run: bundle exec ruby scripts/build.rb ${{ matrix.mode }}
@@ -41,6 +42,7 @@ jobs:
         run: |
           python scripts/site.py validate
           python scripts/check_tasks.py
+          python scripts/check_design.py
       - name: Validate staging prefix and preserved URLs
         if: matrix.mode == 'staging'
         run: python scripts/site.py validate --baseurl /.staging
@@ -58,6 +60,7 @@ jobs:
           path: |
             artifacts/validation.json
             artifacts/task-paths.json
+            artifacts/design-checks.json
             artifacts/site.tar.gz
             artifacts/site.tar.gz.sha256
             artifacts/site.tar.manifest.json

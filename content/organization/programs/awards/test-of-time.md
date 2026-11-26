@@ -3,6 +3,8 @@ title: Test of Time Award
 layout: page
 permalink: /programs/awards/test-of-time.html
 ---
+<span id="recipients"></span>
+
                                 
 The **ACM SIGCSE Test of Time Award** recognizes an outstanding paper published in the SIGCSE community that has had meaningful impact on computing education practice and research. The [nomination information](test-of-time-nomination.html) is available online. The application deadline for the award is September 1 of every year. This award was initiated in 2020.
 

@@ -1,0 +1,4 @@
+<div class="table-scroll" tabindex="0" role="region" aria-label="Published travel grant application schedule">
+<table id="application-schedule"><caption>Published conference application schedule</caption><thead><tr><th scope="col">Conference</th><th scope="col">Travel grants available</th><th scope="col">Application deadline</th><th scope="col">Notification by</th></tr></thead><tbody>
+{% for event in page.application.schedule %}<tr><th scope="row">{{ event.conference }}</th><td>{{ event.grants }}</td><td>{{ event.deadline }}</td><td>{{ event.notification }}</td></tr>{% endfor %}
+</tbody></table></div>

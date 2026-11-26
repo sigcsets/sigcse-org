@@ -3,6 +3,8 @@ title: Outstanding Contribution to Computer Science Education
 layout: page
 permalink: /programs/awards/outstanding.html
 ---
+<span id="recipients"></span>
+
 
 The **ACM SIGCSE Award for Outstanding Contribution to Computer Science Education** honors an individual or group in recognition of a significant contribution to computer science education. The contribution may take many forms, such as: curriculum design, innovating teaching methods, textbook authorship, development of new teaching tools, or any of a number of other significant contributions to computer science education. The contribution should have had a long lasting impact on, and made a significant difference in, computing education. This award was initiated in 1981.
 
