@@ -2,7 +2,7 @@
 
 This is an experimental modernization copy. Production publishing is disabled.
 Content stays in Git; volunteers can propose changes using GitHub's file editor
-without installing Ruby or connecting to ACM. The configured GitHub remote already contains an independent history; integration must be resolved before these local changes can be pushed or reviewed there.
+without installing Ruby or connecting to ACM. The configured GitHub repository now contains the modernization history. Main tracks origin/main; ordinary pushes and pull-request review are authorized. Pages and production deployment remain disabled.
 
 ## Make and review an update
 

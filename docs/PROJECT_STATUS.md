@@ -1,6 +1,6 @@
 # Project status
 
-Updated 2026-11-26. **Current checkpoint: Phase 4 complete; stopped for owner review.** Phase 1 approved. Phases 2–4 authorized in sequence with interim review stops waived. Production deployment deferred; no hosting/DNS/credential investigation.
+Updated 2026-11-26. **Current checkpoint: Phase 4B concepts complete; awaiting visual direction.** Phase 1 approved. Phases 2–4 authorized in sequence with interim review stops waived. Production deployment deferred; no hosting/DNS/credential investigation.
 
 ## Phase 2 — content ownership and isolation
 
@@ -29,3 +29,9 @@ Validation passed: live, staging and preview on case-sensitive Linux; 1,064 orig
 README, MAINTAINING, BUILD, REVIEW, ownership inventory and transfer manifests are current. No production connection, deployment, DNS/hosting change, paid service or visual CMS. No push because the supplied remote already has history. Hosted CI is therefore unverified. Search and subsequent phases have not begun.
 
 Next: owner review using docs/REVIEW.md and the local preview at http://127.0.0.1:8765/. Decide GitHub-history integration and approve any editorial corrections. Stop at this Phase 4 checkpoint; no further phase is started.
+
+## GitHub authorization and Phase 4B
+
+Owner approved the Phase 2–4 engineering and navigation work but did not approve the visual design. Owner authorized replacing disposable remote history with force-with-lease. Pages inspection showed legacy publication from main/root to preview.sigcse.org; after a separate explicit authorization, Pages was disabled before pushing, preventing publication. Local and remote main now track the modernization history. Both hosted live/staging validation jobs passed for Phase 4 (run 45895218253). DNS unchanged; production deployment remains disabled. See GITHUB.md for the previous Pages configuration and exact verification.
+
+Prepared three meaningfully different isolated homepage + Special Projects concepts: academic/editorial, welcoming photographic community, and compact blue organizational portal. Sources and curated 35-asset inventory are under docs/design/phase4b; generated gallery and six desktop screenshots are under artifacts/phase4b. All six concepts passed desktop and mobile overflow/image/h1 checks. Existing public Jekyll implementation, metadata boundaries, navigation architecture, source organization, assets and baselines are unchanged. Full-site visual refinement and Phase 5 are not started. Stop for owner selection.

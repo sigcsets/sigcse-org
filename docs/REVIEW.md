@@ -1,3 +1,5 @@
+> Later checkpoint: Phase 4 engineering is approved; its visual design is not. See design/phase4b/README.md for three isolated alternatives. GitHub history integration and hosted CI are now verified; see GITHUB.md. The Phase 4 evidence below is retained.
+
 # Phase 4 owner review
 
 Phases 2, 3 and 4 are complete for local review. Production deployment remains disabled. No remote history was altered.

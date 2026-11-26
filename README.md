@@ -27,6 +27,8 @@ For a rebuilding Jekyll server, use `bundle exec ruby scripts/build.rb serve` an
 
 Organizational pages live in `content/organization/`; conference sources in `content/conference-legacy/<series>/`. Explicit permalinks preserve existing public URLs. Data is under `_data/`; `_layouts/default.html` is the shared shell. Old downloads, images and self-contained publications remain at their original paths.
 
-`origin` is `git@github.com:sigcsets/sigcse-org.git`. It already contains independent history; no push was attempted. Production/hosting work is deferred. Only validated generated output can become a future deployment input; never publish the repository directory.
+`origin` is `git@github.com:sigcsets/sigcse-org.git`. Its disposable placeholder history was replaced with explicit owner authorization, and hosted live/staging validation passes. GitHub Pages is disabled to prevent publication. Production/hosting work is deferred. Only validated generated output can become a future deployment input; never publish the repository directory.
 
 Questions: webmaster@sigcse.org.
+
+Phase 4B visual concepts are ready for selection: see [concept review](docs/design/phase4b/README.md). The working Phase 4 design is preserved until a direction is approved.

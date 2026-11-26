@@ -1,3 +1,5 @@
+> Phase 4B update: GitHub Pages was disabled with explicit owner authorization before replacing experimental repository history. DNS was not changed. No production deployment is authorized. See GITHUB.md.
+
 > Owner decision (2026-11-26): deployment and hosting investigation are deferred. The proposal below is retained for future reference; no action or answers are currently requested.
 
 # ACM deployment proposal — disabled

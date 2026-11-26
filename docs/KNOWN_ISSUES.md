@@ -8,8 +8,10 @@ The unused DOI plugin remains an undeclared external CLI/shell dependency if inv
 
 Native Linux builds and browser checks passed. The new Ruby pin is not installed/tested natively on Windows; use the tested WSL environment or install the documented Ruby version. Full accessibility review, screen-reader/zoom/document testing and external link checks remain incomplete. No WCAG certification is claimed.
 
-The remote is configured but contains existing independent history, so no push was attempted. Hosted CI execution of modernization changes awaits repository integration. No production server was contacted; deployment and hosting investigation are deferred.
+The remote history has now been replaced with owner authorization, and hosted live/staging CI passes. Pages was disabled with separate owner authorization to prevent automatic publication. No production server was contacted; deployment and hosting investigation are deferred.
 
 Static search is Phase 5. Comprehensive maintainer schemas/usability and visual CMS evaluation remain later work. The native mobile menu is expanded without JS, and collapsible with JS. Historical tables can scroll within their content area. Original standalone publications retain their old presentation and accessibility limitations.
 
 See REVIEW.md for local review, screenshots and exact validation evidence.
+
+Phase 4 visual design is not approved. Phase 4B concepts are isolated and await owner choice; they do not fix or replace the working site yet.

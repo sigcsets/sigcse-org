@@ -1,6 +1,7 @@
 # Open questions
 
-- The supplied GitHub remote already has history (`main`, `36cff9e6`, “Update CNAME”). Decide how to integrate this independent modernization history. No push/overwrite was attempted. This does not block local work.
+- **Current decision:** choose Phase 4B concept A, B, C, or a defined combination before final visual implementation. See design/phase4b/README.md.
+- GitHub integration is resolved: disposable main was replaced with the authorized lease; Pages was separately authorized to be disabled before the push. Hosted live/staging checks pass. No DNS change.
 - Conference/Board ownership ambiguities are listed in `content/OWNERSHIP.md`. Keep integrated/preserved pending review; no transfer or external redirect is authorized.
 - Existing award, conference and governance factual discrepancies remain in the original audit questions. Do not invent corrections.
 
