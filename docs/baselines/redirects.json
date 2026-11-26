@@ -1,0 +1,21 @@
+{
+  "about/board-history.html": "about/board-history/index.html",
+  "about/bulletin/index.html": "about/bulletin.html",
+  "about/reports/chair/index.html": "about/reports/chair.html",
+  "events/comped.html": "events/comped/index.html",
+  "events/icer.html": "events/icer/index.html",
+  "events/respect.html": "events/respect/index.html",
+  "events/workinggroups.html": "events/workinggroups/index.html",
+  "policies/awards.html": "policies/awards/index.html",
+  "programs/awards/lifetime.html": "programs/awards/distinguished.html",
+  "programs/awards/nomination.html": "programs/awards/outstanding-and-distinguished-nomination.html",
+  "programs/awards/outstanding-and-lifetime-nomination.html": "programs/awards/outstanding-and-distinguished-nomination.html",
+  "programs/awards/service.html": "programs/awards/distinguished.html",
+  "programs/awards.html": "programs/awards/index.html",
+  "programs/committees/create.html": "programs/committees-task-forces/create.html",
+  "programs/committees/index.html": "programs/committees-task-forces/index.html",
+  "programs/committees/liberal.html": "programs/committees-task-forces/liberal.html",
+  "programs/committees/liberalarts-update.html": "programs/committees-task-forces/liberalarts-update.html",
+  "programs/committees/research.html": "programs/committees-task-forces/research.html",
+  "programs/committees/women.html": "programs/committees-task-forces/women.html"
+}

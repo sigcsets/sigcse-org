@@ -1,36 +1,36 @@
-# --destination ~/Development/sigcse.org/_site
-# destination: /Users/mapq/Development/sigcse.org/_site
-# destination: /Users/mperez19/Development/sigcse.org/_site
-
+# Standalone staging entry point; keep shared settings aligned with _config.yml.
+# Shared publication boundary. Both legacy configuration entry points retain it.
 title: SIGCSE
 email: webmaster@sigcse.org
-description: >-
-  ACM SIGCSE group, special interest group in computer science education
-
-# For Development (staging)
-baseurl: "/.staging" # the subpath of your site
-staging: true
-
-# Build options
-incremental: true
-
-# The base hostname & protocol for your site
-url: "https://sigcse.org" 
-
-exclude: ["Gemfile", "Gemfile.lock", "_documentation", "_pending", "_unused", "_development", "README.md", "bin"]
-keep_files: ["assets"]
-
+description: ACM SIGCSE group, special interest group in computer science education
+url: https://sigcse.org
+baseurl: "/.staging"
+incremental: false
+timezone: UTC
+exclude:
+  - AGENTS.md
+  - audit
+  - docs
+  - scripts
+  - tests
+  - artifacts
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - gemfile
+  - gemfile.lock
+  - README.md
+  - MAINTAINING.md
+  - _documentation
+  - _pending
+  - _unused
+  - _development
+  - bin
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+  - scope:
+      path: ""
+      type: posts
     values:
-      layout: "post"
-
+      layout: post
 permalink: /news/:year-:month-:title:output_ext
-
-# long sequence of numbers to make loop go for a while, contents
-# of colletion is irrelevant
-# breadcrumb_list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-
+staging: true

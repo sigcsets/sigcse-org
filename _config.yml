@@ -1,0 +1,34 @@
+# Shared publication boundary. Both legacy configuration entry points retain it.
+title: SIGCSE
+email: webmaster@sigcse.org
+description: ACM SIGCSE group, special interest group in computer science education
+url: https://sigcse.org
+baseurl: ""
+incremental: false
+timezone: UTC
+exclude:
+  - AGENTS.md
+  - audit
+  - docs
+  - scripts
+  - tests
+  - artifacts
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - gemfile
+  - gemfile.lock
+  - README.md
+  - MAINTAINING.md
+  - _documentation
+  - _pending
+  - _unused
+  - _development
+  - bin
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+permalink: /news/:year-:month-:title:output_ext

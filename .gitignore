@@ -7,10 +7,18 @@ new
 .DS_Store
 .jekyll-cache
 .jekyll-metadata
-Gemfile.lock
 bin
 pending
 SIGCSE.sublime-project
 SIGCSE.sublime-workspace
 **/*.mp4
 about/reports/chair/*.docx
+
+# Local build, dependency, test and release artifacts (never source content).
+/_baseline_original/
+/_baseline_public/
+/vendor/
+/.bundle/
+/artifacts/
+/.venv/
+__pycache__/

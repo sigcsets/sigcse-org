@@ -1,0 +1,6 @@
+[
+  "_data/specialprojects.yml: duplicate YAML key files",
+  "_data/symposia.yml: duplicate YAML key attendance",
+  "_data/symposia.yml: duplicate YAML key website",
+  "about/bulletin.md: duplicate YAML key comment"
+]

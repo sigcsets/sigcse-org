@@ -1,0 +1,4258 @@
+{
+  "about/board-history/2019-2022.html": {
+    "sha256": "752af2ba491a09a04c7967d0748c3c9210dee9e7a1cbb3763c55361472437889",
+    "bytes": 22252
+  },
+  "about/board-history/BoardMembers.xlsx": {
+    "sha256": "77b4982007584b819f7bab44efd7edab0f9352a67aaab932e12d1b66baf4dcb1",
+    "bytes": 8315
+  },
+  "about/board-history/index.html": {
+    "sha256": "f7adc2ed3c777371c8e2b59aee9ba8906c671c4f141b61f0131e5259be7bb306",
+    "bytes": 28980
+  },
+  "about/board-history.html": {
+    "sha256": "16ae1c27e6b9c8fbdc6c2eaedf6629cd04667cd80868e9ba40c68d78cb3de0db",
+    "bytes": 606
+  },
+  "about/board.html": {
+    "sha256": "48f4f245a6ccb5d2a577175f2ce8019f6a99f8ccae5cdecf18178e2112a9972d",
+    "bytes": 21793
+  },
+  "about/bulletin/bulletin.50.4.pdf": {
+    "sha256": "31ca35c5ac178ae6f9d46e3576fd4434cca31a01eb479c8186bfd3bfb5f883d9",
+    "bytes": 925228
+  },
+  "about/bulletin/bulletin.51.1.pdf": {
+    "sha256": "f20851e9edc20b640bf231c1c0e28812c9d8281fe7161a5c41efc74e8bbd2ff5",
+    "bytes": 792172
+  },
+  "about/bulletin/bulletin.51.2.pdf": {
+    "sha256": "6f8679538662e9d5c0cdd3ed375a0c885183e964b1311a16320b061991790224",
+    "bytes": 673168
+  },
+  "about/bulletin/bulletin.51.3.pdf": {
+    "sha256": "523b35c78d17e8d484005c29c094e3db663f2cf427c87eadebcc9bd0ba35d0c6",
+    "bytes": 1175690
+  },
+  "about/bulletin/bulletin.51.4.pdf": {
+    "sha256": "037f83b41d19584af3d729fec64e59b9c7ace75ec4abd937e44c62ae1c678b08",
+    "bytes": 698317
+  },
+  "about/bulletin/bulletin.52.1.pdf": {
+    "sha256": "66f12d4ea32cb636d8faa5cec75569b72289c65b68ba81d7b83fd0f870b3e919",
+    "bytes": 1143544
+  },
+  "about/bulletin/bulletin.52.2.pdf": {
+    "sha256": "6604f14acfbe36ed66f3f125cc0f63dffaff7576faf11fed2a5b240d268caff2",
+    "bytes": 819572
+  },
+  "about/bulletin/bulletin.52.3.pdf": {
+    "sha256": "c811deb8fe995d0be743551aa2315e974a1551d589110d0e9a093fed6b8a4cb0",
+    "bytes": 819990
+  },
+  "about/bulletin/bulletin.52.4.pdf": {
+    "sha256": "f1240002cc1a54a5d41330f94892fafca934520d2fa9a6ab78f53f7e5db50144",
+    "bytes": 588324
+  },
+  "about/bulletin/bulletin.53.1.pdf": {
+    "sha256": "dc1fd074a99a077009f818da0aad2daf79c0b5c97eebabe02b350f3cef2fdbbf",
+    "bytes": 347554
+  },
+  "about/bulletin/bulletin.53.2.pdf": {
+    "sha256": "dda1794aad9f5343d0cf8897e122d3c822ff89d931595d3958b984ad13523884",
+    "bytes": 776809
+  },
+  "about/bulletin/bulletin.53.3.pdf": {
+    "sha256": "66361fc4f0566915d8533411e6ecb6ecf60d2ffe2d793b7ef2458fb98d7077f5",
+    "bytes": 350750
+  },
+  "about/bulletin/bulletin.53.4.pdf": {
+    "sha256": "1d47543e33b7a1b360a8bff5fdd5643df0e6552536e6aa5abca69de6c1dc466d",
+    "bytes": 268869
+  },
+  "about/bulletin/bulletin.54.1.pdf": {
+    "sha256": "d9cb7c95d2ed82ad2185137555fabf4e7ff01df4e8d3824aca3b42a1dbc86b2c",
+    "bytes": 442994
+  },
+  "about/bulletin/bulletin.54.2.pdf": {
+    "sha256": "888c5203550d60915114fd97bf9a8c8c6d6503b87ecd5358d07bd8401035e5a8",
+    "bytes": 433240
+  },
+  "about/bulletin/bulletin.54.3.pdf": {
+    "sha256": "49a574e821c3b7bc2992c1baa15bbd018a393f7b80e95aa43338e924b439ed41",
+    "bytes": 295525
+  },
+  "about/bulletin/bulletin.54.4.pdf": {
+    "sha256": "660b7e66342c28c82868083b7d857db717dbb7fdbd42351f8c5bed657e31fadc",
+    "bytes": 313856
+  },
+  "about/bulletin/bulletin.55.1.pdf": {
+    "sha256": "e8af1425e2f30ba60213b61f4b09b0b96a4592bf9e17cb3cb1e03a2355edbfab",
+    "bytes": 270228
+  },
+  "about/bulletin/bulletin.55.2.pdf": {
+    "sha256": "80793a9a94b4f0146b5f3146471d8ce1fb66abfec4f656f405ecb65532b6cb88",
+    "bytes": 482259
+  },
+  "about/bulletin/bulletin.55.3.pdf": {
+    "sha256": "ac44f6c193be1d30f27677ca2276009d3f75e2d8afda3737cf5030acc61ec8f0",
+    "bytes": 668775
+  },
+  "about/bulletin/bulletin.55.4.pdf": {
+    "sha256": "60f3f62f5183110b9053b989fb139bfaca49c250bb17cf3bf116a8e51bfda5ea",
+    "bytes": 223926
+  },
+  "about/bulletin/bulletin.56.1.pdf": {
+    "sha256": "00aa512c30d3cd6c9dd2592eab012ef4f5eb6240d7443b7f7cbff1aeeec8dff6",
+    "bytes": 305998
+  },
+  "about/bulletin/bulletin.56.2.pdf": {
+    "sha256": "7424ddd740e148bf6b2505dd124d118014dd5c16300cc1b1c23145223e48cd76",
+    "bytes": 641833
+  },
+  "about/bulletin/bulletin.56.3.pdf": {
+    "sha256": "e4cf5dea13aba68541543c4455fc8933f1e6537ef68aeeef72d8b9e14bcb64bb",
+    "bytes": 846001
+  },
+  "about/bulletin/bulletin.56.4.pdf": {
+    "sha256": "15d1d8e8cc1d7e371af9ad5eaea32ed8cd44c24d6d964529217a3e57bdb3b51f",
+    "bytes": 236930
+  },
+  "about/bulletin/bulletin.57.1.pdf": {
+    "sha256": "74680da5542037636be8e73742be012a8a365d8167a62fdb147847311f94a1d0",
+    "bytes": 435224
+  },
+  "about/bulletin/bulletin.57.2.pdf": {
+    "sha256": "898e97f6ccdbcdf1ec57845179c954e1497bda151e594b0a6761e5c3a745cb99",
+    "bytes": 523107
+  },
+  "about/bulletin/bulletin.57.3.pdf": {
+    "sha256": "ba862f120b91d4752473c4b39dfed2c8657dc2cbeca96b0ebde868ad37475965",
+    "bytes": 517143
+  },
+  "about/bulletin/bulletin.57.4.pdf": {
+    "sha256": "5a07a19b1d56399b7a6d77606c1539f09c8979ae39f8659178633d5633e447d9",
+    "bytes": 3539501
+  },
+  "about/bulletin/bulletin.58.1/ACM and SIGCSE logos.png": {
+    "sha256": "23596da5dcc210f7c1f4159771d6f9a67fe10250aa7843a0b59d982bc4bbf38a",
+    "bytes": 86811
+  },
+  "about/bulletin/bulletin.58.1/Gustavianum2024_kupol_Mikael_Wallerstedt.jpg": {
+    "sha256": "59c71b5d80021236b8bd26e2f3861adcb6f151c084360b203747eaf7d5b22c4b",
+    "bytes": 5080102
+  },
+  "about/bulletin/bulletin.58.1/index.html": {
+    "sha256": "3d1eb41554854fb86a643fda7b739aecb6c034701bb0e64c36563c27d5dd0973",
+    "bytes": 47591
+  },
+  "about/bulletin/bulletin.58.1/Koli.jpg": {
+    "sha256": "d0694d532144864e3f8351518f8fd62ff31f9b1b66f8974808ea1eb560efca98",
+    "bytes": 172486
+  },
+  "about/bulletin/bulletin.58.1/mark_harris-uppsala_castle-1184-7.jpg": {
+    "sha256": "37f67a3bc0397e87dcbc2610e1d94cdfcabcbd0b87e96dbfe0180fcbc7618eb8",
+    "bytes": 941091
+  },
+  "about/bulletin/bulletin.58.1/Paul Denny.jpg": {
+    "sha256": "fb68780acd315a1073e8ede18f96877f9c085eba79ba3aac3836dd7220798eae",
+    "bytes": 1734657
+  },
+  "about/bulletin/bulletin.58.1/pdf.css": {
+    "sha256": "0a98d8841f95bb242f03d4f6f53ce75f525fca15cd5dba73979c4a2c9511de6c",
+    "bytes": 329
+  },
+  "about/bulletin/bulletin.58.2/ACM and SIGCSE logos.png": {
+    "sha256": "23596da5dcc210f7c1f4159771d6f9a67fe10250aa7843a0b59d982bc4bbf38a",
+    "bytes": 86811
+  },
+  "about/bulletin/bulletin.58.2/index.html": {
+    "sha256": "9f38989b264ed5c0f13727786b262659d09274d6af99c782909e4fe2214a4390",
+    "bytes": 69373
+  },
+  "about/bulletin/bulletin.58.2/ITiCSE2026.png": {
+    "sha256": "a491c998451e13d688f5d35a064a11e75e472dba483af6d25b180f391c1901dc",
+    "bytes": 89630
+  },
+  "about/bulletin/bulletin.58.2/Judith-Gal-Ezer.jpg": {
+    "sha256": "2fb414aa7873a90da85e787b152b0b189b270c76b14811013e0e1ff7a5d73fb9",
+    "bytes": 53671
+  },
+  "about/bulletin/bulletin.58.2/pdf.css": {
+    "sha256": "0a98d8841f95bb242f03d4f6f53ce75f525fca15cd5dba73979c4a2c9511de6c",
+    "bytes": 329
+  },
+  "about/bulletin/bulletin.58.2/SIGCSETS-first-timers.png": {
+    "sha256": "270d7d8b1c17f29f8dc8a049843e46eb8fb402323c3485bb23a06a2d92149ae8",
+    "bytes": 1068807
+  },
+  "about/bulletin/bulletin.58.2/SIGCSETS-Ko.png": {
+    "sha256": "823a5543ce51240d1fafb7ee5b65ebadd3953d05ac663867363f901a8322bb82",
+    "bytes": 873427
+  },
+  "about/bulletin/bulletin.58.2/SIGCSETS-Ladner-Tymann.png": {
+    "sha256": "42a0de0116b778548a38ccfc6d64c3807ac6ec23c5312caf8f850dee2871776e",
+    "bytes": 1124482
+  },
+  "about/bulletin/bulletin.58.2/SIGCSETS-Winters.png": {
+    "sha256": "affc88055d1cfcd474b881bf0f1000e133f6c0a1c5c584234805c778581b93cb",
+    "bytes": 1153485
+  },
+  "about/bulletin/bulletin.58.3/00038.jpg": {
+    "sha256": "25989b01adb2484f408ba9a9eb6851a3ad6c1865407acc3ea1ebda7e32f61c55",
+    "bytes": 5751489
+  },
+  "about/bulletin/bulletin.58.3/00224.jpg": {
+    "sha256": "55b3a3413997734417137abd698ef6bab900ee1cae1be7be9a90170ce8ad2cdd",
+    "bytes": 3066581
+  },
+  "about/bulletin/bulletin.58.3/21A1886.jpg": {
+    "sha256": "15cade793566076a7bd44d0016d5b1158f8502ff97a18128d998afc5b5125ef3",
+    "bytes": 5348270
+  },
+  "about/bulletin/bulletin.58.3/ACM and SIGCSE logos.png": {
+    "sha256": "23596da5dcc210f7c1f4159771d6f9a67fe10250aa7843a0b59d982bc4bbf38a",
+    "bytes": 86811
+  },
+  "about/bulletin/bulletin.58.3/C11503.jpg": {
+    "sha256": "547b2bff2d785f653c4186682839d2d8bd5580a09aa5e1f73727967e18762d68",
+    "bytes": 4832857
+  },
+  "about/bulletin/bulletin.58.3/C11528.jpg": {
+    "sha256": "6ba6364019160b56502673ad602ef2566d28a9648b4f2b13a0d5e86b6b50ba85",
+    "bytes": 4026067
+  },
+  "about/bulletin/bulletin.58.3/C15722.png": {
+    "sha256": "36dfbed472798008d11a7309c8610cb735cd2426ae9f0a55038199f6c3d82126",
+    "bytes": 7842014
+  },
+  "about/bulletin/bulletin.58.3/C18762.jpg": {
+    "sha256": "f7ff5e9f7960868cfecf253f38941398e0550a56f42959269b8ae274973c2d05",
+    "bytes": 6216206
+  },
+  "about/bulletin/bulletin.58.3/DSC_0983.JPG": {
+    "sha256": "83346a8b705d3ab469d1553fcd0e1f15800477ed0a0b69da1bc19416b270b2fa",
+    "bytes": 5208002
+  },
+  "about/bulletin/bulletin.58.3/IMG_1830.JPG": {
+    "sha256": "70d127001280cd54961bc5dd3d233847cb3817a4c6d4da2a5d0f20e51a01888b",
+    "bytes": 10357558
+  },
+  "about/bulletin/bulletin.58.3/IMG_3509.jpg": {
+    "sha256": "e43b65ce15a0f96882776f11bb3b3131735ae3d04e8d5efdbd63810c2a299888",
+    "bytes": 2587966
+  },
+  "about/bulletin/bulletin.58.3/index.html": {
+    "sha256": "992fe6bb43c73e537adf336337a5c6f45a223c927fb10c5dd6b922fd4960ef05",
+    "bytes": 67738
+  },
+  "about/bulletin/bulletin.58.3/Koli.png": {
+    "sha256": "8c88ab27a547964b53b14ad8a98aa846c368db7ff37832fb547016ac2cd9b518",
+    "bytes": 4919793
+  },
+  "about/bulletin/bulletin.58.3/Ladner-20120222-_BRH5369 (1).jpg": {
+    "sha256": "0992863f3cf4df3f3640ad3846369f8f2cb384837dd0a3f111b941909494f74e",
+    "bytes": 1659810
+  },
+  "about/bulletin/bulletin.58.3/pdf.css": {
+    "sha256": "d9290ba3cffb6a879f1c07da751f073d35f38bdd5b7dffb7f2a07b2be66265fa",
+    "bytes": 329
+  },
+  "about/bulletin/bulletin.58.3/Screenshot 2026-06-30 072740.png": {
+    "sha256": "0ea500ee05f2a75ced90fa74c3df08eadc17362e8fb0f94aec43431d2760a91d",
+    "bytes": 6172561
+  },
+  "about/bulletin/bulletin.58.3/Screenshot 2026-06-30 072837.png": {
+    "sha256": "b394230822c5e43195759badf414d5ea70e68173c0f61b1a948f023264d533f5",
+    "bytes": 5996006
+  },
+  "about/bulletin/bulletin.58.3/Screenshot 2026-06-30 072904.png": {
+    "sha256": "61c1f7bef85b9b01a2491876ca7784a537b32d7676c1122f15d427b3a8236860",
+    "bytes": 4570236
+  },
+  "about/bulletin/Bulletin.58.4/ACM and SIGCSE logos.png": {
+    "sha256": "23596da5dcc210f7c1f4159771d6f9a67fe10250aa7843a0b59d982bc4bbf38a",
+    "bytes": 86811
+  },
+  "about/bulletin/Bulletin.58.4/Bethany Edmunds.jpg": {
+    "sha256": "a6a0adf746e6ee3fe30155bc0be8a2c4af2197f25310d1cb8d13bc8793a3f050",
+    "bytes": 532363
+  },
+  "about/bulletin/Bulletin.58.4/Derbenwick Miller.jpg": {
+    "sha256": "fc2f54810a69ec0b769fd8d149ba39b97b469c20c5e1746d13da94f0cba59f43",
+    "bytes": 700221
+  },
+  "about/bulletin/Bulletin.58.4/GRAISER photo.png": {
+    "sha256": "9886ec3f638f3b63ede349c6808a9edfa7dfcf99b036dee58356efded4816d82",
+    "bytes": 5176998
+  },
+  "about/bulletin/Bulletin.58.4/index.html": {
+    "sha256": "b2f79d35760e27fddc357586616a3b2b0c8e5a817fe7a9aa16f510057be5b08d",
+    "bytes": 53541
+  },
+  "about/bulletin/Bulletin.58.4/Koli.png": {
+    "sha256": "8c88ab27a547964b53b14ad8a98aa846c368db7ff37832fb547016ac2cd9b518",
+    "bytes": 4919793
+  },
+  "about/bulletin/Bulletin.58.4/Lin Angeli.jpg": {
+    "sha256": "36faf2abcf019bc6c2b5701098c5ad9dc84005d1ee7e6ac85a7ff442d878d83c",
+    "bytes": 1966766
+  },
+  "about/bulletin/Bulletin.58.4/pdf.css": {
+    "sha256": "807f8a59f9a2593518c55e1bbb92215abd6c7ac9551f1053876b582c20d38d1b",
+    "bytes": 329
+  },
+  "about/bulletin/Bulletin.58.4/SIGCSE Board.jpeg": {
+    "sha256": "d9f1b3fa3b8828e4937b36cff89843bbfaa16cd016f2d255ce6e89bde4b51ed2",
+    "bytes": 9760689
+  },
+  "about/bulletin/Bulletin.58.4/SIGCSE Virtual.jpg": {
+    "sha256": "a31b87da5dadd418b37e1935a96f343fcd4ba870c9f42ca49c160421d9c5a7d5",
+    "bytes": 45062
+  },
+  "about/bulletin/index.html": {
+    "sha256": "65f924dc432c756a5c09a99b0625f03906b22641abcb04ec6ae4ebc3d9f804bc",
+    "bytes": 175
+  },
+  "about/bulletin.html": {
+    "sha256": "397a87989e27730a759ffacb02c61069c1b944097ff5524e942e631c360e66eb",
+    "bytes": 19414
+  },
+  "about/index.html": {
+    "sha256": "7982acdfd6b6a62bbf982ea11ff95b876b51eb7ac8b761872ca86fd73d3a5cf9",
+    "bytes": 18780
+  },
+  "about/logo.html": {
+    "sha256": "247ca1a6c67c02d3c76453b57e0041c35c91cbe0f55a2b1abf49c20caa7739c5",
+    "bytes": 18311
+  },
+  "about/profile.html": {
+    "sha256": "6670e99d71304832c71d4d9050c5c6813940c7bb7bf5ff37e70ea15782b3d720",
+    "bytes": 22562
+  },
+  "about/reports/board.html": {
+    "sha256": "a3d26e25b643296ae6e54540fbff1bd7ed577ae71c26a0dbbeb532f2b714cdaa",
+    "bytes": 37334
+  },
+  "about/reports/BoardMinutes/2007-2010/Minutes-2007-09-14.pdf": {
+    "sha256": "04cb3e47e3f8125fb0120bfb614db620ae75aee085cc2f36ff4800315220f544",
+    "bytes": 160784
+  },
+  "about/reports/BoardMinutes/2007-2010/Minutes-2008-03-08.pdf": {
+    "sha256": "80b7a4d851dbd4f5030adb3273113aa5baad14d0287bdb4fb65a5fc111fae9fc",
+    "bytes": 63238
+  },
+  "about/reports/BoardMinutes/2007-2010/Minutes-2008-10-04.pdf": {
+    "sha256": "a1c76af900d06d94abf2bfa93ea558645aba4661be60cd4436b28cf9ea4f259a",
+    "bytes": 175105
+  },
+  "about/reports/BoardMinutes/2007-2010/Minutes-2008-12-05.pdf": {
+    "sha256": "fe57625920880d43f4074a066bf5b37e6ded18349c55b03b679e002341790f8e",
+    "bytes": 101730
+  },
+  "about/reports/BoardMinutes/2007-2010/Minutes-2009-01-30.pdf": {
+    "sha256": "87c1e56f2c70d270ba1616e49d3b60290f9eb474eb4807d9718be8987ba0a436",
+    "bytes": 109508
+  },
+  "about/reports/BoardMinutes/2007-2010/Minutes-2009-03-04.pdf": {
+    "sha256": "bc98ae979a049af7d9ddb546210d7899b5236f83ea86076cb2cf4cab8dcfdebb",
+    "bytes": 53954
+  },
+  "about/reports/BoardMinutes/2007-2010/Minutes-2009-04-17.pdf": {
+    "sha256": "d6fd035b93e01ba9b24524d91d709a2eb2b950278b5c25b35ae203dc433aacfe",
+    "bytes": 66345
+  },
+  "about/reports/BoardMinutes/2007-2010/Minutes-2009-10-17.pdf": {
+    "sha256": "11a0654a46aeacbfea329cf0b6a648e80c4e85552924aa035db5086e2ee2e985",
+    "bytes": 58247
+  },
+  "about/reports/BoardMinutes/2007-2010/Minutes-2010-03-10.pdf": {
+    "sha256": "98ee331d811e02409ad6c8fb8bf58951844ee6d960933e3bb315c03290514a66",
+    "bytes": 363822
+  },
+  "about/reports/BoardMinutes/2007-2010/Minutes-2010-05-06.pdf": {
+    "sha256": "4a9dcfdf2bd4e9ef5c7ebe975873023f23ebd8f049a9a342808b60124db8b184",
+    "bytes": 281548
+  },
+  "about/reports/BoardMinutes/2007-2010/Minutes-2010-05-26.pdf": {
+    "sha256": "9d8f5e43f84b20975402ff19972dbf33e1a6d1468543495e95fcd0312a5865b5",
+    "bytes": 68385
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2010-10-02.pdf": {
+    "sha256": "371f53e7831590780ac28ace22149e092c60cacaa4aa5097f4677bfbda9c68b9",
+    "bytes": 368954
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2010-11-30.pdf": {
+    "sha256": "a59afcffca1587dd73ec520d6fbc2d81cc26d1c89d57088dfbf8edd285dedd5e",
+    "bytes": 520287
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2011-01-11.pdf": {
+    "sha256": "e6f1e9cb244e0a9baefb9548f978f538542998863b02a2b69ba529f225eedb01",
+    "bytes": 134909
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2011-03-09.pdf": {
+    "sha256": "0bc851396b9b5a657755b4c52f5390d6eb14db938334e6f8d30a379c3e232089",
+    "bytes": 137766
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2011-04-13.pdf": {
+    "sha256": "055860ec6ede0e5c44715f5abedce368bf2da4ce58eee9dfa28eb35aefd58688",
+    "bytes": 100497
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2011-08-04.pdf": {
+    "sha256": "63de1e14eb1672b0e8219b3ee4f7efdf74edeaa79f5864576255e856427df3c0",
+    "bytes": 103625
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2011-10-15.pdf": {
+    "sha256": "3f7fd3d3f19085e312715e9aecdb4a378c37f19433c3eea94c4a4369b42cea61",
+    "bytes": 124537
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2012-01-31.pdf": {
+    "sha256": "4afc61570ac732c10e24bb8327659dae4e12afa844842918cf8984b0ef6564fb",
+    "bytes": 93683
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2012-02-29.pdf": {
+    "sha256": "a7c46e755e3bb69f424b11503426df473b1b49d836514acdda75bd5dd8d31e70",
+    "bytes": 123787
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2012-05-29.pdf": {
+    "sha256": "28bfcea3aa205cffc163e1c1a4cdc3ef252a795fdb0aff665ee996287ad526b6",
+    "bytes": 98641
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2012-09-18.pdf": {
+    "sha256": "1c47204c02c08c38fbc1b5d89aafd2734187019437eff2581998807f339e11ae",
+    "bytes": 100745
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2012-11-03.pdf": {
+    "sha256": "fd6ace23506e43f12d9f4952fd26bdf106813d7fd22eff26b7801febc841dbcb",
+    "bytes": 368741
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2013-01-13.pdf": {
+    "sha256": "7de0182363bbecb104db118c40d06c0f7e6b74403ccfa5b573c0bb3fa32a8f13",
+    "bytes": 427937
+  },
+  "about/reports/BoardMinutes/2010-2013/Minutes-2013-03-06.pdf": {
+    "sha256": "9cfa1a1d3f4bfb79c778faad4ab9dcfc391057649abb91484ad68844ab19644c",
+    "bytes": 397896
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2013-08-21.pdf": {
+    "sha256": "e604418e20aa4337b2bba4aa2041040c13d011057e43fec5033410835de571ee",
+    "bytes": 423430
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2013-10-26.pdf": {
+    "sha256": "3d6726df990a7bd281da84987d0fdb0435d02829acdbf481ba585a9dbf83fd4e",
+    "bytes": 436548
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2014-01-13.pdf": {
+    "sha256": "ed66b8b5fde4e7d85227f75e3c6f418c850c13b9c0657b23b129e39243eba73b",
+    "bytes": 428039
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2014-03-05.pdf": {
+    "sha256": "e3a79e8ef7e2faf44bd666369e366b488a25db4dfdfefc0c726727853f79bf4e",
+    "bytes": 372767
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2014-04-29.pdf": {
+    "sha256": "5cfe6b17c2188c78dcadb61e0fed844892c3d6a5dd50b44fa2a16f4c9f363be5",
+    "bytes": 125809
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2014-07-13.pdf": {
+    "sha256": "5bc43a835b44f9db9ed28330c2e9ac8c5d2ca810576715638ac6a58d83c27726",
+    "bytes": 365720
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2014-08-18.pdf": {
+    "sha256": "0dc1594ed892ead9259eb852e3f316886764d896c19d0e1371e22feedc2be86a",
+    "bytes": 323811
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2014-10-19.pdf": {
+    "sha256": "63c2f9e2a86d59043a9de1044db4d624af7394efe11e18bbf1282333329b7273",
+    "bytes": 340514
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2015-01-14.pdf": {
+    "sha256": "bf8a074b624e69cb5d2be4d76776b3543689d5e076d1d555a62a3bac4a1623f0",
+    "bytes": 292434
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2015-03-04.pdf": {
+    "sha256": "91062eaa0d9067f5a357353d150a56507534f0fad1ea69465fb283f0601192f1",
+    "bytes": 404720
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2015-04-28.pdf": {
+    "sha256": "b9f7cdd3933e553586897d24c5eb7b6dcbb44fd52f014023c063b823a29e5ba1",
+    "bytes": 337155
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2015-05-26.pdf": {
+    "sha256": "85675666b7627f49e0a6db617d2e27d02e2b9da8c48eb5a284cf43a3dea9ce05",
+    "bytes": 122084
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2015-09-02.pdf": {
+    "sha256": "4e8083536773ff1bb3a59bcbc251693224c9957cf1c50e1ed3a9885b17e6660b",
+    "bytes": 321916
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2015-10-24.pdf": {
+    "sha256": "90260cdb4ce5874e8c2fbb001cf040443099becb278f1a3ebcdb4b1cc82bbafe",
+    "bytes": 414486
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2015-12-15.pdf": {
+    "sha256": "ab5bcf57d33dcc86edab138d23f19924915c66231f23de0e6ea1776dc39831d9",
+    "bytes": 318653
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2016-01-11.pdf": {
+    "sha256": "2032866e920c1f04477be938094edf1fde69c55431657335e0c90ac81e449a1a",
+    "bytes": 309122
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2016-01-27.pdf": {
+    "sha256": "3439f42925efbb9ac76b7181361ecd22c918bd2c938d01a73786ee46f1f3a356",
+    "bytes": 315442
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2016-03-02.pdf": {
+    "sha256": "c7da3eb427f99c1de414e2c286fce2cff9f58fc2db85d5d3f1d393c7db2cde3e",
+    "bytes": 362795
+  },
+  "about/reports/BoardMinutes/2013-2016/Minutes-2016-04-26.pdf": {
+    "sha256": "7bd0b4b4a1deb2dd8216847b3b974f06bd8fe79f79f4ca0fbc8f33d7ef0c60ad",
+    "bytes": 339410
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2016-08-16.pdf": {
+    "sha256": "d629c1a80e06c0d171bbe172df23136510eb4088aa3b909c5ccf664b7c11feda",
+    "bytes": 98305
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2016-10-22.pdf": {
+    "sha256": "19c84c1081ad0d4535f4120bae5c92863b9496550d121a93cf036c15f534c0cc",
+    "bytes": 208498
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2017-01-13.pdf": {
+    "sha256": "a4241d1cec2f5a482b571f6b1633a5b693b71e1dd548de4aa2f0d1473683f25c",
+    "bytes": 278630
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2017-03-08.pdf": {
+    "sha256": "997b0d89d20f1719aa19476c751a641887079dbb2c02a764891699148d6bdbb7",
+    "bytes": 243387
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2017-05-30.pdf": {
+    "sha256": "7a9b7ebed4247b5fec6a9be5cf4e66aba91d47c35e8b0d049a549ab19595c8c8",
+    "bytes": 278922
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2017-08-14.pdf": {
+    "sha256": "503ddce3cda839f4cd36960b6ae3bfb8c4f09ef0e543fa1dbcdee9944f883114",
+    "bytes": 338381
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2017-10-22.pdf": {
+    "sha256": "a8e5fb900eaddedf20d429f44ce04d8688233acc21cfc52a61912c59a8e17991",
+    "bytes": 271946
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2017-12-12.pdf": {
+    "sha256": "cacb7eace9f7370349c86c9046bb5d882ecca75c29311067adbd14374d531383",
+    "bytes": 242980
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2018-01-23.pdf": {
+    "sha256": "e8976b5f809cb76b1dcabc1ad9fe88ff4247e5e732578dfc1a4a215c33c6b3ce",
+    "bytes": 193926
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2018-02-21.pdf": {
+    "sha256": "d1d725bbd8e9e7dd1b6d6d19ae8d867797f04f8507aa53f31a77637bb9cdd1b7",
+    "bytes": 284721
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2018-04-26.pdf": {
+    "sha256": "d8599caa94db9423de83b220a4b0ca83d02c8b3ed3db4a5e1c1422de6554858c",
+    "bytes": 245526
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2018-06-19.pdf": {
+    "sha256": "af8de81cf93997252f8342986cbd09ebafdbd2b20403a422d877989ce90b2ac9",
+    "bytes": 348271
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2018-08-23.pdf": {
+    "sha256": "502635807fcf68f0156ec03d0f5a28b2de29aed2fc314c28cdd1188c7dc1f65e",
+    "bytes": 253814
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2018-10-27.pdf": {
+    "sha256": "6c6cb3465f4f649ec67eaeafb25ac9cdb157c8867b8d083aac5b9443a8b3e5df",
+    "bytes": 283646
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2019-01-10.pdf": {
+    "sha256": "7df18ca972012d221412732e37a36bd381aee346efc77279a057e48fa7837a17",
+    "bytes": 255180
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2019-02-27.pdf": {
+    "sha256": "31e44bea1a1ef68c9f7f4e77af6f63a4d46055cbeb18632984aaf9f0bb2650a8",
+    "bytes": 384462
+  },
+  "about/reports/BoardMinutes/2016-2019/Minutes-2019-04-25.pdf": {
+    "sha256": "da5268b302c1c166ce1812405350e0f5861cb79a062f961faf8e93ad731b3b47",
+    "bytes": 409714
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2019-08-05.pdf": {
+    "sha256": "8f9295592dfd8cdf8fc89b1dab62875c980d899854439f036afe1528d75bdd88",
+    "bytes": 461074
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2019-11-02.pdf": {
+    "sha256": "178c4346fcef252ff3ef38b4eb50a56468c4463068cdcb12220ff11f1e67f206",
+    "bytes": 70765
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2020-01-16.pdf": {
+    "sha256": "6a7882e89c9a17d1ed65bc7d1731abd3babc9defa15e0d35dec94f05ca1e66ff",
+    "bytes": 53508
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2020-03-11.pdf": {
+    "sha256": "ad95227f62dc96dd607376548127635068d88905eca19f2b62aabc4b686bfae2",
+    "bytes": 70760
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2020-03-16.pdf": {
+    "sha256": "6083832d8a62f458a9fc311324338a6d19026b0a7a715751b53c256175fc7cde",
+    "bytes": 53926
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2020-03-18.pdf": {
+    "sha256": "9cd30fff4096a12b1a54fd19b50f876419d24e13442d8d06166f54d9cef0dc56",
+    "bytes": 63329
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2020-05-04.pdf": {
+    "sha256": "331298c6aa59072367d8377aff2c2fbe197ad69bf12871d1761e71993bf08b88",
+    "bytes": 86616
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2020-08-25.pdf": {
+    "sha256": "490faba772ee55b015278836fb7e7861b7b3376334712ee00ec5c1e29fde511f",
+    "bytes": 64696
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2020-09-22.pdf": {
+    "sha256": "b59d3f32b36038276cec5b594366bf36aaf3bff44e881265ed2f537992ec6bc4",
+    "bytes": 62255
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2020-10-20.pdf": {
+    "sha256": "400ca67a675b0b852c93f98d6b594950a77a293afe564eb2205f1df1c0297521",
+    "bytes": 62396
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2020-10-27.pdf": {
+    "sha256": "6cbbfdf2d6c31db5e50ef64d20d4f43d3cc4306ed4e8e1f7aad71d365edf6514",
+    "bytes": 36452
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2020-11-17.pdf": {
+    "sha256": "fe84b3fc2b7e91d53edd53141c0d4396061377824dcb73707df49a636cfb0f75",
+    "bytes": 74874
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2020-12-15.pdf": {
+    "sha256": "4e16fd864097f1ee0e0eccfb232cb09ae0545876bf55b8830b99cdb619617ea1",
+    "bytes": 59865
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-02-03.pdf": {
+    "sha256": "c5a533bc01b2228435d5d57153ccf18a5d80f99ed339cffe2f7e7ffad19dd0c0",
+    "bytes": 68195
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-02-10.pdf": {
+    "sha256": "ae02cdd53f42e55255e842daa06e8341528967935f4d55df1888799ca9f2c2b8",
+    "bytes": 52408
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-02-22.pdf": {
+    "sha256": "0ce7496ad175808b6646c25f8fa6481e746a5371b757a803a26727627d71bc60",
+    "bytes": 62402
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-04-20.pdf": {
+    "sha256": "fe5312d3da9b838f3deaad8fbb2aed1ef75862069e4de95b3aa31fbb39617477",
+    "bytes": 59528
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-04-26.pdf": {
+    "sha256": "b2097109cdcf32c64c443410158d9045df33dc9dc52608484d3da93b7562930d",
+    "bytes": 53659
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-05-11.pdf": {
+    "sha256": "224014d4763a4721285cc534ee62654c1c376348d80c04f12a6fd3753db0031c",
+    "bytes": 54298
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-05-19.pdf": {
+    "sha256": "54113830efcf7a1e7bc120949ee73811ae44a35717e7bba575e1affe3ec1bc79",
+    "bytes": 58624
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-06-09.pdf": {
+    "sha256": "11a13b674e142b144b695e3fcd223b8ed46431d247e8260ae7e531c0edcc39c8",
+    "bytes": 55458
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-06-15.pdf": {
+    "sha256": "797b270269b5e1f0b7dea5b2513e86d5ad07b6de674d7576f120e70c1fde2b3a",
+    "bytes": 65298
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-07-13.pdf": {
+    "sha256": "fcbe9e2e795a18929799c81bd0de9c3774abf60706711ab0fa7b6d81ba48fe8a",
+    "bytes": 54754
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-08-03.pdf": {
+    "sha256": "c2aa6c92f66611130de5c89dfa32baa6ffd59d18a7358f10776eab44dc46bbef",
+    "bytes": 56163
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-09-08.pdf": {
+    "sha256": "3971a8d381d78137682c2b481a7ca3dba400022f17b0d30c49c64b815d908636",
+    "bytes": 60738
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-09-29.pdf": {
+    "sha256": "9e54fa252a36d7065c1dc779d7238237234be1da6e0ddff23f74cbfd6593f12d",
+    "bytes": 56740
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-10-20.pdf": {
+    "sha256": "2f04a9d56fb321af468a3505abe656d2b6d2b2df64a642eb7123bd37b15ef225",
+    "bytes": 50290
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2021-11-16.pdf": {
+    "sha256": "c06cf905f465c875e1cf38b34a68c1c6f7e43b9f5376093bcef2519339fa827c",
+    "bytes": 59706
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2022-01-12.pdf": {
+    "sha256": "30ee4bb2ccb7a7f8306b580f555a8f7fa323b1ec9f6c705a18c0d45887af0f05",
+    "bytes": 60849
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2022-01-19.pdf": {
+    "sha256": "f9df4e1341d85af1bfd6c0a230512bd32c4b69e0191640f9609ca733da09a5e0",
+    "bytes": 55739
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2022-01-26.pdf": {
+    "sha256": "fee2829f9d8cb60cb1275f050da01cb3e2edc55137ec20cf22bc6a2a72a10f71",
+    "bytes": 49264
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2022-02-08.pdf": {
+    "sha256": "d5716b0be8d7042e0d8b30d2a18fc474d6a21f53c09b1bf64d3c767408bdc3c3",
+    "bytes": 56003
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2022-03-02.pdf": {
+    "sha256": "81017f3471c52c150068ce2d8a7854fe0304b3eb221cae1a4865e41a31708841",
+    "bytes": 132094
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2022-03-16.pdf": {
+    "sha256": "36bf02f91fcbcf035df893c5d3a1716dd6da8a29d4a74f78320af451fd5678b7",
+    "bytes": 60421
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2022-03-23.pdf": {
+    "sha256": "fec15b00e5e36797e076904cd4c0141a810e272516994c02a31a20d1c00deda3",
+    "bytes": 51126
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2022-04-11.pdf": {
+    "sha256": "3df5cf07c833fcb9f34b76e6baca284680d2c7eabb134bda76d66ef65de8bc90",
+    "bytes": 47402
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2022-04-25.pdf": {
+    "sha256": "2e3ca721eb7ee773e45fa9ec14bae88b3c792ad2de375164a194e33e1ce1251d",
+    "bytes": 48995
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2022-05-16.pdf": {
+    "sha256": "6be87d6c1e2a0e6e0078296f22a4091be9071de8d91eb5943ab9e3c95de01e9b",
+    "bytes": 56342
+  },
+  "about/reports/BoardMinutes/2019-2022/Minutes-2022-06-22.pdf": {
+    "sha256": "7a863206a738d019a6245ef91ade17b856ba2df0608ae8ddd9ea5ce7400577db",
+    "bytes": 55787
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2022-07-18.pdf": {
+    "sha256": "927d749e8e13e6f7fafe64a454a77aef2733786d47e9b528e0416f5f53f9d9ac",
+    "bytes": 58876
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2022-08-16.pdf": {
+    "sha256": "74609e8ca953195c189cbf9c62945c08f91fc5362d44cae9e33b0e4e72e4fbd9",
+    "bytes": 72551
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2022-09-20.pdf": {
+    "sha256": "ad9dc7ceec40779fe4f13f90baa31391cdb91cd38da4ad4d23e1707977db54d9",
+    "bytes": 77406
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2022-10-18.pdf": {
+    "sha256": "daf1d64662b777d26ed0b139ba126c529d59c3a32df7bab846c05bbf45b3bfe7",
+    "bytes": 138305
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2022-11-22.pdf": {
+    "sha256": "5cbf60e438221898a41575c06caaec1b9aab2b910952d470e6478b593dac50ee",
+    "bytes": 69758
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2023-01-24.pdf": {
+    "sha256": "5a71a12e7daa199a40a619011199ad1264a769894ec5d26a9364ed8804f018cb",
+    "bytes": 52694
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2023-02-21.pdf": {
+    "sha256": "99cb1291f8a348b474269e194bee0ea6d4a99aac0c4a1982bdcf666e15329ea8",
+    "bytes": 67541
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2023-03-15.pdf": {
+    "sha256": "a784ed718152c8d745b4cd71f471c7f3a70d17983c6764f33786590d07dca4b7",
+    "bytes": 106985
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2023-04-18.pdf": {
+    "sha256": "3e1e53a4505de87d202e14883e97f40c627c4c3e30a6c096f90d9f9f5198cce7",
+    "bytes": 79980
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2023-06-01.pdf": {
+    "sha256": "36a1985f6404d9bab7dd11bd753129a9df8a3b5ff498fc9617653b30fafad615",
+    "bytes": 77755
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2023-07-20.pdf": {
+    "sha256": "87688910654c0a47a93723d167aa5d3bc5bd3f9b2ad2d5235f22367829f4e279",
+    "bytes": 94863
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2023-08-18.pdf": {
+    "sha256": "7c6147f2a54749525a33e29d7f2138f7db415d85e8ce21450aadbdd1b96a11b4",
+    "bytes": 55608
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2023-08-30.pdf": {
+    "sha256": "4d0b5117322c354069f596e0d13bfb7628dbb3553f8d450960432bbf2412a2f0",
+    "bytes": 63873
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2023-09-27.pdf": {
+    "sha256": "dcc659ee731dc415871bf165eeecabc3215de51129e1eaec1ecf0f1145960ece",
+    "bytes": 62935
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2023-10-24.pdf": {
+    "sha256": "98a79d69c86f9953a4f2b287afec57760e08c3ed5d0f80c60d3944aaa68b8913",
+    "bytes": 69115
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2023-12-20.pdf": {
+    "sha256": "47cbea2bb9749caad48c221b6a31407c68d6bf2bbec44d6a2ff37d5c185b7eea",
+    "bytes": 70143
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2024-01-24.pdf": {
+    "sha256": "549882664b3d7ef51babbdbbeecfb13bae04c5016ba0eed7c120e0b4e7956a47",
+    "bytes": 73014
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2024-02-28.pdf": {
+    "sha256": "9fa0819a9b2406d04bf20f1ee7e38a8b9b7702f8ed708cd2278e1189fc0faef4",
+    "bytes": 83681
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2024-03-20.pdf": {
+    "sha256": "671b7acbeab61e26717d007a5f347a91d58970e7da35eeb7c2d8476bc37de04c",
+    "bytes": 87196
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2024-04-24.pdf": {
+    "sha256": "770eca931a00ea33478832baa22b3756fe1d1cab8c2f5a0b43bed95a66ccb18f",
+    "bytes": 67910
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2024-05-22.pdf": {
+    "sha256": "2e56090aa2addc00e8b89d50fa0bd467dcfd767a85d5acf1ef98a7a88c89463f",
+    "bytes": 84354
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2024-08-21.pdf": {
+    "sha256": "7265c4e6a839cdb4dfd83eaf5ec2f32bb987b268768911bb1e571a45d4fa70af",
+    "bytes": 156565
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2024-09-17.pdf": {
+    "sha256": "ff5678cac10676e6263b63463fc6bd57a6151ca66e5e4561a7887216debc1387",
+    "bytes": 104900
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2024-10-28.pdf": {
+    "sha256": "85f50fbdcad53f09615f386692fdb353129516fe2fd9ac372cad164ee2cb559b",
+    "bytes": 113548
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2024-11-26.pdf": {
+    "sha256": "34b9f2f16a4aaa166441bb41373d51d9094eca39be649f303866330dd2ac2382",
+    "bytes": 156556
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2025-01-23.pdf": {
+    "sha256": "83995c43da90bc18aa913c3fb4f39137c9180e38e19dbe2ecd149ddbc021d29e",
+    "bytes": 155815
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2025-02-26.pdf": {
+    "sha256": "c5ed60dcd0384cf0a59aff0256c0549ebb773952b4ec87b446f2d81398d025d1",
+    "bytes": 256530
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2025-03-27.pdf": {
+    "sha256": "2743b5f1846071686f4e4bb53d775648510d90202ca5da2254fd75e1f46fd9fe",
+    "bytes": 217762
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2025-04-24.pdf": {
+    "sha256": "ac42f1a988a5c612ec80010dabcd1f84cbeaae67e781a4c8d6621691747cb0aa",
+    "bytes": 405196
+  },
+  "about/reports/BoardMinutes/2022-2025/Minutes-2025-05-20.pdf": {
+    "sha256": "2e077a54f805d006b18eca0fe06c189cf6cdc82cf9b90307666f207b3582455e",
+    "bytes": 173475
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2025-07-10.pdf": {
+    "sha256": "f3378484ad3256ad4e0688508887e98ce9e0deed71b0dffcb3cf5f6481ee8b4a",
+    "bytes": 90457
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2025-08-12.pdf": {
+    "sha256": "500bc33157bca101193c753cf4277b7134df14e6e791055356fee7caf35521ca",
+    "bytes": 106052
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2025-09-21.pdf": {
+    "sha256": "b786c4c40e569ec7dd960887fd950e12516b2af0fc05b79267245f18f7f7559e",
+    "bytes": 131830
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2025-10-29.pdf": {
+    "sha256": "e8baa6aac9537879d1cc4a9ff251ff86eac219999315eaf61ba7a47a7d31298b",
+    "bytes": 88242
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2025-11-19.pdf": {
+    "sha256": "553979e33d7ac932bddac29739510bd93be0e002559476274dab30af2fe917c5",
+    "bytes": 110152
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2025-12-17.pdf": {
+    "sha256": "378e2667f2ad1dd3e8925cf36591da6d910540a005262c78ae5649529720320e",
+    "bytes": 93170
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2026-01-23.pdf": {
+    "sha256": "1543b77e248a81655fddb9b8d8f2e414c26008025e419503ebd453ebdf8a60a6",
+    "bytes": 89918
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2026-02-18.pdf": {
+    "sha256": "5945f1ab9775353c1f5b547b0a5010819b3696531b4d400d100bc98699524007",
+    "bytes": 116905
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2026-02-20.pdf": {
+    "sha256": "e5bfe10ed6afde2c8356795b98d56c4932aba220c73fe7920f45ed643a1c103a",
+    "bytes": 130510
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2026-03-18.pdf": {
+    "sha256": "f32010696ded88c54fc54e60ca7514ef8b5c62909c52ccb1b513cb202011dc97",
+    "bytes": 104387
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2026-04-22.pdf": {
+    "sha256": "15c835faea98101891b48f0208b442b5871970d715b4f1928b0ba71eaf47b45c",
+    "bytes": 90112
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2026-05-15.pdf": {
+    "sha256": "19b7389f0c0e22b8aeb9de4b714ee29f0069b39b49a44b7d46644312f161bafc",
+    "bytes": 146132
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2026-06-24.pdf": {
+    "sha256": "2f863e1bc9718c48d212af6287e96568b472e46b380d148eda192e2735ce2ca0",
+    "bytes": 101563
+  },
+  "about/reports/BoardMinutes/2025-2028/Minutes-2026-07-29.pdf": {
+    "sha256": "dd3fd8b2e2b134b33fe24de938d9e134b994feafa0334ace4dede94bf44afe1e",
+    "bytes": 106050
+  },
+  "about/reports/business.html": {
+    "sha256": "a9cdb677e816af0e270af0fdca8814606c82e318506b45275944699430527415",
+    "bytes": 20212
+  },
+  "about/reports/BusinessMinutes/2020-10-06/slides.pptx": {
+    "sha256": "3be5578dcbdccb3de11cd9b84e39c523403d717ce0223a89f1d58a8b85d82f3c",
+    "bytes": 1807728
+  },
+  "about/reports/BusinessMinutes/2023-03-17-Business-Meeting.pdf": {
+    "sha256": "a6a9fa372b7ae454535dffa3a7a9bf3dde66752004c2507d5811cf7e0124d8da",
+    "bytes": 676605
+  },
+  "about/reports/BusinessMinutes/2024-03-22-Business-Meeting.pdf": {
+    "sha256": "9a1ffba4e6a4d68e9ce6acf5677dc2d9304a0f0f843b7e4f3925afcf6a0809fd",
+    "bytes": 739788
+  },
+  "about/reports/BusinessMinutes/BusinessFebruary2018.pdf": {
+    "sha256": "0dba28415910f4ff6505058f0ba8790403f963f368548df1cd7ed11791b13be8",
+    "bytes": 244282
+  },
+  "about/reports/BusinessMinutes/BusinessFebruary2019.pdf": {
+    "sha256": "6d288de366acc283baf8dd84fbb1726226a3a0d251613e3f8850ba2a8c158d8a",
+    "bytes": 230508
+  },
+  "about/reports/BusinessMinutes/BusinessMarch2011.pdf": {
+    "sha256": "6658b8e2fcbe0a27c77bb45b912261612e4dbc360847a725d667f0e7f9974d25",
+    "bytes": 99226
+  },
+  "about/reports/BusinessMinutes/BusinessMarch2012.pdf": {
+    "sha256": "b9b518ba1fbf7eaabe09e4b5e52a73dc7555b55e2aa0fde61311f119e6d3ce15",
+    "bytes": 97986
+  },
+  "about/reports/BusinessMinutes/BusinessMarch2013.pdf": {
+    "sha256": "ededb138c18819dc535436d89b502e1d00e8d8268efb046d98d1ff83428da942",
+    "bytes": 325009
+  },
+  "about/reports/BusinessMinutes/BusinessMarch2014.pdf": {
+    "sha256": "a7fc5e16ee53cd3d9aa71496524fde28b16543f6e604dfa7ac9c24730076f0ba",
+    "bytes": 439441
+  },
+  "about/reports/BusinessMinutes/BusinessMarch2015.pdf": {
+    "sha256": "438a82cc7a9ec0265962d649fa35b5678c9e255d4c525ba0f02c462e5ed64976",
+    "bytes": 314356
+  },
+  "about/reports/BusinessMinutes/BusinessMarch2016.pdf": {
+    "sha256": "c22ccaac5c46574c1867cbab692e7074ba81de46bdb94e2ff48e273184d484b3",
+    "bytes": 324271
+  },
+  "about/reports/BusinessMinutes/BusinessMarch2017.pdf": {
+    "sha256": "bdce49f6b4165a93a4d5465dbfbbfac7b1d0a7c61c3f3616c2c33489fa93a3f6",
+    "bytes": 157535
+  },
+  "about/reports/BusinessMinutes/BusinessOctober 6 and 13 2020.pdf": {
+    "sha256": "27de3d1e9e23cada984c6a243425469905e36d406671c6cdd0b6c0dcdcfc4ca9",
+    "bytes": 69885
+  },
+  "about/reports/chair/2004.html": {
+    "sha256": "1994be2fe73eb9ddc29d82645be8d413ae28435e5eb7c86c63100a3f1263af98",
+    "bytes": 30299
+  },
+  "about/reports/chair/2005.html": {
+    "sha256": "acc8febcad484cad81c44e41c5d29e2565ab2a078d72b759e575e5dd345cce95",
+    "bytes": 29690
+  },
+  "about/reports/chair/2006.html": {
+    "sha256": "0cf155fa8e45ae9c596cbd7428feda5ee74289dbbfaf92dd11624a7453c85dac",
+    "bytes": 31248
+  },
+  "about/reports/chair/2007.html": {
+    "sha256": "6b414691bfbbc02f2190f570b0932ab66a37b1ac2ebe90da786db7ce7103c267",
+    "bytes": 36141
+  },
+  "about/reports/chair/2008.html": {
+    "sha256": "a7ce873f69dee1d4d5aedc3205d9b4dece04d7bb488f5e2edd48fd5559f4c411",
+    "bytes": 34368
+  },
+  "about/reports/chair/2009.html": {
+    "sha256": "c33348827f51dd8d752095ee6d1118b1ca91abe08a9875442db17103299113ba",
+    "bytes": 32883
+  },
+  "about/reports/chair/2010.html": {
+    "sha256": "3bb6b6d200cf22d3f55d3a355e91aaa5397ab0cde68b61c262db19a9f428ec43",
+    "bytes": 31339
+  },
+  "about/reports/chair/2011.html": {
+    "sha256": "3202840d4e62637adf64e847fb0d2b0e012d337c5a0b52bb457f1b73305106c7",
+    "bytes": 23890
+  },
+  "about/reports/chair/2012.html": {
+    "sha256": "41686d44874e4c263e705559172f078686729e35d5cde26ee71a2b0b3f40fe81",
+    "bytes": 22901
+  },
+  "about/reports/chair/2013.html": {
+    "sha256": "95d89c01d81f24b3b2c1abc6e31de689d2408f53eb37713aa14b123691f12f32",
+    "bytes": 23181
+  },
+  "about/reports/chair/annualReport2014.pdf": {
+    "sha256": "b6a3c9979e2dc977c5911ddae51fc3a3c24ab997b1d95125a1f60b925587da7e",
+    "bytes": 43931
+  },
+  "about/reports/chair/annualReport2015.pdf": {
+    "sha256": "597cbf8819088f76f78a350ac2e05161dd30d282eafdd1c1a54b33232d64f563",
+    "bytes": 45866
+  },
+  "about/reports/chair/annualReport2016.pdf": {
+    "sha256": "5ded2ce8e1d7c4c5e51f681f011f15b555820dbd9992c14f557b41ca1516b1e6",
+    "bytes": 48909
+  },
+  "about/reports/chair/annualReport2017.pdf": {
+    "sha256": "7f11351e4d7f40960b2f969ed530f7af095dd96ff376430a7a047bea6ec7dd88",
+    "bytes": 266558
+  },
+  "about/reports/chair/annualReport2018.pdf": {
+    "sha256": "47e600cbc770700671aba619bebbf78ed9747989ba4c43b84e7378d0b31a4345",
+    "bytes": 106274
+  },
+  "about/reports/chair/annualReport2019.pdf": {
+    "sha256": "cf6aa85cbaa0b3deb2c67f5c9258359d51788ad8018b82937c24466f151c3f37",
+    "bytes": 545513
+  },
+  "about/reports/chair/annualReport2020.pdf": {
+    "sha256": "bb8e7b9dc29262ef81453938dfbbdd2df0cb29f07aceb652aa8112bbaaeed5d6",
+    "bytes": 91377
+  },
+  "about/reports/chair/annualReport2021.pdf": {
+    "sha256": "5e1c0ea62b0bac035385e48fe11688b7a8299680639cf2ef8db813b70bec0aaf",
+    "bytes": 58496
+  },
+  "about/reports/chair/annualReport2023.pdf": {
+    "sha256": "04a3c88498eb55829b3c1a199959800811a5a83f70241e6468c1ae9d2ad5bdc8",
+    "bytes": 117461
+  },
+  "about/reports/chair/index.html": {
+    "sha256": "17e05ea8cfaed403cb16f5b0aa24479a25e30cad2b471df3c194e91b62a39ad1",
+    "bytes": 582
+  },
+  "about/reports/chair/TreasurersAnnualReportFY08FY09FY10.pdf": {
+    "sha256": "1f5b9b6a585ab88d744f386488bb9952de604417df8ff86be89210268c0834e7",
+    "bytes": 72468
+  },
+  "about/reports/chair/TreasurersReport2011-2013.pdf": {
+    "sha256": "76f74de8ddd707d43e20389c3fecdd04562c6967d3e1e52b6e7995a4ddaa4a48",
+    "bytes": 28764
+  },
+  "about/reports/chair/TreasurersReport2014-2016.pdf": {
+    "sha256": "95c6f5c3954341e12fc197108d76e1f933871593f91be51172bd005eba824eef",
+    "bytes": 16003
+  },
+  "about/reports/chair.html": {
+    "sha256": "388a6e52ee11f9845e63b9494d65e6fd4c4340ff0d661fc965a7977f76589ba0",
+    "bytes": 19881
+  },
+  "about/reports/committee.html": {
+    "sha256": "11475f9a9bb0bff8d56727a97493e4753bec56e435cd0d3693c25973a2ea0c52",
+    "bytes": 18437
+  },
+  "about/reports/index.html": {
+    "sha256": "b4c1441b04c16ab7c20ca480fe0edc55d75a715b9b4df4429aec19f899368517",
+    "bytes": 18453
+  },
+  "about/reports/treasurer.html": {
+    "sha256": "ddbceafadc7ff9482fef3d3df089b96f88eab35016156b0735c089c476fed72f",
+    "bytes": 18405
+  },
+  "about/update.html": {
+    "sha256": "282c6930a84fa40cda1c640c380973a35c28b1eb7b85b737bb3e12ec7caddb4d",
+    "bytes": 418529
+  },
+  "about/volunteers.html": {
+    "sha256": "3da293d840896aecd28a291684b005166301776e85997b7fd825294d5b872fdd",
+    "bytes": 28454
+  },
+  "assets/brand/bootstrap-outline.svg": {
+    "sha256": "742b3889ae5e5a17c0a0919b03ea5b7c0e33db67279b3f169887b3904fce09da",
+    "bytes": 1312
+  },
+  "assets/brand/bootstrap-punchout.svg": {
+    "sha256": "a733a47b9967f8f746bd89f0e9d23578724c96a227abca2252ecb09283903b11",
+    "bytes": 1146
+  },
+  "assets/brand/bootstrap-social-logo.png": {
+    "sha256": "9f7eb2bb51a9215158bc45f7e50e6efffda7f6e0a7b9b765574c65f3217a77b6",
+    "bytes": 23959
+  },
+  "assets/brand/bootstrap-social.png": {
+    "sha256": "1ece11f16e69a1e18f03973873b38b3bc1f858b3ba861cd26bda4b8be9ee6666",
+    "bytes": 231733
+  },
+  "assets/brand/bootstrap-solid.svg": {
+    "sha256": "bf22053986cfd8f0b3bb6486be5248535ea73a7fde6094b6fd533d13cb141734",
+    "bytes": 1133
+  },
+  "assets/css/blog-prev.css": {
+    "sha256": "45ffb218a533e274e795989e0cc5507a243813f391d234025bf91d645481b839",
+    "bytes": 2265
+  },
+  "assets/css/blog.css": {
+    "sha256": "fa05b2d171f314164c5d18c13f5dd5787f0fcf65663c567ddbbe14fb5976480f",
+    "bytes": 778
+  },
+  "assets/css/bootstrap-grid.css": {
+    "sha256": "d9ffc51f09f3035c1c39f9567b590974053dddcb2bfb43d48cc122670b81c5ad",
+    "bytes": 45901
+  },
+  "assets/css/bootstrap-grid.css.map": {
+    "sha256": "45e6fbc640c6652b6dff65b9d74b3d463047e3e21c0cb892cf72af0da66c9721",
+    "bytes": 95910
+  },
+  "assets/css/bootstrap-grid.min.css": {
+    "sha256": "2f5b0225703d2f885f92a0e2a51ba7f3c9058a6c91324c14fbabdcdebc1874df",
+    "bytes": 34249
+  },
+  "assets/css/bootstrap-grid.min.css.map": {
+    "sha256": "5467e305bed9dd28e712fd70270039bcccb53e2e1b4065793d84c4d688002f30",
+    "bytes": 76209
+  },
+  "assets/css/bootstrap-reboot.css": {
+    "sha256": "e8d89d1cde15b7071c84ad112b43e29b3385499d7f97a11c808109aeb0c33c06",
+    "bytes": 5127
+  },
+  "assets/css/bootstrap-reboot.css.map": {
+    "sha256": "2c0474cbcec7ecb99df104b421183b5205a365325bd5c4698602c5c250924982",
+    "bytes": 57721
+  },
+  "assets/css/bootstrap-reboot.min.css": {
+    "sha256": "5ac9d55d9875420a0221936b094808f0a6304ffeff3324581bd9b19c745143d4",
+    "bytes": 3943
+  },
+  "assets/css/bootstrap-reboot.min.css.map": {
+    "sha256": "498c3aeca18ce2e55fae71191b04c1983e9b4304895dca37ec93195db9e45afc",
+    "bytes": 25881
+  },
+  "assets/css/bootstrap.css": {
+    "sha256": "c15647da5e2cc4fb6bc79881eb7d9da33ceb139678ab96c3417e752173000ba6",
+    "bytes": 187126
+  },
+  "assets/css/bootstrap.css.map": {
+    "sha256": "bc080fed21141f1fe754dba7da400ca26ca7c8a79679d4aab00ad959793ce298",
+    "bytes": 411645
+  },
+  "assets/css/bootstrap.min.css": {
+    "sha256": "a4c123551432f10a965b8a9f706d3a8f9ed36e1564620f520de64cdf5bfe6dc9",
+    "bytes": 232953
+  },
+  "assets/css/bootstrap.min.css.map": {
+    "sha256": "8c99b4ed590bd40f66742bfaebfb26775ca803d88273b87b9df9f9dc05f7f1c7",
+    "bytes": 589161
+  },
+  "assets/css/bootstrap.rtl.min.css": {
+    "sha256": "561995075966cde8eca2b864e2eaf8f93f4b683a9c3dc6f88771c124bded640b",
+    "bytes": 233060
+  },
+  "assets/css/bootstrap.rtl.min.css.map": {
+    "sha256": "a24f8c745b82aee7fae50fd8471ea7e27417e6d20219c0159d2a592c3ec02eae",
+    "bytes": 588695
+  },
+  "assets/css/docs.min.css": {
+    "sha256": "f958f65b129a3994cea7bbeb5b16963fec3dc2287494f4d807ab1211ada0d9b4",
+    "bytes": 21581
+  },
+  "assets/css/docs.min.css.map": {
+    "sha256": "4f81b69b37d51ccad6b7555f931503b75e3885e0a1c732cf026e3290fbca484f",
+    "bytes": 40321
+  },
+  "assets/images/2022-membership.png": {
+    "sha256": "f7d1e3c258387763d6738026a0ba321cb58229a89275e5deaa200742341d0879",
+    "bytes": 57607
+  },
+  "assets/images/2023-membership.png": {
+    "sha256": "80aa8a7d51da3a29b7f36aee3518b2083baefbb6a7ff30e93843bd4b48217be6",
+    "bytes": 102800
+  },
+  "assets/images/2025-membership.png": {
+    "sha256": "aec9526b5751a88b1a8d3478edb4351eed5f2237c7ccb65a867218bcce2ed836",
+    "bytes": 196465
+  },
+  "assets/images/50yearsofSIGCSE/1973ConferenceCommittee.jpg": {
+    "sha256": "6c0dfa2b281ddc7fe8b8f3f5a06ff33022bb0992d284f22a1af8121194e497cd",
+    "bytes": 33358
+  },
+  "assets/images/50yearsofSIGCSE/1984-1.jpg": {
+    "sha256": "1e2e192e8d1c87c589498ab8bc042025f03c48e68766c19c967c77a93c73c00f",
+    "bytes": 44781
+  },
+  "assets/images/50yearsofSIGCSE/1984-2.jpg": {
+    "sha256": "db8ec96082f907873f434fa9da163b9f4bdb00bb1f0b2a4ad54123521f632fc0",
+    "bytes": 16872
+  },
+  "assets/images/50yearsofSIGCSE/1984-3.jpg": {
+    "sha256": "05b8d26b64cc162eb47b1596f9df645c7f6d7e01db9a88172abdb5f09112e733",
+    "bytes": 15725
+  },
+  "assets/images/50yearsofSIGCSE/1984-4.jpg": {
+    "sha256": "8d7d42e9a86adef3f3de59f5e97dd0abd126077f14213ac53a4ecbb42f6182fc",
+    "bytes": 16155
+  },
+  "assets/images/50yearsofSIGCSE/1992-demographics.jpg": {
+    "sha256": "a2972396f383e91bc7bd5c092b58b856a7e33896c5064d7d22f58d5bdc737f83",
+    "bytes": 175540
+  },
+  "assets/images/50yearsofSIGCSE/1992-research-areas.png": {
+    "sha256": "7e04d1c2471bc3392c00716ee3aa79c143b3492710eb797bfb4414caaf447907",
+    "bytes": 33025
+  },
+  "assets/images/50yearsofSIGCSE/20thTS.jpg": {
+    "sha256": "ecc1a7a9a6102cccf3a39006b897b4ea779faa7566a430a63349fcd115e0c615",
+    "bytes": 44320
+  },
+  "assets/images/50yearsofSIGCSE/22ndTSlogo.png": {
+    "sha256": "aae20e2076ecdfdcc39ad772561a450eff7ab8649b26e5ede347c5f7f06253f7",
+    "bytes": 4280
+  },
+  "assets/images/50yearsofSIGCSE/28thTS.jpg": {
+    "sha256": "9e73751c295f6c6804916fa52c591f339c226924c81a7e649bf9533eff31e66d",
+    "bytes": 54482
+  },
+  "assets/images/50yearsofSIGCSE/29thTS-chair message.jpg": {
+    "sha256": "3da9fce01c2cafb631f2ca6a7456cf4bcb211279cc605892f84c4366f0dabbb4",
+    "bytes": 240557
+  },
+  "assets/images/50yearsofSIGCSE/29thTS-committee.jpg": {
+    "sha256": "fc5bb9bf74834bd99d3a136606df5350d401286d3e4ebd162ca9e564d1430238",
+    "bytes": 146536
+  },
+  "assets/images/50yearsofSIGCSE/29thTS-statistics.jpg": {
+    "sha256": "3b89e6ee081eb67b45b9abe9a515939e3d844eef7a5361bb2fa0c732a216f18f",
+    "bytes": 35003
+  },
+  "assets/images/50yearsofSIGCSE/30thTS-statistics.jpg": {
+    "sha256": "a910a889790190f7a1e5f0076be9b0c03ff09ebfeb036b795f04e8352bd87043",
+    "bytes": 30719
+  },
+  "assets/images/50yearsofSIGCSE/31stTS-statistics.jpg": {
+    "sha256": "6536cf1d4de0f82a7a0086bf23db1543d55c4e33f5eb7a1af269b40902e11cda",
+    "bytes": 31382
+  },
+  "assets/images/50yearsofSIGCSE/33rdTS-statistics.jpg": {
+    "sha256": "0d37ff913f5b734e92fa4c3e8027d51a9f9e4ca3b66e320c7d2a01ecf1c9bfba",
+    "bytes": 9009
+  },
+  "assets/images/50yearsofSIGCSE/34thTS-statistics.jpg": {
+    "sha256": "60fd0f918ef4e6555bd6f47fc745a7bbd51e2a022eb5871ddd0f25a428809fe2",
+    "bytes": 38864
+  },
+  "assets/images/50yearsofSIGCSE/35thTS.jpg": {
+    "sha256": "471fa37bea4cd02d940d3925a23c4662b872518ec95ccd8a4982f0bce1273b5f",
+    "bytes": 40975
+  },
+  "assets/images/50yearsofSIGCSE/37thTS-DC.jpg": {
+    "sha256": "34ec9b4e99c6473952a6809543c06201eccbd9d9412020fa89b77dd2c3767980",
+    "bytes": 31554
+  },
+  "assets/images/50yearsofSIGCSE/37thTS.jpg": {
+    "sha256": "eadeae8f766b8f3e382c8d50d72bea814561106afbcc1ff3f34bffd28ac041a3",
+    "bytes": 13898
+  },
+  "assets/images/50yearsofSIGCSE/38thTS-statistics.jpg": {
+    "sha256": "a2ebcf2b12ebcd73677b5fa0e33f19d012955081c859fbdd3aeb12387ba065d1",
+    "bytes": 14114
+  },
+  "assets/images/50yearsofSIGCSE/39thTS-statistics.jpg": {
+    "sha256": "69cdf136cf97d663f14fda8d6aa511930be47cc4d792976f1ea3bd0f188273d3",
+    "bytes": 11437
+  },
+  "assets/images/50yearsofSIGCSE/41stTS-1.jpg": {
+    "sha256": "87116c4e4d07274ac1fb100f35491c94ccf5381227749a2103f8c384fd475d57",
+    "bytes": 10728
+  },
+  "assets/images/50yearsofSIGCSE/41stTS-2.jpg": {
+    "sha256": "c7abd6f4a0cb78016702fa16a20ec0c7b97d87c8c29f71d63f16e113fb530412",
+    "bytes": 11686
+  },
+  "assets/images/50yearsofSIGCSE/41stTS-kids-camp-1.jpg": {
+    "sha256": "319b7ffd4557847d8c6035033bd407e7942a6cac3e5ced7c2c19890f483ffe89",
+    "bytes": 25078
+  },
+  "assets/images/50yearsofSIGCSE/41stTS-kids-camp-2.jpg": {
+    "sha256": "b8ec56b462dc302390f86f7298bfdb8ec810cbf09ab42ec326fab1596c7fef04",
+    "bytes": 31856
+  },
+  "assets/images/50yearsofSIGCSE/42ndTS.jpg": {
+    "sha256": "1ee04552c817aff63eb919f97bf339856885e97f960a6fced80f7928a5f57c90",
+    "bytes": 16914
+  },
+  "assets/images/50yearsofSIGCSE/42ndTSpokens-1.jpg": {
+    "sha256": "cc79f199c8f5712fc3a968a59f703d3fe4003e7f9de8f70e8579e31e455a32e7",
+    "bytes": 6217
+  },
+  "assets/images/50yearsofSIGCSE/42ndTSpokens-2.jpg": {
+    "sha256": "1978491e2d24492adc2100150113a5d8cc04570a9f4c05e737598bb1b2f05b11",
+    "bytes": 13825
+  },
+  "assets/images/50yearsofSIGCSE/44thTS-1.jpg": {
+    "sha256": "1f84ed24fdbf5213a7e4bee0e274132545c3729436af6dabd1bb50a4bb44bb91",
+    "bytes": 99875
+  },
+  "assets/images/50yearsofSIGCSE/44thTS-2.jpg": {
+    "sha256": "bb73dab255d4bf6eb07934f61694543d7292627901b17b9af8d0ec5f7a29e445",
+    "bytes": 43788
+  },
+  "assets/images/50yearsofSIGCSE/44thTS-3.jpg": {
+    "sha256": "c5cd03c8cc73a260d602dd220e3d4d68d119ad0e27f634b1368fc28464b2e84e",
+    "bytes": 36463
+  },
+  "assets/images/50yearsofSIGCSE/44thTS-4.jpg": {
+    "sha256": "88351bbe582256a9911b485d55fd4a710062b84ddf8e7e882ec891086c68f1ef",
+    "bytes": 52250
+  },
+  "assets/images/50yearsofSIGCSE/44thTS-5.jpg": {
+    "sha256": "b57f5776f6786726c988d121a0d333c646a4ec389669b6d56d55b990642b98cc",
+    "bytes": 41680
+  },
+  "assets/images/50yearsofSIGCSE/44thTS-6.jpg": {
+    "sha256": "6db11cad398f2fb71606240f7a90dd7130f5a80e108159efe1c36782c133294f",
+    "bytes": 36312
+  },
+  "assets/images/50yearsofSIGCSE/44thTS-7.jpg": {
+    "sha256": "6c01a138f3727e5c79bf603ac1332f6d94a2eae29087201cdd335ae4df847b66",
+    "bytes": 68928
+  },
+  "assets/images/50yearsofSIGCSE/44thTS-Simon-Porter.jpg": {
+    "sha256": "23def33c0298da1568f7ffb71d440ee4685482488772bc8295ef9f636f5d8888",
+    "bytes": 73623
+  },
+  "assets/images/50yearsofSIGCSE/45thTS-1.jpg": {
+    "sha256": "a834d6efa7f34a1512ddf9038bde504d7face8c8c7901f47143beca19b779b60",
+    "bytes": 22551
+  },
+  "assets/images/50yearsofSIGCSE/45thTS-2.jpg": {
+    "sha256": "97a557ca04d05d0899be5f5eb733eb26bd494b3de13e8c7dae953803da9fbe41",
+    "bytes": 10248
+  },
+  "assets/images/50yearsofSIGCSE/45thTS-3.jpg": {
+    "sha256": "c92832fd12a2a10b245b8489e1fd1429c70bbd6cbc9c272a883aabbc0f0209ce",
+    "bytes": 6201
+  },
+  "assets/images/50yearsofSIGCSE/45thTS-4.jpg": {
+    "sha256": "6448756f93a9de13ba01a9fc6865e2179586214278bf63162013f26144f70b4f",
+    "bytes": 45159
+  },
+  "assets/images/50yearsofSIGCSE/45thTS-5.jpg": {
+    "sha256": "755caba05a12b08ccb575972ec01143635b71b4c24ffed73a1e297b5df8ced94",
+    "bytes": 35882
+  },
+  "assets/images/50yearsofSIGCSE/46thTS-1.png": {
+    "sha256": "d195867972199e2ac50a46a2360e014a04ea1c9958409431083d43d8b172f238",
+    "bytes": 521711
+  },
+  "assets/images/50yearsofSIGCSE/46thTS-2.png": {
+    "sha256": "39556d1be0960529a5978211ff45d924e60f54274722ed8422a920298b42aab3",
+    "bytes": 522035
+  },
+  "assets/images/50yearsofSIGCSE/46thTS-3.jpg": {
+    "sha256": "21ad718fd44ea2cf07f0509ca7978708c4677c1daf658a14cf62801cc1416dbb",
+    "bytes": 14134
+  },
+  "assets/images/50yearsofSIGCSE/46thTS-4.jpg": {
+    "sha256": "22e5c16d3a9a6a3aa3be12ebd7f0e2ff72e7bb176312d0caa4601b20087d22db",
+    "bytes": 25380
+  },
+  "assets/images/50yearsofSIGCSE/46thTS-5.jpg": {
+    "sha256": "7af60db1f6b4cec5601d7fce9e1fc78db0b7330a1ff7179ec0092d1ad8c1a18c",
+    "bytes": 17951
+  },
+  "assets/images/50yearsofSIGCSE/47thTS-1.jpg": {
+    "sha256": "94d752107254199764efff274ee0b731435c4c3baf1ebf5451569b863a85a309",
+    "bytes": 11170
+  },
+  "assets/images/50yearsofSIGCSE/47thTS-2.jpg": {
+    "sha256": "491ef6cb0bb364f7765cd83e3fdb9a9eb54bb789a4a889536e7afebb677709a8",
+    "bytes": 12126
+  },
+  "assets/images/50yearsofSIGCSE/48thTS-1.jpg": {
+    "sha256": "3643f4326fc2a34ec661da550921386792985b84a2912e652f4e3f6ab7ed5274",
+    "bytes": 36618
+  },
+  "assets/images/50yearsofSIGCSE/48thTS-statistics.jpg": {
+    "sha256": "35e19bc26cb08efc18bd6f26294114bf6938b83046d43143078d4b11481be410",
+    "bytes": 17695
+  },
+  "assets/images/50yearsofSIGCSE/Bulletin1981.jpg": {
+    "sha256": "6de1f2cfca932304ef563ec0d7e24deae287cad045c02f4530748617949b400c",
+    "bytes": 64936
+  },
+  "assets/images/50yearsofSIGCSE/Bulletin1983.jpg": {
+    "sha256": "8299884c355454d706258c0098a22ce700108abf8732ac2f3d10bc7104f504eb",
+    "bytes": 27383
+  },
+  "assets/images/50yearsofSIGCSE/Bulletin1984.jpg": {
+    "sha256": "5341e4e085cac4717a8f243a2a31a6a61d0cf8369b6103fc627a506f69c0d31a",
+    "bytes": 43615
+  },
+  "assets/images/50yearsofSIGCSE/Bulletin1989.jpg": {
+    "sha256": "ecc1a7a9a6102cccf3a39006b897b4ea779faa7566a430a63349fcd115e0c615",
+    "bytes": 44320
+  },
+  "assets/images/50yearsofSIGCSE/BulletinDec1989.jpg": {
+    "sha256": "4d73766a53df1f403496d1758bad0ed0d92fb60fb7c14469ecb164774227c941",
+    "bytes": 66523
+  },
+  "assets/images/50yearsofSIGCSE/BulletinJuly1980.jpg": {
+    "sha256": "fcc8dd51d14b42f3a8c9b0e91b2e0c461ec136344bb23be9b5781f5798ee3093",
+    "bytes": 33386
+  },
+  "assets/images/50yearsofSIGCSE/BulletinJune1977.jpg": {
+    "sha256": "945fd1e86503e1d4dde735703c3ec1ef1ac34c4678bc4f3bd783dd6ffa1c04cf",
+    "bytes": 18472
+  },
+  "assets/images/50yearsofSIGCSE/BulletinJune1997-1.jpg": {
+    "sha256": "c9887e48f9399ee4efa0ba0edeba06cf7bb6dd5da7d3f52b93de79dc24f3d330",
+    "bytes": 38104
+  },
+  "assets/images/50yearsofSIGCSE/BulletinJune1997-2.jpg": {
+    "sha256": "3cd17487545294c72e258358dc280387a09721ccdac54d4119c827049420520a",
+    "bytes": 46322
+  },
+  "assets/images/50yearsofSIGCSE/BulletinJune1997-3.jpg": {
+    "sha256": "409e28b0481e632733a4a906d54c21463f0aadaf39a57b5c37c386a1568cacf6",
+    "bytes": 19457
+  },
+  "assets/images/50yearsofSIGCSE/BulletinSept1994.jpg": {
+    "sha256": "40bebbce05ff337f0419ec11e02c2b9456d2f806506d571dad826ceef39523a4",
+    "bytes": 56388
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2006.jpg": {
+    "sha256": "362d9bac48a91542f1022f47ee9629689288acfa694c46390a20decf352bcc6e",
+    "bytes": 63238
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2008-1.jpg": {
+    "sha256": "7c3a9dbed65409e5cfef729ddbfc28542403e9904432369fff1e357186268c54",
+    "bytes": 18135
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2008-2.jpg": {
+    "sha256": "aa6415618d4145ac42140b17a2a82f6ee586b6d03fe4c578d3886170c9434345",
+    "bytes": 10638
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2008-3.jpg": {
+    "sha256": "aba43ebd977b8d770ec308a118eb49a7a864dd322536557c535858a5e8f1a225",
+    "bytes": 14117
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2011-1.jpg": {
+    "sha256": "ebed98f507b17b6f2d3cae42fc2c22c0da5c947f61eb2997380aae8c5ceedae6",
+    "bytes": 12074
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2011-2.jpg": {
+    "sha256": "a5c1af00bfea25b95399d7e55aba6992cdcdbb26a2ecbb13552a6106fcca92e5",
+    "bytes": 14964
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2012.jpg": {
+    "sha256": "d328505d226654a63fb1baa67a39e836bc4fc814a971a4ee110d7b0d272b3918",
+    "bytes": 97941
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2014-1.jpg": {
+    "sha256": "20a4f04826b6ee7efe3f096e219ceb9a1b935430236e6f8fe33d7dc2cd2c5ffa",
+    "bytes": 10775
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2014-2.jpg": {
+    "sha256": "b65777eb853af3914bc9a0e67a5fbbd6602080bd3f3bc4a24e21ff74abe02154",
+    "bytes": 31386
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2015-1.jpg": {
+    "sha256": "8aa0e9a0bd2c409e94c0900bb94804e68163aca780106bc6b7ecd0cd23c31a20",
+    "bytes": 8840
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2015-2.jpg": {
+    "sha256": "7eff05aba10207890b192a54e292b81c2f74121748a3bf740d2342d6a821ef80",
+    "bytes": 9462
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2016-1.jpg": {
+    "sha256": "69bda3f1957de0ec0a0c7c8e87a1afd84410bc82c0be6bd530075e5b9cc95719",
+    "bytes": 19870
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2016-3.jpg": {
+    "sha256": "fbb6c8a605eb9997d4ee2cc1ef51c7e2e6647b73081c85e64b4831a1cb680fc5",
+    "bytes": 19511
+  },
+  "assets/images/50yearsofSIGCSE/ICER-2016-4.jpg": {
+    "sha256": "04227ce21149b18a23a5406623f7dc322b163e762b16ed1d1aea2ba416a828a5",
+    "bytes": 11767
+  },
+  "assets/images/50yearsofSIGCSE/InroadsDecember2007.jpg": {
+    "sha256": "1f8ec4812fc0dd20287371ce74af29a5d22a683e039b73c403e6a14b34120fe1",
+    "bytes": 31748
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-1999-1.jpg": {
+    "sha256": "e89c903fe7648b3c9750b79fe8d71275748b5777dbe72e6f7061174f6f2ddfcb",
+    "bytes": 104976
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-1999-2.jpg": {
+    "sha256": "3b31f7ac2b36c6d4eb9884ef010cd31ad74215f238f9e4af34936add2759c62d",
+    "bytes": 292458
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-1999-3.jpg": {
+    "sha256": "79aac878dac73a6a72946715096c5b8034996ce2d338f35d2a661c7708a044cb",
+    "bytes": 272193
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-1999-4.jpg": {
+    "sha256": "b0c512dfdc53d562d7694b019a788f28e3c767f655ad9904edcb780f52b0c67b",
+    "bytes": 302616
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2000-1.jpg": {
+    "sha256": "7fcb7bc5d0ba405a07fa519f189bb2a6e8689d8b82844364ad65ed9d4bc086ac",
+    "bytes": 302928
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2000-2.jpg": {
+    "sha256": "bae428789f43c3194749135af8b3e13b30894f0073d8108ec0628e33b64aba49",
+    "bytes": 258450
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2000-3.jpg": {
+    "sha256": "dc368e01097b1a04e93684e6666370086509091b240ac254bf636f63e7224d49",
+    "bytes": 376483
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2001-1.jpg": {
+    "sha256": "cef52c6f69187019d1dc5b440876406fccb21882c09d17c9171341f70ac598de",
+    "bytes": 11145
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2001-2.jpg": {
+    "sha256": "826d86bd247ed94de56b93b430dae7437bd30f9e01172ea5a4ecb31d7d951b3c",
+    "bytes": 12948
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2001-3.jpg": {
+    "sha256": "e901c471fea27d88bc53acc08f2e06ddbe52b4de2b7301ae0c9ee5ab70b93de6",
+    "bytes": 6068
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2001-4.jpg": {
+    "sha256": "2831e25526526300e20dc2f8b964a3993fd289d51e1b1febc47700d1b376443f",
+    "bytes": 13568
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2001-5.jpg": {
+    "sha256": "865d358d19bd404727039d195c7dca56e9e05cfd2fbb107962bd9609550f271e",
+    "bytes": 17935
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2001-6.jpg": {
+    "sha256": "768ec848c10a84516a0a24e25c1f497c4612b2f9235495c2facb5bf59012d9c1",
+    "bytes": 14959
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2001-7.jpg": {
+    "sha256": "dcee9368dc35d438a7d6f71e8f086182a4e403d7fc0728936fde27a11e84398e",
+    "bytes": 10901
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2001-8.jpg": {
+    "sha256": "cc78c1e4aa0d062f0414566a752592caaace6ac9f5b40fde252ed9372fa61b9a",
+    "bytes": 39357
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2001-9.jpg": {
+    "sha256": "a34da129d806f27af151102455c269b79140dbc1a56475d6aa9e32cb6681248e",
+    "bytes": 15319
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2002-1.jpg": {
+    "sha256": "ccf434ab14066a5f30f0fae003b95d3a2db3fb3ea4015c368d8ae5df96cad39b",
+    "bytes": 8205
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2002-2.jpg": {
+    "sha256": "fb5c73eee7f767d9ed64d151cb017c0965114fbc02fb9df5313ee88447f06805",
+    "bytes": 41565
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2002-3.jpg": {
+    "sha256": "d87f5e692dbe2a77cfe3b06d09978a24bdbaf711b94f45b44bd790d252b6c3a1",
+    "bytes": 25129
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2002-4.jpg": {
+    "sha256": "a9e1b3f1213b2513bd03ab81377959284b580eaafe5e2c3f8bae757c552b932f",
+    "bytes": 20044
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2006.jpg": {
+    "sha256": "3006d34279c76d50c582e0e5e4fba7bd170469883246bc9f61162b5112348e6b",
+    "bytes": 23497
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2007-1.jpg": {
+    "sha256": "f1f8773eaede9c9df0957cbcad4d482b25009fe1202fdd529c1a214f6671651b",
+    "bytes": 15263
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2007-2.jpg": {
+    "sha256": "f0a1efb0fd9aa93e5a63bd14aee38357cf4fd08d82cc6c864cf3f0fbe456c459",
+    "bytes": 31398
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2007-3.jpg": {
+    "sha256": "b7628945255a120e0ffc3528192b145decce51a07bf08d8c8a1a1a3178ba5ea9",
+    "bytes": 25514
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2009.jpg": {
+    "sha256": "187e3fb9f2fab454551a4e1f2a87dcb7eafe1ff69c0180fcd81b3c758af4dc13",
+    "bytes": 22595
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2010.jpg": {
+    "sha256": "b623d4dd274dc306f71693902dd6863f4d651898be391334ab0819d025db805a",
+    "bytes": 23204
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2011-1.jpg": {
+    "sha256": "a8538cdd50ca29d992d321a384ba2792c85652f139bc4edc36b77529db7eba8e",
+    "bytes": 18231
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2011-2.jpg": {
+    "sha256": "1d25977895c9aab8f07a518c0dc252c6f4bbbd1c9a43f4825623c6705fad3a44",
+    "bytes": 12568
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2011-3.jpg": {
+    "sha256": "8dac9ca50100acbdc18738f70ad650a387a371be73a8915a699ee1d91b9dd989",
+    "bytes": 10853
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2011-4.jpg": {
+    "sha256": "27ffefe84ebf25d0c9fba9fa6ded80d3a60d01bb7ec4355daab78ef07110eda0",
+    "bytes": 14628
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-2011-5.jpg": {
+    "sha256": "84c9cf92ce50185693efcaf06c5647cc94713d8effabf223b0ed6f2a636b5447",
+    "bytes": 11863
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-WG-1996.jpg": {
+    "sha256": "adf45084c78c5c1f671bd65b146b7af6107f4a1f42146b0ecd93abbb9937fbd4",
+    "bytes": 138691
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-WG-1997.jpg": {
+    "sha256": "27ce0d1be11311331818ebc5e0516985f91339019a1362493df8d8a9ea4f5bb7",
+    "bytes": 32547
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-WG-1998-1.jpg": {
+    "sha256": "f0b13091388b560674d1461d3900b8790b8b5dd5f76c94c3803ef46ae3a96193",
+    "bytes": 329844
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-WG-1998-2.jpg": {
+    "sha256": "e98c09d32eb8871a6022c3f045b294350e0db6fe07c21141d44fc044df706265",
+    "bytes": 307130
+  },
+  "assets/images/50yearsofSIGCSE/ITiCSE-WG-1998-3.jpg": {
+    "sha256": "6b69def7a04ae6c5227310d2016ad1b82c2b0cfd763b931fc1f90d07c8e1af93",
+    "bytes": 317446
+  },
+  "assets/images/50yearsofSIGCSE/ninthTS.jpg": {
+    "sha256": "f2ef0791f9912c85dd4a920741b301ef468f52395141e434f3c5da2317a6b741",
+    "bytes": 38562
+  },
+  "assets/images/50yearsofSIGCSE/SIGCSEpetition.jpg": {
+    "sha256": "38e1524a2c2cc3534c0b766bd20d9a603a35a45df18c15e024e7b3587be3763d",
+    "bytes": 30741
+  },
+  "assets/images/50yearsofSIGCSE/Symposium1988.jpg": {
+    "sha256": "3d2e50eb45fc8f5cca8ae0ee4d1a011eba6ee143319edba93fa908bcdb08c5f4",
+    "bytes": 30083
+  },
+  "assets/images/50yearsofSIGCSE/TaulbeeYovits.jpg": {
+    "sha256": "a694093d339eb135477953c83792912ac8e49d0fa1fc80c3e481dccd0fe1af8b",
+    "bytes": 17618
+  },
+  "assets/images/50yearsofSIGCSE/thirdTS.png": {
+    "sha256": "c9bb2e4a2a2f95d857367159d30917961a3822c5553a5660c3a2ede5cb74b1d6",
+    "bytes": 27884
+  },
+  "assets/images/50yearsofSIGCSE/VPIProgrammingTeam.jpg": {
+    "sha256": "b082394c996ec33c27bdc877b49994e85c2a4fdf85e534be481c30c28f81abd6",
+    "bytes": 34074
+  },
+  "assets/images/board/2016-2019/board 16-19.jpg": {
+    "sha256": "a7845d4eb16b5c0bff659075da3b7bb94605f0bc764140a599dec9bee3849d61",
+    "bytes": 1588932
+  },
+  "assets/images/board/2019-2022/Andrew.jpg": {
+    "sha256": "ae795b7facae70e894af34ca797528c38eb8f5a0940525c11f569d226361f9f6",
+    "bytes": 5048
+  },
+  "assets/images/board/2019-2022/asettle.jpg": {
+    "sha256": "04f88ae3b17479d3dab9026a21536900d3a83210b2fc8a6c36a41f6a01f244fc",
+    "bytes": 10650
+  },
+  "assets/images/board/2019-2022/board 19-22.jpg": {
+    "sha256": "f3190c50af309a9b628557cf270c97b655a2abbd954a5de862ee92c77bc9c959",
+    "bytes": 2321805
+  },
+  "assets/images/board/2019-2022/d_garcia.jpg": {
+    "sha256": "8262ae7f3675d646d834924a0cfca085b4ed2260c9cdd4a0dc06e668748797a8",
+    "bytes": 27997
+  },
+  "assets/images/board/2019-2022/decker2019.jpg": {
+    "sha256": "f5352b75dd5ebaf0439da1a214e7d47faa12e3ada1d7827fd1619ba6d479e020",
+    "bytes": 14745
+  },
+  "assets/images/board/2019-2022/Egan.jpg": {
+    "sha256": "433686c8f858a60136b2ff6bd3a5c4701a7b007bff4976f03f06e45e92832aff",
+    "bytes": 7956
+  },
+  "assets/images/board/2019-2022/laurie-murphy-photo.jpg": {
+    "sha256": "66ce87c1cd4bea44dd94db032131804c5cc6cc612479ff4658166927af237830",
+    "bytes": 10118
+  },
+  "assets/images/board/2019-2022/Manuel.jpg": {
+    "sha256": "f5a68dccf376564c5731055d9b0153b8717ace9c697d2ed89425972fdb510a02",
+    "bytes": 7801
+  },
+  "assets/images/board/2019-2022/Porter.jpg": {
+    "sha256": "440f8305b420bc05058c738f89fd4b13e3ee1f8928bcc960b400d6fd54e72ca4",
+    "bytes": 6131
+  },
+  "assets/images/board/2022-2025/adrianne2022.jpg": {
+    "sha256": "f12901b07470886847799072928f5302d9eb757af106b8779c7798f79f35260c",
+    "bytes": 24773
+  },
+  "assets/images/board/2022-2025/alison2.jpg": {
+    "sha256": "f1c846ed3394bfb747f0336136516fe033aaea28a509d88e891b51c12e228d0c",
+    "bytes": 32949
+  },
+  "assets/images/board/2022-2025/barbara-boucher-owens.png": {
+    "sha256": "7a971221018a6e7ece7969aac0733c52bf3ad21f2c9b082e7454d18f6abcd89b",
+    "bytes": 26843
+  },
+  "assets/images/board/2022-2025/becker.png": {
+    "sha256": "288e7a16b06153164cccc98bf534f80fc9f2e37dbeb104712d47ffb71e6762d3",
+    "bytes": 30525
+  },
+  "assets/images/board/2022-2025/board 22-25-a.jpg": {
+    "sha256": "97e9d0786b72835026c685dcaf345d03152ac4b97757fb7e0d1e2380e2fda301",
+    "bytes": 54604
+  },
+  "assets/images/board/2022-2025/board 22-25-b.jpg": {
+    "sha256": "0229a445b9d7e7a3dbc974fe4214f83ab87cffd5b442d1760cdb08108896fdfb",
+    "bytes": 52689
+  },
+  "assets/images/board/2022-2025/board 22-25.jpg": {
+    "sha256": "d1f225ac9a4af7f0b98b6047d8f4561aa20b16f93730bc3776b9abd39fda79da",
+    "bytes": 58382
+  },
+  "assets/images/board/2022-2025/board 22-25.png": {
+    "sha256": "636ce7b1b707d30438759d45bb3ce1ee5ae417e042a13f0d580326bdcee103c4",
+    "bytes": 691764
+  },
+  "assets/images/board/2022-2025/d_garcia.jpg": {
+    "sha256": "8262ae7f3675d646d834924a0cfca085b4ed2260c9cdd4a0dc06e668748797a8",
+    "bytes": 27997
+  },
+  "assets/images/board/2022-2025/denner.jpg": {
+    "sha256": "d4bb373566d626291247f2fa0ea158a8366d4e864c3c030f0cc84e06dfdbb7c0",
+    "bytes": 10798
+  },
+  "assets/images/board/2022-2025/judy-sheard.jpg": {
+    "sha256": "9052b2abad6b87141717f764e617d300db96544a4884aece3ac34fc04777b243",
+    "bytes": 10962
+  },
+  "assets/images/board/2022-2025/orig/adrianne2022.jpg": {
+    "sha256": "45ad446b3f02acea72bdb78a81a6acfa8ead954fde747df2ffb272e79878a52e",
+    "bytes": 6348479
+  },
+  "assets/images/board/2022-2025/orig/alison2.jpg": {
+    "sha256": "6aeff3b0c3126b2064c805c9b1e135b4b2c07db362bc1c8eed59208e5db1be1e",
+    "bytes": 3794235
+  },
+  "assets/images/board/2022-2025/orig/becker.png": {
+    "sha256": "03e82adae454dfe2c3b91b674b4e538fdb9b4006ae914e3c93b8c69d2b97c1d4",
+    "bytes": 1701070
+  },
+  "assets/images/board/2022-2025/orig/d_garcia.jpg": {
+    "sha256": "8262ae7f3675d646d834924a0cfca085b4ed2260c9cdd4a0dc06e668748797a8",
+    "bytes": 27997
+  },
+  "assets/images/board/2022-2025/orig/denner.jpg": {
+    "sha256": "9008a33d065dc93828d128a1ca3e65cd5d59cc7b46cd9c5f8c7a4ef172f5a0b1",
+    "bytes": 67203
+  },
+  "assets/images/board/2022-2025/orig/judy-sheard.jpg": {
+    "sha256": "1b07e4f142e1b1e848d07f573b6d2c5b4e0b32b176db516b30318e57436c4f33",
+    "bytes": 74032
+  },
+  "assets/images/board/2022-2025/orig/ranking.jpg": {
+    "sha256": "6bb508775f7dab11f1b4244b5614f980b0c9af7a13ed578a0bb4db3736926cd8",
+    "bytes": 56590
+  },
+  "assets/images/board/2022-2025/orig/rodrigo-duran.jpg": {
+    "sha256": "84cdad9a148067802a51d8bd233b9f5495227a60afcc224f8b3300ada7cb4984",
+    "bytes": 511185
+  },
+  "assets/images/board/2022-2025/ranking.jpg": {
+    "sha256": "8de703dbea928e7cdcef1565af931ca529706ff449f839457a25d9cdbf8a4fcc",
+    "bytes": 11262
+  },
+  "assets/images/board/2022-2025/rodrigo-duran.jpg": {
+    "sha256": "bd66468337202ffd9a62c403af65b9d3d736266090a60503dca3a13940c5e65f",
+    "bytes": 8270
+  },
+  "assets/images/board/current/alison2.jpg": {
+    "sha256": "f1c846ed3394bfb747f0336136516fe033aaea28a509d88e891b51c12e228d0c",
+    "bytes": 32949
+  },
+  "assets/images/board/current/alison2.png": {
+    "sha256": "8cb8cc79d9372cfbf51643b9a9f0ddd6b0b893c7b1e4330bbd8ddc8fc0294dd8",
+    "bytes": 37195
+  },
+  "assets/images/board/current/clear.png": {
+    "sha256": "b44881e7718265a42c2013a5967cc909761cf5b8d80873d580bbd8c1bbff755b",
+    "bytes": 28158
+  },
+  "assets/images/board/current/dorn.png": {
+    "sha256": "47341e702db98adf95d5ecd7d29d5ea26d6664784e3b464e64272ee71ea07d67",
+    "bytes": 26435
+  },
+  "assets/images/board/current/friend.png": {
+    "sha256": "cf5ef83a4fe473aa170620e2eba718a497a58111e27895f03ad9143b151f2838",
+    "bytes": 20624
+  },
+  "assets/images/board/current/gregg.png": {
+    "sha256": "14fb61f751f23c00afc41cffa90676583cc606b7e472dbf3dfa552a71367b1b4",
+    "bytes": 29611
+  },
+  "assets/images/board/current/ola.png": {
+    "sha256": "8f353c7816c23d84b02f104a215e9d7f7f618a1627d031e16b4ad40376c08db8",
+    "bytes": 23960
+  },
+  "assets/images/board/current/sherriff.png": {
+    "sha256": "cbf008d9ee718523c68bbbaf23f8c6ca707ef3a099240a44b0a46f8fbadde1e1",
+    "bytes": 28678
+  },
+  "assets/images/board/current/szabo.png": {
+    "sha256": "efb48a16fef7bc6d3a6b779b8319d498746ebdfad37c1e6a4aecf61209ccbfc6",
+    "bytes": 30457
+  },
+  "assets/images/board/current/tshukudu.png": {
+    "sha256": "ed13681bbd7f1fe5b1bb719b674425ba81d55da5387245bd01cfe32be59720f2",
+    "bytes": 27451
+  },
+  "assets/images/default-proceeding.png": {
+    "sha256": "e68dd3d531f769996641477ac5c37dda875bbe2776fa355e1b6f53963d7bb355",
+    "bytes": 15105
+  },
+  "assets/images/favicon/android-icon-144x144.png": {
+    "sha256": "d48d2fe96efee58750970be154d0a8446781905cd52aff6d55ad80dd4a6ea929",
+    "bytes": 13389
+  },
+  "assets/images/favicon/android-icon-192x192.png": {
+    "sha256": "07dc585cc408a42e4ac48e6872c07ad706460254ad5c6885d2f419ba21c1889a",
+    "bytes": 19900
+  },
+  "assets/images/favicon/android-icon-36x36.png": {
+    "sha256": "d423e983bc5f0ef70a4ef2481fd8407e74b807eabc2d4b3de4f3d4d1a258d246",
+    "bytes": 2131
+  },
+  "assets/images/favicon/android-icon-48x48.png": {
+    "sha256": "3c84ac19f17d40c22d7fd99d785b7e5f2ef1b5a306c73fdc0a7ad22580752721",
+    "bytes": 3768
+  },
+  "assets/images/favicon/android-icon-72x72.png": {
+    "sha256": "24319d5dd9e8707df28384cfaec785eab44654ea6a3777a5e953593cd131dab4",
+    "bytes": 5567
+  },
+  "assets/images/favicon/android-icon-96x96.png": {
+    "sha256": "d9c750776102e6c6ffc0d63c8e033a214ede643a395efb034735a6df28419fdd",
+    "bytes": 7628
+  },
+  "assets/images/favicon/apple-icon-114x114.png": {
+    "sha256": "d21fb2c0aec469081bacc29446a3dd82d5ae20437a20581e68fbb6f2783f0d04",
+    "bytes": 9277
+  },
+  "assets/images/favicon/apple-icon-120x120.png": {
+    "sha256": "db3b6c794593923d8ebdfa905e4626fd0dc01b191cbec128f55160fd43c92232",
+    "bytes": 9939
+  },
+  "assets/images/favicon/apple-icon-144x144.png": {
+    "sha256": "d48d2fe96efee58750970be154d0a8446781905cd52aff6d55ad80dd4a6ea929",
+    "bytes": 13389
+  },
+  "assets/images/favicon/apple-icon-152x152.png": {
+    "sha256": "d651c41f6d6d4d41a4f3b2ca30442addd64985471617b3d72a767a4c52f50540",
+    "bytes": 14609
+  },
+  "assets/images/favicon/apple-icon-180x180.png": {
+    "sha256": "5391cdd7b8c9cd504e05f934accdb7fd0d8306b12d93bed6abfef409dccd3260",
+    "bytes": 19326
+  },
+  "assets/images/favicon/apple-icon-57x57.png": {
+    "sha256": "609f62448852a1eb4db73b331a2afd08ab0fe5cad9d69aa7c818fcb573cfd1a9",
+    "bytes": 4391
+  },
+  "assets/images/favicon/apple-icon-60x60.png": {
+    "sha256": "1b8e3da670ad769eaa1da4fc7ade266825d4dfb413f329971b508617da08ddf2",
+    "bytes": 4684
+  },
+  "assets/images/favicon/apple-icon-72x72.png": {
+    "sha256": "24319d5dd9e8707df28384cfaec785eab44654ea6a3777a5e953593cd131dab4",
+    "bytes": 5567
+  },
+  "assets/images/favicon/apple-icon-76x76.png": {
+    "sha256": "7758d797af4685a13205b7d8dc20308da25b7fa7b278d52fc06878e24e5f8350",
+    "bytes": 5850
+  },
+  "assets/images/favicon/apple-icon-precomposed.png": {
+    "sha256": "96f65454dfce9ded7abab60cea48c619a04ff50a96c58cadf474317046796ea7",
+    "bytes": 20389
+  },
+  "assets/images/favicon/apple-icon.png": {
+    "sha256": "96f65454dfce9ded7abab60cea48c619a04ff50a96c58cadf474317046796ea7",
+    "bytes": 20389
+  },
+  "assets/images/favicon/browserconfig.xml": {
+    "sha256": "66704463cd361050b26b2a315b125047d8eed60df8cc275abbb0383e70d0d0e9",
+    "bytes": 282
+  },
+  "assets/images/favicon/favicon-16x16.png": {
+    "sha256": "5965482cb951043a1576c7a57f8a2bad1b11242275912bae9cc494b05d165502",
+    "bytes": 1278
+  },
+  "assets/images/favicon/favicon-32x32.png": {
+    "sha256": "2ba93486e99e2c1c3a628eadd8872d4a552eecddadda8db9f0d337e2181792a0",
+    "bytes": 1961
+  },
+  "assets/images/favicon/favicon-96x96.png": {
+    "sha256": "d9c750776102e6c6ffc0d63c8e033a214ede643a395efb034735a6df28419fdd",
+    "bytes": 7628
+  },
+  "assets/images/favicon/favicon.ico": {
+    "sha256": "299f973501c2100981189855a0a3165f2e1c6add491ca4b76cfb66db5d547a77",
+    "bytes": 1086
+  },
+  "assets/images/favicon/manifest.json": {
+    "sha256": "ae6280a98642cc45d5f79c8fdc081aff05689e1d470ec3241ea6dfef33558b58",
+    "bytes": 760
+  },
+  "assets/images/favicon/ms-icon-144x144.png": {
+    "sha256": "d48d2fe96efee58750970be154d0a8446781905cd52aff6d55ad80dd4a6ea929",
+    "bytes": 13389
+  },
+  "assets/images/favicon/ms-icon-150x150.png": {
+    "sha256": "d2f78c1809bdb667879654802e76d4922be2e5f214cb3d2adbb80dc15ead624b",
+    "bytes": 14350
+  },
+  "assets/images/favicon/ms-icon-310x310.png": {
+    "sha256": "feeaa073a582b3134e8a65666edee9ede3fb71bbbb3923c17d9bd960f1eb4486",
+    "bytes": 44874
+  },
+  "assets/images/favicon/ms-icon-70x70.png": {
+    "sha256": "2b4af3c78c27ea3274affdad2b182dbc448933231c774b3462708d4b74d3d0c5",
+    "bytes": 5412
+  },
+  "assets/images/home/2020canceled.jpg": {
+    "sha256": "853ee8566594ff1593c93c9c3c6137698d7ba27728684a37c130740a69510dba",
+    "bytes": 125092
+  },
+  "assets/images/home/board 25-28.png": {
+    "sha256": "83b213246a366cf325b97651dfcbe3e27520c646e979f691df49d59e2e912f67",
+    "bytes": 755893
+  },
+  "assets/images/home/board.png": {
+    "sha256": "b7601f63f6891c24c1f9e26f97b5811750f35d6c81a8f543660a0218f70e3a9b",
+    "bytes": 666373
+  },
+  "assets/images/home/exhibits copy.jpg": {
+    "sha256": "a4607e51ceaf82d0b41eef7a7c67f923d0ab209d3ada7d70e189174d42729bbb",
+    "bytes": 249398
+  },
+  "assets/images/home/exhibits.jpg": {
+    "sha256": "d1ab28c6ff998c007104b469debaf7ab678aed3765c2db1bd3efab93a9eefa7e",
+    "bytes": 62980
+  },
+  "assets/images/home/teaching copy.jpg": {
+    "sha256": "e8351c45967147de8bd76f602bb5d9f3f99956b9c01e5fb012c9b5aacf726620",
+    "bytes": 370956
+  },
+  "assets/images/home/teaching.jpg": {
+    "sha256": "92c90094fe2c56b51a3645847bdf8dd395a24bc72b84d58ec65e4a15353019e5",
+    "bytes": 77444
+  },
+  "assets/images/home/teaching.png": {
+    "sha256": "1c8e2a49bc5a344fec4957759c32b3f09e7838b7df1a588c5b0099b445fe577b",
+    "bytes": 1331158
+  },
+  "assets/images/home/ts2022.png": {
+    "sha256": "c08b6bb197fbaaf3a72977e648c81095598ab8356dd54e7e34e7a566d6fd66fa",
+    "bytes": 59349
+  },
+  "assets/images/home/ts2023.jpg": {
+    "sha256": "280c4d887d53cf95777dde21df7a40064719cf3e579d451bcc5d32169a23afcd",
+    "bytes": 52796
+  },
+  "assets/images/home/ts2023.png": {
+    "sha256": "f0ba2889a43e0f1bb2d1a95ea488ff343ef0aa8349e92f10ac5a3f4736569a40",
+    "bytes": 30155
+  },
+  "assets/images/home/ts2024.jpg": {
+    "sha256": "310345b6b038314994b175372b6487d537a038cca76c7821a6a4c3066c2fc8a6",
+    "bytes": 60249
+  },
+  "assets/images/home/ts2024.png": {
+    "sha256": "055e9f8781014716788e98271cfc7fcfda0f9e8c2e56fe1b682dccb6b9735745",
+    "bytes": 49991
+  },
+  "assets/images/home/ts2026.jpg": {
+    "sha256": "dc60daf49d040e7754410945ddb5efc929f8bccaa0a140822d4bf4aec159d1ed",
+    "bytes": 26797
+  },
+  "assets/images/home/ts2027.png": {
+    "sha256": "0cb7f4b73987fb5298f791452dfc4a67b5e0de19ec3b0a21045c52d461570f61",
+    "bytes": 368768
+  },
+  "assets/images/logo/acmdl400x400.jpg": {
+    "sha256": "3d87110d03991441de2b4731b51e2e2859b44133eb659bf8c0191912903196a2",
+    "bytes": 15121
+  },
+  "assets/images/logo/comped-logo-s.png": {
+    "sha256": "c8dc6d0e83178bd505863c1fe8c26c0a8ca3d4bf7438bfbf2d39cca7e2116e4e",
+    "bytes": 68627
+  },
+  "assets/images/logo/comped-logo.png": {
+    "sha256": "7bd218770d4657abba94e7d42b800961608055430952b9ddb8bd4674f63f4024",
+    "bytes": 147562
+  },
+  "assets/images/logo/icon.jpg": {
+    "sha256": "74f422887123c2f3fe86b796f493802e52bcd656d9e2871ceb0cb65a05023c09",
+    "bytes": 111015
+  },
+  "assets/images/logo/ITiCSE-LOGOv2-s.png": {
+    "sha256": "645bc309cf4393a7fb0fd6bd84abcdf60f732b3bbbaec4ab1b061d5b6765ef6b",
+    "bytes": 78944
+  },
+  "assets/images/logo/ITiCSE-LOGOv2.png": {
+    "sha256": "517725c41dc01d610111581342fc8e5af5da0616dec67c42951a5e7defe6993e",
+    "bytes": 62519
+  },
+  "assets/images/logo/SIGCSE-logo_home.jpg": {
+    "sha256": "2260683f9b51da6ad04546461adfe6bbcfd0b5ed8819a245dade2d538ffc131f",
+    "bytes": 88775
+  },
+  "assets/images/logo/SIGCSE-logo_horiz_black.jpg": {
+    "sha256": "486db1549a4862b79134ddf0e0de6d8f4dd1735051458af60bd79e2db2462ce3",
+    "bytes": 233234
+  },
+  "assets/images/logo/SIGCSE-logo_horiz_color.jpg": {
+    "sha256": "a355be12f8e866cbe5907d388d5b32e6232bca92b03a8325df2550ec02cecb93",
+    "bytes": 296352
+  },
+  "assets/images/logo/SIGCSE-logo_horiz_color_no-back.png": {
+    "sha256": "d225d4c19ff7d6a4d419a1d181a4cf3f1cf1ffb07d2436a712708cc5748e85ac",
+    "bytes": 240687
+  },
+  "assets/images/logo-old/051102-SIGCSE-logo-large-trans.gif": {
+    "sha256": "63bbd19f53400fe37326b767ee0dcf951a526c7bd638da10cf251a6e940ae983",
+    "bytes": 14227
+  },
+  "assets/images/logo-old/051102-SIGCSE-logo-large.gif": {
+    "sha256": "faac17bc65a2ddf2dcd794426beb444e7efd9d71f9b390572de979b5483d3e5e",
+    "bytes": 13466
+  },
+  "assets/images/logo-old/051102-SIGCSE-logo-large.jpg": {
+    "sha256": "5b7621ab57d50bd3da5a554f7ff872b81470fd082a1f547502a86d926289d533",
+    "bytes": 85115
+  },
+  "assets/images/logo-old/051102-SIGCSE-logo-small-trans.gif": {
+    "sha256": "f5946fb05baaaba786795a52ddeddb23bbbff6e53dfb66cd37756e42803a16cd",
+    "bytes": 866
+  },
+  "assets/images/logo-old/051102-SIGCSE-logo-small.gif": {
+    "sha256": "3ea5cd257da162badc78c4a8e48e81d8236b9580b44f95d59624bd46cfe46b65",
+    "bytes": 867
+  },
+  "assets/images/logo-old/051102-SIGCSE-logo-small.jpg": {
+    "sha256": "5e08f50d5e891fb171d185f8864c4a3d6b4025ab1a6463744eaa264513e92495",
+    "bytes": 4249
+  },
+  "assets/images/people/Henry_Walker.jpg": {
+    "sha256": "6558ce7764ac2522a964e81aa82c135d30d01e84fc74eeec520103a542d4b868",
+    "bytes": 58245
+  },
+  "assets/js/bootstrap.bundle.min.js": {
+    "sha256": "243278db80c76a9853019087e9429d86e64dafd302ea3e474e781e2db8bbbcfb",
+    "bytes": 80669
+  },
+  "assets/js/bootstrap.bundle.min.js.map": {
+    "sha256": "19a5b0b88d24d6b154c4462896c9631c0b317d71f22eebbf0b9e405db4351fd1",
+    "bytes": 331886
+  },
+  "assets/js/color-modes.js": {
+    "sha256": "17080c1a953dd919cac4dafd6dc8f90aff647a2fb3a429c0706e68ecdc7d0fd7",
+    "bytes": 2665
+  },
+  "assets/js/docs.min.js": {
+    "sha256": "27f18f82e6bebf92acb937a7fba03d4355f4cc700cf396d78137b5d952f51868",
+    "bytes": 52042
+  },
+  "assets/js/src/application.js": {
+    "sha256": "67e132dee6aa897c31848c2ad10b962b7c5c7a879c42f44855c6a895fc03778f",
+    "bytes": 4652
+  },
+  "assets/js/src/ie-emulation-modes-warning.js": {
+    "sha256": "13929c98c09973f9763f7f69296542c418c8cf091b1a97e54ec2f92910f847b4",
+    "bytes": 2052
+  },
+  "assets/js/src/pwa.js": {
+    "sha256": "b3eac396c6dc9f74e9b98a03d220f3a135f58ea36df044391cb4e8316d9b157a",
+    "bytes": 562
+  },
+  "assets/js/vendor/anchor.min.js": {
+    "sha256": "45ac65d97c53a4232b5480e53b939179f6f079f4eccb9e7ad48a33cf453b9a6d",
+    "bytes": 5394
+  },
+  "assets/js/vendor/clipboard.min.js": {
+    "sha256": "c228a8e12e33827977851a6b9dde862feba61ac34c5ad5bc675e55603754d770",
+    "bytes": 10923
+  },
+  "assets/js/vendor/holder.min.js": {
+    "sha256": "a803e6cf3e0d3b35f38686c22a7897bb68c170af15fe782812500aa51f7dd5b1",
+    "bytes": 32295
+  },
+  "assets/js/vendor/jquery-3.7.1.slim.min.js": {
+    "sha256": "67fc881e24fa1c97ddc03492dd04423843c3736de36448f707ade1566bdb3e2d",
+    "bytes": 70264
+  },
+  "assets/scss/docs.scss": {
+    "sha256": "c220a44994b9aba4e538049641cddc943caee63ddade28c81df16d1903d8a020",
+    "bytes": 1572
+  },
+  "events/50years.html": {
+    "sha256": "f2876c6f3f120f8329c332a57299bc8159ad14ab3385bf588d58a29480ecc8b9",
+    "bytes": 187114
+  },
+  "events/bestpapers.html": {
+    "sha256": "86a796284e819fc87fcd871cda593febc9828336637e9343ef7ddaf52f585148",
+    "bytes": 86330
+  },
+  "events/comped/2019.html": {
+    "sha256": "c2e93441fe7a41dca27fff01352ec188046b79fb3bd61326683716ec16c0679b",
+    "bytes": 19126
+  },
+  "events/comped/2023.html": {
+    "sha256": "e6161d72be5d83e08e995a4f4d2e973ebaf86f4bb0819e4f4be57bf06180544e",
+    "bytes": 19336
+  },
+  "events/comped/conferences.html": {
+    "sha256": "1cc44d9e826568f22c124dacbe75fdd851230e534e940e8ae40155dd34cf5d51",
+    "bytes": 20070
+  },
+  "events/comped/covers.html": {
+    "sha256": "e0b5d2452c20be36fd10576d31f12b8d69280ecc9248b948098c763d18f4e9bc",
+    "bytes": 18414
+  },
+  "events/comped/images/covers/comped2019.png": {
+    "sha256": "4cbe966ada3f0c7d6fae4681492a5d56822e0d0f53467f87d7c421e197f36249",
+    "bytes": 96791
+  },
+  "events/comped/images/covers/comped2019wg.png": {
+    "sha256": "d4a695c9a1c9ba9fe7dd2dae0752a81cc93c88e7b39790d46600936b4ad0123a",
+    "bytes": 96391
+  },
+  "events/comped/images/covers/comped2023.png": {
+    "sha256": "fca96e30c3bf97b0425b9f3e08066caa19299a9d7cc8c11c2e694ec590c3e132",
+    "bytes": 115092
+  },
+  "events/comped/images/covers/comped2023wg.jpg": {
+    "sha256": "c22c0a0859f947a3a84028e6d355259b2dfbcf93575104da372f781b6b23debb",
+    "bytes": 29655
+  },
+  "events/comped/index.html": {
+    "sha256": "e4cf8e21b2fee13fb918cd11d4c4a09730096ad32eb1a14ad605c564b7dc3512",
+    "bytes": 23987
+  },
+  "events/comped.html": {
+    "sha256": "7b75b740be8269baac17d71742b1e13008c11d7e0efdf7ebee4279bd20b87e94",
+    "bytes": 582
+  },
+  "events/dc.html": {
+    "sha256": "2c852377dbdf635a9842373efbaa48e9a29b9e770aea13882de115c9f9eed749",
+    "bytes": 22131
+  },
+  "events/icer/2005.html": {
+    "sha256": "44b06654ea463358fceb32755daeb0d968eedd6307163253c01712628e81611e",
+    "bytes": 18905
+  },
+  "events/icer/2006.html": {
+    "sha256": "71ce783b7833e213cd0c1b4cbef9eb605b7a0b7e65bb50ec27180bc71ddc0b24",
+    "bytes": 18973
+  },
+  "events/icer/2007.html": {
+    "sha256": "f8244ea47c2af460962785c3187eb64f972e77a3fd1b79d49b24d1d80d452db8",
+    "bytes": 18995
+  },
+  "events/icer/2008.html": {
+    "sha256": "4ca0ad86cc46ee6ede0383b4bd37bf3d3ff654be8d60a5a762ecbb283031e1da",
+    "bytes": 18965
+  },
+  "events/icer/2009.html": {
+    "sha256": "c5939a3e56a4657c0f55114973ba053f4ff1a447a2de351fe6740639e7a6a705",
+    "bytes": 18972
+  },
+  "events/icer/2010.html": {
+    "sha256": "603d66128fad5111e58b792304fab1756c17279ef5b01061ae1d47c04094772b",
+    "bytes": 18958
+  },
+  "events/icer/2011.html": {
+    "sha256": "b0d60f919b9538dc4f159f9f06629e8f6821d71ae951daedb2bf00607a92537d",
+    "bytes": 18963
+  },
+  "events/icer/2012.html": {
+    "sha256": "f1c4ad665b16645f0428e4846890f4070e6794a11830e783cb108f72e6198633",
+    "bytes": 18981
+  },
+  "events/icer/2013.html": {
+    "sha256": "ffaec9c4a2eec8115cb8ebbcd9ba36276da7bdbef5c129957b7c27873586ed41",
+    "bytes": 18991
+  },
+  "events/icer/2014.html": {
+    "sha256": "4d51454d0d65de9b8ea4984a6d979c477c27e83f2fd0bd72d38a6acb55456b59",
+    "bytes": 18968
+  },
+  "events/icer/2015.html": {
+    "sha256": "e11f05111d7b3cfe1d4efa92d2a2a2f1a2711264e9dd36be9a481a0d0b60cdb5",
+    "bytes": 18988
+  },
+  "events/icer/2016.html": {
+    "sha256": "08ec28256b34fd769546fce156e6eec0f76a258c6841bb8b44a89303315d62b2",
+    "bytes": 18965
+  },
+  "events/icer/2017.html": {
+    "sha256": "f618b223aa8cbccc411c694a399233bd0acdff0ba5e9649d197a44bb20cf51c0",
+    "bytes": 18958
+  },
+  "events/icer/2018.html": {
+    "sha256": "c7946ca8e29d7096ed2976ac21e351883a3d1b1edefc2c8267f2f057d4a2f3a6",
+    "bytes": 18960
+  },
+  "events/icer/2019.html": {
+    "sha256": "71c57beaa2c179d1cfea93172fe11e6c096ebeb6f556006d7b688040f77595a4",
+    "bytes": 18959
+  },
+  "events/icer/2020.html": {
+    "sha256": "7cfb03f53827ddca3babfdbd71c38ffcf38e7b72c3e45d213fa7a737fc3b78a2",
+    "bytes": 18989
+  },
+  "events/icer/2021.html": {
+    "sha256": "922ae6be26b8ec109c978b605d76bae57308ecdbe45a61c698f914d674fb4baf",
+    "bytes": 19000
+  },
+  "events/icer/2022.html": {
+    "sha256": "352850fe23d26b5399f181625b3da81a5c406fecde5b40238b6287a243b97cf9",
+    "bytes": 19172
+  },
+  "events/icer/2023.html": {
+    "sha256": "4b133aa7b244af890e65adc897aa5af5e9ffe560d5176c6c40b7d04f9c25b27a",
+    "bytes": 19194
+  },
+  "events/icer/2024.html": {
+    "sha256": "f8acca5cce370754ce10053238c3c31c2b043487cc96a087d9caed2bbb80e8da",
+    "bytes": 19171
+  },
+  "events/icer/2025.html": {
+    "sha256": "4ee0e8f4f2f78b3b18d8bc44d6b935ff6babe0acb3df03d7f4b47c1e22ae07bb",
+    "bytes": 19141
+  },
+  "events/icer/conferences.html": {
+    "sha256": "2a1eee6e264c45697652629cec645d7f2f2b1f85156fb60c0f72a00bc3664bee",
+    "bytes": 29222
+  },
+  "events/icer/covers.html": {
+    "sha256": "bce321d6d08282a5eb363f99ca8bb7655d874df6cae061c0f15c2a110b7a1755",
+    "bytes": 20764
+  },
+  "events/icer/images/covers/icer2007.png": {
+    "sha256": "6ab39015d0a8653013dd4a5398ec1c56e82980f4f71dde51065c1e151ca2f24d",
+    "bytes": 30246
+  },
+  "events/icer/images/covers/icer2008.png": {
+    "sha256": "f7c03034799b5806fd153fa65deb87831fe82ea9d74a0ce7976c4ddebfc50b6c",
+    "bytes": 36203
+  },
+  "events/icer/images/covers/icer2009.png": {
+    "sha256": "645e82b3e69a057f1f9ec0f8b4b52135394931e02f8508e4145d5409ae2907b3",
+    "bytes": 37003
+  },
+  "events/icer/images/covers/icer2010.png": {
+    "sha256": "eb3c1e3cd6eeedbc98a0a69c4e8e196b25b48785e56653a33aeb3adea18330fe",
+    "bytes": 44006
+  },
+  "events/icer/images/covers/icer2011.png": {
+    "sha256": "b2a57b2c8a6e3ef5693333119ed94acdccb97b00be434b53a61be26a8af9d461",
+    "bytes": 41775
+  },
+  "events/icer/images/covers/icer2012.png": {
+    "sha256": "32e756d2bd3bcd21292fa5535f93c2b18f0d3d196848a8cd1090f6d86ea9c3f0",
+    "bytes": 31517
+  },
+  "events/icer/images/covers/icer2013.png": {
+    "sha256": "747e575de16a096cf67ebc0adeb1588cf434d2807a818cc13d6125be30241b25",
+    "bytes": 34150
+  },
+  "events/icer/images/covers/icer2014.png": {
+    "sha256": "b099a07fc6a4004335a90f647b76644e54491ffee3debfcb1a7ec1f1aee84664",
+    "bytes": 29491
+  },
+  "events/icer/images/covers/icer2015.png": {
+    "sha256": "68f21196721b9e3bbe4cb5962dc1b82f3a417d77b02bb05b6894bd5b5d2b847f",
+    "bytes": 32273
+  },
+  "events/icer/images/covers/icer2016.png": {
+    "sha256": "fa8b71e2605ba341996c227fb245f35f7ec80e99653ff17fb7cc0869bd9c2a69",
+    "bytes": 30351
+  },
+  "events/icer/images/covers/icer2017.png": {
+    "sha256": "3351a738b6979a540c13dabef90563531e7a0ae880685b720306f7c12627e031",
+    "bytes": 33347
+  },
+  "events/icer/images/covers/icer2018.png": {
+    "sha256": "275f8b498705e67a4186675520b177a061420375c84883579b3c8006c167d8a2",
+    "bytes": 35145
+  },
+  "events/icer/images/covers/icer2019.png": {
+    "sha256": "37a859d60ab78b3972235e083a1af5d3cf400fd32997ab1ab043eca4bf2061dc",
+    "bytes": 30567
+  },
+  "events/icer/images/covers/icer2020.png": {
+    "sha256": "a0b76ab5ffa80c57abab08e8969aead4114be9b31ce5655fd763409cbdae1552",
+    "bytes": 37069
+  },
+  "events/icer/images/covers/icer2021.png": {
+    "sha256": "e041ca3326474a51ce02c13371af216ff3e6127d93691b702988ebe429496702",
+    "bytes": 42657
+  },
+  "events/icer/images/covers/icer2022.png": {
+    "sha256": "2e25ebda965f3977340a430f23d91ef31125b4638726cb4b5c7e607de388eee2",
+    "bytes": 38560
+  },
+  "events/icer/images/covers/icer2023.png": {
+    "sha256": "c8fb47c6d4b0b0b6192ff9a0e480115e571a057fe5cf63d50e5ffa6b1d056608",
+    "bytes": 30291
+  },
+  "events/icer/images/covers/icer2024.png": {
+    "sha256": "d07eba46ce2f3b29a4a93f87797fa8c8abccbe74339f49155ebe2785daf72b18",
+    "bytes": 35067
+  },
+  "events/icer/images/covers/icer2025.png": {
+    "sha256": "68b080c5d4c8a65681b9e559bd0337ec85339c7969fdd41de4583d409ed898ff",
+    "bytes": 35424
+  },
+  "events/icer/index.html": {
+    "sha256": "4eb3c305c367747d94322632de6bf09fb662fda867ffb64e99f201f98b202a18",
+    "bytes": 22936
+  },
+  "events/icer.html": {
+    "sha256": "d3f656c4e0e542ddcbdcce68ca065eb2adcd1af5517de213922c87b36e815289",
+    "bytes": 574
+  },
+  "events/incoop.html": {
+    "sha256": "99d688697167211f2959608300ac00565388eed31a8cd98c19c23d3a105ffec3",
+    "bytes": 23368
+  },
+  "events/index.html": {
+    "sha256": "1c7431113bebcacb7412c2d3e285b88bfa9555c6f6ee6e159052a54368bd5814",
+    "bytes": 19728
+  },
+  "events/iticse/1996.html": {
+    "sha256": "3149b3fa85cb2bfcabe2aaa41407aa9c2eb7091e7c96ad9d6f6b2e2919174acf",
+    "bytes": 18835
+  },
+  "events/iticse/1997.html": {
+    "sha256": "da0542162451bd7b16bc6a788375656d3f58dce10b7b9d4ad2a6e0fcd4443419",
+    "bytes": 19145
+  },
+  "events/iticse/1998.html": {
+    "sha256": "53848913e6890788d8c5ad20dd7ef18a482f93ba3d07c7aa5eef0710b998e7e3",
+    "bytes": 19251
+  },
+  "events/iticse/1999.html": {
+    "sha256": "2b6442dee1e501ca3597eb9e470a1ababb95519e70388853ace60cc2d57c26f7",
+    "bytes": 19114
+  },
+  "events/iticse/2000.html": {
+    "sha256": "4bd9989e0e260e1c807bde05ec471e8d7a88bd010084f3c3fe918645933789e9",
+    "bytes": 19272
+  },
+  "events/iticse/2001.html": {
+    "sha256": "4a19422d7fb3d2ecaa36ad7210206d88b7c2f85ec767c0ca6a4303e1aa5829fa",
+    "bytes": 19329
+  },
+  "events/iticse/2002.html": {
+    "sha256": "590879618140577bc96cf6dea28c0d7fb70821343254e3dbce9234b1d0c9bf14",
+    "bytes": 19239
+  },
+  "events/iticse/2003.html": {
+    "sha256": "5f0ebc4e873b2a39873a4ad7425e6a26e97ea4e5c66b209131ae16ffdcf587f6",
+    "bytes": 19247
+  },
+  "events/iticse/2004.html": {
+    "sha256": "fc57b3a7998bf120751e86e78a3e4eb782d3fb79dbbcccd61def183500f4f1b4",
+    "bytes": 19266
+  },
+  "events/iticse/2005.html": {
+    "sha256": "22a3876c83a70d8d2120271fe403a7cbd43cf81d6aa8d075f3af43d7e3216efb",
+    "bytes": 19063
+  },
+  "events/iticse/2006.html": {
+    "sha256": "26e487dfeb547f1bfc7fd54158c91e6244cdc5a81aeac6e6f3256023522f7e7c",
+    "bytes": 19266
+  },
+  "events/iticse/2007.html": {
+    "sha256": "ffe1ac2d1fc135d0e88fd91789b0dee993ce9bb8d5e23b175f06b023c04aa02b",
+    "bytes": 19284
+  },
+  "events/iticse/2008.html": {
+    "sha256": "5d5d30a12ddc241afdb6aff46e5de8450fa38315c9af4a778c7a5b47baba84e5",
+    "bytes": 19063
+  },
+  "events/iticse/2009.html": {
+    "sha256": "d1baa7b53534e70a05c51f4b3b10da51be40253832e33e43699484a43e6aeabf",
+    "bytes": 19058
+  },
+  "events/iticse/2010.html": {
+    "sha256": "5723ad8fb6123080a98a2c992b77969f7b7a6c4a830f2b7fbf95d3cd2dc308bd",
+    "bytes": 19208
+  },
+  "events/iticse/2011.html": {
+    "sha256": "842fa1fc2894c78a6e6dab60bab1c94c9ec2ad4ffc642d2042dca025fbaf3b9b",
+    "bytes": 19299
+  },
+  "events/iticse/2012.html": {
+    "sha256": "1310ee8cc551d3cb5eb9adcbc8b409a1de0b54b4760b3bc87c5281fdfe1afeb7",
+    "bytes": 19325
+  },
+  "events/iticse/2013.html": {
+    "sha256": "638017f5f1894ea589c0705663bd55002cd00d23a1ff071c38ca497ee053b5e3",
+    "bytes": 19331
+  },
+  "events/iticse/2014.html": {
+    "sha256": "29d2c05729b399f443e7469f4064d389762e64dec5e46cb171a387c681b7fd3e",
+    "bytes": 19265
+  },
+  "events/iticse/2015.html": {
+    "sha256": "b60bc9600e4ee4e165bb82ed1102380a728c81c04c1fcb1b67664622edd68ff3",
+    "bytes": 19202
+  },
+  "events/iticse/2016.html": {
+    "sha256": "c2a443ca3f49ee4ff8c583f9bb7a560fcd460f15eb639ac3487c4006150b60ee",
+    "bytes": 19209
+  },
+  "events/iticse/2017.html": {
+    "sha256": "982d5b387f54c1a5448e100d5e8203855622c3b9e5f1730ad13bbb1b701f948a",
+    "bytes": 19225
+  },
+  "events/iticse/2018.html": {
+    "sha256": "00232844c92caaeb8d6d2bf84525e6b38ebf05057f2ad2dac1f200afb11072b3",
+    "bytes": 19270
+  },
+  "events/iticse/2019.html": {
+    "sha256": "c56087809427a6d09c4f31afb9685b24574daa54997fbfd4e22de77b51e0e218",
+    "bytes": 19250
+  },
+  "events/iticse/2020.html": {
+    "sha256": "695ac5a97ea7ec4d7c5b24df882fcf132134b0fcc12bc6d6c3184d72c21cee2e",
+    "bytes": 19286
+  },
+  "events/iticse/2021.html": {
+    "sha256": "e9f033bbec7591ed21ea583e995583efc175294d2c1e367dfa4170cd994a8f1f",
+    "bytes": 19472
+  },
+  "events/iticse/2022.html": {
+    "sha256": "cfacf1847d7600349d22e53a34e914e39f857b374d5b59f05591b952ddb50bb8",
+    "bytes": 19434
+  },
+  "events/iticse/2023.html": {
+    "sha256": "8333adf83a34da1c7f320c4c6a5fbbc836148ca22e226284c1ce6aaf78701082",
+    "bytes": 19432
+  },
+  "events/iticse/2024.html": {
+    "sha256": "42ddfe9fc055607f593ee0ff5a265dd224f82e19a126122a786ffea8ee378914",
+    "bytes": 19399
+  },
+  "events/iticse/2025.html": {
+    "sha256": "5e0751eb8ba9fcbd164395bad7b85eff8142413ddffac37498a061fc4fb9578e",
+    "bytes": 19271
+  },
+  "events/iticse/2026.html": {
+    "sha256": "7c13723a1eca16b8656f81071de3fcb69d7ea87824bfb383fe74209e738e972f",
+    "bytes": 19224
+  },
+  "events/iticse/conferences.html": {
+    "sha256": "045fc47562c3fe872ad6e64210201c90b0fb97a1f4bb4d36b324aff58bf3e3c8",
+    "bytes": 40486
+  },
+  "events/iticse/covers.html": {
+    "sha256": "ea9c837c9c32d6f76c5ed9234d1b5cdc0d11d1fe0270a5e52aef4acbfe454b48",
+    "bytes": 22137
+  },
+  "events/iticse/host.html": {
+    "sha256": "44ee547387851ffba757a83719710a8776917361329ec79bf8b2829c569caaa9",
+    "bytes": 20584
+  },
+  "events/iticse/images/covers/iticse-wgr2023.png": {
+    "sha256": "fe9278cb2d2729a376d12502f1e25d462a8f377e804cba808a303c006adccbd3",
+    "bytes": 100688
+  },
+  "events/iticse/images/covers/iticse-wgr2024.png": {
+    "sha256": "2ecaf5f47210edf1fe09d968e660b5a81fe1512e76233912989acd3319480959",
+    "bytes": 35367
+  },
+  "events/iticse/images/covers/iticse-wgr2026.jpg": {
+    "sha256": "224f59fcb9d03b0612ff7f4f10dbae92dc4df078d74409533dc6d72055acaf14",
+    "bytes": 80040
+  },
+  "events/iticse/images/covers/iticse-wgr2026.png": {
+    "sha256": "d0f57883d63d74e7c5cf7fb8478b99a14e09d110a206533f20ecef111d8cdb7a",
+    "bytes": 112087
+  },
+  "events/iticse/images/covers/iticse1996.png": {
+    "sha256": "01c232b7feae58e258bff7abee78fa1e1d0542fc6b61ea8c26cee8502f610191",
+    "bytes": 30437
+  },
+  "events/iticse/images/covers/iticse1997.png": {
+    "sha256": "f3f18e92eb9f91f26cf2397f67fdb7d4f7a1b0142efdfb81fd31013de2c03f29",
+    "bytes": 46966
+  },
+  "events/iticse/images/covers/iticse1999.png": {
+    "sha256": "fb88d9395d7d503f730c2df2dab351e4ef13ea0ef2431ccd55e555a01261397a",
+    "bytes": 22451
+  },
+  "events/iticse/images/covers/iticse2000.png": {
+    "sha256": "883bfe9c8e3dadf5d841ff12a95b4932115a9e111df74e94047666b021e4d6ce",
+    "bytes": 43499
+  },
+  "events/iticse/images/covers/iticse2001.png": {
+    "sha256": "46e8644713cce77669601060edd4b7ba03c9e0870868f08b1d293a3a3e4c6b65",
+    "bytes": 43131
+  },
+  "events/iticse/images/covers/iticse2002.png": {
+    "sha256": "ec448be281c580eef60d7eec5c227ba2e8bad48aa1f6e3b7960131f5d6974a02",
+    "bytes": 47865
+  },
+  "events/iticse/images/covers/iticse2004.png": {
+    "sha256": "365265f4f38c51720bdb2fb04732dbd76a0a5a35819eb338ce463c708234cc05",
+    "bytes": 36772
+  },
+  "events/iticse/images/covers/iticse2005.png": {
+    "sha256": "08ea4f085ba23aa70c791c6bd1547ce99ad614dc8e2ee12e45eb266faa6728d1",
+    "bytes": 31876
+  },
+  "events/iticse/images/covers/iticse2007.png": {
+    "sha256": "f09bd6c19b371a3ba85041695aac25482fb720c24bc5bf911ddec7395f00ff6b",
+    "bytes": 33285
+  },
+  "events/iticse/images/covers/iticse2008.png": {
+    "sha256": "cc3949e46859004ec9c53102b88f0ba20afc69bb899ccacac947c8345655baaf",
+    "bytes": 33498
+  },
+  "events/iticse/images/covers/iticse2009.png": {
+    "sha256": "01bc8ddb3452577967100a3ca2e88509aab688ade276789fcbfb5130c2325433",
+    "bytes": 28248
+  },
+  "events/iticse/images/covers/iticse2010.png": {
+    "sha256": "5bcb25b65e678c8a7156e2fff253cc6b98e4bff14c39d275f6a67b9a99b34a79",
+    "bytes": 35122
+  },
+  "events/iticse/images/covers/iticse2011.png": {
+    "sha256": "7fd502e749e811bdbbf58ab60d926e9cf2675413d82fc6694caca21509f6ef58",
+    "bytes": 34110
+  },
+  "events/iticse/images/covers/iticse2012.png": {
+    "sha256": "eea567c640a46a548724f0c0f38f2a5b1fd58fef18a08d82d731e1e1b8cf640c",
+    "bytes": 36782
+  },
+  "events/iticse/images/covers/iticse2013.png": {
+    "sha256": "2fbfc33cd15c0a9163eb0096c2aef17823323978fbd4bf01de9c65519937f303",
+    "bytes": 33609
+  },
+  "events/iticse/images/covers/iticse2014.png": {
+    "sha256": "c3118de38819a40d2b99f0a21c8e5daea656a6f0c4f19cafd3ff18a0ef21b813",
+    "bytes": 32819
+  },
+  "events/iticse/images/covers/iticse2015.png": {
+    "sha256": "f8f0361160728dd550a2348a432b0e6cbbac62394b6c0314d64054e14541630a",
+    "bytes": 32492
+  },
+  "events/iticse/images/covers/iticse2016.png": {
+    "sha256": "3fad251420aa29f07c5e2757eb6fdd580f0c25a813d8f3e31bde1ce1b0570139",
+    "bytes": 32042
+  },
+  "events/iticse/images/covers/iticse2017.png": {
+    "sha256": "d3f2c4d25b900bfac661ed2fb275493d18a3a2079115947d067807a0a22a956a",
+    "bytes": 34954
+  },
+  "events/iticse/images/covers/iticse2018.png": {
+    "sha256": "3cb516a54012e94c19360fc61a44741c14189ac529f07bfc3f3b8e4006de1ec5",
+    "bytes": 36085
+  },
+  "events/iticse/images/covers/iticse2019.png": {
+    "sha256": "77c037af0afc84ec05654a2d247a903003a95f08e2361fe1a846f03b67a1b934",
+    "bytes": 36441
+  },
+  "events/iticse/images/covers/iticse2020.png": {
+    "sha256": "b43584cbead68e640fd6f669e58ac875096efca2ea9e6f034ab6a9dafafbadcf",
+    "bytes": 36732
+  },
+  "events/iticse/images/covers/iticse2021.jpg": {
+    "sha256": "75b3060bd38363bf4b6ba490d52757630ae0a6e65ddd3a9ad22e59ab8e169cd2",
+    "bytes": 29497
+  },
+  "events/iticse/images/covers/iticse2021.png": {
+    "sha256": "c37ce9a42088a06969412ccdc14c880a2670162c941f2d25219d413c29bd3c2b",
+    "bytes": 132555
+  },
+  "events/iticse/images/covers/iticse2022.png": {
+    "sha256": "4ab830f51029de5c2caf7db3ca780789c2f4dbaaa5406caad3d0b0fc8301b5f9",
+    "bytes": 132282
+  },
+  "events/iticse/images/covers/iticse2023.png": {
+    "sha256": "b8ba9ba1a6f57eb794ca06212ce24eb3cc132bf18c661179351bf0ee27a37597",
+    "bytes": 128038
+  },
+  "events/iticse/images/covers/iticse2024.png": {
+    "sha256": "45e489c6d70a5d3d7e69c1f085ed05766260ff45420372eb68a27b4b021c2d91",
+    "bytes": 124165
+  },
+  "events/iticse/images/covers/iticse2024wg.png": {
+    "sha256": "9b78d9b9582cd0a128fb0e0a5f290ba8a4c5797b5674f217ca352b5c08064048",
+    "bytes": 126797
+  },
+  "events/iticse/images/covers/iticse2025.png": {
+    "sha256": "78d967390117efcd56347caeeb2ddf723fd8afc7d75be9d25b9ad96c3785c667",
+    "bytes": 125568
+  },
+  "events/iticse/images/covers/iticse2026.jpg": {
+    "sha256": "3c74cdd8941f3f2a64b3389f6899f161c726b14745cedfb52ceed92c20337ee7",
+    "bytes": 79972
+  },
+  "events/iticse/images/covers/iticse2026.png": {
+    "sha256": "10d6fc991b52dff3e957117b60306a7b9c7b4de96f152b0d5ba51e7722dbfa6c",
+    "bytes": 112122
+  },
+  "events/iticse/index.html": {
+    "sha256": "50aad9f020f501b408e27778f72e35e39de0c6f621959429c83ce2fe2fd9dccb",
+    "bytes": 26903
+  },
+  "events/iticse/interesthosting.html": {
+    "sha256": "0cf15c140d4f5225558e69a139315ca13fb1e640a9c55a31d761a05f8f8dc80b",
+    "bytes": 20868
+  },
+  "events/iticse/top5finalists.html": {
+    "sha256": "1abd19a07350ffa4bf335375707fdf60cbf24a1ca4aa6651ad09c5715af7b439",
+    "bytes": 23394
+  },
+  "events/respect/2015.html": {
+    "sha256": "f5f35d59c1af1d8737d35bcd90b9f1f3d4825bd1faf4ad4b1886de060e7ed43a",
+    "bytes": 18854
+  },
+  "events/respect/2016.html": {
+    "sha256": "967dad1e98d2e8ec80fc51afe8e15bd9b99b842c8d8f2c1b0d1f4430b12b1594",
+    "bytes": 18892
+  },
+  "events/respect/2018.html": {
+    "sha256": "a4526bc2b6008148d2e4ad174b1d0220afd0f630a6ee3d3f41b440f57ca630f1",
+    "bytes": 18896
+  },
+  "events/respect/2019.html": {
+    "sha256": "59ecc098604c1306e48bde4d190e1b7200dc49f6900effe6a0b499e289349ed3",
+    "bytes": 18898
+  },
+  "events/respect/2020.html": {
+    "sha256": "10e1de355db898d42db8889006b78c7977cc3ff502e1ff1ee649ece56b833207",
+    "bytes": 18892
+  },
+  "events/respect/2021.html": {
+    "sha256": "f34d5bc8ea8e22d8843a0929a2f39938cc64c8ddf5183e8b8d7fa0138edcd566",
+    "bytes": 18911
+  },
+  "events/respect/2022.html": {
+    "sha256": "4ba6533d1e5cba050c519391fb7752da5098464e8991c04a4242d3be3c65fb2b",
+    "bytes": 18909
+  },
+  "events/respect/2023.html": {
+    "sha256": "9de74974ff1a1748dc06e53eb50ef4442a6a492c5e8726f0d553fe776ed6d62a",
+    "bytes": 19064
+  },
+  "events/respect/2024.html": {
+    "sha256": "d7c5a8cf7f8800f88fe19cebdd4934e0651f06dfbfc28f5818add895b1f165a0",
+    "bytes": 19050
+  },
+  "events/respect/2025.html": {
+    "sha256": "02be79f9210b6ccb673b08d23b2d82e2eda343437c4507ed9393f598a2d95954",
+    "bytes": 19066
+  },
+  "events/respect/conferences.html": {
+    "sha256": "15fb1c2d020a20df97b2ebc7db39f56b1a6e220db9f5f87158b79c05ba036309",
+    "bytes": 23172
+  },
+  "events/respect/images/covers/respect2024.png": {
+    "sha256": "d5d16fed66207de628d05d5f92a9d085cbed2cf3cd2d904a5171d68e8bbecfda",
+    "bytes": 125644
+  },
+  "events/respect/images/covers/respect2025.png": {
+    "sha256": "16e5cb945d71a5301b7939e91249a1c314d7049c543bb413372f9d306f4b8f06",
+    "bytes": 128169
+  },
+  "events/respect/index.html": {
+    "sha256": "6e197362ef5c767310e02910fa7d56412cfe0369a430fbb66cab81f3ef4dbdac",
+    "bytes": 20595
+  },
+  "events/respect.html": {
+    "sha256": "0e026a4e152803e1aef4825045e2263d3217ff5879086acd9b5382c085d2f0bb",
+    "bytes": 586
+  },
+  "events/symposia/1970.html": {
+    "sha256": "af72ded6747c36946c7e2de912c05b070681275fc102af94cc0025b9016d973c",
+    "bytes": 18957
+  },
+  "events/symposia/1972.html": {
+    "sha256": "a444c68b864bd5ee2e534761cbab5730743e87d6e582d7941bbc3eabb156b7fe",
+    "bytes": 19048
+  },
+  "events/symposia/1973.html": {
+    "sha256": "d47822937c49a5e97110d4a2ada234ac6c22df662ec9c4d7076e1e13e9a8f98d",
+    "bytes": 19108
+  },
+  "events/symposia/1974.html": {
+    "sha256": "1580a8ec2cd151554bda018b478572b976932cc90ae81b49cb1cd6453282f749",
+    "bytes": 18992
+  },
+  "events/symposia/1975.html": {
+    "sha256": "274fbe25d81440165d0f6a1d591bacf7a859ea0dec197e8838ea954726bc1bf7",
+    "bytes": 18998
+  },
+  "events/symposia/1976.1.html": {
+    "sha256": "db57b5ca97f04ebf5e1d471a5934c9bdca2287eabe9c2a4e7c85c00d1ab9ab60",
+    "bytes": 19045
+  },
+  "events/symposia/1976.2.html": {
+    "sha256": "0d6075ddbc898fe5489c6aca8a706f3d35d34cbbb44974d34a50544ab57ff0d1",
+    "bytes": 19028
+  },
+  "events/symposia/1977.1.html": {
+    "sha256": "2f690b6289329bd40728d6e22dce18b0044b922028f18982d90401073b23de86",
+    "bytes": 19062
+  },
+  "events/symposia/1977.2.html": {
+    "sha256": "7ccec07985dea81325078f4f4943d06bc76af96587bc9c6e9e362d15175fc27d",
+    "bytes": 19096
+  },
+  "events/symposia/1978.1.html": {
+    "sha256": "b8f3f1884e5362d23285af080d52dbf89b0772f2ad437d2f8f25a3b885d442e1",
+    "bytes": 18962
+  },
+  "events/symposia/1978.2.html": {
+    "sha256": "d7bb7beade047e86d5df4b92f116e56bbd080acf94533016f45097aeb97c06d3",
+    "bytes": 19081
+  },
+  "events/symposia/1979.html": {
+    "sha256": "b657cfcac9a566466150772a64464cb4195cc52c8225840e98b761d9a9761f0f",
+    "bytes": 18989
+  },
+  "events/symposia/1980.html": {
+    "sha256": "ff5ed2ca539691275944b01fecd26c62c4bfc7ffc8456242b6b10d4ba9796ef6",
+    "bytes": 19000
+  },
+  "events/symposia/1981.html": {
+    "sha256": "553c989dab498dc41b95572431e89190387eb54afc16fcf8de4a58577844c854",
+    "bytes": 19435
+  },
+  "events/symposia/1982.html": {
+    "sha256": "78acc50c6731f8c865d02124b0351245b81ee16e5a7d3b2a0584a06cbd72c9d7",
+    "bytes": 19410
+  },
+  "events/symposia/1983.html": {
+    "sha256": "9333ed0385936c2c98a5e9ce54c315626eec67096f00726a2d275a4adfe15560",
+    "bytes": 20162
+  },
+  "events/symposia/1984.html": {
+    "sha256": "134d9649d47f9ba62530fe2bcd628abe7db2bfe0651dcb4b104f129268b0de6b",
+    "bytes": 20091
+  },
+  "events/symposia/1985.html": {
+    "sha256": "48117f8001093e630947c0dd8a6e7605d0acdc8b49994d51d6e26f71885f49ad",
+    "bytes": 20142
+  },
+  "events/symposia/1986.html": {
+    "sha256": "5ba37d16f4b6b22ad94070d909e4e0a89b5d62179b38a58fc8b448ed2e985cd8",
+    "bytes": 20157
+  },
+  "events/symposia/1987.html": {
+    "sha256": "091eb500da5dacba85a6ba377b975d72d9ee3f1b3f9c9ff9ce8abe470c141332",
+    "bytes": 20202
+  },
+  "events/symposia/1988.html": {
+    "sha256": "33ce996e1157aa68418a8e68c80fbb9597fd393f15f02df2a8e7889549a6f92d",
+    "bytes": 20379
+  },
+  "events/symposia/1989.html": {
+    "sha256": "d600b91db7f9148a6508da05dc12ff6b3723db88857d75691c4b73f1b5678e26",
+    "bytes": 20909
+  },
+  "events/symposia/1990.html": {
+    "sha256": "1772b50915499dfd9511b0e5c7bacd615c2fecfde5b481788f0fd686d73ec511",
+    "bytes": 21184
+  },
+  "events/symposia/1991.html": {
+    "sha256": "f2ff7819f01dacc246ad705e3fdb71ccda7854dd4319c49070ecf46a6c219d43",
+    "bytes": 21042
+  },
+  "events/symposia/1992.html": {
+    "sha256": "155c3a4f760454f455baed9c9a8d2294ced274397aa6528bc1f00d006ef33a65",
+    "bytes": 21031
+  },
+  "events/symposia/1993.html": {
+    "sha256": "352188934934e8e9eb95aad0ddc49597cd935e839fb8b94cb32b8b03368d8179",
+    "bytes": 21024
+  },
+  "events/symposia/1994.html": {
+    "sha256": "c69a1e89dc6255913d5b951d1c631ddf004f266a970c8cbd288e2cd8200a5be6",
+    "bytes": 21190
+  },
+  "events/symposia/1995.html": {
+    "sha256": "9973aace5daf0c0778cd6d64c255a018e710a645471d5068a86eabffded5b798",
+    "bytes": 20109
+  },
+  "events/symposia/1996.html": {
+    "sha256": "f9299f282bd22297f3febb45a55ff19251d75c893f7581e342e19473d1ece289",
+    "bytes": 21424
+  },
+  "events/symposia/1997.html": {
+    "sha256": "fd2610b434e6c9c007b86e78b8b9e2562557c28ea9df0ab81738a04e957f1b04",
+    "bytes": 20624
+  },
+  "events/symposia/1998.html": {
+    "sha256": "81bcb08855bf0f53aa13e782bac8ac0109dbd428f487fc0a7c96b984ba9ca24a",
+    "bytes": 22013
+  },
+  "events/symposia/1999.html": {
+    "sha256": "b0ed2c59af949fec2e8bc7f01fb655adf51c2aa4cad29b836a291203726147dd",
+    "bytes": 21967
+  },
+  "events/symposia/2000.html": {
+    "sha256": "0a352f8c50ac94a749f73b362f2cbc34a18ecaab8fa37afc5b4dc4700918ef68",
+    "bytes": 22648
+  },
+  "events/symposia/2001.html": {
+    "sha256": "a0c63ab05ec2a55d63df29e19968ec54394726fb4e89396ee8a5e289a9f0a619",
+    "bytes": 23627
+  },
+  "events/symposia/2002.html": {
+    "sha256": "e35f34ff33d739f6c56577cf75b1d6379b90689e8e24ff30e60cdec082d76e6f",
+    "bytes": 23209
+  },
+  "events/symposia/2003.html": {
+    "sha256": "5be309f6e9132d77a20fb50988ab9b7f0ca813f7a98b4f3967e8eef009d127c9",
+    "bytes": 22879
+  },
+  "events/symposia/2004.html": {
+    "sha256": "bd3acfee7727f67598440ac52b27905fbe8d9588ad19e3030a8bacee027b1a12",
+    "bytes": 22862
+  },
+  "events/symposia/2005.html": {
+    "sha256": "e7e05067e8c5d0e1db7c6caef87e061434dd365d9c5721fad9c6fd97eb256c7d",
+    "bytes": 23210
+  },
+  "events/symposia/2006.html": {
+    "sha256": "ca18ea299b16985e966ab3a273024bb7c945790fd1b0a5befdd0c506b841212b",
+    "bytes": 23248
+  },
+  "events/symposia/2007.html": {
+    "sha256": "ad69a90c10d683ba43e52855c1e34146c41d79a620568e7906975af24bce10bf",
+    "bytes": 23496
+  },
+  "events/symposia/2008.html": {
+    "sha256": "80592ac5f0f0f89fd013de7f6f21b66e78552888f6550c800d461311c6b08069",
+    "bytes": 23367
+  },
+  "events/symposia/2009.html": {
+    "sha256": "970e6ea1d9df7cf047be9870e8e4dbbe169fde94cec2c6c4b23dddbb6f9fb1ea",
+    "bytes": 23917
+  },
+  "events/symposia/2010.html": {
+    "sha256": "4c62ba8af64b88c2403d6f3e6de9741a6211c836fd709ebd6d6c47cbf360826b",
+    "bytes": 23742
+  },
+  "events/symposia/2011.html": {
+    "sha256": "da68bef2414bf6da011ce829de45a77998057d5bf8c03216bf26b60fc46e5579",
+    "bytes": 24434
+  },
+  "events/symposia/2012.html": {
+    "sha256": "a2c12983975c8aae0d19d4c719de8229a97bba83b3fe3c8e4ca04f8b83e702c8",
+    "bytes": 24500
+  },
+  "events/symposia/2013.html": {
+    "sha256": "3830a53135c8a09d339dca2575662521dab7d98645794e8b9e333c0129cc278b",
+    "bytes": 24995
+  },
+  "events/symposia/2014.html": {
+    "sha256": "3617d785f9eb4188d67feb4cc9792d12038890514ddcf5d136b14a7b7094753f",
+    "bytes": 24701
+  },
+  "events/symposia/2015.html": {
+    "sha256": "33d5e7debabd3b1f4b4c3aeb8a45a149c292ffdf8f738c834374ea04053686a1",
+    "bytes": 24975
+  },
+  "events/symposia/2016.html": {
+    "sha256": "d12adb806afc1b86fade26df1f927616578bccd1df7171182ed1bfb4df566c37",
+    "bytes": 20224
+  },
+  "events/symposia/2017.html": {
+    "sha256": "cea9bd30973db66ee0220d3578154273e9e113c2cb81e223542f5bdfcce45ae7",
+    "bytes": 32269
+  },
+  "events/symposia/2018.html": {
+    "sha256": "3ac020dd03eb5376e3a1c0a99c6575cd5d91cdb6ba05f67b1352bcddfae36f50",
+    "bytes": 25059
+  },
+  "events/symposia/2019.html": {
+    "sha256": "276e67bc009831218d62c4668e4715453f5448e1e8dd014949a6005a3c7705b9",
+    "bytes": 25405
+  },
+  "events/symposia/2020.html": {
+    "sha256": "015b886e4d6cb8d9ef772b825ed2f810a97d4779ac14a81e7037753b4f3b7038",
+    "bytes": 24989
+  },
+  "events/symposia/2021.html": {
+    "sha256": "a533fb50232f09c6bfaa3491fc390e2270be2ccbd26d18ecc744dc24d3130f99",
+    "bytes": 25015
+  },
+  "events/symposia/2022.html": {
+    "sha256": "e8743a952937cef553a861688715bba71071f2820081ea96bbdf312c91daa7f1",
+    "bytes": 24766
+  },
+  "events/symposia/2023.html": {
+    "sha256": "3b4d2db8589dcc402f8edfe48d5f9af70987784d261cc9879d6daaae484e339b",
+    "bytes": 24990
+  },
+  "events/symposia/2024.html": {
+    "sha256": "b49af3a8c0107e270db4f69ce9156a2171d2c83950710f9808c1db2bfdca5e7b",
+    "bytes": 25643
+  },
+  "events/symposia/2025.html": {
+    "sha256": "90d1d8aad4bfe954ebba4bfd984eb3a499d12a7e650acae4e89b5c7469a8b17b",
+    "bytes": 25105
+  },
+  "events/symposia/2026.html": {
+    "sha256": "7941c546e69b3e865cef8e4f319ea63b3ac13d1db7f76923975f69ec40de701c",
+    "bytes": 19218
+  },
+  "events/symposia/attendance.html": {
+    "sha256": "78d4d37072f1248cc21e6fe3bb7cc09d4bc036401bfda8c8f9e5447e77403781",
+    "bytes": 19553
+  },
+  "events/symposia/conferences.html": {
+    "sha256": "2fc26de3431fecf1ca8dde405c8cb593f2f0fbd030ea037e83f5c699596ea1f9",
+    "bytes": 43246
+  },
+  "events/symposia/covers.html": {
+    "sha256": "b4e99cdd63e722e061aac1db27ca729e6c9dac68fd4a88ea974a4749e7a05c5b",
+    "bytes": 22152
+  },
+  "events/symposia/images/covers/SIGCSE1995.png": {
+    "sha256": "bcfc3aac4ae070d7240fccf565eb2c5f4227d3147243c3522af2e527a0d7c958",
+    "bytes": 26483
+  },
+  "events/symposia/images/covers/SIGCSE1997.png": {
+    "sha256": "6065a2d3e88386696aa846d6b3baed2f9b8b611da8ece515c256bcca81486d1f",
+    "bytes": 26384
+  },
+  "events/symposia/images/covers/SIGCSE1999.png": {
+    "sha256": "c668b0ec41f9359507bb852b996d9567ce1c1df7f8d29ee454cc8d9915b234d6",
+    "bytes": 25758
+  },
+  "events/symposia/images/covers/SIGCSE2000.png": {
+    "sha256": "220796fa638f63c712851331527f570ca4ee341dac26712055101b6ca9c555e6",
+    "bytes": 24505
+  },
+  "events/symposia/images/covers/SIGCSE2001.png": {
+    "sha256": "2cd8d4092d5f8ee3bfc46dd619cd2ee0e5280694c55b76c143e2033d6a9185c1",
+    "bytes": 31293
+  },
+  "events/symposia/images/covers/SIGCSE2004.png": {
+    "sha256": "3c46fde44cbdcee90b7f5bc7259f9969fd6e3cb1ffa10ce3a1c357a8c1d35b1c",
+    "bytes": 21738
+  },
+  "events/symposia/images/covers/SIGCSE2005.png": {
+    "sha256": "2b5b275f49c78a5448315544fc4383b7cad56746bfa71b57756da5699cd4b7b0",
+    "bytes": 37127
+  },
+  "events/symposia/images/covers/SIGCSE2006.png": {
+    "sha256": "c85e0efe4e8ebfff0dc336fae1bb0a8a6d18229025f9813357782365ab1e8c59",
+    "bytes": 28352
+  },
+  "events/symposia/images/covers/SIGCSE2008.png": {
+    "sha256": "8e67aa875e7b76935643c1e82e6d20aa44360c28870ac7925c44a0ea7a3fc8b0",
+    "bytes": 30350
+  },
+  "events/symposia/images/covers/SIGCSE2009.png": {
+    "sha256": "c4b58e67a18988337c70453d25eda8079606c4243395f25dac29ca27da6752b8",
+    "bytes": 30834
+  },
+  "events/symposia/images/covers/SIGCSE2010.png": {
+    "sha256": "be26e53413839250c9223ecc87ec84f9cbe13ea4ae25a34a5308d49c9b260b16",
+    "bytes": 31459
+  },
+  "events/symposia/images/covers/SIGCSE2011.png": {
+    "sha256": "2976a7e271214d3f9daa6a4582533e8ea140ca409ed78a7d2b092346598d267b",
+    "bytes": 31833
+  },
+  "events/symposia/images/covers/SIGCSE2012.png": {
+    "sha256": "6d2a0348fbdddc65c0cbdc4e5e7336cb5e96e06282347f827ac84e5feee20910",
+    "bytes": 26738
+  },
+  "events/symposia/images/covers/SIGCSE2013.png": {
+    "sha256": "0031193404082b3f52a0285a700bd6742732635c4177ebbc6e1d3f1fa169d2b7",
+    "bytes": 31407
+  },
+  "events/symposia/images/covers/SIGCSE2014.png": {
+    "sha256": "9dadeccb2d15175d3ebdee244548c35afdc4f36dc96eee3c00ac3a32119a92c0",
+    "bytes": 30531
+  },
+  "events/symposia/images/covers/SIGCSE2015.png": {
+    "sha256": "1f740713675b0bca10095c90418518e723399343d2734148a2bc0d1b8249052f",
+    "bytes": 27527
+  },
+  "events/symposia/images/covers/SIGCSE2016.png": {
+    "sha256": "23d832416707323eb708add22e25a067f67480fb3f90aba36ee33f4987562afa",
+    "bytes": 27718
+  },
+  "events/symposia/images/covers/SIGCSE2017.png": {
+    "sha256": "4ce97085c6a038cf912fc125a67fb33d56ad506af0a120bddf128223c8b4032d",
+    "bytes": 28632
+  },
+  "events/symposia/images/covers/SIGCSE2018.png": {
+    "sha256": "57ff4ba796466498239b4ee59f48d8b7c5360db96f195babe9b6c3eaa9c94869",
+    "bytes": 29643
+  },
+  "events/symposia/images/covers/SIGCSE2019.png": {
+    "sha256": "432db6b6363eef96e7f3dced9d629b5f66dcd87f06b88adfba22f4ef8e375e80",
+    "bytes": 12306
+  },
+  "events/symposia/images/covers/SIGCSE2020.png": {
+    "sha256": "941968c16425df063900477f1bbee74c0df86bba31d8c9e82a70591b1eb049ae",
+    "bytes": 15730
+  },
+  "events/symposia/images/covers/SIGCSE2021.png": {
+    "sha256": "f18db7ee0a574d05a26d45db4bc0dd8d6a01550d35594e2999c34984de1732ca",
+    "bytes": 13670
+  },
+  "events/symposia/images/covers/SIGCSE2022.png": {
+    "sha256": "adde47734d8a4d7942947f5782d06857f0e85c60f998d29039251734a3c73d40",
+    "bytes": 16838
+  },
+  "events/symposia/images/covers/SIGCSE2023.png": {
+    "sha256": "f5898bc12a65e3fae83498b417d0a3cf5b21a8963e03333e1b1f54d772edc3f6",
+    "bytes": 18029
+  },
+  "events/symposia/images/covers/SIGCSE2024.png": {
+    "sha256": "36b0672356721ab7951fd79a5793f4ef3acb3b35240cf1be798013cbed000d11",
+    "bytes": 17401
+  },
+  "events/symposia/images/covers/SIGCSE2025.png": {
+    "sha256": "441d50c1153044491fc7eb684570b2317941a07327ddbc472215909b6ebe4878",
+    "bytes": 33304
+  },
+  "events/symposia/images/covers/SIGCSE2026.png": {
+    "sha256": "2f3b9edff48f3176612f891f5b0da2d742eaad726afa557d454eda99f7bd064c",
+    "bytes": 31024
+  },
+  "events/symposia/images/logos/old-sigcse2021_logo.png": {
+    "sha256": "8ae6b2a4717dd9e7c61bca2ac8a20a125e637da8e9b1ba4bcc51e46fed386977",
+    "bytes": 11080
+  },
+  "events/symposia/images/logos/sigcse2000_logo.gif": {
+    "sha256": "b04d4fe92dc1f76fac77a12001562826fc95d19b77181d4dc9bb632ce1bc4c9c",
+    "bytes": 9390
+  },
+  "events/symposia/images/logos/sigcse2001_logo.gif": {
+    "sha256": "ceced8f30a4f4a3cfa336119266f97042dc013980603d8616977f3883510c0e9",
+    "bytes": 6485
+  },
+  "events/symposia/images/logos/sigcse2004_logo.png": {
+    "sha256": "498c7b09daf29f58311d128b56f6bc9f9775e4e79fc2d415f9115ca8fcbb2594",
+    "bytes": 57248
+  },
+  "events/symposia/images/logos/sigcse2005_logo.png": {
+    "sha256": "e87c8c1eeda37d3c8d84a49a756137241137da593a87f7629617fe490d5cec6c",
+    "bytes": 13143
+  },
+  "events/symposia/images/logos/sigcse2006_logo.png": {
+    "sha256": "46a0e2599c00edba28c1a1234f49156baa8f0341740f0c375f93f7b7e29670c4",
+    "bytes": 34447
+  },
+  "events/symposia/images/logos/sigcse2007_logo.png": {
+    "sha256": "eb71933dc89d9c4f6665800a902fc55a1b7b775f1e0ca0fcd731469da986e540",
+    "bytes": 11662
+  },
+  "events/symposia/images/logos/sigcse2008_logo.png": {
+    "sha256": "916a4c27a64b4ce39363b4eaf808351e2b588458432bccb258749205d6821e50",
+    "bytes": 18923
+  },
+  "events/symposia/images/logos/sigcse2009_logo copy.png": {
+    "sha256": "9b5f59ef979a69ddd916769e781c355bb49c539822591b8058fed06ea5854867",
+    "bytes": 746479
+  },
+  "events/symposia/images/logos/sigcse2009_logo.png": {
+    "sha256": "7e7c25cd5a87aa0271e1491768bb45588b61a527f0e0b1a26a61e847381aa7c6",
+    "bytes": 120776
+  },
+  "events/symposia/images/logos/sigcse2010_logo.png": {
+    "sha256": "cd335efe50acd93620b340f6ad07284d09081eb43efcb1287bb5592ccc7a41dd",
+    "bytes": 12049
+  },
+  "events/symposia/images/logos/sigcse2011_logo.png": {
+    "sha256": "eb9cb8751b6abfe2761b62c3f560395f4fa4de0cd3012677bcbb67ef26485296",
+    "bytes": 39004
+  },
+  "events/symposia/images/logos/sigcse2012_logo.png": {
+    "sha256": "66e9d1903036add6cb819e80f0dd336560112e85bd2f62c893b0540d2cd51e90",
+    "bytes": 35433
+  },
+  "events/symposia/images/logos/sigcse2013_logo.png": {
+    "sha256": "94fe4c4f85ba57df7deff320fb86ed995045e371140cec3ae062676dde88d28d",
+    "bytes": 28528
+  },
+  "events/symposia/images/logos/sigcse2014_logo copy.png": {
+    "sha256": "6282eada33d0ece8a27e5f3ba7a53052c27845c2f7ad0d4ce3c9cc73c74ac1d5",
+    "bytes": 54982
+  },
+  "events/symposia/images/logos/sigcse2014_logo.png": {
+    "sha256": "1bd16593746e1d02357208bdebbd2cae3b582fdcae964b9eb4345e7c62ba4021",
+    "bytes": 27233
+  },
+  "events/symposia/images/logos/sigcse2015_logo copy.png": {
+    "sha256": "f343001fb22d8330216ab2477f1b84c4138127fce4c8e9b424a8eadeb62c082d",
+    "bytes": 26787
+  },
+  "events/symposia/images/logos/sigcse2015_logo.png": {
+    "sha256": "9c9fa4ffc70ce7389b76bfd4c36d07e0fde1f5e57094a02cd35d208638ff0ed9",
+    "bytes": 33880
+  },
+  "events/symposia/images/logos/sigcse2019_logo.jpg": {
+    "sha256": "87e64ef4c8ceacb4f8f764afe78eeaedc0dee37c952a71d9e867560f90208e09",
+    "bytes": 24989
+  },
+  "events/symposia/images/logos/sigcse2020-bridge.png": {
+    "sha256": "3391240dbc9566be7a3dc4f2deec4e2988ee23b078b60a9cfb2030e473d88d56",
+    "bytes": 82438
+  },
+  "events/symposia/images/logos/sigcse2020_logo copy.png": {
+    "sha256": "3391240dbc9566be7a3dc4f2deec4e2988ee23b078b60a9cfb2030e473d88d56",
+    "bytes": 82438
+  },
+  "events/symposia/images/logos/sigcse2020_logo.png": {
+    "sha256": "31f207ecb2b79f40c178d00093be08cd500f5931f3c16f6d7f39af9685a8941e",
+    "bytes": 42395
+  },
+  "events/symposia/images/logos/sigcse2021-logo-header.png": {
+    "sha256": "ffb2940c84331edf3f0b13e0cf441cfdef878a5867e58f12a7bc4a830beb95f3",
+    "bytes": 45578
+  },
+  "events/symposia/images/logos/sigcse2021_logo.png": {
+    "sha256": "7dcdb5c3180913988d1eabdbdece226c94e55ce7e23059af8d0f1d13f2139d2e",
+    "bytes": 33805
+  },
+  "events/symposia/images/logos/sigcse2022-logo-header.png": {
+    "sha256": "6a472030a938332bcf457ba109f5a8ebb6e7f1f31712ae7f33e1071cd64cc4b9",
+    "bytes": 94872
+  },
+  "events/symposia/images/logos/sigcse2022_logo.png": {
+    "sha256": "c785edc8b51bf7a2d45e8d7eb8c79a43120ef3264098b25492eabf9365b03201",
+    "bytes": 37622
+  },
+  "events/symposia/images/logos/sigcse2023_logo.png": {
+    "sha256": "f0ba2889a43e0f1bb2d1a95ea488ff343ef0aa8349e92f10ac5a3f4736569a40",
+    "bytes": 30155
+  },
+  "events/symposia/images/logos/sigcse2024_logo.png": {
+    "sha256": "42024c29fc610dd79e7d9fda65000176a4f39669fbc1acd1ef5368b2a0ed68da",
+    "bytes": 28145
+  },
+  "events/symposia/images/logos/sigcse2025_logo.png": {
+    "sha256": "aecd1ccb393779ed43b62fe1459b846d71e681c42d31efc073f0f257ad4dadca",
+    "bytes": 134209
+  },
+  "events/symposia/images/logos/sigcse2026_logo.png": {
+    "sha256": "2e0a80429e83849e23585d1f8a164fd40aa4c7a81e7edac6c187277e5a9144b1",
+    "bytes": 41257
+  },
+  "events/symposia/index.html": {
+    "sha256": "7df6236656e3ece1d9b76bc0614dabe9512ec5dce056124e559c408dc67fc717",
+    "bytes": 23841
+  },
+  "events/virtual/2024.html": {
+    "sha256": "03a1a6fcf950e943da25860ddddda552c966952cc6d2bcd221ca7d8768a820c9",
+    "bytes": 19343
+  },
+  "events/virtual/conferences.html": {
+    "sha256": "40adfbf6671c5b702f16a13c8d7582a7c17dc5c3319ae56fb8a1d27b38bbd2b5",
+    "bytes": 19254
+  },
+  "events/virtual/images/covers/virtual2024.png": {
+    "sha256": "2e2d5b6d53c772dff7aa8f161a384284ca47193641bc57c158da248608ab221b",
+    "bytes": 99526
+  },
+  "events/virtual/images/covers/virtual2024wg.png": {
+    "sha256": "ef30094ee7c438fb23b1aa739c12b7277c3e233f75d960d5ecbd94a27d682caa",
+    "bytes": 94813
+  },
+  "events/virtual/index.html": {
+    "sha256": "8f02bd2a83cefee285e026310673945d08f04e5abe468adc5459b87c227d49f1",
+    "bytes": 20447
+  },
+  "events/workinggroups/index.html": {
+    "sha256": "8a98904067d2dcebba4fd01f6397bbd96838a75db203eddae042a3f1dc8b0d4c",
+    "bytes": 98338
+  },
+  "events/workinggroups.html": {
+    "sha256": "415945643c7ce4a24084a327e60dd1fd92c0f33d55f8772637a7b876d3d4a4de",
+    "bytes": 610
+  },
+  "favicon.ico": {
+    "sha256": "299f973501c2100981189855a0a3165f2e1c6add491ca4b76cfb66db5d547a77",
+    "bytes": 1086
+  },
+  "files/documents/docs/SpecialProjectsApp.doc": {
+    "sha256": "365c70d7e1af1c3a39e0d0d0583db7d09db356064a2aa0f9877090356a935a32",
+    "bytes": 33792
+  },
+  "files/documents/pdfs/Call for Expressions of Interest to Host ITiCSE 2021.pdf": {
+    "sha256": "9a6d511376a5022a1bb0e071a941b0c728de021ccbbb6913f80c3caa6d6b63c9",
+    "bytes": 186968
+  },
+  "files/documents/pdfs/ConfComm.pdf.html": {
+    "sha256": "eed9291dc07bdeaf8d9a87186d99376cb8d5062dce1e024437e1ce563a2f2cec",
+    "bytes": 5252
+  },
+  "files/documents/pdfs/GettingStartedProfessional.pdf": {
+    "sha256": "f052054a6165db94b0648db502d9940a284510512299d9842e79c1b4426d8dde",
+    "bytes": 87718
+  },
+  "files/documents/pdfs/GettingStartedStudent.pdf": {
+    "sha256": "8c988e2b6b284dd651e4db403e83b1b502b4b3be2398ad6f8b8be7a29ab1e678",
+    "bytes": 89280
+  },
+  "files/documents/pdfs/How to Volunteer with SIGCSE 2019.pdf": {
+    "sha256": "4d46b18e5aa8e08e8d5b1e08504c7d8d161b106a5641b471f1826e269249e282",
+    "bytes": 111626
+  },
+  "files/documents/pdfs/Test of Time Award nominations.pdf": {
+    "sha256": "b79bd2c8fbaade03a435b68891dddfca2f073d32c0fc0e22d3ca6aba6803c6a2",
+    "bytes": 245772
+  },
+  "files/documents/pdfs/Textbookreviewerannoucement.pdf.html": {
+    "sha256": "8be7582377658b216197edec4c893566b2ec288f13490d8ab983204e57efbed8",
+    "bytes": 5290
+  },
+  "index.html": {
+    "sha256": "07d493b71e86d6f53232dc6027579ec41e33cb0c1ac3b008f699ee14b43b940f",
+    "bytes": 23302
+  },
+  "membership/benefits.html": {
+    "sha256": "292341f121d97be31a1d69839963c4b10fe93b8cf76fb8f645ae6ce58d624378",
+    "bytes": 21345
+  },
+  "membership/get-involved.html": {
+    "sha256": "7d055d8676a34e274d29763d4785c42a0a0ebc74f273a9a124a370e9b4f95d0d",
+    "bytes": 22876
+  },
+  "membership/grades.html": {
+    "sha256": "326c69644506aca3add68fada2e9d90976c6e120413208667542b15edc470b9c",
+    "bytes": 42760
+  },
+  "membership/index.html": {
+    "sha256": "347f3aa00aae07790facbc33bf2a6cd0ee6b66f51fa437a6e266a737781f14ed",
+    "bytes": 19043
+  },
+  "membership/join.html": {
+    "sha256": "ec40f1c09e934b66bce1c3d745119327fcb11abb38e6ff84d280df36f93e00f8",
+    "bytes": 19061
+  },
+  "membership/mailing-lists.html": {
+    "sha256": "ff9b19c35e0505e37eb1a4ad17d48d2df7eee1ca62e2c6a17854daba58e49de5",
+    "bytes": 24555
+  },
+  "news/2004-08-Annual-Report.html": {
+    "sha256": "2a458470879ccfd5bba87fd4e5882d6ded5fcfa7ef9966da3c22ed89b96a9668",
+    "bytes": 29913
+  },
+  "news/2005-08-Annual-Report.html": {
+    "sha256": "4c89ee56b69e40a868c95a8b8b0cfb1c8aa320b4606bde1477604f6cca819e40",
+    "bytes": 29389
+  },
+  "news/2006-08-Annual-Report.html": {
+    "sha256": "9bc1b25c0690b36c7870b18a5b3faee1946c56d800a4b7b6319230d5e22f7982",
+    "bytes": 30786
+  },
+  "news/2007-08-Annual-Report.html": {
+    "sha256": "1ea33db0f8d08515354a1b2110a5a29ccd0f085f22ec959ca6b8d82a833e4718",
+    "bytes": 35732
+  },
+  "news/2008-08-Annual-Report.html": {
+    "sha256": "5d5a929fa0b65551a3f09d62d6563cb37585f0332420fea95a30ec15c78da916",
+    "bytes": 34015
+  },
+  "news/2009-06-Bylaws-Approved.html": {
+    "sha256": "107c79543a850e7b58ff6d0631d74de0f05d4ea9da6fcd03a6a4d796a39e4d3c",
+    "bytes": 18054
+  },
+  "news/2009-08-Annual-Report.html": {
+    "sha256": "0b75f8ae8ba5ec9165a825d97e478f01a83403a050a2999d1cc3f8d7b322de25",
+    "bytes": 32568
+  },
+  "news/2009-11-SIGCSE-Award-Winners.html": {
+    "sha256": "e6361d76edc4bf3f838d3e5fa324f5554e05c57d368193730fccc520343bae86",
+    "bytes": 18678
+  },
+  "news/2010-02-Nell-B.-Dale-ACM-Fellow-and-UPE-Abacus-award-winner.html": {
+    "sha256": "5a59e335dd36b11cc201f8a50df63d773277d2fd18cde804569de100b17a6ff5",
+    "bytes": 18934
+  },
+  "news/2010-03-SIGCSE-Bulletin-Inroads-Promoted-to-Magazine-Status.html": {
+    "sha256": "d37afbf8e8b65b5939d23f81ef56339c1dea7e8a1874f5f297d88ad0058a7d9b",
+    "bytes": 19402
+  },
+  "news/2010-03-Wanted-SIGCSE-Bulletin-Editor.html": {
+    "sha256": "f9f129484996d4d2003f80e2a424bc7522d80296a9664046112c4a0a7ff24fcb",
+    "bytes": 19780
+  },
+  "news/2010-04-ACM-Announces-Awards.html": {
+    "sha256": "f97ca523d19e0db3e4dd664586a967d6660953b0bf422ea499344df8a64b3a8d",
+    "bytes": 18448
+  },
+  "news/2010-05-SIGCSE-Bulletin-Editors-Appointed.html": {
+    "sha256": "aa33905e9885c7320735836203749f14a77d9f5185d9821337b34986773baa32",
+    "bytes": 18311
+  },
+  "news/2010-06-SIGCSE-Board-Election-Results.html": {
+    "sha256": "671a11c27e563c9fc977a63578cb8ab7733ccfda50821a71ea432c72955c58fc",
+    "bytes": 18742
+  },
+  "news/2010-08-Annual-Report.html": {
+    "sha256": "b2281e69acf0cb686508cfc3b7d53f7d7a3194f5ee0eb299c7d5ac7f66454a94",
+    "bytes": 31041
+  },
+  "news/2010-09-SIGCSE-Viability-Report.html": {
+    "sha256": "38cf722fce09f233ac9190bbaf97a03811e5098374a837c50cef47899fe43970",
+    "bytes": 21611
+  },
+  "news/2010-10-SIGCSE-2011-Award-Winners.html": {
+    "sha256": "a0e29f7d4433af5b913bc6a8a40cbad081e1d8bed1e9c6201e1394d6dbe37718",
+    "bytes": 18899
+  },
+  "news/2010-10-USA-CS-Education-Week.html": {
+    "sha256": "520b57ce3809c3bd702607eb2b7dc724adb3542191c199c94a1051561bd3400c",
+    "bytes": 18909
+  },
+  "news/2011-02-SIGCSE-Board-Endorses-AP-Effort.html": {
+    "sha256": "8718ba0c0509a28f258e6cdc7272b28e3537d3afa6a5ad699e613e232ce82215",
+    "bytes": 20305
+  },
+  "news/2011-02-SIGCSE-Board-Endorses-SIGBP-Formation.html": {
+    "sha256": "63f14adb66b4d264a469fcf64820a544ef160bbebef93c43075c0f2eab7d4da5",
+    "bytes": 21411
+  },
+  "news/2011-08-Annual-Report.html": {
+    "sha256": "0cf70c6f7bb5702d45799d98adb80286ad7e71289b8b392c535af68f3ee9b277",
+    "bytes": 23551
+  },
+  "news/2011-11-SIGCSE-2012-Award-Winners.html": {
+    "sha256": "3523ac2a2370af3f654638511301c37a0b8ef340fe1603201733162698a0d06d",
+    "bytes": 19011
+  },
+  "news/2012-03-Textbook-Reviewers-Needed-for-Sustainability-Initiative.html": {
+    "sha256": "db5b401b85543eaf6bce4d79510ec6c25653111fe005e942d199ecdbecbf01af",
+    "bytes": 18636
+  },
+  "news/2012-08-Annual-Report.html": {
+    "sha256": "9d644896f5c98ef0ca68f3b415885a45fb78c7f30a7ef6966a5d7cc63784c58d",
+    "bytes": 22647
+  },
+  "news/2012-11-SIGCSE-2013-Award-Winners.html": {
+    "sha256": "e39ce8939fefa0fcd798c00049ef50edad89bc61d30f454025467d65f930f1ab",
+    "bytes": 18882
+  },
+  "news/2013-07-New-Board-Elected.html": {
+    "sha256": "0c836d9183c5cb26e14e5c85d7bcb0076e5f2232c4c2f0424ec752676e938806",
+    "bytes": 18721
+  },
+  "news/2013-08-Annual-Report.html": {
+    "sha256": "9d4602f57ec921e129eabb2164a72aeac457f1c52751a12ad1001187597a28ef",
+    "bytes": 22904
+  },
+  "news/2014-03-SIGCSE-2015-Award-Winners.html": {
+    "sha256": "42e6211a94dfbaec5b961a1b6daae273b102d7610e5c9c3b5136d2560d97edc6",
+    "bytes": 18810
+  },
+  "news/2016-10-SIGCSE-Members-Recognized.html": {
+    "sha256": "2584bb8aaaf523da89b8a2551e7406f81548e862c13d57ca38086b5b49013d8c",
+    "bytes": 18376
+  },
+  "news/2017-10-SIGCSE-Award-Winners.html": {
+    "sha256": "6c6d8fa5d3e60052666d9b01f383e09bbc18f4409af1db8bc1e9a1a9913dfbff",
+    "bytes": 18554
+  },
+  "news/2017-11-ACM-Distinguished-Members.html": {
+    "sha256": "3bc087aeedc075f9eef7cdbecdb29fd5c910a3b95e5276bc4f1b4b574334ccb0",
+    "bytes": 18283
+  },
+  "news/2017-12-Travel-Grant-Awards-Announced.html": {
+    "sha256": "da804d839f54c6bdaa0b499891ebada74ab720cf6f0e9bb991da5d56208a0e7f",
+    "bytes": 18138
+  },
+  "news/2018-03-Nico-Habermann.html": {
+    "sha256": "6d4eac099300400b271c9fe673a5a28ab4c3e2a2bee4cd2090edd1e3d764b2cf",
+    "bytes": 18505
+  },
+  "news/2018-05-ACM-Presidential-Awards.html": {
+    "sha256": "4b57ae665e8ad1b6e6f5a58a428c000242ca39f1e6c93511c7a7746084d69a64",
+    "bytes": 18481
+  },
+  "news/2018-10-2019-SIGCSE-Awards.html": {
+    "sha256": "9843261fbf09e9c9b13855d4706073dd10bc8cece9de052209e10aac7cd7d05a",
+    "bytes": 18514
+  },
+  "news/2018-11-ACM-Distinguished-Members.html": {
+    "sha256": "ea415f679c5a92026379e83fcca683b794e4ce9b6ae6d4700965be449c1b6c22",
+    "bytes": 18316
+  },
+  "news/2018-12-Members-Named-ACM-Fellows.html": {
+    "sha256": "47e186fd988f3e3ba7ad00c2eaa266f197674e53875b349fffbc236cbdb44057",
+    "bytes": 18134
+  },
+  "news/2019-04-Outstanding-Contribution-to-ACM.html": {
+    "sha256": "6732aec654ab313304e08edd50327e74a97809874a49004b4a900cbef3d2e9a5",
+    "bytes": 18415
+  },
+  "news/2019-10-ACM-Distinguished-Members.html": {
+    "sha256": "98d908651479f9a176e5cad44076c42d29e02279eebf79b936eb20fb2e67465c",
+    "bytes": 18934
+  },
+  "news/2019-11-SIGCSE-Award-Winners.html": {
+    "sha256": "2f85edc1d0dc3c37ebf63517c97e9cc436a0437a36dcadc52ae587e378eabbdc",
+    "bytes": 19422
+  },
+  "news/2019-11-Travel-Grant-Awards-Announced.html": {
+    "sha256": "881063b210438332e1627db1d5ae202b8b62a829fcec1c2b6c09a84c821d36b3",
+    "bytes": 19444
+  },
+  "news/2019-12-ITiCSE-Volunteers-copy.html": {
+    "sha256": "36d7747f6ece70c1d2fa2fee1cbb39dd1b79c038e72ad5719b457ec4fe4913a2",
+    "bytes": 19154
+  },
+  "news/2020-01-ITiCSE-Top-Five-Award.html": {
+    "sha256": "db287f50f2fca88468502378e74d3c3074f2b40f42d166a38d820a976bc4c746",
+    "bytes": 18615
+  },
+  "news/2020-01-SIGCSE-New-Website.html": {
+    "sha256": "b084d7cdb17eca587faac79de0e57ff5a5f88bdf190b83b6099c87807cd1c2b7",
+    "bytes": 18522
+  },
+  "news/2020-01-TS-Buddy-Program.html": {
+    "sha256": "568d74aead9decc6aa61604d7d84fa055d448cb9e4e97d122a6dc3c9b4f565b2",
+    "bytes": 19748
+  },
+  "news/2020-03-ITiCSE-Top-5-in-25.html": {
+    "sha256": "1322eb1066783e2422bb26e5f560b51c18eff23956f5007996eb1d573eabffb7",
+    "bytes": 18273
+  },
+  "news/2020-03-See-you-in-Portland.html": {
+    "sha256": "0958b9ce8caa9754867f1258f554d3bafe31162af83dddfd7a2e66af2cc93890",
+    "bytes": 18306
+  },
+  "news/2020-04-ITICSE-Steering.html": {
+    "sha256": "e691c1d5d6db5ea8581abd710c533b123317f1044b8ccacb5c7130da3b777b09",
+    "bytes": 19439
+  },
+  "news/2020-04-Special-Projects.html": {
+    "sha256": "16ac22e3152a1eecf6e56ab8f3af2f770489e37d4ba10b14deaa3287b8f896d5",
+    "bytes": 18644
+  },
+  "news/2020-06-Formation-of-committtee.html": {
+    "sha256": "83589263d5a4da9cbb273beed22a0a67d8a2171b981d6d67fbb63ea410c65d1c",
+    "bytes": 20148
+  },
+  "news/2020-07-Top-iticse-papers.html": {
+    "sha256": "ad8c22af1ab1f8982ec30a42dddb36261f754cb6a66d656cc7c075e4bca82622",
+    "bytes": 23184
+  },
+  "news/2020-09-Business-meeting.html": {
+    "sha256": "c8915297ea6513840321e3ba62def2ca3db9967db8a1b03d7161da00fb01e1c2",
+    "bytes": 20071
+  },
+  "news/2020-12-No-Travel-Awards.html": {
+    "sha256": "1ed1da0cf7f5a69b194ada4a407aa97d0f5419454ca7ed225e533076328b9944",
+    "bytes": 18468
+  },
+  "news/2021-01-ACM-Fellows-2020.html": {
+    "sha256": "edd446b24702336c1f3addd58ea569bf643fea93fde861dc0126cd470c015114",
+    "bytes": 18567
+  },
+  "news/2021-02-2021-SIGCSE-Business-Meeting.html": {
+    "sha256": "96ccac502894837a7e6126e9eee612a8eadc8e658ac73c5b7d24cb167ed16a17",
+    "bytes": 19306
+  },
+  "news/2021-02-January-Bulletin-published.html": {
+    "sha256": "ac1c7701988e629a0b3add8601a10123a148168f229889f2925467b4e79952ec",
+    "bytes": 18124
+  },
+  "news/2021-05-April-Bulletin-published.html": {
+    "sha256": "5408d1434a8f5176fee3fa06522f1d3a95df25120d635036033791f32bbd7bda",
+    "bytes": 18113
+  },
+  "news/2021-08-July-Bulletin-published.html": {
+    "sha256": "8348b9735ed7d283631cf06c3870b1dbbcddbb2201f5000618057a29ee6a85ab",
+    "bytes": 18113
+  },
+  "news/2021-09-SIGCSE-Board-Elections.html": {
+    "sha256": "f7c3a488315fb735c8148c464e5525eadcc2c8cdf55fcf825e6013c57d82f384",
+    "bytes": 20947
+  },
+  "news/2021-09-SIGCSE-Travel-Awards.html": {
+    "sha256": "a1082753a8b962a59ccafdd311e0bcab78214dd3af582219d5cb6b11c03991fe",
+    "bytes": 19948
+  },
+  "news/2021-10-October-Bulletin-published.html": {
+    "sha256": "c12e91ac73d4e5a38a8fb9b65a54192397c8dfc08250b61935fd6deb1dec4f77",
+    "bytes": 18123
+  },
+  "news/2021-11-2022-Awards.html": {
+    "sha256": "f53aabdd423c7997b8f3ede5383adbd01d827ae0bca06631fc2ac02f3ab5a32e",
+    "bytes": 20305
+  },
+  "news/2021-12-Travel-Awards.html": {
+    "sha256": "936a167051158c11a9507d5a4388e38522ad679bd5b98af708769483488abc03",
+    "bytes": 19755
+  },
+  "news/2022-01-ACM-Distinguished-Members.html": {
+    "sha256": "12692159175cf0f8bb53ecd633deb219ded28f0ddc7eff5610216955886056eb",
+    "bytes": 19104
+  },
+  "news/2022-01-ACM-Fellows-2021.html": {
+    "sha256": "f274bbd41848bf441c99935831a71159188e8ee68e094f6271986b53931fe890",
+    "bytes": 18828
+  },
+  "news/2022-01-SIGCSE-Board-Elections.html": {
+    "sha256": "643ce6a71c9c15310b08f7d91bffb534987cadef7101ae677b9dea5f98aab0a5",
+    "bytes": 20071
+  },
+  "news/2022-04-April-Bulletin-published.html": {
+    "sha256": "92d832909e01602d57e84e7d98dc2777a6b5b1160a9972f1b88601859cba7c2b",
+    "bytes": 18115
+  },
+  "news/2022-06-July-Bulletin-published.html": {
+    "sha256": "6ce99d5b9ec1c58e60d59acc0e4724b175faa21d27ee5aafad2465e992fb2d2e",
+    "bytes": 18111
+  },
+  "news/2022-06-New-Board-Elected.html": {
+    "sha256": "dd8a00708169de98b35f12fa1012f5c43bd8ba67f0b964fdb3ca602f9f049d7c",
+    "bytes": 19700
+  },
+  "news/2022-09-All-The-voices.html": {
+    "sha256": "10351345e320d5106c6a9cb4fb902674c9f0bb88d11cc0738b36c441363d2119",
+    "bytes": 18947
+  },
+  "news/2022-10-October-Bulletin-published.html": {
+    "sha256": "ee3961d76b8701c068c15ed0ac63426fd8b5feff8539f417c1e36209ac246d23",
+    "bytes": 18123
+  },
+  "news/2022-10-Special-Projects.html": {
+    "sha256": "773fee00d2f7155111286f44fe177f1e94c1e47ca1141e73e27f4d3d6564edbb",
+    "bytes": 19385
+  },
+  "news/2022-12-ACM-Distinguished-Members.html": {
+    "sha256": "efa7ecd8854a3865da0422e6b5f96c6d76c9d513ac2c6234129c45b74d055d73",
+    "bytes": 19119
+  },
+  "news/2023-01-January-Bulletin-published.html": {
+    "sha256": "fae3ba8adb303f5e10ab66d185c6736ffb23c9c246a512d5cab90581687f7f94",
+    "bytes": 18123
+  },
+  "news/2023-02-DEIA-Message-From-the-Board.html": {
+    "sha256": "f434988ce5b562dbf4fb23d60ec8c3c99e67106e5b24f7f7f4246a210e59fea3",
+    "bytes": 22482
+  },
+  "news/2023-04-April-Bulletin-published.html": {
+    "sha256": "d4b939ca0ffdee95d3e9b9c715c05c13ded135726a7b23c038137111246bf6ed",
+    "bytes": 18115
+  },
+  "news/2023-05-Call-for-special-projects.html": {
+    "sha256": "032279e9e43f54ba670cb2887b675a2fd4d59d387f542fcdbeee0c680e394a08",
+    "bytes": 19527
+  },
+  "news/2023-06-SIGCSE-Awards-2024.html": {
+    "sha256": "31492f0846c921f2d09c1a8a5210c0fe34d9ca0f033d1c86add2a3f7b4f0add1",
+    "bytes": 21622
+  },
+  "news/2023-07-July-Bulletin-published.html": {
+    "sha256": "0cd98152fa85af1fa5012f500d080f9bcfd36d0c5d479b88c0287f0b2953e7c2",
+    "bytes": 18111
+  },
+  "news/2023-10-October-Bulletin-published.html": {
+    "sha256": "b02bd440854b5ffe5cd27589c825fcf4de77c4ff3ad7797bd0717f21944aa933",
+    "bytes": 18124
+  },
+  "news/2023-10-SIGCSE-Awards-2024-Announced.html": {
+    "sha256": "aecb3d265e078bbcf22a6f50274a05ab6eac43149d0cf843612ed1e2e0066aa1",
+    "bytes": 20080
+  },
+  "news/2023-12-RESPECT-and-SIGCSE.html": {
+    "sha256": "77d8104018a3edb1e2e0f228a0451d6bf6230a2ead1f4f2549ff5929a993c72e",
+    "bytes": 19931
+  },
+  "news/2024-01-ACM-Distinguished-Members.html": {
+    "sha256": "547f07fe9191cea5a18782bd4117f41b821523edc8d77bb46293760a627ab92c",
+    "bytes": 18901
+  },
+  "news/2024-01-January-2024-Bulletin-published.html": {
+    "sha256": "07c97619f839dda57756c2150f03a4a2a89a587a8b185211b9d8c912bdc2f13c",
+    "bytes": 18123
+  },
+  "news/2024-04-April-2024-Bulletin-published.html": {
+    "sha256": "df9c4ab11be0ae67185ac02a6ab8666f73fb642fe644a952faa8722bc42acd47",
+    "bytes": 18767
+  },
+  "news/2024-04-July-2024-Bulletin-published.html": {
+    "sha256": "5262916ccda0e1748b3889e5de1c1185d8b172b84c721675efcf60b9cf0f3ee7",
+    "bytes": 18282
+  },
+  "news/2024-08-Call-for-nominations-for-the-SIGCSE-Board.html": {
+    "sha256": "0ac82851b7701fe4462c9bcc2518c700d03aac19b33e55f763c59261e6a30286",
+    "bytes": 21586
+  },
+  "news/2024-10-Oct-2024-Bulletin-published.html": {
+    "sha256": "6ae25eed3431ef8655f9845aec7eba85fb4c6e671c8da463f0c7cdda98d063d5",
+    "bytes": 18892
+  },
+  "news/2024-10-RIP-Brett-Becker.html": {
+    "sha256": "77433f2dfdb5620b17f412ea824dac97ab5f50a8fbf1016df642ded6bfced218",
+    "bytes": 18922
+  },
+  "news/2025-01-January-2025-Bulletin-published.html": {
+    "sha256": "9df4e8c15b09d78c3b700aa8909a302693c59e7439966bef912e6426d642e3ff",
+    "bytes": 18215
+  },
+  "news/2025-01-SIGCSE-Awards-2025-Announced.html": {
+    "sha256": "8cd42e8f80c96b345f275fa49c40042f61aaf41fc9a3680acd99663004768ef4",
+    "bytes": 20439
+  },
+  "news/2025-02-Welcome-Barbara-Boucher-Owens.html": {
+    "sha256": "37e3975426257ff6a553e73814befffa28f8fc419f6303098bd11770b358b26c",
+    "bytes": 18505
+  },
+  "news/2025-02-Working-Group-Travel-Grants.html": {
+    "sha256": "78140494fc8db219056f6f5948d313b0098bad38d2fd07317f20fef71bda3ba7",
+    "bytes": 18463
+  },
+  "news/2025-04-April-2025-Bulletin-published.html": {
+    "sha256": "bc7e9d4893d93173c4820c54289619d48db7ea7d60ac437d6db166d3fa42ec88",
+    "bytes": 18190
+  },
+  "news/2025-06-Elections-Results.html": {
+    "sha256": "a6075412b18a3f46bf9cb2b44ffaac9611013c155df2a71e8242ed6ee58eb49b",
+    "bytes": 19305
+  },
+  "news/2025-07-July-2025-Bulletin-published.html": {
+    "sha256": "0cb91792bda49baeaf27518cd796e48f2b8db9a0a92a40e37f4809af93cbda94",
+    "bytes": 18185
+  },
+  "news/2025-10-October-2025-Bulletin-published.html": {
+    "sha256": "d0a1de53ded8bae10595de5576a0afa33e59a7d0d47417417bc6aab5b2a4eb2e",
+    "bytes": 18582
+  },
+  "news/2026-01-January-2026-Bulletin-published.html": {
+    "sha256": "9b9630abcc61cbd70f09bf678d303d40a1dda002ceda2f45e0fcc44dc540fd8f",
+    "bytes": 18428
+  },
+  "news/2026-01-SIGCSE-Awards-2026-Announced.html": {
+    "sha256": "7c9bcb10be874bdae0b2bdadf5d08342942dbbd96e18aa1f213ab33865eecc4b",
+    "bytes": 20405
+  },
+  "news/2026-10-October-2026-Bulletin-published.html": {
+    "sha256": "7d55261033503c2e47fd7b79bbcd45eb66bc72ad1bcb99cca30b6def15f98104",
+    "bytes": 18428
+  },
+  "news/index.html": {
+    "sha256": "0ee229afb6ecbb60cf0251b71a5b15b9af515765d07e644a02657686acdb6d80",
+    "bytes": 33301
+  },
+  "policies/approval.html": {
+    "sha256": "12b17bc0f16c627bc041cc2cb033c84005565552df6d197f39b9a63f0d1765f3",
+    "bytes": 20735
+  },
+  "policies/awards/index.html": {
+    "sha256": "0abef2f0fe8815c4f083cb877e3a376fa364fd44a421c604799c7dc626f93a19",
+    "bytes": 20200
+  },
+  "policies/awards.html": {
+    "sha256": "908f688f9da51080cf37a4983811226379ba7e7423f420a1963eeb606efad8f9",
+    "bytes": 590
+  },
+  "policies/bylaws.html": {
+    "sha256": "e7f05b6ceb5047e53727928b7cf90f4bec9599cc213d28553a20865a653ea126",
+    "bytes": 28350
+  },
+  "policies/chairs.html": {
+    "sha256": "f55c174397ede435ff7cff996598352742c963d650a4b3f714695d23244ca2e4",
+    "bytes": 23093
+  },
+  "policies/COI.html": {
+    "sha256": "6b443f99ca6e945807d8854786794df8f2d678270a815b96fc8c695daa9e30d0",
+    "bytes": 21234
+  },
+  "policies/compedproposal.html": {
+    "sha256": "cf27ae7a284e77e3f5a4c8b8086749fea13f2549cb0586b17167d9d4a3e74428",
+    "bytes": 22416
+  },
+  "policies/corporate.html": {
+    "sha256": "0ffeba9288dd133d772ee9765de0b4026d3015ad8c7e39f119d62290fe4d43a4",
+    "bytes": 20167
+  },
+  "policies/globalstructure.html": {
+    "sha256": "4be33a21f7ed23f99ceab62d93795e55c1b38f5ddd084ff4ac17c5ce206e4ec6",
+    "bytes": 26535
+  },
+  "policies/icer-chair-replacement.html": {
+    "sha256": "cb9bef4d99fba26bed194e69231d79ce17b92e1f97cfbeebec0079c6c90e2062",
+    "bytes": 21297
+  },
+  "policies/icersteering.html": {
+    "sha256": "6e987adf3c41d6247003cb03a8e05962364c816397edcdc7eb88f0fe2f3973f6",
+    "bytes": 22825
+  },
+  "policies/incooperation.html": {
+    "sha256": "4da2bd5d4246c716bb7bcb57223d678c9390f75d6d2f3af59c93f6a07b473900",
+    "bytes": 19976
+  },
+  "policies/index.html": {
+    "sha256": "97b2f58e2ab6bcf4797b4d6b1d0e6aa307ca0a237c9bc39e2da9173e5e5b205b",
+    "bytes": 21278
+  },
+  "policies/itcseorganization.html": {
+    "sha256": "009447573a2a9681bf0c305b8646ca27279f5d28b3e1f182c7d2f2a408d99d77",
+    "bytes": 20759
+  },
+  "policies/iticsesteering.html": {
+    "sha256": "61203da85b4eb6ef8d2066982c62317a7aa962b454556ffc913f3afab076b17e",
+    "bytes": 22846
+  },
+  "policies/pcr.html": {
+    "sha256": "eb29c924a3df4c4590d859c9c3932ac428cbd37c00b1011dd65cf26cae41ccea",
+    "bytes": 22123
+  },
+  "policies/remuneration.html": {
+    "sha256": "a196f837a214e355a36590c47c84146b3e96fa2cbc87d0bd77d6879ab542d38b",
+    "bytes": 21933
+  },
+  "policies/site_visit_team.html": {
+    "sha256": "88c44718c5f6e3cc592b539584dc2e7923242f77a37b695eef4f61a9ea0d42f5",
+    "bytes": 23704
+  },
+  "policies/substitute.html": {
+    "sha256": "77741c8307fde9e6cba8ec5e61bc247a2caf99892bc341ae9376ff9530c0a78a",
+    "bytes": 19396
+  },
+  "policies/sustain.html": {
+    "sha256": "ccf37a2586c4c387a4a55503e31ffb2748903c895fd1085f27466687ff51d27c",
+    "bytes": 20015
+  },
+  "policies/travel.html": {
+    "sha256": "2183e7a6e3f5aea3729b031aed29a3ca3e5407212e25e6a2c55ef0d47fe8303f",
+    "bytes": 24002
+  },
+  "policies/tssteering.html": {
+    "sha256": "417c622835fdcabf184c427ea699b840ba1655e07f552ffe29386ff2c3149404",
+    "bytes": 24105
+  },
+  "programs/awards/broadening-nomination.html": {
+    "sha256": "294dd7ac749f21834148053fd546859642cf8ed1856a9247cc0bda2071c6c0b8",
+    "bytes": 30261
+  },
+  "programs/awards/broadening.html": {
+    "sha256": "390491f7a0ed6ab959ff039414009bd9dfe962423366b2aae600e33f38575f51",
+    "bytes": 20731
+  },
+  "programs/awards/distinguished.html": {
+    "sha256": "39f86931b7cdd30cd9b7d29d09c6528c3c671b4f9f0b3216876981e0ab8135d1",
+    "bytes": 35388
+  },
+  "programs/awards/early-career-nomination.html": {
+    "sha256": "51e17c8c5f6316e1665faacd9ad97dc8dbbe7cf702ea63d28a085879aa5706b6",
+    "bytes": 27587
+  },
+  "programs/awards/early-career.html": {
+    "sha256": "6f9a9f98d127b2c52bcf8c33490a6d6f6dc0283994393b97916aaa63cf0ca234",
+    "bytes": 19025
+  },
+  "programs/awards/index.html": {
+    "sha256": "64e1b97981178704ecbdc5ff5653bee39c74f2357ede8ed8e197eda235ddb840",
+    "bytes": 24250
+  },
+  "programs/awards/lifetime.html": {
+    "sha256": "7fcf5d421b2bbf3b588f13a389e48b82bbd7d3989547930d4e4c9fd4bb2811c7",
+    "bytes": 622
+  },
+  "programs/awards/nomination.html": {
+    "sha256": "dd9616bc2b5179e5ac2481b9e285438cc28d3f9d81fb2b382fa2c5159310e746",
+    "bytes": 730
+  },
+  "programs/awards/outstanding-and-distinguished-nomination.html": {
+    "sha256": "5b7dbd3e8643fa3e9de8023114dc3d8dd6f4e8d659f6c9cd28d2149cef146c67",
+    "bytes": 30443
+  },
+  "programs/awards/outstanding-and-lifetime-nomination.html": {
+    "sha256": "dd9616bc2b5179e5ac2481b9e285438cc28d3f9d81fb2b382fa2c5159310e746",
+    "bytes": 730
+  },
+  "programs/awards/outstanding.html": {
+    "sha256": "800614f99e28b7c0227148129084b7d89cb6b328d685e516729efdfdecff40d8",
+    "bytes": 42238
+  },
+  "programs/awards/service.html": {
+    "sha256": "7fcf5d421b2bbf3b588f13a389e48b82bbd7d3989547930d4e4c9fd4bb2811c7",
+    "bytes": 622
+  },
+  "programs/awards/SIGCSE-top-10-all-time.html": {
+    "sha256": "91f3e07c0007a7c96836a215e21987d5a749afb2899dddc3a91d45682e8e1504",
+    "bytes": 22650
+  },
+  "programs/awards/test-of-time-nomination.html": {
+    "sha256": "ea12f76c328d4b1e9f735c43e26e22ed01b80fbbade9bcffb9ce838aa9ef0d0a",
+    "bytes": 26076
+  },
+  "programs/awards/test-of-time.html": {
+    "sha256": "a452aeb2bbfb5a0ff62fbbeecec79ef0391a128cdc4140fd6dc76cb78de16021",
+    "bytes": 22588
+  },
+  "programs/awards.html": {
+    "sha256": "1f78cb846698df8bf0d93b58d3c3b23576fbb644b73d38189731666f8c31be5d",
+    "bytes": 590
+  },
+  "programs/committees/create.html": {
+    "sha256": "1c7a5dd133fc0856e9767042bb9ee99f0f708d9947149a07c66717d483bede76",
+    "bytes": 658
+  },
+  "programs/committees/index.html": {
+    "sha256": "5f63dd8dc5f408fea5cba7c9f9ada258edec931a8b91ab084a4ae55de0a173d4",
+    "bytes": 654
+  },
+  "programs/committees/liberal.html": {
+    "sha256": "f18ddaa9367c3fb68fb1b0de6e26f50371828f0a4c5df13ee07d0cb386061d10",
+    "bytes": 662
+  },
+  "programs/committees/liberalarts-update.html": {
+    "sha256": "5418b12c1dd9e1f37cb527028e548b5d1bef4fbad5b1b0dfd01bf3399b4cf5cc",
+    "bytes": 706
+  },
+  "programs/committees/research.html": {
+    "sha256": "a508810d3bbe0f86d9e44d7a11373712f9fa3f652087fd1487ea96c93f57112b",
+    "bytes": 666
+  },
+  "programs/committees/women.html": {
+    "sha256": "c6f7e306763d5369e90356672339f54252eb4b9e61be2d334bec85c62dcade45",
+    "bytes": 654
+  },
+  "programs/committees-task-forces/create.html": {
+    "sha256": "1c8e67c598d537038c5e97aec71bfdb5cb663a1d9a28548cab0a35eaa67de0d1",
+    "bytes": 21721
+  },
+  "programs/committees-task-forces/index.html": {
+    "sha256": "9e1d6dc1932a86be4c0d27fc1757bd3ddcec226f6c9c128b3753b580d3408a65",
+    "bytes": 26023
+  },
+  "programs/committees-task-forces/liberal.html": {
+    "sha256": "bcd3eb6ee983fe6ad1cb3912d0f8edd4301a8d7449e43469828beeb7d239a536",
+    "bytes": 29143
+  },
+  "programs/committees-task-forces/liberalarts-update.html": {
+    "sha256": "dde305a57b46acf2b425ef2f8bd475bbdb15cdd0638ac41ea46c272d6a6ce997",
+    "bytes": 22279
+  },
+  "programs/committees-task-forces/reports/CommitteeReport_LiberalArts.pdf": {
+    "sha256": "45eaf211dfb3c22135efaca90de0040c0010690eb427e8f271c2e6d072a34996",
+    "bytes": 308522
+  },
+  "programs/committees-task-forces/reports/DiscreteMathReport.pdf": {
+    "sha256": "5e2110ca2b5d59ec2ba4a29e4788fa8fcb2c8489d11aaa4a7b8a763fe367d5b6",
+    "bytes": 389201
+  },
+  "programs/committees-task-forces/reports/Liberal_Arts_Computing_Education_Committee_Charter_2019.pdf": {
+    "sha256": "b756cc843743fb2dcd8cdfb0810b56bdb4974f019b775984f8a912bd96ddfdd8",
+    "bytes": 89743
+  },
+  "programs/committees-task-forces/research.html": {
+    "sha256": "1b130926755af5eb9d2bfbcd0f41c27295ec3878c92f0963a184141d4c5234f9",
+    "bytes": 22560
+  },
+  "programs/committees-task-forces/women.html": {
+    "sha256": "4a49784da5464184b58d7a210da5078f86bd2cc20adfedf92cab62b1e3888a37",
+    "bytes": 22506
+  },
+  "programs/index.html": {
+    "sha256": "0c811cc487e6e73acafd3a8c405b593a73a58fd6deac4279ad1fed368a5c49af",
+    "bytes": 19570
+  },
+  "programs/local-chapters/getting-started.html": {
+    "sha256": "c60d020ceddb638bf65ebde80445cfb155fbc01ad1b94b24b377f112a5f29253",
+    "bytes": 18872
+  },
+  "programs/local-chapters/index.html": {
+    "sha256": "d8d08d8aac31ea7dd1456020a9a2512779c2a4d145da8b1c95178cfe36e1974e",
+    "bytes": 21016
+  },
+  "programs/sisl.html": {
+    "sha256": "3f99cc4abebaf181751c826018985b24b14c30a413c45b89c20ec229ea7a65e2",
+    "bytes": 18577
+  },
+  "programs/speakers/index.html": {
+    "sha256": "7d9a3cfc70adeaa945ff9aa2270c427d7635a22daf732c6011d079ca2417bfb1",
+    "bytes": 21790
+  },
+  "programs/speakers/list.html": {
+    "sha256": "aa55137847fe59f7c397bb232e4a055ef63d20f7a5c86af7725b1d8b71e0d955",
+    "bytes": 25609
+  },
+  "programs/special/2003.html": {
+    "sha256": "3fc0f33f6a00249cfedfe569d0c6e0456a78703a07941d4c389130b56247d9ef",
+    "bytes": 23101
+  },
+  "programs/special/2004.html": {
+    "sha256": "dc01ea4ec33039912c1087eec2e7d44ed2087c6c157d2d01dbcb4d1f55acc505",
+    "bytes": 23116
+  },
+  "programs/special/2005.html": {
+    "sha256": "cf433fb012eb22b1e839a2141dbed5f297755931e6d602e96acbdce31c19df97",
+    "bytes": 23186
+  },
+  "programs/special/2006.html": {
+    "sha256": "0d0adbc0c7420cb598fdf96145abe4556f6ac51f662aa88f627071cad3a30ff6",
+    "bytes": 20523
+  },
+  "programs/special/2007.html": {
+    "sha256": "2729126ec4a4963b29d2b8a929ac3e7238301e3d8d058d4604064355142a4029",
+    "bytes": 21387
+  },
+  "programs/special/2008.html": {
+    "sha256": "e40ec50a95bb162ca950647bc2987b35763114b1f7d02792faf6325694a708aa",
+    "bytes": 19747
+  },
+  "programs/special/2009.html": {
+    "sha256": "945c4536bb52b1f67371ac29afb87fe1acb55828b3e880a52b754d220f870936",
+    "bytes": 19274
+  },
+  "programs/special/2010.html": {
+    "sha256": "204a7fff766cb3a12b576ad40687beafc93fd94a2d54ecb57df92fd9542fc075",
+    "bytes": 19366
+  },
+  "programs/special/2011.html": {
+    "sha256": "42fddf0067bccac1502a7044ba0cd38fc1b2a29f2dbb686e52f80f0ce963add9",
+    "bytes": 20994
+  },
+  "programs/special/2012.html": {
+    "sha256": "9b449d0a400a9e2c19b3dd796944e4e004a64113131c9efff576bf6477e8133e",
+    "bytes": 23141
+  },
+  "programs/special/2013.html": {
+    "sha256": "4f1c90debdcefc25ebef9181d1a2902dd2dad5c161ebebae501a6cfedd36c776",
+    "bytes": 20571
+  },
+  "programs/special/2014.html": {
+    "sha256": "372646c5ed3d4c74211620f4efd870bab174f709a129bf6e551e730164eec494",
+    "bytes": 23956
+  },
+  "programs/special/2015.html": {
+    "sha256": "e90c1b20f7b88aec181dadac3267a06e884d6af2aa59aa0bf6e67cbb2148bed6",
+    "bytes": 23707
+  },
+  "programs/special/2016.html": {
+    "sha256": "9769fba9801ee15dd747a202d929d3b542503dbf06d9d77c62e1f1c089006d8d",
+    "bytes": 24344
+  },
+  "programs/special/2017.html": {
+    "sha256": "ff2fcd484cb2cddacef2978fcd907e426b8f392f2fb4f8834d7af9e4d795659f",
+    "bytes": 25585
+  },
+  "programs/special/2018.html": {
+    "sha256": "badf72db751b44eeae847128d2ae01e9a7e7c5e1c5aee688ff24ee17e19faaba",
+    "bytes": 23828
+  },
+  "programs/special/2019.html": {
+    "sha256": "f1f0d2681e1722b7a42e90cedbbd9458ec81cdcdde8835ac5e4711c9ddaf06b4",
+    "bytes": 24463
+  },
+  "programs/special/2020.html": {
+    "sha256": "966db2c72f15e3586905b6fad8807565d17bdac5a2818443ce6c5ed8e48c5a13",
+    "bytes": 20489
+  },
+  "programs/special/2021.html": {
+    "sha256": "ad87ba076633280f9586d239bcadd0a3e228ba52648d2abb9074dbe495391112",
+    "bytes": 22714
+  },
+  "programs/special/2022.html": {
+    "sha256": "b99ff0ada5724ba7ed822ba867a12184d4d25b96efa12939ed8af9b5f012e7c6",
+    "bytes": 20624
+  },
+  "programs/special/2023.html": {
+    "sha256": "edd157d65ae91a1c3b0462b3d5104d496fe02c6030fe13d87dcb591e4e3c6e2a",
+    "bytes": 19761
+  },
+  "programs/special/2024.html": {
+    "sha256": "3b7caf88c2da4ccd733e41d98eac8eb92fa78e2276cd04e842e2e0178f9e7863",
+    "bytes": 21243
+  },
+  "programs/special/2025.html": {
+    "sha256": "c6e0eb6ad7ff3dc4ee6eded65335d5a51feeae9458aec7cd5116eafe601c8bcd",
+    "bytes": 20437
+  },
+  "programs/special/index.html": {
+    "sha256": "46c7e2bebbb0807d2611c1c9f2b9556bd04700d24943baedf440bb6372046b52",
+    "bytes": 22999
+  },
+  "programs/special/reports/SP-interim-report-2017-almstrum.pdf": {
+    "sha256": "14b3d9b5d586b95f60a4772d4e290e84018610b5990499d5bd73bac72625c3b3",
+    "bytes": 98826
+  },
+  "programs/special/reports/SP-interim-report-2018-Kletenik.pdf": {
+    "sha256": "7bbecb36ed0eb65b04501542bf7025ce4f9d85e213e5c5cd01ae500616671555",
+    "bytes": 5145115
+  },
+  "programs/special/reports/SP-interim-report-2019-kapoor.pdf": {
+    "sha256": "a179cdd79c795a0d7a7e901fe6b3a0cecbc7c5ec2b95a637168a100d4dcc1509",
+    "bytes": 1805237
+  },
+  "programs/special/reports/SP-report-2007-holz.pdf": {
+    "sha256": "fea0af6df83d8d3121d1d3a0031fc5ba07a33301714f46e77a08afe93e3eddd8",
+    "bytes": 16914
+  },
+  "programs/special/reports/SP-report-2014-gaspar.pdf": {
+    "sha256": "cfd6abda80d1d229d2cdef6dad86d8660754006ba4b12767fc56125dd417ac7d",
+    "bytes": 142189
+  },
+  "programs/special/reports/SP-report-2014-kolikant.pdf": {
+    "sha256": "e37fd99bbc29935dc27032dda8271e7c899b0e9ca7872411c5b47e95314623ab",
+    "bytes": 144392
+  },
+  "programs/special/reports/SP-report-2014-trees.pdf": {
+    "sha256": "ab3c4b5330a6db831dc1d70e4ad3015fd17c724631a2eed56103435a122d852a",
+    "bytes": 393674
+  },
+  "programs/special/reports/SP-report-2014-wolfman.pdf": {
+    "sha256": "56b0b80801851962da57dfe9f1fe9ac66cb6d0452e472ebcc5fccb7ae8e6b376",
+    "bytes": 56098
+  },
+  "programs/special/reports/SP-report-2015-foley.pdf": {
+    "sha256": "f196a5bccd758f0055d718e195d36c270a0b4eca8298eb9a67da1e278f577f89",
+    "bytes": 63415
+  },
+  "programs/special/reports/SP-report-2015-krutz.pdf": {
+    "sha256": "482a30746720d4653649502129da0f6a312b09f7741c4c76b130943e17796739",
+    "bytes": 195831
+  },
+  "programs/special/reports/SP-report-2015-kurkovsky.pdf": {
+    "sha256": "cbccacd01965d26874ea9ade5bed5b377c87eb15b60be7025d93d5e2f0afbc2a",
+    "bytes": 55989
+  },
+  "programs/special/reports/SP-report-2015-maxim.pdf": {
+    "sha256": "80db82244d817bb3a29aa69742455a03843f0b547a0bdebbf39f38b2df360512",
+    "bytes": 16519
+  },
+  "programs/special/reports/SP-report-2015-musicant.pdf": {
+    "sha256": "f726e5e4dffb7ae3bfd1569f6bb01eb5042be751f685a0f55bbf44e1a5f50a85",
+    "bytes": 106500
+  },
+  "programs/special/reports/SP-report-2016-becker.pdf": {
+    "sha256": "4f907aad8589ef971556a792302cc02037e2d027bddf2cd769d3b50290633223",
+    "bytes": 119037
+  },
+  "programs/special/reports/SP-report-2016-ladner.pdf": {
+    "sha256": "801c798ddbf50833a4b5330471b43391100daa253f27e03e84642cbe1a5b43ee",
+    "bytes": 88357
+  },
+  "programs/special/reports/SP-report-2016-meysenburg-gamebook.pdf": {
+    "sha256": "ed1745fcd13841ca1f2d2a0f51d3d19a7a3403be5ff5ecf2f1124ed837cdacd8",
+    "bytes": 1856267
+  },
+  "programs/special/reports/SP-report-2016-meysenburg-instructors-guide.pdf": {
+    "sha256": "b69e8f75b5e4f1a76af2067e0a22939454667265414bfa72bcf749b909345922",
+    "bytes": 1305358
+  },
+  "programs/special/reports/SP-report-2016-meysenburg-instructors-materials.pdf": {
+    "sha256": "226ddd5a70051fa1d2d00cae1fc8f16334a53199c192f0dce123abed684a386a",
+    "bytes": 2328842
+  },
+  "programs/special/reports/SP-report-2016-meysenburg.pdf": {
+    "sha256": "6989efce4977c009c61c6ed74e3074ea78f2fcfb25a3a0e1129806d7f70c3d37",
+    "bytes": 141572
+  },
+  "programs/special/reports/SP-report-2017-elglaly.pdf": {
+    "sha256": "16a11e7b3dc49238e369b7c6481a027aafd613f5f62a26ad2f7b200c5db6eec7",
+    "bytes": 200113
+  },
+  "programs/special/reports/SP-report-2017-luxton-reilly.pdf": {
+    "sha256": "e71c7ecd805c0c8819790fc2e0ea55a7a554ab010063b4006be3d514df01bc1f",
+    "bytes": 343417
+  },
+  "programs/special/reports/SP-report-2017-morgan.pdf": {
+    "sha256": "6687929e052ba2d17ee1cae36d577bee5de7fc09e080905fee70a53472ad6384",
+    "bytes": 194566
+  },
+  "programs/special/reports/SP-report-2017-myers.pdf": {
+    "sha256": "ce4f956b1cb6b5956e7231828f54f60996d72074a62020b1bed25e7ad71bcf84",
+    "bytes": 155799
+  },
+  "programs/special/reports/SP-report-2018-kapoor.pdf": {
+    "sha256": "24e4dbf49b8f9bfa24b4793936d2b7e052e035e625fa0586dccc38659edd3b59",
+    "bytes": 2632265
+  },
+  "programs/special/reports/SP-report-2018-liew.pdf": {
+    "sha256": "5627d2c8ed30b9049e52b55f578f4bab5d8330a308dee21abb4d0bcd9ab4a133",
+    "bytes": 40709
+  },
+  "programs/special/reports/SP-report-2018-Stephens-Martinez.pdf": {
+    "sha256": "f67f5fe9200e25361a34f1558e98f1805718c5bce9677ce3c3afb9b3e509161d",
+    "bytes": 160349
+  },
+  "programs/special/reports/SP-report-2018-tracy.pdf": {
+    "sha256": "3fb49660965f8680987800b5a3cb9466f8e88d5f2c3a3cc194f1e6502fe9f6d8",
+    "bytes": 39262
+  },
+  "programs/special/reports/SP-report-2019-Becker.pdf": {
+    "sha256": "4dd110e1267e551def16ea5604cba96a81aa88cff4e259e7fb179554bf84ae92",
+    "bytes": 431215
+  },
+  "programs/special/reports/SP-report-2019-Carter.pdf": {
+    "sha256": "c6ef1d0e603068e2334dae826cd2b22b31aba43b017bff5ce3d8624d4be9e1bf",
+    "bytes": 451583
+  },
+  "programs/special/reports/SP-report-2019-George.pdf": {
+    "sha256": "d88d9f75f87a0328b83a5d0ee1a8a4b703e30ba1a6122abc9a50e9b83016dfbf",
+    "bytes": 101765
+  },
+  "programs/special/reports/SP-report-2019-Goadrich.pdf": {
+    "sha256": "9af8097e8b780ec36a3a59b7fad0ef5dd5fbbf2b53ac80764ce5b5a987e4e515",
+    "bytes": 1677880
+  },
+  "programs/special/reports/SP-report-2019-Jin.pdf": {
+    "sha256": "f7fe5d39effaa625fcfac01c41e14b8a2081a8b0b4e27568ed2c012e98c4fd1e",
+    "bytes": 287016
+  },
+  "programs/special/reports/SP-report-2019-Matthews.pdf": {
+    "sha256": "b8408c88db55120a4b0522b2f538ddbc5ecf80d0074069b7e79da53b8bf0390d",
+    "bytes": 146665
+  },
+  "programs/special/reports/SP-report-2019-Najjar.pdf": {
+    "sha256": "169d3e3caa15ce880d5a2e63f4a1ee9b17d87925b4546a6cc3b56646e5ec0fe8",
+    "bytes": 2410634
+  },
+  "programs/special/reports/SP-report-2020-garcia.pdf": {
+    "sha256": "ac2b1ac6214a8daa8dac383e3e7575c1eb15534075b9393e2eca06a28cacd59c",
+    "bytes": 263866
+  },
+  "programs/special/reports/SP-report-2020-Kletenik.pdf": {
+    "sha256": "521a0c62beea84f7f5cc112477f0fc710b362834ff64fd9cbcbe97ffbbc822b7",
+    "bytes": 1649205
+  },
+  "programs/special/reports/SP-report-2020-lodi.pdf": {
+    "sha256": "4a6092c29533f531239736f5a0501b1d346b83327015fc6dac1fac46021ffa03",
+    "bytes": 1244450
+  },
+  "programs/special/reports/SP-report-2020-sentance.pdf": {
+    "sha256": "a3653cef714ba11ee5ddb5bf34afd76a8c4c3cd98e326fb3e99f2f2e3a825071",
+    "bytes": 981236
+  },
+  "programs/special/reports/SP-report-2021-McGill.pdf": {
+    "sha256": "b2de1343e379e76aab69d78960bf204728c7484da02e1d9920efb3262f86b16f",
+    "bytes": 472694
+  },
+  "programs/special/reports/SP-report-2021-Zayas.pdf": {
+    "sha256": "578641650e091400c065bdcd77788db067aeaf22b5ab613880de6688aee796fb",
+    "bytes": 171662
+  },
+  "programs/special/reports/SPr-report-2018-Kletenik.pdf": {
+    "sha256": "521a0c62beea84f7f5cc112477f0fc710b362834ff64fd9cbcbe97ffbbc822b7",
+    "bytes": 1649205
+  },
+  "programs/travel-grants/awards.html": {
+    "sha256": "4b0659e62672dc82c0f08399b1526c7d1a9e36564742628c19516dd7dde77d7f",
+    "bytes": 25922
+  },
+  "programs/travel-grants/index.html": {
+    "sha256": "b55f660ce80f456208cbebb8246cbad4cddf7160ed3c0a25bca2daa9ecbd3471",
+    "bytes": 24361
+  },
+  "resources/All the VoicesFinal.pdf": {
+    "sha256": "0c028ecc8764ac86272afdab4e6832a1dc301d16680caf43ccfa0e40a3a24b34",
+    "bytes": 1029259
+  },
+  "resources/index.html": {
+    "sha256": "a5a6099c3e6f951d4f8ed623ad075af562819e74d651c81f2e215b88389a1afe",
+    "bytes": 18425
+  },
+  "resources/multiverse/2020canceled.jpg": {
+    "sha256": "853ee8566594ff1593c93c9c3c6137698d7ba27728684a37c130740a69510dba",
+    "bytes": 125092
+  },
+  "resources/multiverse/index.html": {
+    "sha256": "d72bebc8d335ccf24dd4864975893f876e660f68d1fa5b28ee1b85961f0f2a7a",
+    "bytes": 18623
+  },
+  "resources/multiverse/SIGCSE Morning Coffee.md": {
+    "sha256": "02b145ed57fb9aabd6b7a709d2b3872645ed22dc22edb14c5f47ab167b14e063",
+    "bytes": 195
+  },
+  "resources/multiverse/Slide1.pdf": {
+    "sha256": "96d20c9a13c39c2a7488db13e154cbdd94713b4b425903cba8810748e81b8344",
+    "bytes": 612182
+  },
+  "resources/multiverse/Slide2.pdf": {
+    "sha256": "855776ebe74f7d2708d0218f2f4680df9a692eb03d951962991d0095ef982e01",
+    "bytes": 1042035
+  },
+  "resources/multiverse/Slide2.png": {
+    "sha256": "83fe845662679bbcc0e6e9e04ec802c09000127af0d88f30f793841f0eda7b61",
+    "bytes": 77195
+  },
+  "resources/multiverse/Slide3.pdf": {
+    "sha256": "367b3adde52443a057eb1a2c36474cd57b24f40e617c752b1f675fba241453a2",
+    "bytes": 1155280
+  },
+  "resources/multiverse/Slide3.png": {
+    "sha256": "22ef41fcb709533b0873ff60e14e9e79d97b8ae95147a532e437a80117220dc0",
+    "bytes": 93350
+  },
+  "resources/multiverse/Slide4.pdf": {
+    "sha256": "928ab8fe83535df8e154cabcd36cbf6cb8d15d4af971d444861c870a81a2d81f",
+    "bytes": 869947
+  },
+  "resources/multiverse/Slide4.png": {
+    "sha256": "0071f7e0ae50217810a414b982d64fde2f9a9b07880aceede91c1b118b4d4817",
+    "bytes": 103429
+  },
+  "resources/multiverse/Slide5.pdf": {
+    "sha256": "f06e93e154059503730841c7a1579442157b8e1b39c7783756b9dab99f198552",
+    "bytes": 989264
+  },
+  "resources/multiverse/Slide5.png": {
+    "sha256": "092225c984b7820fc318a78a8e81b7451b7d1d71fa9aac17e37dd5f7d7fb2a26",
+    "bytes": 68325
+  },
+  "resources/phd-programs.html": {
+    "sha256": "4b387e360b8847ed8c3bf272e0ea3124e79f75aa21bba96a66022340011411ef",
+    "bytes": 25376
+  },
+  "resources/publications.html": {
+    "sha256": "d533da0257ec55cad1ba4958f977849595d177aa6d0f4da009ad935a05a6ee88",
+    "bytes": 21654
+  },
+  "resources/publish.html": {
+    "sha256": "0f7fa780595d3f07c9a95d06b1e480915d6da30a22c38e0f6f0455cd47ee6229",
+    "bytes": 24648
+  },
+  "resources/reads.html": {
+    "sha256": "32dd73d079cb8c285da8f55b024469baa6d0007d73fbd827925a2fab681e392f",
+    "bytes": 28192
+  },
+  "siteindex/index.html": {
+    "sha256": "b8958e1a0339dab1c5a8a1a8a7aed8e243bc258de81c978512a8f672a9de69e0",
+    "bytes": 32527
+  }
+}
