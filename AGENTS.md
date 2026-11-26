@@ -905,3 +905,30 @@ The project is successful when:
 The ultimate objective is not merely a better-looking website.
 
 It is a sustainable organizational website that is easier to use, easier to maintain, and appropriately scoped to the responsibilities of ACM SIGCSE.
+
+## 14. Approved Phase 4B Design Direction (2026-11-26)
+
+The owner approved Concept B, Professional Community, for the site-wide visual
+implementation. Use welcoming sans-serif typography, authentic existing SIGCSE
+photography, compact spacing, and task-oriented content presentation. Adopt
+Concept C's solid blue primary navigation and clear active-section treatment.
+Preserve official logos; remove redundant organization-name text beside the logo,
+uppercase title eyebrows, generic marketing slogans and prototype controls.
+
+Use reusable patterns for community/section pages, funding applications, awards
+and recipient histories, people/conference directories, news, policies and archives.
+Keep reference material compact. Summaries and detailed guidance must share one
+editable source for facts. Use a neutral reserved header location for future
+search, without implementing or pretending to implement Phase 5 search.
+
+The homepage must give all SIGCSE conferences equal visual treatment, ordering
+dated upcoming events chronologically and excluding concluded events at rebuild.
+Use published end dates where available; never invent precise dates from TBD or
+month-only records. Preserve historical records and flag missing/conflicting data.
+
+Complete responsive/accessibility, breadcrumb/navigation, link, preservation and
+task-depth validation; provide desktop/mobile screenshots, update documentation,
+commit and ordinarily push to the authorized GitHub repository. GitHub Pages was
+disabled with separate owner authorization and must remain disabled. Do not change
+DNS, deploy to production, implement a CMS or begin Phase 5. Stop for owner review
+after completing Phase 4B.

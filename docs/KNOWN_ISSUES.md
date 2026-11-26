@@ -14,4 +14,6 @@ Static search is Phase 5. Comprehensive maintainer schemas/usability and visual 
 
 See REVIEW.md for local review, screenshots and exact validation evidence.
 
-Phase 4 visual design is not approved. Phase 4B concepts are isolated and await owner choice; they do not fix or replace the working site yet.
+Concept B is approved and implemented site-wide with solid blue navigation. Historical standalone Bulletin publications retain their self-contained presentation. Shared-shell conference legacy pages receive the new identity. Existing reference tables may scroll horizontally within labeled keyboard-focusable regions on small screens.
+
+Conference eligibility changes at build time, so automatic exclusion of concluded events requires a rebuild. No scheduled publication/deployment is enabled. Month-only dates are retained through month end for filtering without inventing a published end date. Missing official CompEd URL and unconfirmed RESPECT details remain editorial questions.

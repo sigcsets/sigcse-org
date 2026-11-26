@@ -1,6 +1,6 @@
 # Phase 4B — three isolated visual concepts
 
-Status: ready for owner selection. The Phase 4 engineering/navigation architecture is approved; its visual design is not. No final design has been applied to the working site. Phase 5 has not started.
+Status: historical concept comparison. Owner selected Concept B with Concept C solid blue navigation. The site-wide implementation is ready for owner review; see ../../REVIEW.md. Phase 5 has not started.
 
 ## Open the comparison
 

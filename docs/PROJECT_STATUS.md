@@ -1,6 +1,16 @@
 # Project status
 
-Updated 2026-11-26. **Current checkpoint: Phase 4B concepts complete; awaiting visual direction.** Phase 1 approved. Phases 2–4 authorized in sequence with interim review stops waived. Production deployment deferred; no hosting/DNS/credential investigation.
+Updated 2026-11-26. **Current checkpoint: Phase 4B implementation complete; owner review required.** Concept B approved with Concept C's solid blue navigation. Production deployment remains disabled; no hosting/DNS/credential investigation. Phase 5 has not begun.
+
+## Phase 4B — approved community design
+
+Applied the shared sans-serif community design to organizational pages and retained conference legacy pages. Added purpose-specific funding summaries, award directory/history, compact reference/archive styling, larger Board portraits and distinct existing photographs on home, membership, conferences, governance and About. Removed public prototype controls and redundant logo wording. Search space is reserved without implementing search.
+
+Upcoming conferences are generated chronologically from the authoritative schedule, retain events through their final day, exclude concluded events and separate unconfirmed dates. Historical records remain unchanged. Funding summaries and guidance share page metadata rather than independently copied facts. See REVIEW.md for evidence and review instructions.
+
+Clean case-sensitive Linux source, six regression tests, schedule/navigation logic, live/staging/preview builds, public preservation, 13 task benchmarks and palette contrast checks pass. Output: 1,075 files / 390 HTML pages; all 1,064 baseline files and 19 redirects retained; 218 existing static findings, zero new findings. Original baselines are unchanged. Browser review and hosted validation are recorded in REVIEW.md.
+
+Remaining review: missing CompEd event URL, RESPECT conflicting year/TBD dates, expired travel cycles, existing award/governance discrepancies, photography opportunities and full accessibility review. Stop here for owner/Board review; no Phase 5, CMS or production work.
 
 ## Phase 2 — content ownership and isolation
 

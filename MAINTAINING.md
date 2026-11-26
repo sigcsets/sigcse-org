@@ -81,7 +81,15 @@ Keep `permalink` unchanged when moving or renaming a page source. Use the existi
 
 ## Navigation and new organizational hubs
 
-`_data/navigation.yml` is the shared source for the seven main destinations and contextual section links. Each main entry needs `name` and `link`; `links` contains `name`/`link` pairs for the section sidebar. Optional `match` matches an existing public section. Use existing public paths, not source paths. For example, a Board link remains `/about/board.html`, while its source is `content/organization/about/board.md`.
+`_data/navigation.yml` is the shared source for the seven main destinations and contextual section links. Each main entry needs a unique `id`, `name`, `link` and `matches` list of public URL prefixes; `links` contains `name`/`link` pairs for the section sidebar. Longest matching prefixes determine the active section. Use existing public paths, not source paths. For example, a Board link remains `/about/board.html`, while its source is `content/organization/about/board.md`.
+
+## Approved presentation and shared facts
+
+The site uses Concept B with solid blue navigation. Routine prose stays in Markdown; layout patterns, optional featured photos and breadcrumb parents are selected centrally in `_data/presentation.yml`. Photo paths, alternatives, captions and source references are in `_data/photography.yml`. Do not invent credits or event details. `scripts/prepare_community_photos.ps1` optionally recreates optimized display copies; original archival images remain intact.
+
+For Special Projects and travel grants, edit `application` metadata in the page's front matter once. The summary and detailed guidance read those same values. Travel schedule rows require `conference`, `grants`, `deadline` and `notification`; preserve approved past cycles until an editorial update is authorized. The Special Projects `deadlines` array contains the existing recurring dates. Application form/contact/history links are rendered by shared includes. Other funding pages remain ordinary prose unless they have approved structured facts.
+
+For conferences, edit `schedule` records in `_data/conferences.yml`. Keep existing fields; add ISO `end-date` when the approved date range is known. Display `dates` remains the published wording. Concluded events disappear from the homepage after a rebuild, while their records stay in the repository and directory. TBD dates appear separately. A month-only date is filtered at month end without displaying an invented day. Use an approved official `website` when available; missing URLs are labeled and use local information as a fallback.
 
 New hubs are `content/organization/{conferences,funding,governance,get-involved,archives}/`. The homepage is `content/organization/index.md`. Conference directory descriptions, dates, locations and event URLs are edited once in `_data/conferences.yml`; historical annual records are separate snapshots. Do not correct ambiguous years or expired cycles without approved information.
 

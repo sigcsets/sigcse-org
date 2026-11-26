@@ -53,3 +53,11 @@ Use unchanged official logo artwork, a restrained teal/navy visual system, one s
 Owner declared placeholder GitHub history disposable and authorized an explicit force-with-lease replacement of main. Discovered Pages auto-published main/root to preview.sigcse.org; owner separately authorized disabling Pages before push to honor the no-deployment constraint. No DNS/ACM-hosting changes. Main now tracks origin/main and hosted live/staging validation succeeds.
 
 Preserve approved engineering and task navigation. Isolate three static visual concept pairs under excluded internal documentation and generated local artifacts. Use existing authentic attendee and historical group photographs with context, unchanged official logos and source-backed funding facts. Do not select or apply a site-wide direction before owner review. No new dependencies, stock/generated people, new public content formats or Phase 5 work.
+
+## Phase 4B — approved implementation
+
+Owner selected Concept B's welcoming photography, sans-serif typography and compact task presentation, with Concept C's solid blue active navigation. Apply that identity through shared layouts and URL-selected presentation patterns, including retained conference pages. Keep standalone historical publications intact. Reserve header space for later search; no inactive search control or Phase 5 implementation.
+
+Use separate existing photographs on major community pages, centrally documented with source-backed captions. Commit only resized/compressed display derivatives and retain originals. Contain group photographs rather than cropping participants. Put one application form action before long guidance at every viewport. Store funding facts once in page metadata and render summaries/guidance from it.
+
+Compute upcoming conferences from the existing schedule at build time; retain through the final day, sort chronologically and use identical row treatment for all series. Keep TBD separately and preserve past records. Month-only display dates expire at month end without inventing a published day. Missing official links and contradictory years require editorial review. No new runtime dependency, external service, deployment or DNS change.
