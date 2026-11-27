@@ -21,24 +21,24 @@ application:
   schedule:
     - conference: "2026 RESPECT"
       grants: "2"
-      deadline: "May 8, 2026"
-      notification: "May 15, 2026"
+      deadline: 2026-05-08
+      notification: 2026-05-15
     - conference: "2026 ITiCSE"
       grants: "5"
-      deadline: "May 8, 2026"
-      notification: "May 22, 2026"
+      deadline: 2026-05-08
+      notification: 2026-05-22
     - conference: "2026 ICER"
       grants: "2"
-      deadline: "June 1, 2026"
-      notification: "July 1, 2026"
+      deadline: 2026-06-01
+      notification: 2026-07-01
     - conference: "2026 SIGCSE Virtual"
       grants: "n/a (virtual event)"
       deadline: "—"
       notification: "—"
     - conference: "2027 SIGCSE Technical Symposium"
       grants: "20"
-      deadline: "November 15, 2026"
-      notification: "December 15, 2026"
+      deadline: 2026-11-15
+      notification: 2026-12-15
 ---
 
 SIGCSE awards travel grants throughout the year to help defray expenses of members attending SIGCSE-sponsored conferences. The Henry Walker Travel Grant Program award winners will receive up to {{ page.application.maximum_award }} towards travel expenses, not including conference registration. We are particularly interested in encouraging attendance by members who have never been able to attend a SIGCSE-sponsored conference previously.

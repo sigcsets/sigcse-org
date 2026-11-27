@@ -18,7 +18,8 @@ BASELINES = ROOT / 'docs/baselines'
 PRIVATE = {'audit', 'docs', 'scripts', 'tests', 'artifacts', 'vendor', 'bin',
            '_pending', '_unused', '_development', '_documentation',
            'AGENTS.md', 'README.md', 'MAINTAINING.md', 'Gemfile', 'Gemfile.lock',
-           'gemfile', 'gemfile.lock'}
+           'gemfile', 'gemfile.lock', 'node_modules', 'package.json',
+           'pnpm-lock.yaml', 'pagefind.yml', 'test-results'}
 
 
 def internal(path):

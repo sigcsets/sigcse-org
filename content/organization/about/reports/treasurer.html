@@ -2,9 +2,12 @@
 title: Treasurer's Report
 layout: page
 permalink: /about/reports/treasurer.html
+reports:
+  - title: Fiscal Years 2014 - 2016
+    url: /files/AnnualReports/TreasurersReport2014-2016.pdf
+  - title: Fiscal Years 2011 - 2013
+    url: /files/AnnualReports/TreasurersReport2011-2013.pdf
+  - title: Fiscal Years 2008 - 2010
+    url: /files/AnnualReports/TreasurersAnnualReportFY08FY09FY10.pdf
 ---
-<ul>
-	<li><a href="../../files/AnnualReports/TreasurersReport2014-2016.pdf">Fiscal Years 2014 - 2016</a></li>
-	<li><a href="../../files/AnnualReports/TreasurersReport2011-2013.pdf">Fiscal Years 2011 - 2013</a></li>
-	<li><a href="../../files/AnnualReports/TreasurersAnnualReportFY08FY09FY10.pdf">Fiscal Years 2008 - 2010</a></li>
-</ul>
+{% include document-list.html records=page.reports %}

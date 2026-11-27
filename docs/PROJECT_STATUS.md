@@ -1,6 +1,36 @@
 # Project status
 
-Updated 2026-11-26. **Current phase: Phase 4C — complete for owner review.** Phase 4B identity/navigation substantially approved. Publication remains disabled. Phase 5, CMS, hosting and DNS work are not started.
+Updated 2026-11-26. **Current phase: Phases 5–6 — implementation and local validation complete; hosted validation pending.**
+Owner approved Phase 4C and both phases without an intermediate stop. Approved
+visual identity, homepage, landing pages and navigation remain frozen except
+functional search integration and accessibility. Production and Pages stay disabled.
+
+## Phases 5–6
+
+Pagefind 1.4.0 is integrated in the reserved header space. A dedicated search page
+uses local static assets, useful titles/excerpts, category/record-type/year filters,
+conference archive labels and baseurl-aware destinations. Every Jekyll build and
+serve rebuild indexes public main content; redirect, navigation and nonpublic
+content are excluded. Local browser checks cover real engine queries, full index
+inventory, desktop/mobile/320px, keyboard, empty results, axe and browse fallbacks.
+
+MAINTAINING.md provides exact source paths and a PR/preview/review/rollback guide.
+CONTENT_TEMPLATES.md documents all nine workflows and fields. Treasurer reports
+use YAML/shared rendering; new committee items support Markdown; travel dates
+use ISO metadata while preserving approved display dates. Current sources remain
+authoritative; history and factual discrepancies are untouched. Expanded validation
+has eleven invalid-edit mutation cases, plus advisory freshness reports.
+MAINTENANCE_COMPARISON.md distinguishes improvements from prior centralization.
+CMS_READINESS.md records remaining obstacles without choosing/installing a CMS.
+
+Final live/staging/preview validation, hosted evidence and owner checkpoint are
+recorded in REVIEW.md when complete. Original regression baselines remain intact.
+Stop after Phase 6; no Phase 7, production connection, CMS, Pages or DNS change.
+
+## Prior checkpoints
+
+Phase 4C review is preserved in reviews/PHASE4C_REVIEW.md. The records below are
+historical context, not current pending authorization.
 
 ## Phase 4C — current work
 

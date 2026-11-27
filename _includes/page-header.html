@@ -1,7 +1,7 @@
 <header class="site-header">
 <div class="brand-row container">
 <a class="brand" href="{{ '/' | relative_url }}" aria-label="ACM SIGCSE home"><img src="{{ '/assets/images/logo/SIGCSE-logo_horiz_color_no-back.png' | relative_url }}" alt="ACM SIGCSE" width="235" height="73"></a>
-<div class="header-search-slot" aria-hidden="true"><!-- Reserved for the approved future Phase 5 search component. --></div>
+<form class="header-search-slot" role="search" action="{{ '/search/' | relative_url }}" method="get"><label class="visually-hidden" for="header-search">Search SIGCSE</label><input id="header-search" type="search" name="q" placeholder="Search SIGCSE" maxlength="200"><button type="submit">Search</button></form>
 <nav class="utility" aria-label="Utility navigation"><a href="{{ '/about/' | relative_url }}"{% if page.section.id == 'about' %} aria-current="location"{% endif %}>About SIGCSE</a><a href="{{ '/news/' | relative_url }}"{% if page.pattern == 'news' %} aria-current="location"{% endif %}>News</a><a class="button small" href="{{ '/membership/join.html' | relative_url }}">Join SIGCSE</a></nav>
 </div>
 <div class="primary-bar"><details class="main-menu container" open><summary>Explore SIGCSE <span aria-hidden="true">☰</span></summary><nav aria-label="Main navigation"><ul>{% for item in site.data.navigation %}<li><a href="{{ item.link | relative_url }}"{% if page.section.id == item.id %} aria-current="location"{% endif %}>{{ item.name }}</a></li>{% endfor %}</ul></nav></details></div>

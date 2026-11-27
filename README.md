@@ -1,6 +1,6 @@
 # ACM SIGCSE organizational website
 
-Independent Jekyll modernization copy of [sigcse.org](https://sigcse.org). Phases 2–4 are complete for local owner review. Production deployment is disabled.
+Independent Jekyll modernization copy of [sigcse.org](https://sigcse.org). The approved Phase 4 identity is preserved; Phases 5–6 add static search and maintainer workflows. Production deployment and GitHub Pages are disabled.
 
 ## Local review
 
@@ -14,6 +14,7 @@ Open `http://127.0.0.1:8765/`; Ctrl+C stops the server. To rebuild from source w
 
 ```sh
 bundle _2.4.20_ install
+pnpm install --frozen-lockfile
 bundle exec ruby scripts/build.rb preview
 ```
 
@@ -31,4 +32,6 @@ Organizational pages live in `content/organization/`; conference sources in `con
 
 Questions: webmaster@sigcse.org.
 
-Phase 4B visual concepts are ready for selection: see [concept review](docs/design/phase4b/README.md). The working Phase 4 design is preserved until a direction is approved.
+Search setup and coverage: [SEARCH.md](docs/SEARCH.md). Maintainer templates:
+[CONTENT_TEMPLATES.md](docs/CONTENT_TEMPLATES.md). Future visual editing obstacles:
+[CMS_READINESS.md](docs/CMS_READINESS.md). No CMS is installed or selected.

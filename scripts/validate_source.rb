@@ -4,6 +4,7 @@ require 'date'
 require 'csv'
 require 'json'
 require 'pathname'
+require_relative 'maintainer_schema'
 
 ROOT = File.expand_path('..', __dir__)
 Dir.chdir(ROOT)
@@ -12,6 +13,7 @@ data = {}
 # Use Git's publication inputs: ignored local drafts/backups are never inspected.
 paths = IO.popen(%w[git ls-files -z], &:read).split("\0")
 paths += Dir.glob('{_config*,_data/**/*}.{yml,yaml}')
+paths += Dir.glob('{content,_posts}/**/*.{md,html}')
 paths.uniq.each do |path|
   next unless File.file?(path)
   next if path.start_with?('audit/', 'docs/')
@@ -111,6 +113,7 @@ base = YAML.safe_load_file('_config.yml')
     errors << "#{path}: shared setting #{key} differs from _config.yml" unless config[key] == value
   end
 end
+errors.concat(MaintainerSchema.check(data))
 known = JSON.parse(File.read('docs/baselines/known-source-issues.json'))
 normalized = errors.uniq.map { |error| error.sub(/\Acontent\/organization\//, '') }
 regressions = normalized - known

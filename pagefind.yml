@@ -1,0 +1,8 @@
+exclude_selectors:
+  - nav
+  - .section-sidebar
+  - .breadcrumbs
+  - .archive-notice
+  - .site-footer
+  - .site-header
+  - '[data-pagefind-ignore]'

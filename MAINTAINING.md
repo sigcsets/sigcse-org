@@ -1,104 +1,93 @@
 # Maintaining the SIGCSE website
 
-This is an experimental modernization copy. Production publishing is disabled.
-Content stays in Git; volunteers can propose changes using GitHub's file editor
-without installing Ruby or connecting to ACM. The configured GitHub repository now contains the modernization history. Main tracks origin/main; ordinary pushes and pull-request review are authorized. Pages and production deployment remain disabled.
+Propose approved changes through GitHub. You do not need Ruby, Jekyll, Liquid,
+SSH or a local build for routine edits. Pages and production publishing remain
+disabled: merging currently validates and packages a preview; it does not publish
+on sigcse.org.
 
-## Make and review an update
+## Make an update
 
-1. Find the source below. Edit only approved information; keep existing filenames
-   and historical records. For a GitHub edit, choose a new branch and propose a PR.
-2. Describe what changed and any organizational approval in the PR description.
-3. Wait for both live and staging **Build and validate** jobs. Open failed checks
-   for source paths and error details. A broken YAML indentation/quote, missing
-   required field, duplicate record, new broken link or removed public URL can fail.
-4. Download the live job's preview artifact. Extract `site.tar.gz` into an empty
-   folder; a technical reviewer can serve it using the instructions in
-   [docs/BUILD.md](docs/BUILD.md). Check the changed page and related listings.
-5. Request review, then merge after approval and checks. In Phase 1, merging builds
-   an artifact only; it does **not** update the ACM website.
+1. Find the exact source in the table below. Open it in GitHub, choose Edit, make
+   the approved change, and choose **Create a new branch** / **Propose changes**.
+2. Open the pull request. State what changed and who approved substantive facts,
+   citations, policy text or publication of documents. Keep published filenames,
+   permalinks, historical records and existing redirects.
+3. Wait for both live and staging **Build and validate** jobs. They show the source
+   path and field for editing errors. See the troubleshooting section in
+   [templates and fields](docs/CONTENT_TEMPLATES.md#validation-and-troubleshooting).
+   Edit the same branch to fix errors; do not change regression baselines.
+4. Open Actions, select the successful run, download the live website artifact.
+   Its site.tar.gz contains the complete site and search index. A reviewer can
+   extract it into an empty folder and run `python -m http.server 8000 --bind
+   127.0.0.1`, then open http://127.0.0.1:8000/. No Ruby is needed. Artifacts expire
+   after seven days; there is no hosted public preview currently.
+5. Review the changed page, related listings, a relevant search, and the mobile
+   layout. Request review and merge only after approval and successful checks.
+   Use the PR's Git diff to verify no unrelated files or private records changed.
 
-## Where to edit
+## Exact files to edit
 
-| Task | Existing source and fields/example |
-|---|---|
-| News | Add `_posts/YYYY-MM-DD-descriptive-title.md`; required title and valid publication date. Example below. Homepage/news archive update automatically. |
-| Current Board | `_data/board.yml`, `current-board.members`; retain `name`, `position`, `image`, affiliation/contact fields. For example change an approved `email: person@acm.org`; keep portrait paths valid. Do not rewrite prior terms. |
-| Conference entry | `_data/conferences.yml`; follow the existing `schedule` fields, including `start-date: 2027-03-01` in ISO format when approved. History and annual pages are separate; changing upcoming information does not create a historical page. |
-| Award recipient | Appropriate `_data/{outstanding,distinguished,broadening,testoftime}.yml`; copy a record in that file and supply approved year, name/title, citation and event code where used. For example `year: 2027` only when the award is approved. Never invent citations. |
-| Board minutes | `content/organization/about/reports/board.md` plus approved document in its existing dated subdirectory; add a descriptive Markdown link such as `[Approved meeting minutes](board/YYYY-MM-DD.pdf)`. Do not replace historical files. |
-| Annual report | Appropriate `content/organization/about/reports/{chair,business,treasurer}` index and approved dated document. Follow the neighboring link's exact filename/case and year. |
-| Policy | `content/organization/policies/` source and `_data/policies.yml` catalog if needed. Preserve approved wording and dates; use the existing title/link fields for an approved new version. |
-| Committee/task force | `content/organization/programs/committees-task-forces/index.md` front matter and related charter/detail files. Follow a neighboring record's fields and approved status. Operational volunteers instead use `_data/organization.yml`. |
-| Funding | `content/organization/programs/special/`, `content/organization/programs/travel-grants/` and related `_data` grant records. Follow existing entries; distinguish application guidance/deadlines from awarded historical grants. |
-| Resource | Relevant `content/organization/resources/` page; add an approved descriptive link using `[Resource title](https://example.org/)`. |
-| Global navigation | `_data/navigation.yml`; each entry needs `name` and `link`, for example the existing `name: About` / `link: /about/`. Do not change public content URLs just to change menu wording. |
+Examples, required fields, upload locations and error explanations for every
+workflow are in [CONTENT_TEMPLATES.md](docs/CONTENT_TEMPLATES.md).
 
-These structures preserve existing historical records. Full task schemas,
-single-source consolidation and volunteer usability testing belong to later phases.
-The existing [maintenance audit](audit/MAINTENANCE_AUDIT.md) explains cross-file
-dependencies and editorial discrepancies; it is internal and excluded from output.
+| Routine task | Authoritative source | Files normally changed |
+|---|---|---|
+| Add news | `_posts/YYYY-MM-DD-short-title.md` | One new Markdown file; homepage/archive/search update automatically |
+| Add/update upcoming conference | `_data/conferences.yml`, existing series → schedule | One YAML file; homepage and directory update together |
+| Add award recipient | `_data/outstanding.yml`, `distinguished.yml`, `broadening.yml` or `testoftime.yml` | One appropriate YAML file; a separate optional news announcement is not the recipient record |
+| Update current Board/officers | `_data/board.yml` → current-board → members | One YAML file, plus portrait only if needed in `assets/images/board/current/` |
+| Update committee/task force | `content/organization/programs/committees-task-forces/index.md` → active/previous front matter | One Markdown file; charter/report upload only when needed |
+| Update operational volunteer roles | `_data/organization.yml` | One YAML file; these roles are separate from Board committees/task forces |
+| Special Project facts/deadlines | `content/organization/programs/special/index.md` → application; top-level form | One Markdown file; summary and guidance share the metadata |
+| Travel funding/deadlines | `content/organization/programs/travel-grants/index.md` → application.schedule; top-level form | One Markdown file; ISO dates render as readable dates |
+| Approved Board minutes | `content/organization/about/reports/board.md` → minutes → term → approved | Metadata file plus approved PDF under `about/reports/BoardMinutes/<term>/` |
+| Chair report | `content/organization/about/reports/chair.md` → reports | Metadata file plus approved document under `about/reports/` |
+| Business meeting | `content/organization/about/reports/business.md` → business | Metadata file plus approved documents under `about/reports/BusinessMinutes/` |
+| Treasurer report | `content/organization/about/reports/treasurer.html` → reports front matter | Metadata file plus approved PDF under `files/AnnualReports/`; no HTML editing |
+| Existing organizational policy | Relevant file in `content/organization/policies/` | One Markdown file; preserve approved wording and permalink |
+| Add organizational policy | New Markdown file in `content/organization/policies/`, plus `_data/policies.yml` catalog | Two files; do not duplicate full policy text in the catalog |
+| Membership guidance/dues | `content/organization/membership/join.md` | One Markdown file |
+| Membership benefits | `content/organization/membership/benefits.md` → benefits | One Markdown file; landing summaries update automatically |
+| Membership statistics | `_data/membership.yml` | YAML plus matching approved chart if changed; preserve dated snapshots |
+| Resource | Appropriate `content/organization/resources/` page | One Markdown file with a descriptive link |
+| Navigation | `_data/navigation.yml` | One YAML file; keep public URL paths, not source paths |
 
-Example news file (illustrative text, not an announcement to publish):
+Quotes are necessary around YAML text containing `: ` or `#`. Use spaces, not
+tabs. New dates use YYYY-MM-DD except published recurring month/day deadlines.
+Use the template's fields and existing record indentation. Do not copy Liquid
+loops or layout code into a new record. New committee items support a `markdown`
+field with ordinary Markdown links; old HTML items remain preserved.
 
-```yaml
----
-title: "Approved announcement title"
-date: 2026-11-26
-author: "Approved author name"
----
-Approved announcement text and [descriptive link](/membership/join.html).
-```
+Current schedules are not annual conference history. `_data/<series>.yml` and
+`content/conference-legacy/<series>/` preserve annual snapshots. Never update
+historical records to mirror new current facts. Source directory depth does not
+determine a page's URL: keep its `permalink` unchanged.
 
-Quote values containing colons; use spaces, not tabs, in YAML. Keep dates as
-`YYYY-MM-DD`. File paths are case-sensitive on hosting even if Windows accepts
-different capitalization. Do not rename published posts or downloads casually.
+## Review and rollback
 
-## Existing defects and unpublished files
+Preview the changed item in its directory/listing, then search its title or name.
+Search reflects the completed build, including main HTML content and linked
+public document titles. It does not search PDF/Office bodies. For details and
+staging preview commands see [SEARCH.md](docs/SEARCH.md).
 
-Validation records existing archive issues instead of requiring their immediate
-repair. Do not edit baseline files just to make a failed PR pass. Ask a technical
-reviewer to investigate a newly reported regression.
+If a proposed update is wrong, edit the same PR branch. If an already merged update
+needs reversal, create a new PR reverting that commit, review and run the same
+checks. Do not rewrite history, replace historical PDFs or manually edit generated
+`_site/` output. Future production publishing will need a separately approved
+release/rollback process.
 
-`_pending/` and `_unused/` are ignored local material: preserve them, do not publish
-or automatically add them. A fresh clone does not contain them. Audit, developer
-documentation, scripts, dependencies and generated artifacts are not public content.
+## Editorial and publication boundaries
 
-Technical setup: [docs/BUILD.md](docs/BUILD.md). Deployment proposal and administrator
-questions: [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). Project state:
-[docs/PROJECT_STATUS.md](docs/PROJECT_STATUS.md).
+Validation catches syntax and deterministic regressions; it cannot approve facts.
+Do not invent missing 2026 award citations, resolve conflicting Board/conference
+records, change policy/access rules or remove conference legacy content without
+appropriate approval. Open questions are in [docs/OPEN_QUESTIONS.md](docs/OPEN_QUESTIONS.md).
 
-## Source locations after Phase 3
+`_pending/` and `_unused/` are ignored unpublished local material. Preserve them;
+never upload or commit them automatically. A fresh clone does not contain them.
+Audit, docs, scripts, templates/examples, dependencies and generated artifacts are
+internal and excluded from the website and search.
 
-- `content/organization/`: organizational pages, grouped by subject, with explicit public permalinks. Source folders do not control navigation or public URLs.
-- `content/conference-legacy/<series>/`: conference series prose and annual pages. Each has a stable permalink and conference classification. Historical images/documents stay at their original public paths under `events/<series>/`.
-- `_data/conferences.yml`: concise directory and upcoming schedule for all six series. Edit a schedule once here. `_plugins/content_metadata.rb` supplies in-memory compatibility aliases to older templates; never duplicate schedules in annual history files.
-- `_data/<series>.yml`: historical annual records and conference committees; historical snapshots are not current directory entries.
-- `_data/board.yml`, award data, `_posts/` and navigation remain the routine sources described above.
-- `_layouts/default.html`: single HTML shell; small page/post/home/blank wrappers. `_includes/` contains reusable components. One local Bootstrap bundle remains active. Old assets remain publicly available for archival compatibility.
-
-Keep `permalink` unchanged when moving or renaming a page source. Use the existing record conventions for historical years (including decimal Symposium identifiers). Do not convert historical snapshots to current facts.
-
-## Navigation and new organizational hubs
-
-`_data/navigation.yml` is the shared source for the seven main destinations and contextual section links. Each main entry needs a unique `id`, `name`, `link` and `matches` list of public URL prefixes; `links` contains `name`/`link` pairs for the section sidebar. Longest matching prefixes determine the active section. Use existing public paths, not source paths. For example, a Board link remains `/about/board.html`, while its source is `content/organization/about/board.md`.
-
-## Approved presentation and shared facts
-
-Phase 4C community landing pages use `_layouts/community.html`, with Markdown/front-matter introduction and optional actions. Program and reference layouts retain their Phase 4B behavior. The membership benefits page's `benefits` front matter is the sole source for direct benefits: each entry has `group` and `text`; featured entries also have `label` and `link`. The landing page derives concise summaries, while the benefits page renders full text. Edit facts there once. Dated counts and chart remain in `_data/membership.yml`.
-
-Conference series descriptions/schedules/logos stay in `_data/conferences.yml`. Optional `logo` uses an existing undated approved asset; absent logos use the abbreviation as text, not fabricated branding. Shared card/identity includes serve home and directory. Award directory descriptions live in `_data/award_directory.yml`, with concise leads derived from the full original descriptions; titles still come from the corresponding detail pages. Preserve scope/background and history links when updating a record.
-
-The site uses Concept B with solid blue navigation. Routine prose stays in Markdown; layout patterns, optional featured photos and breadcrumb parents are selected centrally in `_data/presentation.yml`. Photo paths, alternatives, captions and source references are in `_data/photography.yml`. Do not invent credits or event details. `scripts/prepare_community_photos.ps1` optionally recreates optimized display copies; original archival images remain intact.
-
-For Special Projects and travel grants, edit `application` metadata in the page's front matter once. The summary and detailed guidance read those same values. Travel schedule rows require `conference`, `grants`, `deadline` and `notification`; preserve approved past cycles until an editorial update is authorized. The Special Projects `deadlines` array contains the existing recurring dates. Application form/contact/history links are rendered by shared includes. Other funding pages remain ordinary prose unless they have approved structured facts.
-
-For conferences, edit `schedule` records in `_data/conferences.yml`. Keep existing fields; add ISO `end-date` when the approved date range is known. Display `dates` remains the published wording. Concluded events disappear from the homepage after a rebuild, while their records stay in the repository and directory. TBD dates appear separately. A month-only date is filtered at month end without displaying an invented day. Use an approved official `website` when available; missing URLs are labeled and use local information as a fallback.
-
-New hubs are `content/organization/{conferences,funding,governance,get-involved,archives}/`. The homepage is `content/organization/index.md`. Conference directory descriptions, dates, locations and event URLs are edited once in `_data/conferences.yml`; historical annual records are separate snapshots. Do not correct ambiguous years or expired cycles without approved information.
-
-## Review locally
-
-The current generated preview is in `_site/`. Start it with `python scripts/preview.py`, then open `http://127.0.0.1:8765/`. Stop with Ctrl+C. This requires Python only. To rebuild after source edits with the pinned Ruby environment, run `bundle exec ruby scripts/build.rb preview`. For automatic rebuilding, `bundle exec ruby scripts/build.rb serve` uses Jekyll at `http://127.0.0.1:4000/`. Do not edit `_site` directly.
-
-See `docs/REVIEW.md` for the Phase 4 review route, screenshots and remaining editorial questions. Search and visual CMS work remain outside this milestone.
+Technical setup: [BUILD.md](docs/BUILD.md). Phase 5–6 review:
+[REVIEW.md](docs/REVIEW.md). Future visual editing preparation:
+[CMS_READINESS.md](docs/CMS_READINESS.md). No CMS is installed.

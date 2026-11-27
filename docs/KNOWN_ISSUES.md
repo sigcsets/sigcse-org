@@ -1,4 +1,4 @@
-# Known issues after Phase 4C
+# Known issues after Phases 5–6
 
 The original regression baselines remain unchanged. Live/staging validation reports zero new findings, with 217 original findings remaining: 103 missing internal targets, 78 missing image alternatives, 24 duplicate IDs, seven missing fragments, three missing language attributes, one missing title and one missing h1. These are explicit path-level findings, not blanket exclusions. Four original duplicate YAML keys remain (the Bulletin source now lives under content/organization).
 
@@ -10,7 +10,7 @@ Native Linux builds and browser checks passed. The new Ruby pin is not installed
 
 The remote history has now been replaced with owner authorization, and hosted live/staging CI passes. Pages was disabled with separate owner authorization to prevent automatic publication. No production server was contacted; deployment and hosting investigation are deferred.
 
-Static search is Phase 5. Comprehensive maintainer schemas/usability and visual CMS evaluation remain later work. The native mobile menu is expanded without JS, and collapsible with JS. Historical tables can scroll within their content area. Original standalone publications retain their old presentation and accessibility limitations.
+Static search and maintainer workflows are implemented. Real volunteer usability testing and visual CMS selection remain follow-on work. The native mobile menu is expanded without JS, and collapsible with JS. Historical tables can scroll within their content area. Original standalone publications retain their old presentation and accessibility limitations.
 
 See REVIEW.md for local review, screenshots and exact validation evidence.
 
@@ -19,3 +19,13 @@ Concept B is approved and implemented site-wide with solid blue navigation. Hist
 Conference eligibility changes at build time, so automatic exclusion of concluded events requires a rebuild. No scheduled publication/deployment is enabled. Month-only dates are retained through month end for filtering without inventing a published end date. Missing official CompEd URL and unconfirmed RESPECT details remain editorial questions.
 
 Phase 4C retains inherited benefit/eligibility claims for owner freshness review, the dated membership snapshot, and the conflicting mailing-list count. See OPEN_QUESTIONS.md. Participation pages do not assert new vacancies. ACM renewal is linked from its published guide; authenticated transactions are untested.
+
+
+Phase 5–6 limits: PDF/Office bodies, OCR, external sites and standalone publication
+full text are not indexed. Search year applies to pages, not individual rows in
+multi-year lists. Pagefind prefix matching can return broad results for an unknown
+single term; category/type/year filters and more specific terms help. Manual
+screen-reader/zoom/document review and real volunteer usability tests remain.
+The exact inherited March 3, 2014 news date string is preserved with a source/value
+exception; new dates are validated. No original regression baseline was expanded.
+Visual CMS selection/authentication/media/preview/turnover evaluation is deferred.

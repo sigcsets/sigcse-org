@@ -1,0 +1,1 @@
+<ul>{% for record in include.records %}<li><a href="{{ record.url | relative_url }}">{{ record.title | escape }}</a></li>{% endfor %}</ul>

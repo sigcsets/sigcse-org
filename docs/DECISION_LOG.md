@@ -67,3 +67,23 @@ Compute upcoming conferences from the existing schedule at build time; retain th
 Owner substantially approved Phase 4B and authorized targeted refinement of home conference cards, membership, conferences, awards, committees and news. Keep compact reference and action-oriented funding pages intact. Use one reusable community layout with content-driven introductions/actions, authoritative benefits on their existing page, and shared conference identity/card components. Undated existing logos are optional; other series use neutral text rather than invented branding or dated annual artwork.
 
 Derive benefit summaries and award leads from preserved full descriptions. Keep dated membership statistics lower down. Preserve all award scope/selection guidance and legacy anchors. Correct only the committee counter/link and remove nonfunctional news arrow artifacts. Record conflicting counts and potentially stale entitlements for editorial review. Renewal uses ACM's published renewal URL; no account or financial action is performed. Publication remains disabled. Stop at Phase 4C; no search, CMS or production changes.
+
+
+## Phases 5–6 — approved 2026-11-26
+
+Owner approved Phase 4C and authorized search plus maintainer experience without
+an intermediate review. Freeze the approved visual identity; use reserved header
+space and existing palette for functional search. Select Pagefind 1.4.0 with local
+static UI/index, not a service or bespoke ranking/UI stack. Pin Node/pnpm/browser
+checks and run indexing in Jekyll post_write so ordinary builds and serve rebuilds
+cannot silently omit search. Reject incomplete search builds. Preserve redirects
+while excluding them from indexing. Derive discovery filters from existing page
+metadata/URLs; these labels do not decide editorial ownership.
+
+Retain established authoritative Markdown/YAML sources instead of another broad
+migration. Normalize travel schedule dates without changing their display/facts;
+provide YAML for Treasurer links and optional Markdown for new committee items,
+retaining historical HTML. Add explicit examples and editing-error checks rather
+than exposing Liquid to volunteers. Keep historical discrepancies/baselines intact.
+Future CMS evaluation is documented, not selected, installed or integrated. No
+production, Pages, DNS or new paid service. Stop for review after Phase 6.

@@ -22,3 +22,5 @@ about/reports/chair/*.docx
 /artifacts/
 /.venv/
 __pycache__/
+/node_modules/
+/test-results/

@@ -14,3 +14,18 @@
 - Existing award, conference and governance factual discrepancies remain in the original audit questions. Do not invent corrections.
 
 Resolved: Phase 1 approved; Phases 2–4 authorized without interim stops; original-site backup sufficient. Hosting/deployment questions are explicitly deferred and require no owner action for the local milestone.
+
+
+## Phase 5–6 follow-up (nonblocking)
+
+- Which two volunteers will pilot news/conference/minutes editing on disposable
+  PRs? Automated schema walkthroughs are complete; human usability is unmeasured.
+- Is HTML-linked document metadata sufficient for initial search? Full PDF/Office
+  indexing needs separately scoped extraction/OCR, accessibility and access review.
+- Confirm the first Early Career recipient schema and unresolved award/current
+  conference/Board facts with content owners before editing them.
+- Before a CMS pilot: decide editor/reviewer roles, authentication/account recovery,
+  media naming, PR preview approach, volunteer turnover and allowed costs. No CMS
+  selection or integration is authorized by this milestone.
+- Existing ACM MIME/CSP/cache, network, credential and activation/rollback questions
+  remain for Phase 7. Do not publish or contact production to answer them here.

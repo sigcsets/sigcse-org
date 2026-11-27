@@ -6,6 +6,10 @@ This experimental copy retains Jekyll. Nothing here publishes to ACM hosting.
 
 Use Ruby **3.3.14** (`.ruby-version`), Bundler **2.4.20**, Jekyll **4.4.1**
 and the committed `Gemfile.lock`. It locks Linux x86-64 and Windows UCRT dependencies.
+Search builds also require Node **24.22.3**, pnpm **11.25.0** and the committed
+`pnpm-lock.yaml` (Pagefind **1.4.0**, Playwright **1.58.2**, axe **4.11.1**).
+Install Node, then `npm install --global pnpm@11.25.0`. These are build/test tools;
+the deployed site remains static. Routine GitHub editing needs none of them.
 CI uses Ubuntu 22.04 and Python **3.12.12**; the Python scripts use only the standard
 library and also run on Python 3.10+. Linux needs a C/C++ compiler, make, OpenSSL
 and zlib development headers for native gems. On Windows use matching RubyInstaller
@@ -16,8 +20,10 @@ From the repository root:
 ```sh
 gem install bundler -v 2.4.20
 bundle _2.4.20_ install
+pnpm install --frozen-lockfile
 bundle exec ruby scripts/validate_source.rb
 python -m unittest discover -s tests -v
+bundle exec ruby tests/check_maintainer_schema.rb
 bundle exec ruby scripts/build.rb live
 python scripts/site.py validate
 python scripts/site.py package
@@ -106,6 +112,25 @@ Keep Linux and Windows lock platforms; do not delete history to silence validati
 
 Live CI now also runs `python scripts/check_tasks.py`: all 13 agreed tasks must be reachable within two link selections. Original preservation baselines remain unchanged. The rendered heading-level normalization preserves heading text and IDs and applies only to shared-shell pages; standalone publications are untouched. Shared conference covers/logos now have context-derived alternatives.
 
-Core styles are `assets/css/site.css`, using the existing local Bootstrap 5.3.2 and a small native-details menu script. No web fonts, JavaScript framework or additional build dependency was added. Legacy asset files remain available. Search is deferred to Phase 5.
+Core styles are `assets/css/site.css`, using the existing local Bootstrap 5.3.2 and a small native-details menu script. No web fonts or JavaScript framework was added. Legacy assets remain available. Phase 5 adds pinned static search and browser-test tools; see SEARCH.md.
 
 Phase 4B adds `bundle exec ruby tests/check_site_logic.rb` for conference boundaries/order/preservation and section/breadcrumb behavior. Run `python scripts/check_design.py` after a live build for shared presentation, prototype exclusion and CSS palette contrast. Both checks run in CI. Photographic display derivatives are optional Windows tooling, not a build dependency; committed JPEGs make clean Linux builds independent of System.Drawing.
+
+## Phase 5–6 checks
+
+Every ordinary Jekyll build, including `serve` rebuilds, now runs Pagefind through
+`_plugins/search_index.rb`; missing search dependencies or indexing failures fail
+the build. Install the pinned Node dependencies before running these commands.
+Do not package a build made with plugins disabled.
+
+After a live or preview build, run `pnpm exec playwright install chromium`, start
+`python scripts/preview.py` in another terminal, then `node tests/search-browser.mjs`.
+For staging, serve with `--baseurl /.staging` and set `SEARCH_BASEURL=/.staging`
+(PowerShell: `$env:SEARCH_BASEURL='/.staging'`). Remove that variable before root
+tests. Browser results/screenshots are internal artifacts. CI installs Chromium
+with Linux system dependencies and runs the same suite for both modes.
+
+`bundle exec ruby tests/check_maintainer_schema.rb` exercises current data and
+eleven invalid-edit mutations. `scripts/validate_source.rb` includes new untracked
+content/front matter as well as tracked publication inputs, and retains original
+source baselines. See CONTENT_TEMPLATES.md for required fields and legacy exceptions.

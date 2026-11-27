@@ -33,7 +33,7 @@ site = ROOT / '_site'
 home = (site / 'index.html').read_text(encoding='utf-8')
 assert 'concept-toolbar' not in home and 'Compare concepts' not in home
 assert 'Explore SIGCSE' in home and 'Share ideas. Support each other.' not in home
-assert 'header-search-slot' in home and '<input' not in home, 'reserve search space without a fake feature'
+assert 'header-search-slot' in home and 'role="search"' in home, 'search uses the approved reserved header space'
 for name in ['about/board.html', 'programs/special/index.html', 'policies/index.html', 'events/symposia/2025.html']:
     text = (site / name).read_text(encoding='utf-8')
     assert 'class="eyebrow"' not in text, name

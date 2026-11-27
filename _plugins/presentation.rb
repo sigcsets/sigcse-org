@@ -22,7 +22,7 @@ module Sigcse
       if page.data.dig('application', 'schedule')
         page.data['application']['has_past_deadlines'] = page.data['application']['schedule'].any? do |event|
           begin
-            Date.parse(event['deadline']) < site.time.to_date
+            Date.parse(event['deadline'].to_s) < site.time.to_date
           rescue ArgumentError
             false
           end

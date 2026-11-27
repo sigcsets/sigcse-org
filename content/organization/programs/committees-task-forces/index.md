@@ -78,7 +78,7 @@ permalink: /programs/committees-task-forces/index.html
 <h4 class="mt4 border-bottom">{{cmt.name}}</h4>
 <ul>
   {% for itm in cmt.items %}
-    <li>{{itm.item}}</li>
+    <li>{% if itm.markdown %}{{ itm.markdown | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{itm.item}}{% endif %}</li>
   {% endfor %}
 </ul>
 {% endfor %}
@@ -97,7 +97,7 @@ To form a SIGCSE Committee or Task Force, a proposal is sent to the SIGCSE Board
 <h4 class="mt4 border-bottom text-muted">{{cmt.name}}</h4>
 <ul>
   {% for itm in cmt.items %}
-    <li class="text-muted">{{itm.item}}</li>
+    <li class="text-muted">{% if itm.markdown %}{{ itm.markdown | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{itm.item}}{% endif %}</li>
   {% endfor %}
 </ul>
 {% endfor %}

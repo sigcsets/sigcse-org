@@ -104,3 +104,13 @@ incomplete, corrupt and traversal archives. No production credentials are needed
 
 These are nonblocking for local builds/CI. Actual remote deployment remains blocked
 until answered, implemented, tested and explicitly authorized in Phase 7.
+
+
+## Search artifact requirement (Phases 5–6)
+
+All standard builds now generate a pinned Pagefind static bundle under pagefind/.
+Future releases must upload that complete folder with the HTML from the same
+build. The live/staging browser suite verifies same-host/prefix asset requests and
+result destinations. Verify .js/.wasm serving, CSP and cache invalidation on an
+explicitly authorized test destination before production enablement. Nothing in
+these phases enables production or changes the literal disabled workflow guard.

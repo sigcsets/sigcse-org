@@ -1,0 +1,12 @@
+[
+  {"query":"Special Project", "path":"/programs/special/"},
+  {"query":"Henry Walker travel", "path":"/programs/travel-grants/"},
+  {"query":"Mitchel Resnick", "path":"/programs/awards/outstanding"},
+  {"query":"Board Meeting Minutes", "path":"/about/reports/board.html"},
+  {"query":"Bylaws", "path":"/policies/bylaws.html", "filters":{"Category":"Policies"}},
+  {"query":"Technical Symposium", "path":"/conferences/"},
+  {"query":"membership", "path":"/membership/"},
+  {"query":"2010", "path":"/events/", "filters":{"Record type":"Conference legacy", "Year":"2010"}},
+  {"query":"Brian Dorn", "path":"/about/board.html", "filters":{"Category":"Governance"}},
+  {"query":"committees", "path":"/programs/committees-task-forces/"}
+]

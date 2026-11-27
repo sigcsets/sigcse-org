@@ -1,0 +1,16 @@
+{
+  "name": "sigcse-website-tools",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "description": "Static search indexing and browser validation; never published as site content",
+  "engines": { "node": ">=22 <25" },
+  "scripts": {
+    "search:index": "pagefind --site _site",
+    "search:test": "node tests/search-browser.mjs"
+  },
+  "devDependencies": {
+    "pagefind": "1.4.0",
+    "@playwright/test": "1.58.2",
+    "@axe-core/playwright": "4.11.1"
+  }
+}

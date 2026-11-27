@@ -25,6 +25,11 @@ exclude:
   - _unused
   - _development
   - bin
+  - node_modules
+  - package.json
+  - pnpm-lock.yaml
+  - pagefind.yml
+  - test-results
 defaults:
   - scope:
       path: ""
