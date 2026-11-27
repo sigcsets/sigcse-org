@@ -10,6 +10,19 @@ await mkdir(output, {recursive: true});
 const browser = await chromium.launch({headless:true,
   ...(process.env.CHROMIUM_PATH ? {executablePath:process.env.CHROMIUM_PATH} : {})});
 const context = await browser.newContext({viewport:{width:1440,height:1000}});
+// Local live/staging builds contain historical absolute URLs. Resolve those
+// against the local artifact so validation never contacts ACM hosting.
+async function isolateSiteRequests(target) {
+  await target.route('**/*', async route => {
+    const url = new URL(route.request().url());
+    if (['sigcse.org','www.sigcse.org','sigcsets.github.io'].includes(url.hostname) && url.origin !== origin) {
+      if (process.env.SEARCH_HOSTED) throw new Error(`Unexpected production URL: ${url}`);
+      const response = await route.fetch({url: origin + url.pathname + url.search});
+      await route.fulfill({response});
+    } else await route.continue();
+  });
+}
+await isolateSiteRequests(context);
 const page = await context.newPage();
 const failures = [];
 page.on('pageerror', error => failures.push(error.message));
@@ -79,6 +92,7 @@ try {
   await checkbox.press('Space');
   assert(await checkbox.isChecked(), 'keyboard filter toggle');
   const nojs = await browser.newContext({javaScriptEnabled:false});
+  await isolateSiteRequests(nojs);
   const fallback = await nojs.newPage();
   await fallback.goto(`${origin}${prefix}/search/`);
   assert(await fallback.locator('noscript p').isVisible(), 'no-JavaScript explanation');

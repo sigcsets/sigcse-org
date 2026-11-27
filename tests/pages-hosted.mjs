@@ -9,6 +9,14 @@ const output = 'artifacts/hosted';
 await mkdir(output,{recursive:true});
 const browser = await chromium.launch({headless:true});
 const context = await browser.newContext({viewport:{width:1440,height:1000}});
+await context.route('**/*', async route => {
+  const host = new URL(route.request().url()).hostname;
+  if (['sigcse.org','www.sigcse.org'].includes(host)) {
+    await route.abort();
+    throw new Error('Unexpected ACM production request');
+  }
+  await route.continue();
+});
 const page = await context.newPage();
 const report = {pages:[],downloads:[],redirects:[],excluded:[],wasm:[],errors:[]};
 page.on('pageerror',e=>report.errors.push(e.message));
