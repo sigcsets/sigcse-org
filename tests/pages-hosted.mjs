@@ -31,6 +31,13 @@ try {
     for (const width of [1440,390,320]) {
       await page.setViewportSize({width,height:width===1440?1000:844});
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${path}: overflow ${width}`);
+      // A viewport change can trigger a lazy image after the load event.
+      await page.locator('img').evaluateAll(async images => {
+        await Promise.all(images.map(async image => {
+          image.loading = 'eager';
+          try { await image.decode(); } catch { /* assertion below reports failures */ }
+        }));
+      });
       assert.deepEqual(await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||i.naturalWidth===0).map(i=>i.src)),[],`${path}: broken images`);
       if (['/','/conferences/','/programs/awards/outstanding.html','/about/reports/board.html'].includes(path))
         await page.screenshot({path:`${output}/${path.replaceAll('/','_')||'home'}-${width}.png`,fullPage:true});

@@ -44,7 +44,30 @@ domain, design/editorial change or CMS work is authorized. Stop for owner review
 
 ## Evidence
 
-Deployment and actual hosted validation evidence will be recorded after execution.
+Implementation 328d904 deployed successfully in
+[run 45924528803](https://github.com/sigcsets/sigcse-org/actions/runs/45924528803).
+All three pinned Linux matrix builds and deploy-pages passed. Pages reports built,
+workflow mode, cname null and HTTPS enforced. The github-pages environment already
+allows only main. Public artifact checks: 1,475 files, 391 HTML pages; all 1,064
+baseline public paths and 19 redirects retained; 217 inherited findings, zero new
+findings. Pagefind indexes 365 public pages with three filters. Publication policy
+reports no errors. Original baseline files were not changed.
+
+Actual hosted search passed 10 tasks, all 365 result destinations, category/type/
+year filters, keyboard, no-JS/load-failure fallbacks, desktop/mobile/320px and zero
+axe violations on search. Independent browser review opened home and conferences,
+and found Mitchel Resnick through the header search with same-prefix results.
+The first general hosted suite stopped on an image-load timing assertion during
+viewport changes (governance board-retreat.jpg returns HTTP 200). The test now
+waits for image decoding; the final run verifies this correction. Local
+live/staging browser tests route historical absolute URLs to the local artifact;
+hosted tests reject ACM production URLs, avoiding production contact.
+
+Follow-up main workflow and manual-dispatch evidence are recorded in the final
+owner-review report. Evidence artifacts expire after seven days; a copy is supplied
+with that report. Existing editorial/accessibility defects remain out of scope.
+No production workflow, live/staging/local config, source content, design CSS or DNS
+was changed. Stop for owner review after the final hosted suite completes.
 
 References: [GitHub custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages),
 [upload-pages-artifact](https://github.com/actions/upload-pages-artifact),
