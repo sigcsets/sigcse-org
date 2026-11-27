@@ -27,7 +27,7 @@ Direct comparison verified all 13 complete direct membership benefits and all fi
 
 Browser checks cover six targeted pages at desktop/mobile and those plus six approved reference/program/archive pages at 320px: no page-wide overflow, one h1, correct active sections/breadcrumbs and no confirmed broken visible images. Keyboard Enter opens disclosures/menu; Escape closes menu and returns focus; skip navigation focuses main. Palette text/background contrast remains 5.45–11.61. Automated checks do not establish full WCAG conformance; screen-reader, zoom, historical documents and external destinations still need broader review.
 
-Hosted live/staging workflow results are recorded in PROJECT_STATUS.md after the authorized push. Packaging and disposable activation/rollback are validation only; production deployment and GitHub Pages remain disabled.
+Hosted live/staging checks passed in [run 45916609423](https://github.com/sigcsets/sigcse-org/actions/runs/45916609423) for `d8ee652`, including packaging and disposable activation/rollback. Eight representative approved reference/program/archive pages have byte-identical rendered main content to Phase 4B (reference-preservation.json). Packaging and disposable activation/rollback are validation only; production deployment and GitHub Pages remain disabled.
 
 ## Editorial review
 

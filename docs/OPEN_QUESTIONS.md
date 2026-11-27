@@ -4,7 +4,7 @@
 - Confirm that the two groups already marked active in committee data remain active and whether they have public participation contacts. Existing facilitators and historical updates remain; no open recruitment or new role is asserted.
 - Membership's historical link teaser says three mailing lists, while the benefits page lists four. Both approved source statements are retained and require reconciliation. The former awards introductory count of four conflicted with five existing entries; the new directory avoids that count without removing any award description.
 
-- **Current decision:** review the completed Phase 4B implementation of approved Concept B with solid blue navigation. See REVIEW.md.
+- **Resolved Phase 4B decision:** Concept B identity/navigation is substantially approved. Current targeted Phase 4C review is described above and in REVIEW.md.
 - Supply an approved official CompEd 2027 event URL; the current record has none. Until then the homepage links to retained conference information and labels the missing event website.
 - Confirm RESPECT's conflicting record year (2026 versus 2027 title/start) and unconfirmed dates/location. It remains separately labeled; no placeholder date is presented as confirmed.
 - Confirm updated travel application cycles and missing award records using approved sources. Original dates and citations are preserved; expired application deadlines are flagged.
