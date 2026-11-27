@@ -77,7 +77,7 @@ jobs:
         run: python scripts/release_demo.py artifacts/site.tar.gz
       - name: Upload preview and validation report
         if: always()
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: website-${{ matrix.mode }}-${{ github.run_id }}
           path: |
@@ -144,7 +144,7 @@ jobs:
           node tests/pages-hosted.mjs
       - name: Upload hosted evidence
         if: always()
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: hosted-smoke-${{ github.run_id }}
           path: |
