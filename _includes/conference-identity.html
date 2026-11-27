@@ -1,0 +1,1 @@
+<div class="conference-identity{% unless include.conference.logo %} identity-text{% endunless %}">{% if include.conference.logo %}<img src="{{ include.conference.logo | relative_url }}" alt="{{ include.conference.abbreviation }}" loading="lazy">{% else %}<span>{{ include.conference.abbreviation }}</span>{% endif %}</div>

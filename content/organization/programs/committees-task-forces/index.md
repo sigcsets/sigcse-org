@@ -1,6 +1,6 @@
 ---
 title: SIGCSE Committees and Task Forces
-layout: page
+layout: community
 
 active:
   - name: "Computing Education in Liberal Arts Colleges"
@@ -63,24 +63,15 @@ previous:
       - item: "Facilitators: Hilary Holz, California State University, East Bay and Anne Applin, Ithaca College"
       - item: "<a href=\"research.html\">Stated Goals/Focus of the Committee</a>"
       - item: "This committee evolved into a series of two ITiCSE Working Groups (<a href=\"http://www.iticse06.cs.unibo.it/wg.html#wg1\">ITiCSE 2006 Working Group</a> and ITiCSE 2007 Working Group)."
+heading: Work with colleagues on shared questions
+introduction: SIGCSE committees and task forces bring members together to investigate topics in depth, support communities, and develop reports and resources.
+actions:
+  - {name: Explore active groups, link: '#active-groups'}
+  - {name: Propose a committee or task force, link: /programs/committees-task-forces/create.html}
 permalink: /programs/committees-task-forces/index.html
 ---
 
-<p>Updated:<ul>
-<li><i>November 14, 2017</i></li>
-<li><i>November 2, 2018</i></li>
-<li><i>March 26, 2024</i></li>
-<li><i>May 20, 2025</i></li>
-</ul>
-</p>
-
-SIGCSE's Committee and Task Force initiatives encourage all SIGCSE members to participate in substantive discussions on areas of community interest, with the goals of investigating topics in depth, supporting a subset of the community, generating a report, or other deliverables.
-
-The primary difference between a Committee and a Task Force is that Task Forces have a specified end date and conclude with a report sent to the SIGCSE Board. Committees have no defined end date or deliverable, but will be asked to provide updates to the SIGCSE Board. Finally, while Committees have traditionally emerged from the community, Task Forces may emerge that way as well, or could be initiated by the SIGCSE Board. 
-
-To form a SIGCSE Committee or Task Force, a proposal is sent to the SIGCSE Board for approval. See further information on <a href="committees-task-forces/create.html">creating and managing a committee or task force</a>.
-
-<h3 class="mt4 border-bottom border-top">Active Committees</h3>
+<h2 id="active-groups">Active Committees</h2>
 <p>SIGCSE currently has {{page.active | size}} active committee(s).</p>
 
 {% for cmt in page.active %}
@@ -92,8 +83,15 @@ To form a SIGCSE Committee or Task Force, a proposal is sent to the SIGCSE Board
 </ul>
 {% endfor %}
 
-<h3 class="mt4 border-bottom border-top">Previous Committees</h3>
-<p>SIGCSE currently has {{page.committees | size}} previously active committee(s).</p>
+<h2>About committees and task forces</h2>
+SIGCSE's Committee and Task Force initiatives encourage all SIGCSE members to participate in substantive discussions on areas of community interest, with the goals of investigating topics in depth, supporting a subset of the community, generating a report, or other deliverables.
+
+The primary difference between a Committee and a Task Force is that Task Forces have a specified end date and conclude with a report sent to the SIGCSE Board. Committees have no defined end date or deliverable, but will be asked to provide updates to the SIGCSE Board. Finally, while Committees have traditionally emerged from the community, Task Forces may emerge that way as well, or could be initiated by the SIGCSE Board.
+
+To form a SIGCSE Committee or Task Force, a proposal is sent to the SIGCSE Board for approval. See further information on <a href="create.html">creating and managing a committee or task force</a>.
+
+<h2 class="mt4 border-bottom border-top">Previous Committees</h2>
+<p>SIGCSE currently has {{page.previous | size}} previously active committee(s).</p>
 
 {% for cmt in page.previous %}
 <h4 class="mt4 border-bottom text-muted">{{cmt.name}}</h4>
@@ -104,4 +102,12 @@ To form a SIGCSE Committee or Task Force, a proposal is sent to the SIGCSE Board
 </ul>
 {% endfor %}
 
-<i>the end</i>
+<details class="selection-guidance"><summary>Page update history</summary><p>Updated:<ul>
+<li><i>November 14, 2017</i></li>
+<li><i>November 2, 2018</i></li>
+<li><i>March 26, 2024</i></li>
+<li><i>May 20, 2025</i></li>
+</ul>
+</p>
+
+</details>

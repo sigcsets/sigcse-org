@@ -1,3 +1,6 @@
-<section class="award-directory" aria-label="Awards, nominations and recipient histories">
-{% for award in site.data.award_directory %}{% assign description = site.pages | where: 'url', award.url | first %}<div class="award-row"><h2><a href="{{ award.url | relative_url }}">{{ description.title }}</a></h2><div><a href="{{ award.nomination | relative_url }}">Nomination information</a>{% if award.recipients %} · <a href="{{ award.url | append: '#recipients' | relative_url }}">Recipient history</a>{% endif %}</div></div>{% endfor %}
-</section>
+<div class="award-overview" id="nomination-process">
+{% for award in site.data.award_directory %}{% assign detail = site.pages | where: 'url', award.url | first %}{% assign sentences = award.description | split: '. ' %}{% assign lead = sentences | first | split: ') ' | last %}
+<section class="award-profile"><h2><a href="{{ award.url | relative_url }}">{{ detail.title }}</a></h2><div class="award-purpose">{{ lead | append: '.' | markdownify }}</div>
+<div class="entry-links"><a href="{{ award.nomination | relative_url }}">Nomination information<span class="visually-hidden"> for {{ detail.title }}</span></a>{% if award.recipients %}<a href="{{ award.url | append: '#recipients' | relative_url }}">Recipient history<span class="visually-hidden"> for {{ detail.title }}</span></a>{% endif %}</div>
+{% if sentences.size > 1 %}<details><summary>Scope and background<span class="visually-hidden"> of {{ detail.title }}</span></summary>{% assign remainder = sentences | shift | join: '. ' %}{{ remainder | markdownify }}</details>{% endif %}</section>{% endfor %}
+</div>

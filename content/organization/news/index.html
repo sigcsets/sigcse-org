@@ -5,4 +5,4 @@ permalink: /news/index.html
 ---
 <p class="lead">Announcements and updates from the SIGCSE community.</p>
 {% assign years = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-{% for group in years %}<section><h2 id="{{ group.name }}">{{ group.name }}</h2><div class="news-list">{% for post in group.items %}<article><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b' }}</time><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><span aria-hidden="true">↗</span></article>{% endfor %}</div></section>{% endfor %}
+{% for group in years %}<section><h2 id="{{ group.name }}">{{ group.name }}</h2><div class="news-list">{% for post in group.items %}<article><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b' }}</time><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3></article>{% endfor %}</div></section>{% endfor %}

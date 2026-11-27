@@ -13,6 +13,7 @@
       location: "Sacramento, CA"
       website: https://sigcse-ts.acm.org/2027/
 - id: iticse
+  logo: /assets/images/logo/ITiCSE-LOGOv2-s.png
   name: Innovation and Technology in Computer Science Education
   abbreviation: ITiCSE
   description: An international computing education conference held annually in Europe.
@@ -38,6 +39,7 @@
       location: Uppsala, Sweden
       website: https://icer2026.acm.org
 - id: comped
+  logo: /assets/images/logo/comped-logo-s.png
   name: Global Computing Education Conference
   abbreviation: CompEd
   description: Computing education in locations outside North America and Europe.

@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<header class="community-welcome{% unless page.feature_photo %} text-welcome{% endunless %}">
+<div><h1>{{ page.heading | default: page.title }}</h1><p class="lead">{{ page.introduction }}</p>
+{% if page.actions %}<div class="welcome-actions">{% for action in page.actions %}{% assign first_character = action.link | slice: 0 %}<a{% if forloop.first %} class="button"{% endif %} href="{% if first_character == '#' %}{{ action.link }}{% else %}{{ action.link | relative_url }}{% endif %}">{{ action.name }}</a>{% endfor %}</div>{% endif %}</div>
+{% if page.feature_photo %}{% include photo.html id=page.feature_photo eager=true %}{% endif %}
+</header>
+<article class="community-content">{{ content }}</article>

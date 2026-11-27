@@ -57,6 +57,12 @@ def required_rows(errors, rows, fields, path)
 end
 
 required_rows(errors, data['_data/navigation.yml'], %w[name link], '_data/navigation.yml')
+benefit_path = 'content/organization/membership/benefits.md'
+benefits = data.dig(benefit_path, 'benefits')
+required_rows(errors, benefits, %w[group text], "#{benefit_path} benefits")
+required_rows(errors, Array(benefits).select { |b| b.is_a?(Hash) && b['featured'] },
+              %w[label link], "#{benefit_path} featured benefits")
+required_rows(errors, data['_data/award_directory.yml'], %w[url nomination description], '_data/award_directory.yml')
 required_rows(errors, data['_data/events.yml'], %w[name], '_data/events.yml')
 required_rows(errors, data['_data/conferences.yml'], %w[id name abbreviation description archive_url schedule], '_data/conferences.yml')
 ids = Array(data['_data/conferences.yml']).map { |row| row['id'] }

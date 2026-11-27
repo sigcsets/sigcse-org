@@ -1,10 +1,7 @@
 <section class="upcoming-section" aria-labelledby="upcoming-title">
 <div class="section-heading"><h2 id="upcoming-title">Upcoming conferences</h2><a href="{{ '/conferences/' | relative_url }}">Conference directory</a></div>
 {% if site.data.upcoming_conferences.size > 0 %}
-<div class="table-scroll" tabindex="0" role="region" aria-label="Upcoming conference dates and locations">
-<table class="upcoming-table"><thead><tr><th scope="col">Dates</th><th scope="col">Conference</th><th scope="col">Location</th><th scope="col">Information</th></tr></thead><tbody>
-{% for event in site.data.upcoming_conferences %}<tr><td>{{ event.dates }}</td><th scope="row">{{ event.title }}</th><td>{{ event.location }}</td><td>{% if event.website %}<a href="{{ event.website }}">Official website</a>{% else %}<a href="{{ event.archive_url | relative_url }}">Conference information</a><br><small>Event website not listed</small>{% endif %}</td></tr>{% endfor %}
-</tbody></table></div>
+<div class="upcoming-grid">{% for event in site.data.upcoming_conferences %}{% include conference-card.html event=event %}{% endfor %}</div>
 {% else %}<p>No upcoming dated events are currently listed. See the conference directory for information.</p>{% endif %}
 {% if site.data.unconfirmed_conferences.size > 0 %}<div class="unconfirmed-events"><h3>Dates to be confirmed</h3><ul>{% for event in site.data.unconfirmed_conferences %}<li><strong>{{ event.title }}</strong> · {{ event.dates }} · {{ event.location }} {% if event.website %}· <a href="{{ event.website }}">Official website</a>{% endif %}</li>{% endfor %}</ul></div>{% endif %}
 </section>

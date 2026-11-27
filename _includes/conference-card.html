@@ -1,0 +1,6 @@
+<article class="conference-card">
+{% assign series = site.data.conferences | where: 'id', include.event.series_id | first %}
+{% include conference-identity.html conference=series %}
+<div><h3>{{ include.event.title }}</h3><p class="event-date">{{ include.event.dates }}</p><p>{{ include.event.location }}</p>
+{% if include.event.website %}<a href="{{ include.event.website }}">Conference website <span class="visually-hidden">for {{ include.event.title }}</span></a>{% else %}<a href="{{ include.event.archive_url | relative_url }}">Conference information <span class="visually-hidden">for {{ include.event.title }}</span></a><small>Event website not listed</small>{% endif %}</div>
+</article>

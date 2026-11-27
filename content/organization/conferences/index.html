@@ -1,12 +1,16 @@
 ---
 title: Conferences
-layout: page
+layout: community
 permalink: /conferences/index.html
+heading: Find your computing education community
+introduction: Explore teaching practice, computing education research, and participation across SIGCSE’s conferences. Each series offers a different focus; follow its official website for participation information.
 ---
-<p class="lead">Find a SIGCSE conference, explore the community, and follow the conference website for current participation information.</p>
-<p>Historical annual pages and proceedings remain available in the <a href="{{ '/archives/' | relative_url }}">conference archives</a>.</p>
-{% assign now = 'now' | date: '%s' | plus: 0 %}
-{% for conf in site.data.conferences %}{% assign event = conf.schedule | first %}{% assign start = event.start-date | date: '%s' | plus: 0 %}
-<section class="directory-entry" id="{{ conf.id }}"><p class="series-abbreviation">{{ conf.abbreviation }}</p><h2>{{ conf.name }}</h2><p>{{ conf.description }}</p>
-<div class="event-meta"><p><strong>{% if event.display_status == 'upcoming' %}Next or current listed event{% elsif event.display_status == 'unconfirmed' %}Dates to be confirmed{% else %}Most recently listed event{% endif %}: {{ event.title }}</strong></p><p>{{ event.dates }} · {{ event.location }}</p>{% if event.display_status == 'past' %}<p>These listed dates have passed. See the conference website or archive for further information.</p>{% endif %}</div>
-<div class="entry-links">{% if event.website %}<a href="{{ event.website }}">Conference website ↗</a>{% endif %}<a href="{{ conf.archive_url | relative_url }}">{{ conf.abbreviation }} history & information →</a></div></section>{% endfor %}
+<div class="conference-series-grid">
+{% for conf in site.data.conferences %}{% assign event = conf.schedule | first %}
+<section class="conference-series" id="{{ conf.id }}">
+{% include conference-identity.html conference=conf %}
+<div class="series-content"><h2>{{ conf.name }}</h2><p>{{ conf.description }}</p>
+<div class="event-meta"><p class="event-status">{% if event.display_status == 'upcoming' %}Next or current listed event{% elsif event.display_status == 'unconfirmed' %}Dates to be confirmed{% else %}Most recently listed event{% endif %}</p><h3>{{ event.title }}</h3><p><strong>{{ event.dates }}</strong> · {{ event.location }}</p>{% if event.display_status == 'past' %}<p>These listed dates have passed. See the conference website for further information.</p>{% endif %}</div>
+<div class="entry-links">{% if event.website %}<a class="button small" href="{{ event.website }}">Conference website<span class="visually-hidden"> for {{ conf.abbreviation }}</span></a>{% else %}<a class="button small" href="{{ conf.archive_url | relative_url }}">Conference information</a>{% endif %}<a href="{{ conf.archive_url | relative_url }}">History & proceedings<span class="visually-hidden"> for {{ conf.abbreviation }}</span></a></div></div></section>{% endfor %}
+</div>
+<section class="participation-band"><div><h2>Explore the conference record</h2><p>Annual records, proceedings, organizing committees, and historical conference information remain available.</p></div><a href="{{ '/archives/' | relative_url }}">Conference archives</a><a href="{{ '/events/incoop.html' | relative_url }}">In-cooperation events</a></section>
