@@ -12,6 +12,8 @@ Clean case-sensitive Linux source, six regression tests, schedule/navigation log
 
 Remaining review: missing CompEd event URL, RESPECT conflicting year/TBD dates, expired travel cycles, existing award/governance discrepancies, photography opportunities and full accessibility review. Stop here for owner/Board review; no Phase 5, CMS or production work.
 
+Hosted verification: commits `1273f39` (implementation) and `54e0087` (review documentation) were pushed to authorized `main`. Both live and staging jobs passed in [run 45900546242](https://github.com/sigcsets/sigcse-org/actions/runs/45900546242), including source/logic/regression checks, URL/link checks, preview packaging and disposable release/rollback verification. On resuming after the usage interruption, the working tree was clean and local/remote HEAD matched; completed implementation and screenshots were preserved. The local screenshot gallery contains 28 desktop/mobile images. No production connection or publication occurred.
+
 ## Phase 2 — content ownership and isolation
 
 Created a complete source ownership inventory and six conference transfer manifests in `docs/content/`. Added the concise conference directory schema with validated IDs and references to existing schedule data. Shared policies, awards, Working Groups and other ambiguous cases are documented for later human review. No content or public URL removed; physical isolation follows incrementally in Phase 3.

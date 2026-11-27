@@ -35,7 +35,7 @@ Open `artifacts/phase4b-final/screenshots/index.html` for 28 representative desk
 - Shared CSS text/background pairs pass 4.5:1, with measured ratios 5.45–11.61. Static metadata, image alternatives, internal links, fragments, redirects and internal publication checks run in CI. This does not establish full WCAG conformance.
 - Fourteen representative patterns checked at desktop, mobile and 320px: no document overflow, one h1 and active section/breadcrumb consistency. Initially incomplete lazy images were rechecked after loading. Keyboard Enter opens the mobile menu; Escape closes it and focuses its summary; skip link focuses main content. Historical tables scroll within their own regions.
 - Original conference legacy sources, historical schedule data and award citations are retained. Travel schedule's five original rows moved unchanged into page metadata; amounts, restrictions, application forms and approved guidance remain. Added recipient anchors do not alter citations. Original photos/downloads remain available at original URLs.
-- Hosted workflow results are recorded after the authorized push in PROJECT_STATUS.md. Deployment is not part of validation.
+- Hosted live and staging validation passed in [run 45900546242](https://github.com/sigcsets/sigcse-org/actions/runs/45900546242) for implementation/review commit `54e0087`, including preview packaging and disposable release activation/rollback. Deployment is not part of validation.
 
 ## Owner/editorial review
 
