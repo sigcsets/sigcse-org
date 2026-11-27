@@ -31,3 +31,13 @@ The initial Phase 4 hosted run completed successfully:
 [Build and validate, run 45895218253](https://github.com/sigcsets/sigcse-org/actions/runs/45895218253).
 
 Both `validate (live)` and `validate (staging)` passed. The live job also passed the 13 task-depth checks, packaging, disposable local activation/rollback model, and artifact upload. These are build artifacts, not hosted website publication. No production credentials are involved.
+
+
+## Phase 5–6 checkpoint
+
+Implementation `5ff1c39` was ordinarily pushed to authorized main. Both hosted
+live/staging jobs passed in [run 45922460392](https://github.com/sigcsets/sigcse-org/actions/runs/45922460392),
+including search inventory/benchmarks, browser/axe, source/maintenance checks,
+URL/link preservation, packaging and disposable activation/rollback. Pages API
+still returns 404; disabled production workflow was unchanged. No DNS/server/CMS
+change. REVIEW.md records the owner checkpoint and local screenshots.

@@ -1,6 +1,6 @@
 # Project status
 
-Updated 2026-11-26. **Current phase: Phases 5–6 — implementation and local validation complete; hosted validation pending.**
+Updated 2026-11-26. **Current phase: Phases 5–6 — complete for owner review.**
 Owner approved Phase 4C and both phases without an intermediate stop. Approved
 visual identity, homepage, landing pages and navigation remain frozen except
 functional search integration and accessibility. Production and Pages stay disabled.
@@ -23,8 +23,20 @@ has eleven invalid-edit mutation cases, plus advisory freshness reports.
 MAINTENANCE_COMPARISON.md distinguishes improvements from prior centralization.
 CMS_READINESS.md records remaining obstacles without choosing/installing a CMS.
 
-Final live/staging/preview validation, hosted evidence and owner checkpoint are
-recorded in REVIEW.md when complete. Original regression baselines remain intact.
+Local case-sensitive Linux live/staging/preview checks pass: 1,474 output files,
+391 HTML pages, all 1,064 original paths/19 redirects preserved, zero new static
+findings (217 original). All 679 original non-HTML hashes remain unchanged.
+Root/staging search tests pass: 365 pages, three filters, ten tasks each, desktop/
+mobile/320px, keyboard, fallbacks and zero axe violations on search. Source checks,
+eleven invalid-edit mutations, Markdown metadata, six Python regressions, schedule/
+navigation logic, 13 task-depth benchmarks, contrast, packaging and disposable
+rollback pass. Direct Phase 4C comparison confirms 365 shared pages preserve main
+content, allowing only the new Search link in the generated all-pages index.
+
+Hosted live/staging validation passed for implementation `5ff1c39` in
+[run 45922460392](https://github.com/sigcsets/sigcse-org/actions/runs/45922460392).
+Review documentation, screenshots, comparisons and limits are in REVIEW.md.
+Original regression baselines remain intact. Pages GET still returns 404.
 Stop after Phase 6; no Phase 7, production connection, CMS, Pages or DNS change.
 
 ## Prior checkpoints

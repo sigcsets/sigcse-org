@@ -43,7 +43,7 @@ reports flag past schedules/deadlines and missing event URLs without changing th
 
 ## Validation evidence
 
-Final local and hosted run details are appended below after completion. The
+Final local and hosted run details are recorded below. The
 existing source/output/public-file/redirect baselines must remain byte-for-byte
 unchanged. All 1,064 original public paths and 19 redirects must remain available,
 with no new static findings. Search adds one public page and generated bundle files.
@@ -97,5 +97,17 @@ committee metadata is accepted in memory. Eight advisory freshness findings reta
 expired/unconfirmed records for human review. Packaging/integrity and disposable
 release activation/rollback pass without production access.
 
-Hosted validation is the remaining verification step; its run link is recorded
-below when complete. GitHub Pages GET returned 404 immediately before the push.
+Hosted live/staging validation passed for `5ff1c39` in
+[run 45922460392](https://github.com/sigcsets/sigcse-org/actions/runs/45922460392), including search/browser checks,
+packaging and disposable activation/rollback. Pages GET returned 404 both before
+and after the push; production deployment remains disabled.
+
+Direct comparison against a rendered `2ed6186` Phase 4C checkpoint verifies all
+365 shared pages retain their main content after normalizing whitespace,
+search-only attributes and equivalent preview/site URLs. The sole visible content
+addition is Search SIGCSE in the generated all-pages index. Full evidence is
+`artifacts/phase56/reference-preservation.json`. Header search is the authorized
+functional addition; approved landing/home designs and historical wording remain.
+
+Implementation commit: `5ff1c39`. This checkpoint documentation is committed
+separately. Stop here for owner review; no next phase has begun.
