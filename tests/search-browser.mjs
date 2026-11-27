@@ -34,7 +34,7 @@ try {
     const path = url.pathname.slice(prefix.length);
     assert(!/^\/(audit|docs|scripts|tests|artifacts|vendor|node_modules|_pending|_unused|search)(\/|$)/.test(path), path);
     assert(!Object.keys(redirects).some(r=>path === `/${r}`), `redirect indexed ${path}`);
-    await stat(`_site${decodeURIComponent(path)}${path.endsWith('/') ? 'index.html' : ''}`);
+    if (!process.env.SEARCH_HOSTED) await stat(`_site${decodeURIComponent(path)}${path.endsWith('/') ? 'index.html' : ''}`);
   }
   for (const filter of ['Category','Record type','Year']) assert(inventory.filters[filter], `missing ${filter}`);
   const tasks = JSON.parse(await readFile('tests/search-tasks.json','utf8'));

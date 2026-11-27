@@ -80,7 +80,7 @@ class Page(HTMLParser):
 
 def local_target(source, ref, baseurl=''):
     target = urlsplit(urljoin('https://sigcse.org/' + source.lstrip('/'), ref))
-    if target.scheme not in ('http', 'https') or target.hostname not in ('sigcse.org', 'www.sigcse.org', '127.0.0.1', 'localhost'):
+    if target.scheme not in ('http', 'https') or target.hostname not in ('sigcse.org', 'www.sigcse.org', '127.0.0.1', 'localhost', 'sigcsets.github.io'):
         return None
     path = unquote(target.path)
     if baseurl and (path == baseurl or path.startswith(baseurl + '/')):
@@ -102,7 +102,14 @@ def inspect(site, baseurl=''):
                                ('missing-lang', page.lang)]:
             if not present:
                 issues.add(f'{name} | {label}')
-        issues.update(f'{name} | {issue}' for issue in page.issues)
+        # Environment prefixes do not create a new alt/title defect on the same asset.
+        for issue in page.issues:
+            if baseurl and issue.startswith(('image-without-alt:', 'iframe-without-title:')):
+                label, ref = issue.split(':', 1)
+                ref = ref.removeprefix('https://sigcsets.github.io')
+                ref = ref.removeprefix(baseurl) if ref.startswith(baseurl + '/') else ref
+                issue = label + ':' + ref
+            issues.add(f'{name} | {issue}')
         source = baseurl + '/' + name if baseurl else name
         for ref in page.refs:
             dest = local_target(source, ref, baseurl)

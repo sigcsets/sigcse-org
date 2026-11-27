@@ -11,6 +11,7 @@
 <body id="Top" class="pattern-{{ page.pattern | default: 'home' }}">
   <a class="skip-link" href="#main-content">Skip to main content</a>
   {% include page-header.html %}
+  {% if site.github_pages_preview %}<div class="container"><small data-pagefind-ignore>Preview site · For owner review</small></div>{% endif %}
   <main id="main-content" class="container" tabindex="-1"{% unless page.search_exclude %} data-pagefind-body data-category="{{ page.search_category | escape }}" data-kind="{{ page.search_kind | escape }}"{% if page.search_year %} data-year="{{ page.search_year }}"{% endif %} data-pagefind-filter="Category[data-category], Record type[data-kind]{% if page.search_year %}, Year[data-year]{% endif %}" data-pagefind-meta="category[data-category], record_type[data-kind], title:{{ page.title | escape }}"{% endunless %}>
     {% if page.layout != 'home' %}{% include breadcrumbs.html %}{% endif %}
     {% if page.content_type == 'conference-legacy' %}

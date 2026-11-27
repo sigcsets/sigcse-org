@@ -1,0 +1,4 @@
+# Merge after _config_live.yml; existing configurations remain unchanged.
+url: https://sigcsets.github.io
+baseurl: /sigcse-org
+github_pages_preview: true

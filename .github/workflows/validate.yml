@@ -7,14 +7,14 @@ permissions:
   contents: read
 concurrency:
   group: validate-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 jobs:
   validate:
     runs-on: ubuntu-22.04
     strategy:
       fail-fast: false
       matrix:
-        mode: [live, staging]
+        mode: [live, staging, github-pages]
     env:
       BUNDLE_FROZEN: "true"
       JEKYLL_ENV: production
@@ -56,12 +56,17 @@ jobs:
       - name: Validate staging prefix and preserved URLs
         if: matrix.mode == 'staging'
         run: python scripts/site.py validate --baseurl /.staging
+      - name: Validate GitHub Pages prefix and publication policy
+        if: matrix.mode == 'github-pages'
+        run: |
+          python scripts/site.py validate --baseurl /sigcse-org
+          python scripts/check_pages.py
       - name: Package validated live preview
         if: matrix.mode == 'live'
         run: python scripts/site.py package
       - name: Test real search, public index, keyboard, reflow and accessibility
         env:
-          SEARCH_BASEURL: ${{ matrix.mode == 'staging' && '/.staging' || '' }}
+          SEARCH_BASEURL: ${{ matrix.mode == 'staging' && '/.staging' || matrix.mode == 'github-pages' && '/sigcse-org' || '' }}
         run: |
           python scripts/preview.py --baseurl "$SEARCH_BASEURL" > artifacts/search-server.log 2>&1 &
           server_pid=$!
@@ -76,6 +81,7 @@ jobs:
         with:
           name: website-${{ matrix.mode }}-${{ github.run_id }}
           path: |
+            artifacts/pages-policy.json
             artifacts/validation.json
             artifacts/task-paths.json
             artifacts/design-checks.json
@@ -85,4 +91,63 @@ jobs:
             artifacts/site.tar.gz.sha256
             artifacts/site.tar.manifest.json
           if-no-files-found: warn
+          retention-days: 7
+
+      - name: Upload validated Pages output
+        if: matrix.mode == 'github-pages' && github.repository == 'sigcsets/sigcse-org' && github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: _site
+          retention-days: 7
+  deploy-pages:
+    needs: validate
+    if: github.repository == 'sigcsets/sigcse-org' && github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-22.04
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages-preview
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy validated preview
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+
+  hosted-smoke:
+    needs: deploy-pages
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .node-version
+      - name: Install locked browser tools
+        run: |
+          npm install --global pnpm@11.25.0
+          pnpm install --frozen-lockfile
+          pnpm exec playwright install --with-deps chromium
+      - name: Test actual hosted search and pages
+        env:
+          SEARCH_ORIGIN: https://sigcsets.github.io
+          SEARCH_BASEURL: /sigcse-org
+          SEARCH_HOSTED: "true"
+        run: |
+          node tests/search-browser.mjs
+          node tests/pages-hosted.mjs
+      - name: Upload hosted evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: hosted-smoke-${{ github.run_id }}
+          path: |
+            artifacts/hosted/
+            artifacts/search*/
           retention-days: 7

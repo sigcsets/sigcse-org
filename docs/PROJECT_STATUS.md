@@ -1,9 +1,9 @@
 # Project status
 
-Updated 2026-11-26. **Current phase: Phases 5–6 — complete for owner review.**
+Updated 2026-11-26. **Current work: authorized Actions-only Pages preview.**
 Owner approved Phase 4C and both phases without an intermediate stop. Approved
 visual identity, homepage, landing pages and navigation remain frozen except
-functional search integration and accessibility. Production and Pages stay disabled.
+functional search integration and accessibility. Production stays disabled; the Pages preview is authorized.
 
 ## Phases 5–6
 
@@ -101,3 +101,20 @@ Next: owner review using docs/REVIEW.md and the local preview at http://127.0.0.
 Owner approved the Phase 2–4 engineering and navigation work but did not approve the visual design. Owner authorized replacing disposable remote history with force-with-lease. Pages inspection showed legacy publication from main/root to preview.sigcse.org; after a separate explicit authorization, Pages was disabled before pushing, preventing publication. Local and remote main now track the modernization history. Both hosted live/staging validation jobs passed for Phase 4 (run 45895218253). DNS unchanged; production deployment remains disabled. See GITHUB.md for the previous Pages configuration and exact verification.
 
 Prepared three meaningfully different isolated homepage + Special Projects concepts: academic/editorial, welcoming photographic community, and compact blue organizational portal. Sources and curated 35-asset inventory are under docs/design/phase4b; generated gallery and six desktop screenshots are under artifacts/phase4b. All six concepts passed desktop and mobile overflow/image/h1 checks. Existing public Jekyll implementation, metadata boundaries, navigation architecture, source organization, assets and baselines are unchanged. Full-site visual refinement and Phase 5 are not started. Stop for owner selection.
+
+
+## Authorized GitHub Pages preview (2026-11-26)
+
+Phases 5–6 are approved. The owner explicitly authorized Actions-only publication
+to https://sigcsets.github.io/sigcse-org/ (no custom domain). This supersedes earlier
+Pages-disabled checkpoint notes for this preview only. Main pushes and manual
+dispatch publish only after the pinned live/staging/Pages validation and real
+search tests pass. PRs/other branches cannot deploy. Only the gated deployment job
+receives Pages/OIDC write, with serialized deployment concurrency.
+Use _config_live.yml plus _config_github_pages.yml, the complete Pagefind bundle,
+public-output validation, preview indicator/noindex and CNAME removal/rejection.
+Existing live/staging/local configs are preserved. ACM production remains
+literally disabled. No ACM contact, DNS/custom domain, visual redesign, substantive
+editorial corrections or CMS work is authorized. Perform actual hosted smoke tests,
+report evidence/blockers and stop for owner review. See docs/PAGES_PREVIEW.md
+(PAGES_PREVIEW.md from this docs directory) for operation and evidence.

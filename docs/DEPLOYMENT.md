@@ -114,3 +114,20 @@ build. The live/staging browser suite verifies same-host/prefix asset requests a
 result destinations. Verify .js/.wasm serving, CSP and cache invalidation on an
 explicitly authorized test destination before production enablement. Nothing in
 these phases enables production or changes the literal disabled workflow guard.
+
+
+## Authorized GitHub Pages preview (2026-11-26)
+
+Phases 5–6 are approved. The owner explicitly authorized Actions-only publication
+to https://sigcsets.github.io/sigcse-org/ (no custom domain). This supersedes earlier
+Pages-disabled checkpoint notes for this preview only. Main pushes and manual
+dispatch publish only after the pinned live/staging/Pages validation and real
+search tests pass. PRs/other branches cannot deploy. Only the gated deployment job
+receives Pages/OIDC write, with serialized deployment concurrency.
+Use _config_live.yml plus _config_github_pages.yml, the complete Pagefind bundle,
+public-output validation, preview indicator/noindex and CNAME removal/rejection.
+Existing live/staging/local configs are preserved. ACM production remains
+literally disabled. No ACM contact, DNS/custom domain, visual redesign, substantive
+editorial corrections or CMS work is authorized. Perform actual hosted smoke tests,
+report evidence/blockers and stop for owner review. See docs/PAGES_PREVIEW.md
+(PAGES_PREVIEW.md from this docs directory) for operation and evidence.

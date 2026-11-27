@@ -5,12 +5,13 @@ require 'rbconfig'
 root = File.expand_path('..', __dir__)
 Dir.chdir(root)
 mode = ARGV.shift || 'live'
-abort 'Usage: bundle exec ruby scripts/build.rb [live|staging|preview|serve]' unless %w[live staging preview serve].include?(mode)
+abort 'Usage: bundle exec ruby scripts/build.rb [live|staging|preview|github-pages|serve]' unless %w[live staging preview github-pages serve].include?(mode)
 destination = File.join(root, '_site')
 FileUtils.rm_rf(destination)
 command = mode == 'serve' ? 'serve' : 'build'
 config = mode == 'staging' ? '_config_staging.yml' : '_config_live.yml'
 config += ',_config_preview.yml' if mode == 'preview'
+config += ',_config_github_pages.yml' if mode == 'github-pages'
 exec(RbConfig.ruby, Gem.bin_path('jekyll', 'jekyll'), command,
      '--config', config, '--destination', destination, '--strict_front_matter',
      * (mode == 'serve' ? ['--host', '127.0.0.1'] : []))
