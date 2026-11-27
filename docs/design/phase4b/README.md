@@ -1,5 +1,7 @@
 # Phase 4B — three isolated visual concepts
 
+> Historical concept material only. Concept B with Concept C navigation was selected and implemented; search and the hosted preview are now complete. Selection/phase-stop instructions below are superseded; see [current status](../../PROJECT_STATUS.md).
+
 Status: historical concept comparison. Owner selected Concept B with Concept C solid blue navigation. The site-wide implementation is ready for owner review; see ../../REVIEW.md. Phase 5 has not started.
 
 ## Open the comparison

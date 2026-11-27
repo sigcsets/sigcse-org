@@ -148,6 +148,6 @@ Use _config_live.yml plus _config_github_pages.yml, the complete Pagefind bundle
 public-output validation, preview indicator/noindex and CNAME removal/rejection.
 Existing live/staging/local configs are preserved. ACM production remains
 literally disabled. No ACM contact, DNS/custom domain, visual redesign, substantive
-editorial corrections or CMS work is authorized. Perform actual hosted smoke tests,
-report evidence/blockers and stop for owner review. See docs/PAGES_PREVIEW.md
-(PAGES_PREVIEW.md from this docs directory) for operation and evidence.
+editorial corrections or CMS work is authorized. Hosted smoke tests passed and
+the owner approved the working checkpoint. See PROJECT_STATUS.md for current
+status and PAGES_PREVIEW.md for operation/evidence; no further phase is started.

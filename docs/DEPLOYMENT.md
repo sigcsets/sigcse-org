@@ -1,5 +1,7 @@
 > Phase 4B update: GitHub Pages was disabled with explicit owner authorization before replacing experimental repository history. DNS was not changed. No production deployment is authorized. See GITHUB.md.
 
+> Current scope (2026-11-26): the [Pages preview](https://sigcsets.github.io/sigcse-org/) is approved and automatically published from validated main via validate.yml. Earlier Pages-disabled/artifact-only statements below are historical. This document concerns future ACM deployment, which remains disabled and unapproved; see [PAGES_PREVIEW.md](PAGES_PREVIEW.md) for preview operations.
+
 > Owner decision (2026-11-26): deployment and hosting investigation are deferred. The proposal below is retained for future reference; no action or answers are currently requested.
 
 # ACM deployment proposal — disabled

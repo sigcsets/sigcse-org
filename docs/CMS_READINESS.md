@@ -41,7 +41,7 @@ Remaining schema obstacles:
 - Production publishing and ACM connectivity/rollback remain disabled and
   unresolved. CMS readiness does not authorize deployment or a hosting change.
 
-Recommended next phase: compare Git-backed candidates against the above criteria
+Anticipated follow-on work (not started by this handoff): compare Git-backed candidates against the above criteria
 without committing to a vendor; pilot news/conferences with two volunteers using
 disposable branches. Measure time, errors, preview review, PR creation, rollback
 and independent handover. Require unchanged permalinks/archives and source/index

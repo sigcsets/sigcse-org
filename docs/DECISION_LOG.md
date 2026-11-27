@@ -1,5 +1,7 @@
 # Decision log
 
+> Entries are chronological historical decisions. Earlier phase stops, no-search instructions and Pages-disabled restrictions are superseded by later approvals; current scope is in [PROJECT_STATUS.md](PROJECT_STATUS.md) and AGENTS.md.
+
 ## 2026-11-26 — Phase 1 foundation
 
 - Retain Jekyll 4.4.1; pin Ruby 3.3.14, Bundler 2.4.20 and transitive dependencies.
@@ -104,3 +106,14 @@ literally disabled. No ACM contact, DNS/custom domain, visual redesign, substant
 editorial corrections or CMS work is authorized. Perform actual hosted smoke tests,
 report evidence/blockers and stop for owner review. See docs/PAGES_PREVIEW.md
 (PAGES_PREVIEW.md from this docs directory) for operation and evidence.
+
+
+## 2026-11-26 — approved checkpoint and session handoff
+
+Owner accepted the hosted Pages preview as the working checkpoint and requested
+a documentation-only stop. Phases 0–6 and preview publication are complete; Board
+editorial feedback, editor evaluation/pilot, manual accessibility review, eventual
+ACM deployment and incremental conference transfers remain. No further phase was
+started. Consolidate current status and link to existing issue/evidence documents;
+retain older review snapshots as explicitly historical. NEXT_STEPS.md uses Jekyll
+published: false so the root handoff remains internal without configuration edits.

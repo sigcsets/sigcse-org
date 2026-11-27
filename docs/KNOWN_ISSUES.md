@@ -8,7 +8,7 @@ The unused DOI plugin remains an undeclared external CLI/shell dependency if inv
 
 Native Linux builds and browser checks passed. The new Ruby pin is not installed/tested natively on Windows; use the tested WSL environment or install the documented Ruby version. Full accessibility review, screen-reader/zoom/document testing and external link checks remain incomplete. No WCAG certification is claimed.
 
-The remote history has now been replaced with owner authorization, and hosted live/staging CI passes. Pages was disabled with separate owner authorization to prevent automatic publication. No production server was contacted; deployment and hosting investigation are deferred.
+The remote history has now been replaced with owner authorization, and hosted live/staging CI passes. Pages was initially disabled; that restriction was superseded by the now-approved Actions-only preview at https://sigcsets.github.io/sigcse-org/. No production server was contacted; deployment and hosting investigation are deferred.
 
 Static search and maintainer workflows are implemented. Real volunteer usability testing and visual CMS selection remain follow-on work. The native mobile menu is expanded without JS, and collapsible with JS. Historical tables can scroll within their content area. Original standalone publications retain their old presentation and accessibility limitations.
 
@@ -16,7 +16,7 @@ See REVIEW.md for local review, screenshots and exact validation evidence.
 
 Concept B is approved and implemented site-wide with solid blue navigation. Historical standalone Bulletin publications retain their self-contained presentation. Shared-shell conference legacy pages receive the new identity. Existing reference tables may scroll horizontally within labeled keyboard-focusable regions on small screens.
 
-Conference eligibility changes at build time, so automatic exclusion of concluded events requires a rebuild. No scheduled publication/deployment is enabled. Month-only dates are retained through month end for filtering without inventing a published end date. Missing official CompEd URL and unconfirmed RESPECT details remain editorial questions.
+Conference eligibility changes at build time, so automatic exclusion of concluded events requires a rebuild. Main pushes/manual dispatch rebuild and publish the preview; no scheduled rebuild is configured. Month-only dates are retained through month end for filtering without inventing a published end date. Missing official CompEd URL and unconfirmed RESPECT details remain editorial questions.
 
 Phase 4C retains inherited benefit/eligibility claims for owner freshness review, the dated membership snapshot, and the conflicting mailing-list count. See OPEN_QUESTIONS.md. Participation pages do not assert new vacancies. ACM renewal is linked from its published guide; authenticated transactions are untested.
 

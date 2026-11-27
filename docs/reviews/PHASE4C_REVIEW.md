@@ -1,5 +1,7 @@
 # Phase 4C owner review
 
+> Historical review snapshot; phase stops and Pages-disabled statements are superseded. See [current status](../PROJECT_STATUS.md).
+
 Phase 4B's identity and information architecture remain approved. Phase 4C refines community engagement on selected landing pages. This is the current review checkpoint; the prior checkpoint is retained in [reviews/PHASE4B_REVIEW.md](reviews/PHASE4B_REVIEW.md).
 
 ## Preview and comparisons

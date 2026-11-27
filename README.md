@@ -1,10 +1,10 @@
 # ACM SIGCSE organizational website
 
-Independent Jekyll modernization copy of [sigcse.org](https://sigcse.org). The approved Phase 4 identity is preserved; Phases 5–6 add static search and maintainer workflows. Production deployment and GitHub Pages are disabled.
+Independent Jekyll modernization copy of [sigcse.org](https://sigcse.org). The approved Phase 4 identity is preserved; Phases 5–6 add static search and maintainer workflows. ACM production deployment is disabled; the approved [GitHub Pages preview](https://sigcsets.github.io/sigcse-org/) updates automatically after main passes validation. Start with [NEXT_STEPS.md](NEXT_STEPS.md) to resume.
 
 ## Local review
 
-The generated preview is ready in `_site/`:
+After building from source, serve the generated `_site/` preview:
 
 ```sh
 python scripts/preview.py
@@ -28,7 +28,7 @@ For a rebuilding Jekyll server, use `bundle exec ruby scripts/build.rb serve` an
 
 Organizational pages live in `content/organization/`; conference sources in `content/conference-legacy/<series>/`. Explicit permalinks preserve existing public URLs. Data is under `_data/`; `_layouts/default.html` is the shared shell. Old downloads, images and self-contained publications remain at their original paths.
 
-`origin` is `git@github.com:sigcsets/sigcse-org.git`. Its disposable placeholder history was replaced with explicit owner authorization, and hosted live/staging validation passes. GitHub Pages is disabled to prevent publication. Production/hosting work is deferred. Only validated generated output can become a future deployment input; never publish the repository directory.
+`origin` is `git@github.com:sigcsets/sigcse-org.git`. Its disposable placeholder history was replaced with explicit owner authorization, and hosted live/staging validation passes. Actions-only GitHub Pages hosts the approved preview; ACM production/hosting work is deferred. Only validated generated output can become a future deployment input; never publish the repository directory.
 
 Questions: webmaster@sigcse.org.
 

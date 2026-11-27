@@ -1,5 +1,7 @@
 # Phase 5–6 owner review checkpoint
 
+> Accepted working checkpoint (2026-11-26): the owner approved the [hosted preview](https://sigcsets.github.io/sigcse-org/). Earlier review-stop/Pages-disabled statements below describe historical evidence, not pending approval. Board/editorial and full manual accessibility review remain. Current handoff: [PROJECT_STATUS.md](PROJECT_STATUS.md).
+
 The owner approved Phase 4C and authorized Phases 5–6 together. The approved
 visual identity, main navigation, homepage and landing page designs are preserved.
 Search occupies the reserved header location; mobile adds a full-width search row.

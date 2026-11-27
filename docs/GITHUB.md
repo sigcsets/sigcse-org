@@ -1,5 +1,7 @@
 # GitHub repository and hosting state
 
+> Current state: the owner approved the Actions-only [Pages preview](https://sigcsets.github.io/sigcse-org/) as the working checkpoint on 2026-11-26. Earlier Pages-disabled/404 statements below are historical and superseded for this preview. ACM production remains disabled. See [PAGES_PREVIEW.md](PAGES_PREVIEW.md) for automatic main publication and recovery.
+
 Updated 2026-11-26.
 
 ## Authorized history replacement

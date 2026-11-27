@@ -908,6 +908,9 @@ It is a sustainable organizational website that is easier to use, easier to main
 
 ## 14. Approved Phase 4B Design Direction (2026-11-26)
 
+Phase complete. The design rules remain applicable; search and publication scope
+are superseded by the current checkpoint below.
+
 The owner approved Concept B, Professional Community, for the site-wide visual
 implementation. Use welcoming sans-serif typography, authentic existing SIGCSE
 photography, compact spacing, and task-oriented content presentation. Adopt
@@ -918,8 +921,8 @@ uppercase title eyebrows, generic marketing slogans and prototype controls.
 Use reusable patterns for community/section pages, funding applications, awards
 and recipient histories, people/conference directories, news, policies and archives.
 Keep reference material compact. Summaries and detailed guidance must share one
-editable source for facts. Use a neutral reserved header location for future
-search, without implementing or pretending to implement Phase 5 search.
+editable source for facts. Use the header location for functional Pagefind search,
+now implemented in Phase 5.
 
 The homepage must give all SIGCSE conferences equal visual treatment, ordering
 dated upcoming events chronologically and excluding concluded events at rebuild.
@@ -928,12 +931,13 @@ month-only records. Preserve historical records and flag missing/conflicting dat
 
 Complete responsive/accessibility, breadcrumb/navigation, link, preservation and
 task-depth validation; provide desktop/mobile screenshots, update documentation,
-commit and ordinarily push to the authorized GitHub repository. GitHub Pages was
-disabled with separate owner authorization and must remain disabled. Do not change
-DNS, deploy to production, implement a CMS or begin Phase 5. Stop for owner review
-after completing Phase 4B.
+commit and ordinarily push to the authorized GitHub repository. The former Phase
+4B stop and Pages-disabled restriction were superseded by the approved Phases 5–6
+and Actions-only preview below. ACM production and DNS restrictions remain.
 
 ## 15. Phase 4C — Community Engagement Refinement
+
+Completed and approved; this describes the refinement scope, not a new task.
 
 Phase 4B's identity and information architecture are substantially approved.
 Retain three purpose-based presentations: welcoming community landing pages,
@@ -944,8 +948,8 @@ Keep existing dated statistics and approved benefit descriptions authoritative;
 summaries must derive from those sources. Do not invent benefits or conference
 facts. Use existing branding or neutral text fallbacks. Provide desktop/mobile
 before-and-after comparisons, run local/hosted checks, commit and push with
-publication disabled, and stop for owner review after Phase 4C. Phase 5, CMS,
-deployment and DNS work remain outside scope.
+the authorized preview workflow. The Phase 4C stop was superseded by approved
+Phases 5–6; CMS and ACM production/DNS changes were not implemented.
 
 
 ## Authorized GitHub Pages preview (2026-11-26)
@@ -960,6 +964,35 @@ Use _config_live.yml plus _config_github_pages.yml, the complete Pagefind bundle
 public-output validation, preview indicator/noindex and CNAME removal/rejection.
 Existing live/staging/local configs are preserved. ACM production remains
 literally disabled. No ACM contact, DNS/custom domain, visual redesign, substantive
-editorial corrections or CMS work is authorized. Perform actual hosted smoke tests,
-report evidence/blockers and stop for owner review. See docs/PAGES_PREVIEW.md
-(PAGES_PREVIEW.md from this docs directory) for operation and evidence.
+editorial corrections or CMS work is authorized. Hosted smoke tests passed; the
+owner approved this preview as the working checkpoint. See docs/PAGES_PREVIEW.md
+for operation and evidence.
+
+
+## Current handoff checkpoint (2026-11-26)
+
+Development is stopped for the day. Phases 0–6 and the authorized hosted preview
+are complete and approved as a working checkpoint, not as production readiness.
+Read NEXT_STEPS.md and docs/PROJECT_STATUS.md before resuming. Older phase-stop
+instructions in historical reports/decision entries do not reopen completed gates.
+Do not start another phase without a new scoped user request.
+
+Retain Jekyll and repository-authoritative Markdown/YAML/CSV, shared Liquid shell,
+centralized facts, preserved URLs/assets and the approved Concept B/C identity.
+Phase 5 uses pinned Pagefind 1.4.0 with build-time indexing, local assets and
+category/type/year filters; no hosted search service. Phase 6 maintainer guidance
+and validation are implemented. No Git-backed visual editor is selected/installed;
+evaluation and a narrow volunteer pilot remain anticipated work, not today's task.
+
+Pages preview: https://sigcsets.github.io/sigcse-org/. Main pushes/merges run all
+three validation builds, publish through deploy-pages, then run hosted-smoke.
+PRs/other branches cannot publish; manual dispatch on main can rebuild. Preserve
+Actions-only publication, no custom domain and the preview/noindex safeguards.
+ACM production's literal disabled guard must remain. Do not contact production,
+change DNS, introduce recurring costs, substantively edit organizational facts or
+remove/redirect conference archives without appropriate authorization.
+
+Remaining Board/editorial, manual accessibility/usability, CMS, ACM deployment and
+conference-transfer work is indexed in NEXT_STEPS.md; do not duplicate those logs.
+The root handoff file uses published: false to remain internal without a config
+change. Preserve ignored local _pending/ and _unused/; never publish or commit them.

@@ -1,5 +1,7 @@
 # Phase 4B owner and Board review
 
+> Historical review snapshot; phase stops and Pages-disabled statements are superseded. See [current status](../PROJECT_STATUS.md).
+
 Concept B is implemented with the approved solid blue navigation, compact sans-serif presentation and authentic existing photography. Phase 5 has not begun. Production deployment and GitHub Pages remain disabled; no DNS or ACM server changes.
 
 ## Open the working preview

@@ -1,5 +1,7 @@
 # GitHub Pages preview
 
+> Working checkpoint approved by the owner on 2026-11-26. The review-stop instructions and intermediate test issues below are historical and resolved; no new phase is started. Latest verified all-job success: [run 45926019456](https://github.com/sigcsets/sigcse-org/actions/runs/45926019456) at 83b1d77. Operation/recovery below remains current.
+
 Authorized preview: https://sigcsets.github.io/sigcse-org/
 
 ## Workflow
