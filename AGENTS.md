@@ -932,3 +932,17 @@ commit and ordinarily push to the authorized GitHub repository. GitHub Pages was
 disabled with separate owner authorization and must remain disabled. Do not change
 DNS, deploy to production, implement a CMS or begin Phase 5. Stop for owner review
 after completing Phase 4B.
+
+## 15. Phase 4C — Community Engagement Refinement
+
+Phase 4B's identity and information architecture are substantially approved.
+Retain three purpose-based presentations: welcoming community landing pages,
+action-oriented program pages and compact reference pages. Refine only home
+conference cards, membership, conference directory, awards directory, committees
+and news density. Preserve approved reference, funding and historical pages.
+Keep existing dated statistics and approved benefit descriptions authoritative;
+summaries must derive from those sources. Do not invent benefits or conference
+facts. Use existing branding or neutral text fallbacks. Provide desktop/mobile
+before-and-after comparisons, run local/hosted checks, commit and push with
+publication disabled, and stop for owner review after Phase 4C. Phase 5, CMS,
+deployment and DNS work remain outside scope.

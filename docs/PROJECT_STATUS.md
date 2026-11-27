@@ -1,6 +1,18 @@
 # Project status
 
-Updated 2026-11-26. **Current checkpoint: Phase 4B implementation complete; owner review required.** Concept B approved with Concept C's solid blue navigation. Production deployment remains disabled; no hosting/DNS/credential investigation. Phase 5 has not begun.
+Updated 2026-11-26. **Current phase: Phase 4C — complete for owner review.** Phase 4B identity/navigation substantially approved. Publication remains disabled. Phase 5, CMS, hosting and DNS work are not started.
+
+## Phase 4C — current work
+
+The homepage preserves its hero and Explore section, replacing only upcoming conference presentation with compact chronological cards. Membership leads with community photography, join/renew actions, six shared benefits and participation, followed by the original dated statistics/chart and support links. Conference panels reuse authoritative descriptions/schedules and existing series logos, with text fallbacks. Awards integrate all five original descriptions with nomination/history links and expandable scope/selection guidance. Committees lead with active groups; update history is preserved below. News rows remove orphaned external arrows and use tighter spacing.
+
+Direct benefits are authoritative in the benefits page front matter; complete award directory descriptions are centralized and concise leads are derived. No event schedule is copied. All original benefit/award prose and committee history are preserved. Corrected the committee creation link and previous-count field mechanically. Added required-field validation for new structured metadata. No new dependency or generated/stock image.
+
+Local source, six regressions, conference logic, live build, public preservation, contrast and 13 task benchmarks pass: 1,075 files / 390 HTML pages; all 1,064 baseline paths and 19 redirects retained; 217 original output findings, zero new findings. Staging/preview and desktop/mobile/320px browser checks also pass. Comparison gallery: artifacts/phase4c/index.html. Hosted validation is the final pending verification before this checkpoint is delivered. Editorial review concerns are in OPEN_QUESTIONS.md.
+
+## Historical checkpoints — retained for context
+
+The following records describe earlier phases, not current pending work. Current status and review instructions are above and in REVIEW.md.
 
 ## Phase 4B — approved community design
 
