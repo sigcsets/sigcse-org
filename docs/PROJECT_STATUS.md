@@ -1,6 +1,6 @@
 # Project status
 
-Updated 2026-11-26. **Current work: authorized Actions-only Pages preview.**
+Updated 2026-11-26. **Current checkpoint: Pages preview complete; awaiting owner review.**
 Owner approved Phase 4C and both phases without an intermediate stop. Approved
 visual identity, homepage, landing pages and navigation remain frozen except
 functional search integration and accessibility. Production stays disabled; the Pages preview is authorized.
@@ -118,3 +118,31 @@ literally disabled. No ACM contact, DNS/custom domain, visual redesign, substant
 editorial corrections or CMS work is authorized. Perform actual hosted smoke tests,
 report evidence/blockers and stop for owner review. See docs/PAGES_PREVIEW.md
 (PAGES_PREVIEW.md from this docs directory) for operation and evidence.
+
+
+## Completed Pages preview — owner review checkpoint
+
+Phases 5–6 approved; authorized preview is live at
+https://sigcsets.github.io/sigcse-org/. Manual dispatch of implementation efd5693
+passed every job in [run 45925550271](https://github.com/sigcsets/sigcse-org/actions/runs/45925550271): live, staging,
+github-pages, deploy-pages and actual hosted-smoke. Automatic main publication
+was also verified in run 45924528803. Superseded runs were cancelled; the initial
+hosted image timing assertion was corrected without a site/design change.
+
+Hosted coverage: 12 pages at 1440/390/320px, seven primary navigation links,
+conference listings, award recipients, Board minutes, two PDF downloads matching
+preservation SHA-256 values, all 19 redirects, historical conference pages,
+365 indexed pages, 10 search tasks, three filters, keyboard/fallbacks, zero axe
+violations on search, successful WASM loading and 19 forbidden paths returning 404.
+No browser script errors or document overflow. Actual desktop/mobile screenshots
+and JSON reports are in the run's hosted-smoke artifact (seven-day retention).
+
+Artifact checks: 1,475 files / 391 HTML pages, all 1,064 baseline public URLs
+preserved, 217 inherited static findings and zero new findings. Pages settings:
+workflow mode, built, HTTPS enforced, cname null. Environment allows only main.
+ACM deployment's literal false guard and all existing configs/content/design CSS
+remain unchanged; no DNS/custom domain, production operation or CMS work.
+
+No remaining preview deployment blocker. Existing 217 static findings, editorial
+questions, PDF-body search limitations and full manual accessibility review remain
+unchanged. Stop here for owner review; no subsequent phase is started.

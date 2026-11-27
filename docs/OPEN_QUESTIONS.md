@@ -29,3 +29,9 @@ Resolved: Phase 1 approved; Phases 2–4 authorized without interim stops; origi
   selection or integration is authorized by this milestone.
 - Existing ACM MIME/CSP/cache, network, credential and activation/rollback questions
   remain for Phase 7. Do not publish or contact production to answer them here.
+
+
+Pages preview authorization is fulfilled; the hosted review URL and successful
+validation evidence are in PAGES_PREVIEW.md. Owner review is the current stop.
+All outstanding editorial, human usability, accessibility and CMS questions above
+remain follow-on work; no new phase is authorized by this deployment.

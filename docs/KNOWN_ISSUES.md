@@ -29,3 +29,12 @@ screen-reader/zoom/document review and real volunteer usability tests remain.
 The exact inherited March 3, 2014 news date string is preserved with a source/value
 exception; new dates are validated. No original regression baseline was expanded.
 Visual CMS selection/authentication/media/preview/turnover evaluation is deferred.
+
+
+## Pages preview checkpoint
+
+The prior Pages-disabled state above is historical. Actions-only preview is now
+authorized and deployed at https://sigcsets.github.io/sigcse-org/. All hosted
+checks passed in run 45925550271; see PAGES_PREVIEW.md. No deployment blocker
+remains. Existing static/editorial/accessibility limitations are unchanged.
+Production stays literally disabled; no ACM/DNS/custom-domain/CMS work.
